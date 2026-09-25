@@ -1,0 +1,257 @@
+{
+  "version": 1,
+  "blender_version": "5.2.1 LTS",
+  "library": "roomkit_furniture_materials.blend",
+  "furniture": [
+    {
+      "name": "RK Plant - Peace Lily Natural",
+      "source_root": "RK Plant - Peace Lily Natural | semantic root",
+      "parts": 84,
+      "vertices": 65458,
+      "dimensions_m": [
+        0.7548043727874756,
+        0.7004686594009399,
+        0.7194178104400635
+      ],
+      "description": "Retained foliage, substrate and pot position; smoothed the original pot profile through its measured landmarks. Refined 48-sided pot to 128-sided sealed vessel with a full interior and explicit 8 mm radial wall and 16 mm base. Source-derived or authored approximation; no physics certification.",
+      "catalog_id": "725a064f-67e6-56ab-9cd5-f3311edcf80a",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "evidence": "tools/build_natural_plant_asset.py: low outward presentation leaves begin toward -Y; exact evaluated bounds centered after asymmetric clump authoring, physical pot center offset reported separately",
+        "front_axis": "-Y",
+        "origin": "floor_center",
+        "schema_version": 1,
+        "semantic_front": "generic",
+        "status": "authored",
+        "symmetry": "none",
+        "up_axis": "Z"
+      },
+      "source_orientation": {
+        "evidence": "tools/build_natural_plant_asset.py: low outward presentation leaves begin toward -Y; exact evaluated bounds centered after asymmetric clump authoring, physical pot center offset reported separately",
+        "front_axis": "-Y",
+        "origin": "floor_center",
+        "schema_version": 1,
+        "semantic_front": "generic",
+        "status": "authored",
+        "symmetry": "none",
+        "up_axis": "Z"
+      },
+      "bounds_min_m": [
+        -0.3774021863937378,
+        -0.35023432970046997,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.3774021863937378,
+        0.35023432970046997,
+        0.7194178104400635
+      ],
+      "origin_normalization": "rotated geometry bounds floor center",
+      "semantic_class": "decor/plants",
+      "category": "decor/plants",
+      "provenance": "provenance.json",
+      "generator": {
+        "script": "tools/build_natural_plant_asset.py",
+        "seed": 20260911,
+        "leaf_count": 27
+      },
+      "asset_quality_refinement": {
+        "generator": "tools/asset_quality_upgrade/tabletop.py",
+        "revision": 1,
+        "changes": [
+          "Retained foliage, substrate and pot position; smoothed the original pot profile through its measured landmarks.",
+          "Refined 48-sided pot to 128-sided sealed vessel with a full interior and explicit 8 mm radial wall and 16 mm base."
+        ]
+      },
+      "preview": "assets/quality_previews/plants-v2__plant-peace-lily-natural.png",
+      "quality_review": {
+        "date": "2026-09-14",
+        "status": "upgraded",
+        "changes": [
+          "Retained foliage, substrate and pot position; smoothed the original pot profile through its measured landmarks.",
+          "Refined 48-sided pot to 128-sided sealed vessel with a full interior and explicit 8 mm radial wall and 16 mm base."
+        ],
+        "validation": {
+          "max_bounds_delta_m": 0.0,
+          "changed_meshes": [
+            {
+              "name": "Natural plant pot.001",
+              "bounds_min_m": [
+                -0.16238071024417877,
+                -0.1660522222518921,
+                0.0
+              ],
+              "bounds_max_m": [
+                0.1896192878484726,
+                0.18594777584075928,
+                0.24150002002716064
+              ],
+              "materials": [
+                "RK | Charcoal ceramic bowl.002"
+              ],
+              "vertices": 5378,
+              "edges": 10880,
+              "faces": 5504,
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "degenerate_faces": 0,
+              "signed_volume_m3": 0.0024345674922266044
+            }
+          ],
+          "cavity_checks": [
+            {
+              "object": "Natural plant pot.001",
+              "floor_z_m": 0.016000017523765564,
+              "rim_z_m": 0.24150002002716064,
+              "center_cavity_depth_m": 0.22550000250339508,
+              "wall_rays": [
+                {
+                  "angle_rad": 0,
+                  "wall_distance_m": 0.16131429374217987,
+                  "hit": true
+                },
+                {
+                  "angle_rad": 1.5707963267948966,
+                  "wall_distance_m": 0.16131427884101868,
+                  "hit": true
+                },
+                {
+                  "angle_rad": 3.141592653589793,
+                  "wall_distance_m": 0.16131427884101868,
+                  "hit": true
+                },
+                {
+                  "angle_rad": 4.71238898038469,
+                  "wall_distance_m": 0.16131429374217987,
+                  "hit": true
+                }
+              ],
+              "scope": "Vessel mesh only; soil and foliage excluded. No dynamics certification."
+            }
+          ],
+          "visual_review": "passed: agent inspected matched before/after material oblique and clay cavity views; plant vessels also inspected with foliage and substrate hidden",
+          "scope": "Changed vessel/substrate meshes only. Foliage and simulation not certified.",
+          "saved_reopen_passed": true,
+          "visual_review_scope": "Same camera/light/framing before and after. All nine collections reviewed; original material appearance, placement envelope and whole-plant arrangement retained.",
+          "limits": [
+            "No rigid-body or fluid simulation was run.",
+            "Unchanged plant foliage is not certified manifold or collision-free.",
+            "Wall and base dimensions are authored approximations, not source measurements."
+          ],
+          "job_id": "46324895",
+          "comparison_sheets": [
+            "runs/_tools/asset_quality_tabletop_20260913/refined/vessels_comparison.jpg",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plant_containers_comparison.jpg",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plants_whole_comparison.jpg"
+          ],
+          "source_report": "runs/_tools/asset_quality_tabletop_20260913/refined/report.json"
+        },
+        "visual_review": {
+          "by": "asset-quality-parent-20260914",
+          "status": "passed",
+          "date": "2026-09-14",
+          "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+          "evidence": [
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v2/rk-plant-peace-lily-natural/before_oblique.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v2/rk-plant-peace-lily-natural/before_cavity.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v2/rk-plant-peace-lily-natural/before_container_oblique.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v2/rk-plant-peace-lily-natural/before_container_cavity.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v2/rk-plant-peace-lily-natural/after_oblique.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v2/rk-plant-peace-lily-natural/after_cavity.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v2/rk-plant-peace-lily-natural/after_container_oblique.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v2/rk-plant-peace-lily-natural/after_container_cavity.png"
+          ]
+        },
+        "physics": "Not dynamically tested",
+        "source_geometry": {
+          "parts": 84,
+          "vertices": 60369
+        },
+        "source_signature": "7b77476112e3fac18e3f6cbe046705b436eb9d88542c2e3b7ac65d219b6d5a8e"
+      }
+    }
+  ],
+  "materials": [],
+  "origin": "floor_center",
+  "forward": "-Y",
+  "units": "metres",
+  "geometry": "Separate editable mesh parts; modifiers baked; no room animation/drivers retained.",
+  "material_dependencies": [
+    {
+      "name": "RK | Natural leaf mature 1",
+      "source_name": "Natural leaf mature 1",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Natural tapered petioles",
+      "source_name": "Natural tapered petioles",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Natural basal sheaths",
+      "source_name": "Natural basal sheaths",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Natural leaf mature -1",
+      "source_name": "Natural leaf mature -1",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Natural leaf mature 0",
+      "source_name": "Natural leaf mature 0",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Natural leaf young 1",
+      "source_name": "Natural leaf young 1",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Natural leaf young 0",
+      "source_name": "Natural leaf young 0",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Natural leaf young -1",
+      "source_name": "Natural leaf young -1",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Charcoal ceramic bowl.002",
+      "source_name": "RK | Charcoal ceramic bowl.001",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Plant potting soil.001",
+      "source_name": "RK | Plant potting soil",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Potting soil granules",
+      "source_name": "Potting soil granules",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    }
+  ],
+  "current_quality_update": {
+    "date": "2026-09-14",
+    "policy": "Replace current payload after review; keep stable IDs",
+    "changed_collections": [
+      "RK Plant - Peace Lily Natural"
+    ],
+    "geometry_and_reopen_checked": true,
+    "physics_validation": "not performed"
+  }
+}

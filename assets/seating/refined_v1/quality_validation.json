@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "library": "assets/seating/refined_v1/roomkit_furniture_materials.blend",
+  "sha256": "7f19fa95236874f8dfae0df53fc51e790b2003bc37c6f6c59c2fd172609bb844",
+  "date": "2026-09-14",
+  "save_reopen": "passed",
+  "registered_import": "passed",
+  "collections": {
+    "RK Chair - Walnut Lounge Supported": {
+      "parts": 17,
+      "vertices": 5730,
+      "dimensions_m": [
+        0.8449999690055847,
+        0.8899999856948853,
+        1.0938341823639348
+      ],
+      "bounds_min_m": [
+        -0.42249998450279236,
+        -0.4449999928474426,
+        -0.0003375021042302251
+      ],
+      "bounds_max_m": [
+        0.42249998450279236,
+        0.4449999928474426,
+        1.0934966802597046
+      ],
+      "objects": 18,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "bb194283f1aa5a4e8cba45995494373851dc076b3ff4be5e19ccb04298462e10"
+    },
+    "RK Chair - Accent Supported": {
+      "parts": 6,
+      "vertices": 320,
+      "dimensions_m": [
+        0.47999998927116394,
+        0.4599999785423279,
+        0.8399999737739563
+      ],
+      "bounds_min_m": [
+        -0.23999999463558197,
+        -0.22999998927116394,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.23999999463558197,
+        0.22999998927116394,
+        0.8399999737739563
+      ],
+      "objects": 7,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "9e4820179ad8fe75615fec7362e05932efb6df6ba327e9e3cdccbb02d04697f4"
+    }
+  },
+  "registered_materials": [],
+  "validation_scope": "Current merged bytes, geometry/UV/shader binding preservation, registered import and reopen. Physics only the five listed vessels and platter stack."
+}

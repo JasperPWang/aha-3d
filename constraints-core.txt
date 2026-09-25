@@ -1,0 +1,9 @@
+# Common versions used by Kimodo, Pi3X and the SAM 3D Body adapter.
+torch==2.7.1
+torchvision==0.22.1
+transformers==5.1.0
+peft==0.20.0
+pytorch-lightning==2.5.5
+timm==1.0.20
+opencv-python-headless==4.11.0.86
+cmake==3.31.6

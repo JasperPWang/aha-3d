@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "library": "assets/roomkit/v1/roomkit_furniture_materials.blend",
+  "sha256": "750c6ab93f23d046b6cc3ca31718dab08a9f52d82a24cb8b94b3e37fe7bd7ed0",
+  "date": "2026-09-14",
+  "save_reopen": "passed",
+  "registered_import": "passed",
+  "collections": {
+    "RK Sofa - Linen Three Seat": {
+      "parts": 28,
+      "vertices": 18392,
+      "dimensions_m": [
+        2.809999942779541,
+        0.9950003325939178,
+        1.142317771911621
+      ],
+      "bounds_min_m": [
+        -1.4049999713897705,
+        -0.4975001811981201,
+        0.0
+      ],
+      "bounds_max_m": [
+        1.4049999713897705,
+        0.49750015139579773,
+        1.142317771911621
+      ],
+      "objects": 29,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "4976030a5d2cd887f63e6907cd8b2eccaf1ca22f7a61a80f804cc0594abc984d"
+    },
+    "RK Chair - Walnut Lounge": {
+      "parts": 17,
+      "vertices": 5730,
+      "dimensions_m": [
+        0.8449999690055847,
+        0.8899999856948853,
+        1.0938341823639348
+      ],
+      "bounds_min_m": [
+        -0.42249998450279236,
+        -0.4449999928474426,
+        -0.0003375021042302251
+      ],
+      "bounds_max_m": [
+        0.42249998450279236,
+        0.4449999928474426,
+        1.0934966802597046
+      ],
+      "objects": 18,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "9c2a2af6095ef4bb3c4120699366cde9c040968d9f6c317ca8bf8ed476bcaa88"
+    },
+    "RK Stool - Upholstered Counter": {
+      "parts": 15,
+      "vertices": 1784,
+      "dimensions_m": [
+        0.4979998469352722,
+        0.6064095199108124,
+        1.1562535153352655
+      ],
+      "bounds_min_m": [
+        -0.2489999234676361,
+        -0.3035142123699188,
+        -0.0006188736879266798
+      ],
+      "bounds_max_m": [
+        0.2489999234676361,
+        0.30289530754089355,
+        1.1556346416473389
+      ],
+      "objects": 16,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "0510a5ca9c92a2e0f8eb0d9ba4ba06ef29915d46587cd45846ac5feea96c89a2"
+    }
+  },
+  "registered_materials": [
+    "RK | Warm ivory lime plaster",
+    "RK | Warm white painted joinery",
+    "RK | Honey oak beams",
+    "RK | Walnut furniture frames",
+    "RK | Espresso-stained island cabinetry",
+    "RK | Aged oak mantel",
+    "RK | Natural oak floorboards",
+    "RK | Ivory linen sofa",
+    "RK | Cream linen cushions",
+    "RK | Taupe woven cushions",
+    "RK | Olive brown accent cushions",
+    "RK | Charcoal woven upholstery",
+    "RK | Warm grey drapery",
+    "RK | Ivory woven rug with charcoal border",
+    "RK | Aged bronze table drums",
+    "RK | Satin blackened iron",
+    "RK | Aged brass handles",
+    "RK | Brushed stainless steel",
+    "RK | Warm limestone",
+    "RK | Honed ivory stone countertop",
+    "RK | Glazed cream ceramic",
+    "RK | Charcoal ceramic bowl",
+    "RK | Deep green orchid leaves",
+    "RK | Ivory orchid petals",
+    "RK | Soot-dark refractory brick",
+    "RK | Pale cut firewood",
+    "RK | Dark television glass",
+    "RK | Green pears",
+    "RK | Lampshade ivory linen",
+    "RK | Warm practical bulbs",
+    "RK | Book pages and artwork"
+  ],
+  "validation_scope": "Current merged bytes, geometry/UV/shader binding preservation, registered import and reopen. Physics only the five listed vessels and platter stack."
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "library": "assets/plants/v2/roomkit_furniture_materials.blend",
+  "sha256": "71f9c0d2774f8b94da032e770490d2f4bd4a8379de13d8543fdff6286b60d19f",
+  "date": "2026-09-14",
+  "save_reopen": "passed",
+  "registered_import": "passed",
+  "collections": {
+    "RK Plant - Peace Lily Natural": {
+      "parts": 84,
+      "vertices": 65458,
+      "dimensions_m": [
+        0.7548043727874756,
+        0.7004686594009399,
+        0.7194178104400635
+      ],
+      "bounds_min_m": [
+        -0.3774021863937378,
+        -0.35023432970046997,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.3774021863937378,
+        0.35023432970046997,
+        0.7194178104400635
+      ],
+      "objects": 85,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "4ae5b4340b2ea4a72be9505301e31159cd13af244cfcc226479ac7b49ca630ce"
+    }
+  },
+  "registered_materials": [],
+  "validation_scope": "Current merged bytes, geometry/UV/shader binding preservation, registered import and reopen. Physics only the five listed vessels and platter stack."
+}

@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Human and G1 · interactive motion review</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#edf1ec;color:#20362d;font:15px/1.5 system-ui}header{padding:16px 22px}h1{font-size:23px;margin:0 0 10px}label{display:inline-flex;gap:8px;align-items:center;margin:0 14px 8px 0}select,button{padding:8px;border:1px solid #a7b7ac;border-radius:6px;background:white;color:inherit}#note{margin:4px 0;color:#725621}#status{min-height:24px}#viewer iframe{display:block;width:100%;height:76vh;min-height:550px;border:0}#source-panel{padding:16px 22px}video{width:min(720px,100%)}a{color:#1c6551}#retry[hidden],#source-panel[hidden]{display:none}@media(max-width:600px){header{padding:12px}h1{font-size:19px}#viewer iframe{height:900px;min-height:0}label{display:flex;max-width:100%;margin-right:0}select{flex:1;min-width:0;max-width:100%}}
+</style>
+<header><h1>Human and G1 · interactive motion review</h1>
+<label>Scene <select id="case" aria-label="Scene"></select></label>
+<label>Result <select id="variant" aria-label="Result"></select></label>
+<p id="note"></p><div id="status" role="status">Loading scene list…</div>
+<button id="retry" hidden>Retry this scene</button>
+<a id="direct" target="_blank" rel="noopener">Open this viewer alone</a>
+<a id="video-link" href="#source-panel" hidden>Video preview</a>
+<span> · Drag to orbit, scroll to zoom; playback is in Controls.</span>
+<details id="diagnostics" hidden><summary>Renderer diagnostics</summary><button id="copy-diagnostic">Copy diagnostics</button><pre id="diagnostic-text" style="white-space:pre-wrap;overflow-wrap:anywhere"></pre></details></header>
+<main id="viewer"></main>
+<section id="source-panel" hidden><h2 id="video-label">Source video</h2><p id="video-note">Independent playback; use the same timestamp when comparing.</p><video id="source" controls playsinline preload="metadata"></video></section>
+<script type="module" src="motion-review.js"></script></html>

@@ -1,0 +1,224 @@
+{
+  "blender": "5.2.1 LTS",
+  "libraries": [
+    {
+      "id": "roomkit-v1",
+      "collections": [
+        {
+          "name": "RK Sofa - Linen Three Seat",
+          "objects": 29,
+          "bounds_min": [
+            -1.4049999713897705,
+            -0.4975001811981201,
+            0.0
+          ],
+          "bounds_max": [
+            1.4049999713897705,
+            0.49750015139579773,
+            1.142317771911621
+          ]
+        },
+        {
+          "name": "RK Chair - Walnut Lounge",
+          "objects": 16,
+          "bounds_min": [
+            -0.42249998450279236,
+            -0.4449999928474426,
+            -0.0003375021042302251
+          ],
+          "bounds_max": [
+            0.42249998450279236,
+            0.4449999928474426,
+            1.0934966802597046
+          ]
+        },
+        {
+          "name": "RK Stool - Upholstered Counter",
+          "objects": 16,
+          "bounds_min": [
+            -0.2489999234676361,
+            -0.3035142123699188,
+            -0.0006188736879266798
+          ],
+          "bounds_max": [
+            0.2489999234676361,
+            0.30289530754089355,
+            1.1556346416473389
+          ]
+        }
+      ],
+      "registered_materials": 31,
+      "linked_dependencies": [],
+      "unpacked_images": []
+    },
+    {
+      "id": "cabinets-v1",
+      "collections": [
+        {
+          "name": "RK Cabinet - Mixed Storage",
+          "objects": 33,
+          "bounds_min": [
+            -0.8250000476837158,
+            -0.382999986410141,
+            0.0
+          ],
+          "bounds_max": [
+            0.8250000476837158,
+            0.32499998807907104,
+            1.4500000476837158
+          ]
+        }
+      ],
+      "registered_materials": 0,
+      "linked_dependencies": [],
+      "unpacked_images": []
+    },
+    {
+      "id": "dining-chair-v1",
+      "collections": [
+        {
+          "name": "RK Chair - Open Frame Dining",
+          "objects": 24,
+          "bounds_min": [
+            -0.24500000476837158,
+            -0.2212500125169754,
+            0.0
+          ],
+          "bounds_max": [
+            0.24500000476837158,
+            0.2212500274181366,
+            0.8600000143051147
+          ]
+        }
+      ],
+      "registered_materials": 0,
+      "linked_dependencies": [],
+      "unpacked_images": []
+    },
+    {
+      "id": "ceramic-vase-v1",
+      "collections": [
+        {
+          "name": "RK Vase - Rounded Ceramic",
+          "objects": 2,
+          "bounds_min": [
+            -0.17117714881896973,
+            -0.17117738723754883,
+            0.0
+          ],
+          "bounds_max": [
+            0.17117714881896973,
+            0.17117714881896973,
+            0.4383333921432495
+          ]
+        }
+      ],
+      "registered_materials": 0,
+      "linked_dependencies": [],
+      "unpacked_images": []
+    },
+    {
+      "id": "faucet-simple-v1",
+      "collections": [
+        {
+          "name": "RK Faucet - Simple Gooseneck",
+          "objects": 2,
+          "bounds_min": [
+            -0.012000083923339844,
+            -0.2187671661376953,
+            0.0
+          ],
+          "bounds_max": [
+            0.012000083923339844,
+            0.034792184829711914,
+            0.3625311851501465
+          ]
+        }
+      ],
+      "registered_materials": 0,
+      "linked_dependencies": [],
+      "unpacked_images": []
+    },
+    {
+      "id": "seating-refined-v1",
+      "collections": [
+        {
+          "name": "RK Chair - Walnut Lounge Supported",
+          "objects": 18,
+          "bounds_min": [
+            -0.42249998450279236,
+            -0.4449999928474426,
+            -0.0003375021042302251
+          ],
+          "bounds_max": [
+            0.42249998450279236,
+            0.4449999928474426,
+            1.0934966802597046
+          ]
+        },
+        {
+          "name": "RK Chair - Accent Supported",
+          "objects": 7,
+          "bounds_min": [
+            -0.23999999463558197,
+            -0.22999998927116394,
+            0.0
+          ],
+          "bounds_max": [
+            0.23999999463558197,
+            0.22999998927116394,
+            0.8399999737739563
+          ]
+        }
+      ],
+      "registered_materials": 0,
+      "linked_dependencies": [],
+      "unpacked_images": []
+    },
+    {
+      "id": "plants-v1",
+      "collections": [
+        {
+          "name": "RK Plant - Broadleaf Ceramic",
+          "objects": 83,
+          "bounds_min": [
+            -0.37109819054603577,
+            -0.39495086669921875,
+            0.0
+          ],
+          "bounds_max": [
+            0.37109819054603577,
+            0.39495086669921875,
+            0.7103183269500732
+          ]
+        }
+      ],
+      "registered_materials": 0,
+      "linked_dependencies": [],
+      "unpacked_images": []
+    },
+    {
+      "id": "plants-v2",
+      "collections": [
+        {
+          "name": "RK Plant - Peace Lily Natural",
+          "objects": 85,
+          "bounds_min": [
+            -0.3774021863937378,
+            -0.35023432970046997,
+            0.0
+          ],
+          "bounds_max": [
+            0.3774021863937378,
+            0.35023432970046997,
+            0.7194178104400635
+          ]
+        }
+      ],
+      "registered_materials": 0,
+      "linked_dependencies": [],
+      "unpacked_images": []
+    }
+  ],
+  "visual_review": "not performed"
+}

@@ -1,0 +1,49 @@
+{
+  "sources": [
+    {
+      "scene": "44",
+      "path": "runs/formal_dining_platter_g0065/final_v1/stages/assemble/scene.blend",
+      "sha256": "ee41f3da7845fbdbc48d5593aafc08322c4da88275e5570b943f95856dbc0859",
+      "unchanged": true
+    },
+    {
+      "scene": "45",
+      "path": "scenes/desert_view_lounge_g0061/blender/desert_view_lounge_final.blend",
+      "sha256": "e08aba830f24236c3dd112f3e6172d91191e99fc8af6a40c0744e32b7d454edd",
+      "unchanged": true
+    },
+    {
+      "scene": "47",
+      "path": "runs/four_poster_bedroom_g0063/final_whitebox_v2/stages/assemble/scene.blend",
+      "sha256": "b79722f2ee5b7678a7f479be9fd03948342a3bcb25115cc8eb3fae6c01367479",
+      "unchanged": true
+    }
+  ],
+  "libraries": [
+    {
+      "scene": "44",
+      "path": "assets/additional-444547/v1/scene44/roomkit_furniture_materials.blend",
+      "sha256": "e4e715a1489ebb34c838a9092dc86e047256e84e459bbf123a2d32f156c443aa",
+      "collections": 9,
+      "standalone_materials": 11,
+      "validation": "assets/additional-444547/v1/scene44/validation.json"
+    },
+    {
+      "scene": "45",
+      "path": "assets/additional-444547/v1/scene45/roomkit_furniture_materials.blend",
+      "sha256": "3d4f8e4aeb1c32610641d3b52cabdddec509b090e3262efbc0d50f5888872151",
+      "collections": 16,
+      "standalone_materials": 11,
+      "validation": "assets/additional-444547/v1/scene45/validation.json"
+    },
+    {
+      "scene": "47",
+      "path": "assets/additional-444547/v1/scene47/roomkit_furniture_materials.blend",
+      "sha256": "2d0e25c48b1679bae42362bf859167dba244ab6af0794c0419efc6c1c9947550",
+      "collections": 11,
+      "standalone_materials": 6,
+      "validation": "assets/additional-444547/v1/scene47/validation.json"
+    }
+  ],
+  "initial_libraries_reproduced_from_exact_sources": true
+}

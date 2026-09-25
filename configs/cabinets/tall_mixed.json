@@ -1,0 +1,18 @@
+{
+  "columns": [
+    {
+      "width": 2,
+      "sections": [
+        {"height": 3, "front": "double_door", "shelves": 2},
+        {"height": 1, "front": "open"}
+      ]
+    },
+    {
+      "width": 1,
+      "sections": [
+        {"height": 2, "front": "drawers", "drawer_heights": [2, 1, 1]},
+        {"height": 2, "front": "door_right", "shelves": 1}
+      ]
+    }
+  ]
+}

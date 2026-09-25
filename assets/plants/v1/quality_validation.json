@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "library": "assets/plants/v1/roomkit_furniture_materials.blend",
+  "sha256": "ff45e5f0d047b27588a2c5eead18e0be58764dcf55695cb66591145883aa3984",
+  "date": "2026-09-14",
+  "save_reopen": "passed",
+  "registered_import": "passed",
+  "collections": {
+    "RK Plant - Broadleaf Ceramic": {
+      "parts": 82,
+      "vertices": 48986,
+      "dimensions_m": [
+        0.7421963810920715,
+        0.7899017333984375,
+        0.7103183269500732
+      ],
+      "bounds_min_m": [
+        -0.37109819054603577,
+        -0.39495086669921875,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.37109819054603577,
+        0.39495086669921875,
+        0.7103183269500732
+      ],
+      "objects": 83,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "2ed8a52598afd586e87022bd3d13f0dba729e87ed1fa1c3f44ef7d94f6e5bd57"
+    }
+  },
+  "registered_materials": [],
+  "validation_scope": "Current merged bytes, geometry/UV/shader binding preservation, registered import and reopen. Physics only the five listed vessels and platter stack."
+}

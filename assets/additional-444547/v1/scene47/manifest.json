@@ -1,0 +1,681 @@
+{
+  "version": 1,
+  "blender_version": "5.2.1 LTS",
+  "library": "roomkit_furniture_materials.blend",
+  "furniture": [
+    {
+      "name": "Additional 47 | Four poster bed",
+      "source_root": "EXPORT_ROOT_47_0",
+      "parts": 33,
+      "vertices": 2712,
+      "dimensions_m": [
+        1.7260000705718994,
+        2.0260000228881836,
+        1.90500009059906
+      ],
+      "description": "Static source-specific editable approximation; dimensions are authored, not calibrated measurements. Approximate source-derived static asset; no real-person data. See provenance.json.",
+      "catalog_id": "83b6a9f9-eddc-5695-8f1d-e7ab94d3d007",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Static source-specific editable approximation; dimensions are authored, not calibrated measurements."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Static source-specific editable approximation; dimensions are authored, not calibrated measurements."
+      },
+      "bounds_min_m": [
+        -0.8630000948905945,
+        -1.0130000114440918,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.8630000352859497,
+        1.0130000114440918,
+        1.90500009059906
+      ],
+      "origin_normalization": "rotated geometry bounds floor center"
+    },
+    {
+      "name": "Additional 47 | Foot desk",
+      "source_root": "EXPORT_ROOT_47_1",
+      "parts": 10,
+      "vertices": 768,
+      "dimensions_m": [
+        1.5199999809265137,
+        0.5400000810623169,
+        0.6550000309944153
+      ],
+      "description": "Static source-specific editable approximation; dimensions are authored, not calibrated measurements. Approximate source-derived static asset; no real-person data. See provenance.json.",
+      "catalog_id": "235f0303-dfe6-5c3e-b934-be51f20da6bf",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Static source-specific editable approximation; dimensions are authored, not calibrated measurements."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Static source-specific editable approximation; dimensions are authored, not calibrated measurements."
+      },
+      "bounds_min_m": [
+        -0.7599999904632568,
+        -0.27000004053115845,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.7599999904632568,
+        0.27000004053115845,
+        0.6550000309944153
+      ],
+      "origin_normalization": "rotated geometry bounds floor center"
+    },
+    {
+      "name": "Additional 47 | Six drawer dresser",
+      "source_root": "EXPORT_ROOT_47_2",
+      "parts": 24,
+      "vertices": 3816,
+      "dimensions_m": [
+        1.4799998998641968,
+        0.5409999489784241,
+        0.8850000500679016
+      ],
+      "description": "Static source-specific editable approximation; dimensions are authored, not calibrated measurements. Approximate source-derived static asset; no real-person data. See provenance.json.",
+      "catalog_id": "3e0878f6-b919-578a-91fc-733f7034a4b1",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "door",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Static source-specific editable approximation; dimensions are authored, not calibrated measurements."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "door",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Static source-specific editable approximation; dimensions are authored, not calibrated measurements."
+      },
+      "bounds_min_m": [
+        -0.7399999499320984,
+        -0.27049997448921204,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.7399999499320984,
+        0.27049997448921204,
+        0.8850000500679016
+      ],
+      "origin_normalization": "rotated geometry bounds floor center"
+    },
+    {
+      "name": "Additional 47 | Low back chaise",
+      "source_root": "EXPORT_ROOT_47_3",
+      "parts": 7,
+      "vertices": 672,
+      "dimensions_m": [
+        0.6499999761581421,
+        1.279999852180481,
+        0.8100000023841858
+      ],
+      "description": "Static source-specific editable approximation; dimensions are authored, not calibrated measurements. Approximate source-derived static asset; no real-person data. See provenance.json.",
+      "catalog_id": "5f2cff17-c2f1-5057-99af-75a2ffa3102d",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "seating",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Static source-specific editable approximation; dimensions are authored, not calibrated measurements."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "X",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "seating",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Static source-specific editable approximation; dimensions are authored, not calibrated measurements."
+      },
+      "bounds_min_m": [
+        -0.32499998807907104,
+        -0.6399999260902405,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.32499998807907104,
+        0.6399999260902405,
+        0.8100000023841858
+      ],
+      "origin_normalization": "rotated geometry bounds floor center"
+    },
+    {
+      "name": "Additional 47 | Walnut bedside table",
+      "source_root": "EXPORT_ROOT_47_4",
+      "parts": 5,
+      "vertices": 480,
+      "dimensions_m": [
+        0.6100000143051147,
+        0.49000003933906555,
+        0.6474999785423279
+      ],
+      "description": "Static source-specific editable approximation; dimensions are authored, not calibrated measurements. Approximate source-derived static asset; no real-person data. See provenance.json.",
+      "catalog_id": "235f0303-dfe6-5c3e-b934-be51f20da6bf",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Static source-specific editable approximation; dimensions are authored, not calibrated measurements."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Static source-specific editable approximation; dimensions are authored, not calibrated measurements."
+      },
+      "bounds_min_m": [
+        -0.3050000071525574,
+        -0.24500001966953278,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.3050000071525574,
+        0.24500001966953278,
+        0.6474999785423279
+      ],
+      "origin_normalization": "rotated geometry bounds floor center"
+    },
+    {
+      "name": "Additional 47 | Brass linen table lamp",
+      "source_root": "EXPORT_ROOT_47_5",
+      "parts": 7,
+      "vertices": 818,
+      "dimensions_m": [
+        0.3296000063419342,
+        0.3296000063419342,
+        0.5664999838918447
+      ],
+      "description": "Rebuilt lampshade as a 1.6 mm open tapered shell with visible inner wall and edge rings. Added three internal brass supports and a frosted bulb, preserving lamp height, base, stem and material appearance. No photometric lighting calibration.",
+      "catalog_id": "77e9aae4-6b24-53a4-bd3f-0209fa8f4b54",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": null,
+        "up_axis": "Z",
+        "symmetry": "continuous_z",
+        "origin": "floor_center",
+        "semantic_front": "none",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Static source-specific editable approximation; dimensions are authored, not calibrated measurements."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": null,
+        "up_axis": "Z",
+        "symmetry": "continuous_z",
+        "origin": "floor_center",
+        "semantic_front": "none",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Static source-specific editable approximation; dimensions are authored, not calibrated measurements."
+      },
+      "bounds_min_m": [
+        -0.16479994356632233,
+        -0.16479988396167755,
+        2.421438694000244e-08
+      ],
+      "bounds_max_m": [
+        0.16480006277561188,
+        0.16480012238025665,
+        0.5665000081062317
+      ],
+      "origin_normalization": "rotated geometry bounds floor center",
+      "preview": "assets/quality_previews/additional-444547-47-v1__additional-47-brass-linen-table-lamp.png",
+      "quality_review": {
+        "date": "2026-09-14",
+        "status": "upgraded",
+        "changes": [
+          "Rebuilt lampshade as a 1.6 mm open tapered shell with visible inner wall and edge rings.",
+          "Added three internal brass supports and a frosted bulb, preserving lamp height, base, stem and material appearance.",
+          "No photometric lighting calibration."
+        ],
+        "validation": {
+          "drivers_before": 0,
+          "drivers_after": 0,
+          "physics": "Not simulation certified; material/density/collision preparation still required.",
+          "inward_meshes_repaired": [],
+          "finite_meshes": 3,
+          "missing_materials": 0,
+          "save_reopen": true,
+          "linked_libraries": 0,
+          "max_bounds_error_m": 0.0,
+          "visual_review": {
+            "status": "reviewed",
+            "scope": "Three clay views and material view; source silhouette, cavity/support detail and retained dimensions inspected.",
+            "limitations": "Stylized authored asset quality; no photorealism, structural-load, cloth or rigid-body stability certification."
+          },
+          "closed_mesh_topology": "All modified collection mesh parts have zero boundary/nonmanifold edges and positive signed volume.",
+          "source_report": "runs/_tools/asset_quality_upgrade_models_20260914/deltas.json"
+        },
+        "visual_review": {
+          "by": "asset-quality-parent-20260914",
+          "status": "passed",
+          "date": "2026-09-14",
+          "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+          "evidence": [
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-47-v1__additional-47-brass-linen-table-lamp_front_before.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-47-v1__additional-47-brass-linen-table-lamp_back_before.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-47-v1__additional-47-brass-linen-table-lamp_top_before.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-47-v1__additional-47-brass-linen-table-lamp_front_after.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-47-v1__additional-47-brass-linen-table-lamp_back_after.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-47-v1__additional-47-brass-linen-table-lamp_top_after.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-47-v1__additional-47-brass-linen-table-lamp_material_after.png"
+          ]
+        },
+        "physics": "Not dynamically tested",
+        "source_geometry": {
+          "parts": 3,
+          "vertices": 160
+        },
+        "source_signature": "291390e795a2e82efee01aa0c66ec70dab748b1ed5f86e6139b9d2d618dc35f5"
+      }
+    },
+    {
+      "name": "Additional 47 | Framed portrait panel",
+      "source_root": "EXPORT_ROOT_47_6",
+      "parts": 3,
+      "vertices": 288,
+      "dimensions_m": [
+        0.6200000047683716,
+        0.06199986860156059,
+        0.7900000214576721
+      ],
+      "description": "Static source-specific editable approximation; dimensions are authored, not calibrated measurements. Source name mirror is only a matte framed panel, no reflective glass. Approximate source-derived static asset; no real-person data. See provenance.json.",
+      "catalog_id": "266919da-b691-5207-9ef9-3ec1e1b148f2",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "mount_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Static source-specific editable approximation; dimensions are authored, not calibrated measurements. Source name mirror is only a matte framed panel, no reflective glass."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "mount_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Static source-specific editable approximation; dimensions are authored, not calibrated measurements. Source name mirror is only a matte framed panel, no reflective glass."
+      },
+      "bounds_min_m": [
+        -0.3100000023841858,
+        -0.06199986860156059,
+        -0.39500001072883606
+      ],
+      "bounds_max_m": [
+        0.3100000023841858,
+        0.0,
+        0.39500001072883606
+      ],
+      "origin_normalization": "declared root retained"
+    },
+    {
+      "name": "Additional 47 | Small gallery panel",
+      "source_root": "EXPORT_ROOT_47_7",
+      "parts": 3,
+      "vertices": 288,
+      "dimensions_m": [
+        0.3499999940395355,
+        0.0620000958442688,
+        0.4399999976158142
+      ],
+      "description": "Static source-specific editable approximation; dimensions are authored, not calibrated measurements. Approximate source-derived static asset; no real-person data. See provenance.json.",
+      "catalog_id": "266919da-b691-5207-9ef9-3ec1e1b148f2",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "mount_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Static source-specific editable approximation; dimensions are authored, not calibrated measurements."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "mount_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Static source-specific editable approximation; dimensions are authored, not calibrated measurements."
+      },
+      "bounds_min_m": [
+        -0.17499999701976776,
+        -0.0620000958442688,
+        -0.2199999988079071
+      ],
+      "bounds_max_m": [
+        0.17499999701976776,
+        0.0,
+        0.2199999988079071
+      ],
+      "origin_normalization": "declared root retained"
+    },
+    {
+      "name": "Additional 47 | Landscape wall panel",
+      "source_root": "EXPORT_ROOT_47_8",
+      "parts": 3,
+      "vertices": 288,
+      "dimensions_m": [
+        0.7200000286102295,
+        0.06200045347213745,
+        0.5799999833106995
+      ],
+      "description": "Static source-specific editable approximation; dimensions are authored, not calibrated measurements. Approximate source-derived static asset; no real-person data. See provenance.json.",
+      "catalog_id": "266919da-b691-5207-9ef9-3ec1e1b148f2",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "mount_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Static source-specific editable approximation; dimensions are authored, not calibrated measurements."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "mount_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Static source-specific editable approximation; dimensions are authored, not calibrated measurements."
+      },
+      "bounds_min_m": [
+        -0.36000001430511475,
+        -0.06200045347213745,
+        -0.28999999165534973
+      ],
+      "bounds_max_m": [
+        0.36000001430511475,
+        0.0,
+        0.28999999165534973
+      ],
+      "origin_normalization": "declared root retained"
+    },
+    {
+      "name": "Additional 47 | Bedroom window casing",
+      "source_root": "EXPORT_ROOT_47_9",
+      "parts": 10,
+      "vertices": 960,
+      "dimensions_m": [
+        1.0099999904632568,
+        0.11000069975852966,
+        1.8799998760223389
+      ],
+      "description": "One of two repeated divided window frames; blue view card omitted as scenery. Origin normalized to assembly mount center. Approximate source-derived static asset; no real-person data. See provenance.json.",
+      "catalog_id": "ac8cb6a8-efbd-52f0-b20a-b952fff628b0",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "mount_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. One of two repeated divided window frames; blue view card omitted as scenery. Origin normalized to assembly mount center."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "mount_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. One of two repeated divided window frames; blue view card omitted as scenery. Origin normalized to assembly mount center."
+      },
+      "bounds_min_m": [
+        -0.5049999952316284,
+        -0.11000069975852966,
+        -0.9399999380111694
+      ],
+      "bounds_max_m": [
+        0.5049999952316284,
+        0.0,
+        0.9399999380111694
+      ],
+      "origin_normalization": "declared root retained"
+    },
+    {
+      "name": "Additional 47 | Banded linen curtain pair",
+      "source_root": "EXPORT_ROOT_47_10",
+      "parts": 3,
+      "vertices": 26356,
+      "dimensions_m": [
+        1.4800000190734863,
+        0.13250002264976501,
+        2.0450000762939453
+      ],
+      "description": "Replaced two 100 mm solid slabs with thin pleated linen sheets and native mesh thickness. Integrated the four taupe bands per curtain as material regions on the cloth; removed detached band boxes. Gathered cloth into the rod contact at the top; retained mount origin, rod and lower hem height. Static authored folds; no cloth simulation validation.",
+      "catalog_id": "b345f990-ef32-5961-8cb1-6b1d256f30e1",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "mount_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. One of two repeated panel pairs with rod and taupe bands; static solid panel approximation, no cloth simulation. Rod center defines mounting origin. Portable-copy correction and reviewed isolated previews; see refinements.json."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "mount_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. One of two repeated panel pairs with rod and taupe bands; static solid panel approximation, no cloth simulation. Rod center defines mounting origin."
+      },
+      "bounds_min_m": [
+        -0.7400000095367432,
+        -0.02500002086162567,
+        -2.0199999809265137
+      ],
+      "bounds_max_m": [
+        0.7400000095367432,
+        0.10750000178813934,
+        0.02500009536743164
+      ],
+      "origin_normalization": "declared root retained",
+      "asset_copy_refinement": "Extended linen panel upper edge10mm into rod lower surface to remove15mm source mounting gap. Static cloth approximation retained.",
+      "preview": "assets/quality_previews/additional-444547-47-v1__additional-47-banded-linen-curtain-pair.png",
+      "quality_review": {
+        "date": "2026-09-14",
+        "status": "upgraded",
+        "changes": [
+          "Replaced two 100 mm solid slabs with thin pleated linen sheets and native mesh thickness.",
+          "Integrated the four taupe bands per curtain as material regions on the cloth; removed detached band boxes.",
+          "Gathered cloth into the rod contact at the top; retained mount origin, rod and lower hem height.",
+          "Static authored folds; no cloth simulation validation."
+        ],
+        "validation": {
+          "drivers_before": 0,
+          "drivers_after": 0,
+          "physics": "Not simulation certified; material/density/collision preparation still required.",
+          "inward_meshes_repaired": [],
+          "finite_meshes": 11,
+          "missing_materials": 0,
+          "save_reopen": true,
+          "linked_libraries": 0,
+          "max_bounds_error_m": 0.0,
+          "visual_review": {
+            "status": "reviewed",
+            "scope": "Three clay views and material view; source silhouette, cavity/support detail and retained dimensions inspected.",
+            "limitations": "Stylized authored asset quality; no photorealism, structural-load, cloth or rigid-body stability certification."
+          },
+          "closed_mesh_topology": "All modified collection mesh parts have zero boundary/nonmanifold edges and positive signed volume.",
+          "source_report": "runs/_tools/asset_quality_upgrade_models_20260914/deltas.json"
+        },
+        "visual_review": {
+          "by": "asset-quality-parent-20260914",
+          "status": "passed",
+          "date": "2026-09-14",
+          "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+          "evidence": [
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-47-v1__additional-47-banded-linen-curtain-pair_front_before.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-47-v1__additional-47-banded-linen-curtain-pair_back_before.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-47-v1__additional-47-banded-linen-curtain-pair_top_before.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-47-v1__additional-47-banded-linen-curtain-pair_front_after.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-47-v1__additional-47-banded-linen-curtain-pair_back_after.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-47-v1__additional-47-banded-linen-curtain-pair_top_after.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-47-v1__additional-47-banded-linen-curtain-pair_material_after.png"
+          ]
+        },
+        "physics": "Not dynamically tested",
+        "source_geometry": {
+          "parts": 11,
+          "vertices": 1056
+        },
+        "source_signature": "336af8a05272259698baf0b1c56577505a063e054430814f48b7bd61c5f03c1e"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "name": "RK | Aged brass",
+      "source_name": "PAL47 | Aged brass",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false,
+      "classification": "scene-authored Principled parameter palette variant; not a new procedural shader design"
+    },
+    {
+      "name": "RK | Ivory linen",
+      "source_name": "PAL47 | Ivory linen",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false,
+      "classification": "scene-authored Principled parameter palette variant; not a new procedural shader design"
+    },
+    {
+      "name": "RK | Ivory trim",
+      "source_name": "PAL47 | Ivory trim",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false,
+      "classification": "scene-authored Principled parameter palette variant; not a new procedural shader design"
+    },
+    {
+      "name": "RK | Muted landscape artwork",
+      "source_name": "PAL47 | Muted landscape artwork",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false,
+      "classification": "scene-authored Principled parameter palette variant; not a new procedural shader design"
+    },
+    {
+      "name": "RK | Pale wool carpet",
+      "source_name": "PAL47 | Pale wool carpet",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false,
+      "classification": "scene-authored Principled parameter palette variant; not a new procedural shader design"
+    },
+    {
+      "name": "RK | Soft blue window view",
+      "source_name": "PAL47 | Soft blue window view",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false,
+      "classification": "scene-authored Principled parameter palette variant; not a new procedural shader design"
+    }
+  ],
+  "origin": "per_asset",
+  "forward": null,
+  "units": "metres",
+  "geometry": "Separate editable mesh parts; modifiers baked; no room animation/drivers retained.",
+  "material_dependencies": [
+    {
+      "name": "RK | Walnut furniture frames",
+      "source_name": "DEP47 | Walnut furniture frames",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    }
+  ],
+  "provenance": "provenance.json",
+  "approximation": "Reference-informed editable blockout geometry; dimensions uncalibrated; see per-item limitations.",
+  "current_quality_update": {
+    "date": "2026-09-14",
+    "policy": "Replace current payload after review; keep stable IDs",
+    "changed_collections": [
+      "Additional 47 | Banded linen curtain pair",
+      "Additional 47 | Brass linen table lamp"
+    ],
+    "geometry_and_reopen_checked": true,
+    "physics_validation": "not performed"
+  }
+}

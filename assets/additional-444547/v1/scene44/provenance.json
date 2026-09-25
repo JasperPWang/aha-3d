@@ -1,0 +1,1143 @@
+{
+  "scene": "44",
+  "source": "runs/formal_dining_platter_g0065/final_v1/stages/assemble/scene.blend",
+  "source_sha256": "ee41f3da7845fbdbc48d5593aafc08322c4da88275e5570b943f95856dbc0859",
+  "source_frame": 1,
+  "assets": [
+    {
+      "key": "Silver serving platter",
+      "name": "Additional 44 | Silver serving platter",
+      "objects": [
+        "Platter raised rim",
+        "Silver serving platter"
+      ],
+      "catalog": "Tableware",
+      "yaw_deg": 0,
+      "basis_root": "Platter rigid motion",
+      "front_axis": null,
+      "origin": "floor_center",
+      "symmetry": "continuous_z",
+      "semantic_front": "none",
+      "notes": "Static rest pose from animated prop local frame; disk and raised rim retained; no motion or person dependency.",
+      "source_frame": 1,
+      "rigid_basis_world": [
+        [
+          0.9694399237632751,
+          0.2383289784193039,
+          -0.05818541347980499,
+          0.003287805477157235
+        ],
+        [
+          -0.05650296062231064,
+          -0.013890859670937061,
+          -0.9983057379722595,
+          0.9706211090087891
+        ],
+        [
+          -0.2387334555387497,
+          0.9710850715637207,
+          -5.8104266287273276e-08,
+          -0.3420788645744324
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mount_offset_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pre_export_bounds_min": [
+        -0.15399999916553497,
+        -0.15399999916553497,
+        -0.008999999612569809
+      ],
+      "pre_export_bounds_max": [
+        0.15399999916553497,
+        0.15399999916553497,
+        0.008999999612569809
+      ],
+      "normalization": "Source world geometry evaluated, rigid root pose removed, all source scale baked into mesh; canonical -Y/front and Z/up applied by repository static exporter."
+    },
+    {
+      "key": "Clear polycarbonate dining chair",
+      "name": "Additional 44 | Clear polycarbonate dining chair",
+      "objects": [
+        "Clear chair leg",
+        "Clear chair leg.001",
+        "Clear chair leg.002",
+        "Clear chair leg.003",
+        "Clear dining chair back",
+        "Clear dining chair seat"
+      ],
+      "catalog": "Chairs",
+      "yaw_deg": 0,
+      "basis_root": null,
+      "front_axis": "-Y",
+      "origin": "floor_center",
+      "symmetry": "none",
+      "semantic_front": "seating",
+      "notes": "Source-authored transmission material and six separate parts. Portable support junctions reviewed independently.",
+      "source_frame": 1,
+      "rigid_basis_world": [
+        [
+          1.0,
+          -0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mount_offset_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pre_export_bounds_min": [
+        0.7899999618530273,
+        1.709999918937683,
+        -1.350000023841858
+      ],
+      "pre_export_bounds_max": [
+        1.2400000095367432,
+        2.1399998664855957,
+        -0.09000000357627869
+      ],
+      "normalization": "Source world geometry evaluated, rigid root pose removed, all source scale baked into mesh; canonical -Y/front and Z/up applied by repository static exporter."
+    },
+    {
+      "key": "Upholstered open frame chair",
+      "name": "Additional 44 | Upholstered open frame chair",
+      "objects": [
+        "Dining near chair 1 arm support.001",
+        "Dining near chair 1 arm support.004",
+        "Dining near chair 1 arm.001",
+        "Dining near chair 1 arm.004",
+        "Dining near chair 1 back frame.002",
+        "Dining near chair 1 cane back panel.002",
+        "Dining near chair 1 cane vertical slat.001",
+        "Dining near chair 1 cane vertical slat.002",
+        "Dining near chair 1 cane vertical slat.003",
+        "Dining near chair 1 cane vertical slat.004",
+        "Dining near chair 1 cane vertical slat.005",
+        "Dining near chair 1 cane vertical slat.006",
+        "Dining near chair 1 cane vertical slat.007",
+        "Dining near chair 1 cane vertical slat.008",
+        "Dining near chair 1 cane vertical slat.009",
+        "Dining near chair 1 cane vertical slat.010",
+        "Dining near chair 1 cane vertical slat.011",
+        "Dining near chair 1 cane vertical slat.024",
+        "Dining near chair 1 leg.001",
+        "Dining near chair 1 leg.002",
+        "Dining near chair 1 leg.003",
+        "Dining near chair 1 leg.008",
+        "Dining near chair 1 seat.002",
+        "Upholstered chair back"
+      ],
+      "catalog": "Chairs",
+      "yaw_deg": 0,
+      "basis_root": "RK Chair - Open Frame Dining slot",
+      "front_axis": "-Y",
+      "origin": "floor_center",
+      "symmetry": "none",
+      "semantic_front": "seating",
+      "notes": "Derived from dining-chair-v1/chair-open-frame-dining with scene-authored upholstered back; source back overlay placement will be reviewed as a portable adaptation.",
+      "source_frame": 1,
+      "rigid_basis_world": [
+        [
+          0.8642463088035583,
+          -0.5030689239501953,
+          0.0,
+          -0.7799999713897705
+        ],
+        [
+          0.5030689239501953,
+          0.8642463088035583,
+          0.0,
+          2.0399999618530273
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -1.350000023841858
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mount_offset_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pre_export_bounds_min": [
+        -0.24500006437301636,
+        -0.22125011682510376,
+        -5.960464477539063e-08
+      ],
+      "pre_export_bounds_max": [
+        0.2449999451637268,
+        0.22124984860420227,
+        1.1399999856948853
+      ],
+      "normalization": "Source world geometry evaluated, rigid root pose removed, all source scale baked into mesh; canonical -Y/front and Z/up applied by repository static exporter."
+    },
+    {
+      "key": "Formal dining table",
+      "name": "Additional 44 | Formal dining table",
+      "objects": [
+        "Dining table leg",
+        "Dining table leg.001",
+        "Dining table leg.002",
+        "Dining table leg.003",
+        "Dining table top"
+      ],
+      "catalog": "Tables",
+      "yaw_deg": 0,
+      "basis_root": null,
+      "front_axis": "-Y",
+      "origin": "floor_center",
+      "symmetry": "none",
+      "semantic_front": "generic",
+      "notes": "Source-specific tabletop and four legs; no tableware.",
+      "source_frame": 1,
+      "rigid_basis_world": [
+        [
+          1.0,
+          -0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mount_offset_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pre_export_bounds_min": [
+        -1.149999976158142,
+        -0.030000001192092896,
+        -1.350000023841858
+      ],
+      "pre_export_bounds_max": [
+        0.9499999284744263,
+        0.7699999809265137,
+        -0.5725000500679016
+      ],
+      "normalization": "Source world geometry evaluated, rigid root pose removed, all source scale baked into mesh; canonical -Y/front and Z/up applied by repository static exporter."
+    },
+    {
+      "key": "Six drawer mahogany sideboard",
+      "name": "Additional 44 | Six drawer mahogany sideboard",
+      "objects": [
+        "Drawer handle",
+        "Drawer handle.001",
+        "Drawer handle.002",
+        "Drawer handle.003",
+        "Drawer handle.004",
+        "Drawer handle.005",
+        "Sideboard carcass",
+        "Sideboard drawer front",
+        "Sideboard drawer front.001",
+        "Sideboard drawer front.002",
+        "Sideboard drawer front.003",
+        "Sideboard drawer front.004",
+        "Sideboard drawer front.005",
+        "Sideboard foot",
+        "Sideboard foot.001",
+        "Sideboard foot.002",
+        "Sideboard foot.003",
+        "Sideboard stone top"
+      ],
+      "catalog": "Storage",
+      "yaw_deg": -34.00749241973228,
+      "basis_root": null,
+      "front_axis": "-Y",
+      "origin": "floor_center",
+      "symmetry": "none",
+      "semantic_front": "door",
+      "notes": "Static six-drawer facade and handles; no operative drawers or hidden cabinet internals.",
+      "source_frame": 1,
+      "rigid_basis_world": [
+        [
+          0.8289644122123718,
+          0.5593013763427734,
+          0.0,
+          0.0
+        ],
+        [
+          -0.5593013763427734,
+          0.8289644122123718,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mount_offset_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pre_export_bounds_min": [
+        -2.291630506515503,
+        1.8113219738006592,
+        -1.350000023841858
+      ],
+      "pre_export_bounds_max": [
+        -0.1866304874420166,
+        2.378822088241577,
+        -0.39249998331069946
+      ],
+      "normalization": "Source world geometry evaluated, rigid root pose removed, all source scale baked into mesh; canonical -Y/front and Z/up applied by repository static exporter."
+    },
+    {
+      "key": "Stylized stemmed vessel",
+      "name": "Additional 44 | Stylized stemmed vessel",
+      "objects": [
+        "Sideboard glass bowl",
+        "Sideboard vessel base",
+        "Sideboard vessel stem"
+      ],
+      "catalog": "Tableware",
+      "yaw_deg": 0,
+      "basis_root": null,
+      "front_axis": null,
+      "origin": "floor_center",
+      "symmetry": "continuous_z",
+      "semantic_front": "none",
+      "notes": "One of five repeated solid stylized stemware proxies; bowl is solid, not hollow glass.",
+      "source_frame": 1,
+      "rigid_basis_world": [
+        [
+          1.0,
+          -0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mount_offset_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pre_export_bounds_min": [
+        -0.36306536197662354,
+        2.731616497039795,
+        -0.4154999852180481
+      ],
+      "pre_export_bounds_max": [
+        -0.27306532859802246,
+        2.8216166496276855,
+        -0.10999999940395355
+      ],
+      "normalization": "Source world geometry evaluated, rigid root pose removed, all source scale baked into mesh; canonical -Y/front and Z/up applied by repository static exporter."
+    },
+    {
+      "key": "Wall sconce",
+      "name": "Additional 44 | Wall sconce",
+      "objects": [
+        "Wall sconce plate",
+        "Wall sconce shade"
+      ],
+      "catalog": "Lighting",
+      "yaw_deg": -34.00749241973228,
+      "basis_root": null,
+      "front_axis": "-Y",
+      "origin": "mount_center",
+      "symmetry": "none",
+      "semantic_front": "generic",
+      "notes": "Static plate and shade; no photometric light source. Mount origin at back face center.",
+      "source_frame": 1,
+      "rigid_basis_world": [
+        [
+          0.8289644122123718,
+          0.5593013763427734,
+          0.0,
+          0.0
+        ],
+        [
+          -0.5593013763427734,
+          0.8289644122123718,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mount_offset_local": [
+        -2.786630630493164,
+        2.4338219165802,
+        0.4050000011920929
+      ],
+      "pre_export_bounds_min": [
+        -2.86163067817688,
+        2.2388219833374023,
+        0.24500000476837158
+      ],
+      "pre_export_bounds_max": [
+        -2.7116305828094482,
+        2.4338219165802,
+        0.5649999976158142
+      ],
+      "normalization": "Source world geometry evaluated, rigid root pose removed, all source scale baked into mesh; canonical -Y/front and Z/up applied by repository static exporter."
+    },
+    {
+      "key": "Double ring chandelier",
+      "name": "Additional 44 | Double ring chandelier",
+      "objects": [
+        "Brass chandelier ring",
+        "Brass chandelier ring.001",
+        "Chandelier hanging rod",
+        "Chandelier hanging rod.001",
+        "Chandelier hanging rod.002",
+        "Chandelier hanging rod.003",
+        "Chandelier hanging rod.004",
+        "Chandelier hanging rod.005"
+      ],
+      "catalog": "Lighting",
+      "yaw_deg": 0,
+      "basis_root": null,
+      "front_axis": "-Y",
+      "origin": "mount_center",
+      "symmetry": "none",
+      "semantic_front": "generic",
+      "notes": "Source ring/rod proxy; portable hanging support completed explicitly if required, without editing source.",
+      "source_frame": 1,
+      "rigid_basis_world": [
+        [
+          1.0,
+          -0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mount_offset_local": [
+        0.10000002384185791,
+        1.5,
+        0.8500000238418579
+      ],
+      "pre_export_bounds_min": [
+        -0.5120000243186951,
+        0.887999951839447,
+        0.3580000102519989
+      ],
+      "pre_export_bounds_max": [
+        0.7120000720024109,
+        2.111999988555908,
+        0.8500000238418579
+      ],
+      "normalization": "Source world geometry evaluated, rigid root pose removed, all source scale baked into mesh; canonical -Y/front and Z/up applied by repository static exporter."
+    },
+    {
+      "key": "Classical vase wall panel",
+      "name": "Additional 44 | Classical vase wall panel",
+      "objects": [
+        "Artwork classical vase silhouette",
+        "Framed artwork backing",
+        "Framed artwork dark print"
+      ],
+      "catalog": "Wall Art",
+      "yaw_deg": -34.00749241973228,
+      "basis_root": null,
+      "front_axis": "-Y",
+      "origin": "mount_center",
+      "symmetry": "none",
+      "semantic_front": "generic",
+      "notes": "One of two repeated shallow relief panels; artwork is editable geometry, not the source image.",
+      "source_frame": 1,
+      "rigid_basis_world": [
+        [
+          0.8289644122123718,
+          0.5593013763427734,
+          0.0,
+          0.0
+        ],
+        [
+          -0.5593013763427734,
+          0.8289644122123718,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mount_offset_local": [
+        -1.7066303491592407,
+        2.456321954727173,
+        0.25
+      ],
+      "pre_export_bounds_min": [
+        -2.0066304206848145,
+        2.37982177734375,
+        -0.13999998569488525
+      ],
+      "pre_export_bounds_max": [
+        -1.406630277633667,
+        2.456321954727173,
+        0.6399999856948853
+      ],
+      "normalization": "Source world geometry evaluated, rigid root pose removed, all source scale baked into mesh; canonical -Y/front and Z/up applied by repository static exporter."
+    }
+  ],
+  "material_palette": [
+    {
+      "source_name": "Brass",
+      "status": "scene_parameter_palette_variant",
+      "source_users": 17,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "Brass",
+        "users": 17,
+        "diffuse_color": [
+          0.5199999809265137,
+          0.30000001192092896,
+          0.07999999821186066,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.5199999809265137,
+                0.30000001192092896,
+                0.07999999821186066,
+                1.0
+              ],
+              "Metallic": 0.800000011920929,
+              "Roughness": 0.3499999940395355,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "Brown floor",
+      "status": "scene_parameter_palette_variant",
+      "source_users": 1,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "Brown floor",
+        "users": 1,
+        "diffuse_color": [
+          0.1599999964237213,
+          0.10000000149011612,
+          0.054999999701976776,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.1599999964237213,
+                0.10000000149011612,
+                0.054999999701976776,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.6499999761581421,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "Charcoal upholstery",
+      "status": "scene_parameter_palette_variant",
+      "source_users": 1,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "Charcoal upholstery",
+        "users": 1,
+        "diffuse_color": [
+          0.054999999701976776,
+          0.05999999865889549,
+          0.05999999865889549,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.054999999701976776,
+                0.05999999865889549,
+                0.05999999865889549,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.6499999761581421,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "Clear polycarbonate",
+      "status": "scene_parameter_palette_variant",
+      "source_users": 6,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "Clear polycarbonate",
+        "users": 6,
+        "diffuse_color": [
+          0.6499999761581421,
+          0.7200000286102295,
+          0.7200000286102295,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.6499999761581421,
+                0.7200000286102295,
+                0.7200000286102295,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.6499999761581421,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.8500000238418579
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "Dark stone",
+      "status": "scene_parameter_palette_variant",
+      "source_users": 1,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "Dark stone",
+        "users": 1,
+        "diffuse_color": [
+          0.02500000037252903,
+          0.02199999988079071,
+          0.01899999938905239,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.02500000037252903,
+                0.02199999988079071,
+                0.01899999938905239,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.6499999761581421,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "Glass approximation",
+      "status": "scene_parameter_palette_variant",
+      "source_users": 15,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "Glass approximation",
+        "users": 15,
+        "diffuse_color": [
+          0.47999998927116394,
+          0.5299999713897705,
+          0.5199999809265137,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.47999998927116394,
+                0.5299999713897705,
+                0.5199999809265137,
+                1.0
+              ],
+              "Metallic": 0.25,
+              "Roughness": 0.3499999940395355,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "Mahogany sideboard",
+      "status": "scene_parameter_palette_variant",
+      "source_users": 16,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "Mahogany sideboard",
+        "users": 16,
+        "diffuse_color": [
+          0.20000000298023224,
+          0.06499999761581421,
+          0.02500000037252903,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.20000000298023224,
+                0.06499999761581421,
+                0.02500000037252903,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.6499999761581421,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "Person_001_Clay",
+      "status": "render_or_human_utility_excluded",
+      "source_users": 1,
+      "used_by_static_mesh": false,
+      "parameters": {
+        "name": "Person_001_Clay",
+        "users": 1,
+        "diffuse_color": [
+          0.3799999952316284,
+          0.5799999833106995,
+          0.7300000190734863,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.5,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "Person_002_Clay",
+      "status": "render_or_human_utility_excluded",
+      "source_users": 1,
+      "used_by_static_mesh": false,
+      "parameters": {
+        "name": "Person_002_Clay",
+        "users": 1,
+        "diffuse_color": [
+          0.3799999952316284,
+          0.5799999833106995,
+          0.7300000190734863,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.5,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "Picture ink",
+      "status": "scene_parameter_palette_variant",
+      "source_users": 2,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "Picture ink",
+        "users": 2,
+        "diffuse_color": [
+          0.07000000029802322,
+          0.05999999865889549,
+          0.05000000074505806,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.07000000029802322,
+                0.05999999865889549,
+                0.05000000074505806,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.6499999761581421,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "RK | Neutral white room clay",
+      "status": "render_or_human_utility_excluded",
+      "source_users": 24,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "RK | Neutral white room clay",
+        "users": 24,
+        "diffuse_color": [
+          0.7200000286102295,
+          0.7200000286102295,
+          0.7200000286102295,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.7200000286102295,
+                0.7200000286102295,
+                0.7200000286102295,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.800000011920929,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "Silver platter",
+      "status": "scene_parameter_palette_variant",
+      "source_users": 2,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "Silver platter",
+        "users": 2,
+        "diffuse_color": [
+          0.5199999809265137,
+          0.5199999809265137,
+          0.5,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.5199999809265137,
+                0.5199999809265137,
+                0.5,
+                1.0
+              ],
+              "Metallic": 0.8500000238418579,
+              "Roughness": 0.25,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "Warm grey wall paint",
+      "status": "scene_parameter_palette_variant",
+      "source_users": 18,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "Warm grey wall paint",
+        "users": 18,
+        "diffuse_color": [
+          0.33000001311302185,
+          0.30000001192092896,
+          0.25,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.33000001311302185,
+                0.30000001192092896,
+                0.25,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.6499999761581421,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "Warm white",
+      "status": "scene_parameter_palette_variant",
+      "source_users": 6,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "Warm white",
+        "users": 6,
+        "diffuse_color": [
+          0.800000011920929,
+          0.7799999713897705,
+          0.699999988079071,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.800000011920929,
+                0.7799999713897705,
+                0.699999988079071,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.6499999761581421,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL"
+          }
+        ]
+      }
+    }
+  ],
+  "portable_refinements": "refinements.json",
+  "validation": "validation.json",
+  "source_integrity": "../final_integrity.json"
+}

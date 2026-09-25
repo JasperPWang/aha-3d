@@ -1,0 +1,4 @@
+interface:
+  display_name: "Indoor Scene Workflow"
+  short_description: "Stage Pi3X rooms, generated people, and video delivery"
+  default_prompt: "Use $indoor-scene-workflow to rebuild this reference scene and deliver the requested validated white-model video."

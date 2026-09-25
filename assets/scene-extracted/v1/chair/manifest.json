@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "blender_version": "5.2.1 LTS",
+  "library": "roomkit_furniture_materials.blend",
+  "furniture": [
+    {
+      "name": "RK Chair - Open Frame Dining",
+      "source_root": "Dining near chair 1",
+      "parts": 23,
+      "vertices": 2208,
+      "dimensions_m": [
+        0.49000000953674316,
+        0.4425000548362732,
+        0.8600000143051147
+      ],
+      "description": "Existing source-specific dining chair with armrests and simplified slatted back; normalized for reuse.",
+      "catalog_id": "37d9829b-9540-568b-8482-588300528d22",
+      "articulation": false,
+      "import_mode": "collection"
+    }
+  ],
+  "materials": [],
+  "origin": "floor center",
+  "forward": "-Y",
+  "units": "metres",
+  "geometry": "Separate editable mesh parts; modifiers baked; no room animation/drivers retained.",
+  "material_dependencies": [
+    {
+      "name": "RK | Neutral white room clay",
+      "source_name": "Neutral white room clay",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    }
+  ]
+}

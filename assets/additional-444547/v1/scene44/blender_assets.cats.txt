@@ -1,0 +1,10 @@
+# Blender Asset Catalog Definition File
+VERSION 1
+
+3c09d4fd-1f21-58d5-a927-9a53215a843a:RoomKit/Furniture/Chairs:RoomKit - Furniture - Chairs
+77e9aae4-6b24-53a4-bd3f-0209fa8f4b54:RoomKit/Furniture/Lighting:RoomKit - Furniture - Lighting
+3e0878f6-b919-578a-91fc-733f7034a4b1:RoomKit/Furniture/Storage:RoomKit - Furniture - Storage
+235f0303-dfe6-5c3e-b934-be51f20da6bf:RoomKit/Furniture/Tables:RoomKit - Furniture - Tables
+37a5f065-226d-51d8-ac2e-d3690ef45912:RoomKit/Furniture/Tableware:RoomKit - Furniture - Tableware
+266919da-b691-5207-9ef9-3ec1e1b148f2:RoomKit/Furniture/Wall Art:RoomKit - Furniture - Wall Art
+0cd907c6-a3f5-560d-8d09-0f1ec422fc96:RoomKit/Materials/Other:RoomKit - Materials - Other

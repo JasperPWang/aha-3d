@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "scene": "open_plan_group_walk_g0055",
+  "preset": "source_camera",
+  "inputs": {"video": "scenes/open_plan_group_walk_g0055/references/source.mp4"},
+  "people": "approximate",
+  "cabinets": "animate",
+  "objects": "none",
+  "timing": {"mode": "source"},
+  "details": {
+    "people": "Generate similar walking and conversational actions for the visible people, with stable actor IDs.",
+    "cabinets": "Add a slow opening and closing of one chosen cabinet door after reviewing clearance; this is an illustrative requested action, not an observed source event."
+  },
+  "variants": {"models": true, "materials": true, "notes": "After the base scene, request separate chair-model and wall/floor material variants."}
+}

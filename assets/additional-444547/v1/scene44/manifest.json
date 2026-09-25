@@ -1,0 +1,797 @@
+{
+  "version": 1,
+  "blender_version": "5.2.1 LTS",
+  "library": "roomkit_furniture_materials.blend",
+  "furniture": [
+    {
+      "name": "Additional 44 | Silver serving platter",
+      "source_root": "EXPORT_ROOT_44_0",
+      "parts": 1,
+      "vertices": 1666,
+      "dimensions_m": [
+        0.30799999833106995,
+        0.30799999833106995,
+        0.017999999225139618
+      ],
+      "description": "Replaced overlapping thick disk and torus with one continuous serving surface, recessed well, rolled rim and support foot. Preserved 308 mm outer diameter, 18 mm overall height and silver material. Source-derived or authored approximation; no physics certification.",
+      "catalog_id": "37a5f065-226d-51d8-ac2e-d3690ef45912",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": null,
+        "up_axis": "Z",
+        "symmetry": "continuous_z",
+        "origin": "floor_center",
+        "semantic_front": "none",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Static rest pose from animated prop local frame; disk and raised rim retained; no motion or person dependency."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": null,
+        "up_axis": "Z",
+        "symmetry": "continuous_z",
+        "origin": "floor_center",
+        "semantic_front": "none",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Static rest pose from animated prop local frame; disk and raised rim retained; no motion or person dependency."
+      },
+      "bounds_min_m": [
+        -0.15399999916553497,
+        -0.15399999916553497,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.15399999916553497,
+        0.15399999916553497,
+        0.017999999225139618
+      ],
+      "origin_normalization": "rotated geometry bounds floor center",
+      "asset_quality_refinement": {
+        "generator": "tools/asset_quality_upgrade/tabletop.py",
+        "revision": 1,
+        "changes": [
+          "Replaced overlapping thick disk and torus with one continuous serving surface, recessed well, rolled rim and support foot.",
+          "Preserved 308 mm outer diameter, 18 mm overall height and silver material."
+        ]
+      },
+      "preview": "assets/quality_previews/additional-444547-44-v1__additional-44-silver-serving-platter.png",
+      "quality_review": {
+        "date": "2026-09-14",
+        "status": "upgraded",
+        "changes": [
+          "Replaced overlapping thick disk and torus with one continuous serving surface, recessed well, rolled rim and support foot.",
+          "Preserved 308 mm outer diameter, 18 mm overall height and silver material."
+        ],
+        "validation": {
+          "max_bounds_delta_m": 0.0,
+          "changed_meshes": [
+            {
+              "name": "EXPORT_PART_44_0__Silver serving platter.001",
+              "bounds_min_m": [
+                -0.15399999916553497,
+                -0.15399999916553497,
+                0.0
+              ],
+              "bounds_max_m": [
+                0.15399999916553497,
+                0.15399999916553497,
+                0.017999999225139618
+              ],
+              "materials": [
+                "RK | Silver platter"
+              ],
+              "vertices": 1666,
+              "edges": 3456,
+              "faces": 1792,
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "degenerate_faces": 0,
+              "signed_volume_m3": 0.00033719813908644145
+            }
+          ],
+          "cavity_checks": [
+            {
+              "object": "EXPORT_PART_44_0__Silver serving platter.001",
+              "floor_z_m": 0.006000000983476639,
+              "rim_z_m": 0.017999999225139618,
+              "center_cavity_depth_m": 0.011999998241662979,
+              "wall_rays": [
+                {
+                  "angle_rad": 0,
+                  "wall_distance_m": 0.14100000262260437,
+                  "hit": true
+                },
+                {
+                  "angle_rad": 1.5707963267948966,
+                  "wall_distance_m": 0.14100000262260437,
+                  "hit": true
+                },
+                {
+                  "angle_rad": 3.141592653589793,
+                  "wall_distance_m": 0.14100000262260437,
+                  "hit": true
+                },
+                {
+                  "angle_rad": 4.71238898038469,
+                  "wall_distance_m": 0.14100000262260437,
+                  "hit": true
+                }
+              ],
+              "scope": "Vessel mesh only; soil and foliage excluded. No dynamics certification."
+            }
+          ],
+          "visual_review": "passed: agent inspected matched before/after material oblique and clay cavity views; plant vessels also inspected with foliage and substrate hidden",
+          "scope": "Changed vessel/substrate meshes only. Foliage and simulation not certified.",
+          "saved_reopen_passed": true,
+          "visual_review_scope": "Same camera/light/framing before and after. All nine collections reviewed; original material appearance, placement envelope and whole-plant arrangement retained.",
+          "limits": [
+            "No rigid-body or fluid simulation was run.",
+            "Unchanged plant foliage is not certified manifold or collision-free.",
+            "Wall and base dimensions are authored approximations, not source measurements."
+          ],
+          "job_id": "46324895",
+          "comparison_sheets": [
+            "runs/_tools/asset_quality_tabletop_20260913/refined/vessels_comparison.jpg",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plant_containers_comparison.jpg",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plants_whole_comparison.jpg"
+          ],
+          "source_report": "runs/_tools/asset_quality_tabletop_20260913/refined/report.json"
+        },
+        "visual_review": {
+          "by": "asset-quality-parent-20260914",
+          "status": "passed",
+          "date": "2026-09-14",
+          "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+          "evidence": [
+            "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-44-v1/additional-44-silver-serving-platter/before_oblique.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-44-v1/additional-44-silver-serving-platter/before_cavity.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-44-v1/additional-44-silver-serving-platter/after_oblique.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-44-v1/additional-44-silver-serving-platter/after_cavity.png"
+          ]
+        },
+        "physics": "Passed bounded convex-hull drop test; see assets/quality_review.json",
+        "source_geometry": {
+          "parts": 2,
+          "vertices": 960
+        },
+        "source_signature": "fc4900ca8ef05789cb7df4e82b22816f4f3ff9bbb2af6c33d7620cf44e55614a"
+      }
+    },
+    {
+      "name": "Additional 44 | Clear polycarbonate dining chair",
+      "source_root": "EXPORT_ROOT_44_1",
+      "parts": 6,
+      "vertices": 576,
+      "dimensions_m": [
+        0.4500000476837158,
+        0.4299999475479126,
+        1.2599999904632568
+      ],
+      "description": "Source-authored transmission material and six separate parts. Portable support junctions reviewed independently. Approximate source-derived static asset; no real-person data. See provenance.json. Portable-copy refinement: Extended lower back panel to overlap seat by10mm; eliminated source17.5mm unsupported gap, preserving top height and transmission material.",
+      "catalog_id": "3c09d4fd-1f21-58d5-a927-9a53215a843a",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "seating",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Source-authored transmission material and six separate parts. Portable support junctions reviewed independently. Portable-copy correction and reviewed isolated previews; see refinements.json."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "seating",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Source-authored transmission material and six separate parts. Portable support junctions reviewed independently."
+      },
+      "bounds_min_m": [
+        -0.2250000238418579,
+        -0.21500003337860107,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.2250000238418579,
+        0.21499991416931152,
+        1.2599999904632568
+      ],
+      "origin_normalization": "rotated geometry bounds floor center",
+      "asset_copy_refinement": "Extended lower back panel to overlap seat by10mm; eliminated source17.5mm unsupported gap, preserving top height and transmission material."
+    },
+    {
+      "name": "Additional 44 | Upholstered open frame chair",
+      "source_root": "EXPORT_ROOT_44_2",
+      "parts": 11,
+      "vertices": 1056,
+      "dimensions_m": [
+        0.49000000953674316,
+        0.44249996542930603,
+        0.8600000739097595
+      ],
+      "description": "Static upholstered open-frame dining chair adapted from dining-chair-v1/chair-open-frame-dining. Cane infill and slats replaced by a charcoal cushion fitted within the native supporting back-frame envelope; 2mm contact overlap. Source unrotated floating overlay replaced only in this portable asset copy. Original source scene remains unchanged. Separate editable mesh parts; source scale uncalibrated.",
+      "catalog_id": "3c09d4fd-1f21-58d5-a927-9a53215a843a",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "seating",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Derived from dining-chair-v1/chair-open-frame-dining with scene-authored upholstered back; source back overlay placement will be reviewed as a portable adaptation. Portable-copy correction and reviewed isolated previews; see refinements.json."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "seating",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Derived from dining-chair-v1/chair-open-frame-dining with scene-authored upholstered back; source back overlay placement will be reviewed as a portable adaptation."
+      },
+      "bounds_min_m": [
+        -0.24500006437301636,
+        -0.22125011682510376,
+        -5.960464477539063e-08
+      ],
+      "bounds_max_m": [
+        0.2449999451637268,
+        0.22124984860420227,
+        0.8600000143051147
+      ],
+      "origin_normalization": "rotated geometry bounds floor center",
+      "asset_copy_refinement": "Aligned the source floating unrotated upholstery slab to the existing native chair back, retaining its .43 x .055 x .52 m dimensions; lower pad overlaps the supporting back frame. Original source geometry remains unchanged. Upholstery resized to cane-infill envelope and supported at existing back-frame front with2mm overlap; original cane infill/slats replaced in portable copy, oversized source slab not retained."
+    },
+    {
+      "name": "Additional 44 | Formal dining table",
+      "source_root": "EXPORT_ROOT_44_3",
+      "parts": 5,
+      "vertices": 480,
+      "dimensions_m": [
+        2.0999999046325684,
+        0.7999999523162842,
+        0.7774999737739563
+      ],
+      "description": "Source-specific tabletop and four legs; no tableware. Approximate source-derived static asset; no real-person data. See provenance.json. Portable-copy refinement: Extended leg tops to overlap tabletop underside5mm; corrected2.5mm source support gap.",
+      "catalog_id": "235f0303-dfe6-5c3e-b934-be51f20da6bf",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Source-specific tabletop and four legs; no tableware. Portable-copy correction and reviewed isolated previews; see refinements.json."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Source-specific tabletop and four legs; no tableware."
+      },
+      "bounds_min_m": [
+        -1.0499999523162842,
+        -0.4000000059604645,
+        0.0
+      ],
+      "bounds_max_m": [
+        1.0499999523162842,
+        0.3999999761581421,
+        0.7774999737739563
+      ],
+      "origin_normalization": "rotated geometry bounds floor center",
+      "asset_copy_refinement": "Extended leg tops to overlap tabletop underside5mm; corrected2.5mm source support gap."
+    },
+    {
+      "name": "Additional 44 | Six drawer mahogany sideboard",
+      "source_root": "EXPORT_ROOT_44_4",
+      "parts": 18,
+      "vertices": 1728,
+      "dimensions_m": [
+        2.1050000190734863,
+        0.567500114440918,
+        0.9575000405311584
+      ],
+      "description": "Static six-drawer facade and handles; no operative drawers or hidden cabinet internals. Approximate source-derived static asset; no real-person data. See provenance.json.",
+      "catalog_id": "3e0878f6-b919-578a-91fc-733f7034a4b1",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "door",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Static six-drawer facade and handles; no operative drawers or hidden cabinet internals."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "door",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Static six-drawer facade and handles; no operative drawers or hidden cabinet internals."
+      },
+      "bounds_min_m": [
+        -1.0525000095367432,
+        -0.283750057220459,
+        0.0
+      ],
+      "bounds_max_m": [
+        1.0525000095367432,
+        0.283750057220459,
+        0.9575000405311584
+      ],
+      "origin_normalization": "rotated geometry bounds floor center"
+    },
+    {
+      "name": "Additional 44 | Stylized stemmed vessel",
+      "source_root": "EXPORT_ROOT_44_5",
+      "parts": 1,
+      "vertices": 2818,
+      "dimensions_m": [
+        0.09000003337860107,
+        0.09000003337860107,
+        0.30549997091293335
+      ],
+      "description": "Replaced three intersecting 24-sided solid proxies with one continuous 128-sided vessel shell. Authored open cup, 2.4 mm straight wall, sealed floor, softened rim and continuous stem/base junction. Source-derived or authored approximation; no physics certification.",
+      "catalog_id": "37a5f065-226d-51d8-ac2e-d3690ef45912",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": null,
+        "up_axis": "Z",
+        "symmetry": "continuous_z",
+        "origin": "floor_center",
+        "semantic_front": "none",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. One of five repeated solid stylized stemware proxies; bowl is solid, not hollow glass."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": null,
+        "up_axis": "Z",
+        "symmetry": "continuous_z",
+        "origin": "floor_center",
+        "semantic_front": "none",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. One of five repeated solid stylized stemware proxies; bowl is solid, not hollow glass."
+      },
+      "bounds_min_m": [
+        -0.04500001668930054,
+        -0.04500001668930054,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.04500001668930054,
+        0.04500001668930054,
+        0.30549997091293335
+      ],
+      "origin_normalization": "rotated geometry bounds floor center",
+      "asset_quality_refinement": {
+        "generator": "tools/asset_quality_upgrade/tabletop.py",
+        "revision": 1,
+        "changes": [
+          "Replaced three intersecting 24-sided solid proxies with one continuous 128-sided vessel shell.",
+          "Authored open cup, 2.4 mm straight wall, sealed floor, softened rim and continuous stem/base junction."
+        ]
+      },
+      "preview": "assets/quality_previews/additional-444547-44-v1__additional-44-stylized-stemmed-vessel.png",
+      "quality_review": {
+        "date": "2026-09-14",
+        "status": "upgraded",
+        "changes": [
+          "Replaced three intersecting 24-sided solid proxies with one continuous 128-sided vessel shell.",
+          "Authored open cup, 2.4 mm straight wall, sealed floor, softened rim and continuous stem/base junction."
+        ],
+        "validation": {
+          "max_bounds_delta_m": 5.960464477539063e-08,
+          "changed_meshes": [
+            {
+              "name": "EXPORT_PART_44_5__Sideboard glass bowl.001",
+              "bounds_min_m": [
+                -0.04500001668930054,
+                -0.04500001668930054,
+                0.0
+              ],
+              "bounds_max_m": [
+                0.04500001668930054,
+                0.04500001668930054,
+                0.30549997091293335
+              ],
+              "materials": [
+                "RK | Glass approximation"
+              ],
+              "vertices": 2818,
+              "edges": 5760,
+              "faces": 2944,
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "degenerate_faces": 0,
+              "signed_volume_m3": 0.0002882079774881768
+            }
+          ],
+          "cavity_checks": [
+            {
+              "object": "EXPORT_PART_44_5__Sideboard glass bowl.001",
+              "floor_z_m": 0.2120000123977661,
+              "rim_z_m": 0.30549997091293335,
+              "center_cavity_depth_m": 0.09349995851516724,
+              "wall_rays": [
+                {
+                  "angle_rad": 0,
+                  "wall_distance_m": 0.04259999841451645,
+                  "hit": true
+                },
+                {
+                  "angle_rad": 1.5707963267948966,
+                  "wall_distance_m": 0.04259999841451645,
+                  "hit": true
+                },
+                {
+                  "angle_rad": 3.141592653589793,
+                  "wall_distance_m": 0.04259999841451645,
+                  "hit": true
+                },
+                {
+                  "angle_rad": 4.71238898038469,
+                  "wall_distance_m": 0.04259999841451645,
+                  "hit": true
+                }
+              ],
+              "scope": "Vessel mesh only; soil and foliage excluded. No dynamics certification."
+            }
+          ],
+          "visual_review": "passed: agent inspected matched before/after material oblique and clay cavity views; plant vessels also inspected with foliage and substrate hidden",
+          "scope": "Changed vessel/substrate meshes only. Foliage and simulation not certified.",
+          "saved_reopen_passed": true,
+          "visual_review_scope": "Same camera/light/framing before and after. All nine collections reviewed; original material appearance, placement envelope and whole-plant arrangement retained.",
+          "limits": [
+            "No rigid-body or fluid simulation was run.",
+            "Unchanged plant foliage is not certified manifold or collision-free.",
+            "Wall and base dimensions are authored approximations, not source measurements."
+          ],
+          "job_id": "46324895",
+          "comparison_sheets": [
+            "runs/_tools/asset_quality_tabletop_20260913/refined/vessels_comparison.jpg",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plant_containers_comparison.jpg",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plants_whole_comparison.jpg"
+          ],
+          "source_report": "runs/_tools/asset_quality_tabletop_20260913/refined/report.json"
+        },
+        "visual_review": {
+          "by": "asset-quality-parent-20260914",
+          "status": "passed",
+          "date": "2026-09-14",
+          "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+          "evidence": [
+            "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-44-v1/additional-44-stylized-stemmed-vessel/before_oblique.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-44-v1/additional-44-stylized-stemmed-vessel/before_cavity.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-44-v1/additional-44-stylized-stemmed-vessel/after_oblique.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-44-v1/additional-44-stylized-stemmed-vessel/after_cavity.png"
+          ]
+        },
+        "physics": "Passed bounded convex-hull drop test; see assets/quality_review.json",
+        "source_geometry": {
+          "parts": 3,
+          "vertices": 144
+        },
+        "source_signature": "ee0844dba9872e8932cec0f117e66cae639af301aa40c4ec14c55162ea640fcf"
+      }
+    },
+    {
+      "name": "Additional 44 | Wall sconce",
+      "source_root": "EXPORT_ROOT_44_6",
+      "parts": 5,
+      "vertices": 370,
+      "dimensions_m": [
+        0.15000009536743164,
+        0.19499993324279785,
+        0.3199999928474426
+      ],
+      "description": "Replaced solid shade block with a 2 mm rectangular shade shell open above and below. Added internal mounting support, socket and frosted bulb while preserving the wall plate, mount origin and outer envelope.",
+      "catalog_id": "77e9aae4-6b24-53a4-bd3f-0209fa8f4b54",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "mount_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Static plate and shade; no photometric light source. Mount origin at back face center."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "mount_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Static plate and shade; no photometric light source. Mount origin at back face center."
+      },
+      "bounds_min_m": [
+        -0.07500004768371582,
+        -0.19499993324279785,
+        -0.1599999964237213
+      ],
+      "bounds_max_m": [
+        0.07500004768371582,
+        0.0,
+        0.1599999964237213
+      ],
+      "origin_normalization": "declared root retained",
+      "preview": "assets/quality_previews/additional-444547-44-v1__additional-44-wall-sconce.png",
+      "quality_review": {
+        "date": "2026-09-14",
+        "status": "upgraded",
+        "changes": [
+          "Replaced solid shade block with a 2 mm rectangular shade shell open above and below.",
+          "Added internal mounting support, socket and frosted bulb while preserving the wall plate, mount origin and outer envelope."
+        ],
+        "validation": {
+          "drivers_before": 0,
+          "drivers_after": 0,
+          "physics": "Not simulation certified; material/density/collision preparation still required.",
+          "inward_meshes_repaired": [],
+          "finite_meshes": 2,
+          "missing_materials": 0,
+          "save_reopen": true,
+          "linked_libraries": 0,
+          "max_bounds_error_m": 0.0,
+          "visual_review": {
+            "status": "reviewed",
+            "scope": "Three clay views and material view; source silhouette, cavity/support detail and retained dimensions inspected.",
+            "limitations": "Stylized authored asset quality; no photorealism, structural-load, cloth or rigid-body stability certification."
+          },
+          "closed_mesh_topology": "All modified collection mesh parts have zero boundary/nonmanifold edges and positive signed volume.",
+          "source_report": "runs/_tools/asset_quality_upgrade_models_20260914/deltas.json"
+        },
+        "visual_review": {
+          "by": "asset-quality-parent-20260914",
+          "status": "passed",
+          "date": "2026-09-14",
+          "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+          "evidence": [
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-44-v1__additional-44-wall-sconce_front_before.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-44-v1__additional-44-wall-sconce_back_before.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-44-v1__additional-44-wall-sconce_top_before.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-44-v1__additional-44-wall-sconce_front_after.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-44-v1__additional-44-wall-sconce_back_after.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-44-v1__additional-44-wall-sconce_top_after.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-44-v1__additional-44-wall-sconce_material_after.png"
+          ]
+        },
+        "physics": "Not dynamically tested",
+        "source_geometry": {
+          "parts": 2,
+          "vertices": 192
+        },
+        "source_signature": "9fc78c1a230583410ba58525f827c7414ff4fd17364f6f4e56499d4546895c87"
+      }
+    },
+    {
+      "name": "Additional 44 | Double ring chandelier",
+      "source_root": "EXPORT_ROOT_44_7",
+      "parts": 22,
+      "vertices": 1504,
+      "dimensions_m": [
+        1.224000096321106,
+        1.2239999771118164,
+        0.722000002861023
+      ],
+      "description": "Editable two-ring brass chandelier proxy with six source outer uprights, authored diagonal suspension links and radial spokes joining both rings to a central stem and ceiling canopy. Origin is canopy mounting surface center. Added support is portable-copy completion, not observed source detail or structural certification. No photometric light source.",
+      "catalog_id": "77e9aae4-6b24-53a4-bd3f-0209fa8f4b54",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "mount_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Source ring/rod proxy; portable hanging support completed explicitly if required, without editing source. Portable-copy correction and reviewed isolated previews; see refinements.json."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "mount_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Source ring/rod proxy; portable hanging support completed explicitly if required, without editing source."
+      },
+      "bounds_min_m": [
+        -0.612000048160553,
+        -0.612000048160553,
+        -0.722000002861023
+      ],
+      "bounds_max_m": [
+        0.612000048160553,
+        0.6119999885559082,
+        -3.725290298461914e-09
+      ],
+      "origin_normalization": "declared root retained",
+      "asset_copy_refinement": "Added six diagonal ring suspension links, six inner radial spokes, central stem and canopy to make source disconnected ring/rod proxy a coherent ceiling fixture. Mount origin now canopy top. Added support is authored completion, not observed detail; no photometric emitter."
+    },
+    {
+      "name": "Additional 44 | Classical vase wall panel",
+      "source_root": "EXPORT_ROOT_44_8",
+      "parts": 3,
+      "vertices": 208,
+      "dimensions_m": [
+        0.6000001430511475,
+        0.07650017738342285,
+        0.7799999713897705
+      ],
+      "description": "One of two repeated shallow relief panels; artwork is editable geometry, not the source image. Approximate source-derived static asset; no real-person data. See provenance.json.",
+      "catalog_id": "266919da-b691-5207-9ef9-3ec1e1b148f2",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "mount_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. One of two repeated shallow relief panels; artwork is editable geometry, not the source image."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "mount_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. One of two repeated shallow relief panels; artwork is editable geometry, not the source image."
+      },
+      "bounds_min_m": [
+        -0.30000007152557373,
+        -0.07650017738342285,
+        -0.38999998569488525
+      ],
+      "bounds_max_m": [
+        0.30000007152557373,
+        0.0,
+        0.38999998569488525
+      ],
+      "origin_normalization": "declared root retained"
+    }
+  ],
+  "materials": [
+    {
+      "name": "RK | Brass",
+      "source_name": "PAL44 | Brass",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false,
+      "classification": "scene-authored Principled parameter palette variant; not a new procedural shader design"
+    },
+    {
+      "name": "RK | Brown floor",
+      "source_name": "PAL44 | Brown floor",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false,
+      "classification": "scene-authored Principled parameter palette variant; not a new procedural shader design"
+    },
+    {
+      "name": "RK | Charcoal upholstery",
+      "source_name": "PAL44 | Charcoal upholstery",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false,
+      "classification": "scene-authored Principled parameter palette variant; not a new procedural shader design"
+    },
+    {
+      "name": "RK | Clear polycarbonate",
+      "source_name": "PAL44 | Clear polycarbonate",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false,
+      "classification": "scene-authored Principled parameter palette variant; not a new procedural shader design"
+    },
+    {
+      "name": "RK | Dark stone",
+      "source_name": "PAL44 | Dark stone",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false,
+      "classification": "scene-authored Principled parameter palette variant; not a new procedural shader design"
+    },
+    {
+      "name": "RK | Glass approximation",
+      "source_name": "PAL44 | Glass approximation",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false,
+      "classification": "scene-authored Principled parameter palette variant; not a new procedural shader design"
+    },
+    {
+      "name": "RK | Mahogany sideboard",
+      "source_name": "PAL44 | Mahogany sideboard",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false,
+      "classification": "scene-authored Principled parameter palette variant; not a new procedural shader design"
+    },
+    {
+      "name": "RK | Picture ink",
+      "source_name": "PAL44 | Picture ink",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false,
+      "classification": "scene-authored Principled parameter palette variant; not a new procedural shader design"
+    },
+    {
+      "name": "RK | Silver platter",
+      "source_name": "PAL44 | Silver platter",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false,
+      "classification": "scene-authored Principled parameter palette variant; not a new procedural shader design"
+    },
+    {
+      "name": "RK | Warm grey wall paint",
+      "source_name": "PAL44 | Warm grey wall paint",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false,
+      "classification": "scene-authored Principled parameter palette variant; not a new procedural shader design"
+    },
+    {
+      "name": "RK | Warm white",
+      "source_name": "PAL44 | Warm white",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false,
+      "classification": "scene-authored Principled parameter palette variant; not a new procedural shader design"
+    }
+  ],
+  "origin": "per_asset",
+  "forward": null,
+  "units": "metres",
+  "geometry": "Separate editable mesh parts; modifiers baked; no room animation/drivers retained.",
+  "material_dependencies": [
+    {
+      "name": "RK | Neutral white room clay",
+      "source_name": "DEP44 | Neutral white room clay",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    }
+  ],
+  "provenance": "provenance.json",
+  "approximation": "Reference-informed editable blockout geometry; dimensions uncalibrated; see per-item limitations.",
+  "current_quality_update": {
+    "date": "2026-09-14",
+    "policy": "Replace current payload after review; keep stable IDs",
+    "changed_collections": [
+      "Additional 44 | Silver serving platter",
+      "Additional 44 | Stylized stemmed vessel",
+      "Additional 44 | Wall sconce"
+    ],
+    "geometry_and_reopen_checked": true,
+    "physics_validation": "not performed"
+  }
+}

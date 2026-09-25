@@ -1,0 +1,15 @@
+{
+  "initial_library_sha256": "50d3bfbf431c5c0740ed765a0354c415b80524ead34a2dafac84e9de980ea169",
+  "refinements": [
+    {
+      "asset": "Right sectional assembly",
+      "refinement": "Portable modular L pair: rotated main module180deg so back faces exterior and translated return(-.25,+.64,0)m in local assembly axes. Complete detachable modules retain their parts, with15mm junction clearance instead of source corner intersections. This is a modular pair, not a continuous upholstered corner seat."
+    },
+    {
+      "asset": "Round brass side table",
+      "refinement": "Extended pedestal top5mm into tabletop, correcting2.5mm source support gap."
+    }
+  ],
+  "initial_previews": "runs/additional_assets_444547/20260911/initial_previews/scene45",
+  "source_scene_unchanged": true
+}

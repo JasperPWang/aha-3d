@@ -1,0 +1,233 @@
+{
+  "version": 1,
+  "blender_version": "5.2.1 LTS",
+  "library": "roomkit_furniture_materials.blend",
+  "furniture": [
+    {
+      "name": "RK Plant - Broadleaf Ceramic",
+      "source_root": "RK Plant - Broadleaf Ceramic | semantic root",
+      "parts": 82,
+      "vertices": 48986,
+      "dimensions_m": [
+        0.7421963810920715,
+        0.7899017333984375,
+        0.7103183269500732
+      ],
+      "description": "Retained foliage, substrate and pot position; smoothed the original pot profile through its measured landmarks. Refined 48-sided pot to 128-sided sealed vessel with a full interior and explicit 8 mm radial wall and 16 mm base. Source-derived or authored approximation; no physics certification.",
+      "catalog_id": "725a064f-67e6-56ab-9cd5-f3311edcf80a",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "evidence": "tools/build_plant_assets.py: lower presentation foliage toward -Y, balanced XY extents and physical pot base at Z0; final preview review recorded separately",
+        "front_axis": "-Y",
+        "origin": "floor_center",
+        "schema_version": 1,
+        "semantic_front": "generic",
+        "status": "authored",
+        "symmetry": "none",
+        "up_axis": "Z"
+      },
+      "source_orientation": {
+        "evidence": "tools/build_plant_assets.py: lower presentation foliage toward -Y, balanced XY extents and physical pot base at Z0; final preview review recorded separately",
+        "front_axis": "-Y",
+        "origin": "floor_center",
+        "schema_version": 1,
+        "semantic_front": "generic",
+        "status": "authored",
+        "symmetry": "none",
+        "up_axis": "Z"
+      },
+      "bounds_min_m": [
+        -0.37109819054603577,
+        -0.39495086669921875,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.37109819054603577,
+        0.39495086669921875,
+        0.7103183269500732
+      ],
+      "origin_normalization": "rotated geometry bounds floor center",
+      "semantic_class": "decor/plants",
+      "category": "decor/plants",
+      "generator": {
+        "script": "tools/build_plant_assets.py",
+        "seed": 20260910,
+        "leaf_count": 20
+      },
+      "provenance": "provenance.json",
+      "asset_quality_refinement": {
+        "generator": "tools/asset_quality_upgrade/tabletop.py",
+        "revision": 1,
+        "changes": [
+          "Retained foliage, substrate and pot position; smoothed the original pot profile through its measured landmarks.",
+          "Refined 48-sided pot to 128-sided sealed vessel with a full interior and explicit 8 mm radial wall and 16 mm base."
+        ]
+      },
+      "preview": "assets/quality_previews/plants-v1__plant-broadleaf-ceramic.png",
+      "quality_review": {
+        "date": "2026-09-14",
+        "status": "upgraded",
+        "changes": [
+          "Retained foliage, substrate and pot position; smoothed the original pot profile through its measured landmarks.",
+          "Refined 48-sided pot to 128-sided sealed vessel with a full interior and explicit 8 mm radial wall and 16 mm base."
+        ],
+        "validation": {
+          "max_bounds_delta_m": 0.0,
+          "changed_meshes": [
+            {
+              "name": "Broadleaf ceramic pot.001",
+              "bounds_min_m": [
+                -0.17600005865097046,
+                -0.17599987983703613,
+                0.0
+              ],
+              "bounds_max_m": [
+                0.1759999394416809,
+                0.17600011825561523,
+                0.24150002002716064
+              ],
+              "materials": [
+                "RK | Charcoal ceramic bowl.001"
+              ],
+              "vertices": 5378,
+              "edges": 10880,
+              "faces": 5504,
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "degenerate_faces": 0,
+              "signed_volume_m3": 0.002434567513201692
+            }
+          ],
+          "cavity_checks": [
+            {
+              "object": "Broadleaf ceramic pot.001",
+              "floor_z_m": 0.016000017523765564,
+              "rim_z_m": 0.24150002002716064,
+              "center_cavity_depth_m": 0.22550000250339508,
+              "wall_rays": [
+                {
+                  "angle_rad": 0,
+                  "wall_distance_m": 0.16131429374217987,
+                  "hit": true
+                },
+                {
+                  "angle_rad": 1.5707963267948966,
+                  "wall_distance_m": 0.16131429374217987,
+                  "hit": true
+                },
+                {
+                  "angle_rad": 3.141592653589793,
+                  "wall_distance_m": 0.16131429374217987,
+                  "hit": true
+                },
+                {
+                  "angle_rad": 4.71238898038469,
+                  "wall_distance_m": 0.16131429374217987,
+                  "hit": true
+                }
+              ],
+              "scope": "Vessel mesh only; soil and foliage excluded. No dynamics certification."
+            }
+          ],
+          "visual_review": "passed: agent inspected matched before/after material oblique and clay cavity views; plant vessels also inspected with foliage and substrate hidden",
+          "scope": "Changed vessel/substrate meshes only. Foliage and simulation not certified.",
+          "saved_reopen_passed": true,
+          "visual_review_scope": "Same camera/light/framing before and after. All nine collections reviewed; original material appearance, placement envelope and whole-plant arrangement retained.",
+          "limits": [
+            "No rigid-body or fluid simulation was run.",
+            "Unchanged plant foliage is not certified manifold or collision-free.",
+            "Wall and base dimensions are authored approximations, not source measurements."
+          ],
+          "job_id": "46324895",
+          "comparison_sheets": [
+            "runs/_tools/asset_quality_tabletop_20260913/refined/vessels_comparison.jpg",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plant_containers_comparison.jpg",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plants_whole_comparison.jpg"
+          ],
+          "source_report": "runs/_tools/asset_quality_tabletop_20260913/refined/report.json"
+        },
+        "visual_review": {
+          "by": "asset-quality-parent-20260914",
+          "status": "passed",
+          "date": "2026-09-14",
+          "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+          "evidence": [
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v1/rk-plant-broadleaf-ceramic/before_oblique.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v1/rk-plant-broadleaf-ceramic/before_cavity.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v1/rk-plant-broadleaf-ceramic/before_container_oblique.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v1/rk-plant-broadleaf-ceramic/before_container_cavity.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v1/rk-plant-broadleaf-ceramic/after_oblique.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v1/rk-plant-broadleaf-ceramic/after_cavity.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v1/rk-plant-broadleaf-ceramic/after_container_oblique.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v1/rk-plant-broadleaf-ceramic/after_container_cavity.png"
+          ]
+        },
+        "physics": "Not dynamically tested",
+        "source_geometry": {
+          "parts": 82,
+          "vertices": 43897
+        },
+        "source_signature": "30dfd63f1f2507034c04af057e223dccfaf7a2f45043b0a6639dd1df114c1e43"
+      }
+    }
+  ],
+  "materials": [],
+  "origin": "floor_center",
+  "forward": "-Y",
+  "units": "metres",
+  "geometry": "Separate editable mesh parts; modifiers baked; no room animation/drivers retained.",
+  "material_dependencies": [
+    {
+      "name": "RK | Charcoal ceramic bowl.001",
+      "source_name": "RK | Charcoal ceramic bowl",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Broadleaf foliage tone 0",
+      "source_name": "Broadleaf foliage tone 0",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Plant subtle leaf veins",
+      "source_name": "Plant subtle leaf veins",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Plant green petioles",
+      "source_name": "Plant green petioles",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Broadleaf foliage tone 1",
+      "source_name": "Broadleaf foliage tone 1",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Broadleaf foliage tone 2",
+      "source_name": "Broadleaf foliage tone 2",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Plant potting soil",
+      "source_name": "Plant potting soil",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    }
+  ],
+  "current_quality_update": {
+    "date": "2026-09-14",
+    "policy": "Replace current payload after review; keep stable IDs",
+    "changed_collections": [
+      "RK Plant - Broadleaf Ceramic"
+    ],
+    "geometry_and_reopen_checked": true,
+    "physics_validation": "not performed"
+  }
+}

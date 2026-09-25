@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "reviews": {
+    "roomkit-v1/sofa-linen-three-seat": {
+      "library_sha256": "750c6ab93f23d046b6cc3ca31718dab08a9f52d82a24cb8b94b3e37fe7bd7ed0",
+      "datablock": "RK Sofa - Linen Three Seat",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "seating",
+        "status": "reviewed",
+        "evidence": "runs/asset_orientation_audit/20260910/review_v2/roomkit-v1__sofa-linen-three-seat/audit.json; source geometry and oblique render inspected by orientation-root-20260910 on 2026-09-10; job 45902369; current-quality update 2026-09-14 retained the authored frame; see assets/quality_review.json"
+      }
+    },
+    "roomkit-v1/chair-walnut-lounge": {
+      "library_sha256": "750c6ab93f23d046b6cc3ca31718dab08a9f52d82a24cb8b94b3e37fe7bd7ed0",
+      "datablock": "RK Chair - Walnut Lounge",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "seating",
+        "status": "reviewed",
+        "evidence": "runs/asset_orientation_audit/20260910/review_v2/roomkit-v1__chair-walnut-lounge/audit.json; source geometry and oblique render inspected by orientation-root-20260910 on 2026-09-10; job 45902369; current-quality update 2026-09-14 retained the authored frame; see assets/quality_review.json"
+      }
+    },
+    "roomkit-v1/stool-upholstered-counter": {
+      "library_sha256": "750c6ab93f23d046b6cc3ca31718dab08a9f52d82a24cb8b94b3e37fe7bd7ed0",
+      "datablock": "RK Stool - Upholstered Counter",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "seating",
+        "status": "reviewed",
+        "evidence": "runs/asset_orientation_audit/20260910/review_v2/roomkit-v1__stool-upholstered-counter/audit.json; source geometry and oblique render inspected by orientation-root-20260910 on 2026-09-10; job 45902369; current-quality update 2026-09-14 retained the authored frame; see assets/quality_review.json"
+      }
+    },
+    "dining-chair-v1/chair-open-frame-dining": {
+      "library_sha256": "ede8a98e239929a7b2e07b97c594de88f8012f7b7c47447097056c8bc1a8c541",
+      "datablock": "RK Chair - Open Frame Dining",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "seating",
+        "status": "reviewed",
+        "evidence": "runs/asset_orientation_audit/20260910/review_v2/dining-chair-v1__chair-open-frame-dining/audit.json; source geometry and oblique render inspected by orientation-root-20260910 on 2026-09-10; job 45902369"
+      }
+    },
+    "cabinets-v1/cabinet-mixed-storage": {
+      "library_sha256": "20fd7bcd39e47332e049e66b8eb38645957ded78c6fb6696bdd67be796d03658",
+      "datablock": "RK Cabinet - Mixed Storage",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "door",
+        "status": "reviewed",
+        "evidence": "runs/asset_orientation_audit/20260910/review_v2/cabinets-v1__cabinet-mixed-storage/audit.json; source geometry and oblique render inspected by orientation-root-20260910 on 2026-09-10; job 45902369"
+      }
+    },
+    "ceramic-vase-v1/vase-rounded-ceramic": {
+      "library_sha256": "13ef2102f21af1e9c6b7b5fb2c882c04544a2d2de9f52a4b6005f12472051547",
+      "datablock": "RK Vase - Rounded Ceramic",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": null,
+        "up_axis": "Z",
+        "symmetry": "continuous_z",
+        "origin": "floor_center",
+        "semantic_front": "none",
+        "status": "reviewed",
+        "evidence": "runs/asset_orientation_audit/20260910/review_v2/ceramic-vase-v1__vase-rounded-ceramic/audit.json; source geometry and oblique render inspected by orientation-root-20260910 on 2026-09-10; job 45902369; current-quality update 2026-09-14 retained the authored frame; see assets/quality_review.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,3533 @@
+[
+  {
+    "name": "Lounge rear sofa",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Lounge rear sofa",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Main right sofa",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Main right sofa",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Main right return",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Main right return",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Central island sofa",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Central island sofa",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Brass side table 0",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Brass side table 0",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Brass side table 1",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Brass side table 1",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Brass side table 2",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Brass side table 2",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Brass side table 3",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Brass side table 3",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Brass side table 4",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Brass side table 4",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Dining table 0",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Dining table 0",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge geometry",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge | placement root.001",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Lounge chair A armrest.001",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A armrest.004",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cross rail.001",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cross rail.004",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cushion.002",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Seat cushion welt | Lounge chair A back cushion.002",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A cushion.002",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Seat cushion welt | Lounge chair A cushion.002",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A front leg.001",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A front leg.004",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A lumbar pillow.002",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Pillow tailored perimeter | Lounge chair A lumbar pillow.002",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A rear post.001",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A rear post.004",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A seat frame.002",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge slot",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge geometry.001",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.001",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge | placement root.003",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.001",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Lounge chair A armrest.007",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.001",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A armrest.008",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.001",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cross rail.007",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.001",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cross rail.008",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.001",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cushion.004",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.001",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Seat cushion welt | Lounge chair A back cushion.004",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.001",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A cushion.004",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.001",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Seat cushion welt | Lounge chair A cushion.004",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.001",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A front leg.007",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.001",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A front leg.008",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.001",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A lumbar pillow.004",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.001",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Pillow tailored perimeter | Lounge chair A lumbar pillow.004",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.001",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A rear post.007",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.001",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A rear post.008",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.001",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A seat frame.004",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.001",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge slot.001",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.001",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Dining table 1",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Dining table 1",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge geometry.002",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.002",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge | placement root.005",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.002",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Lounge chair A armrest.011",
+    "status": "exported_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.002",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-occupied-walnut-lounge-chair"
+    ]
+  },
+  {
+    "name": "Lounge chair A armrest.012",
+    "status": "exported_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.002",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-occupied-walnut-lounge-chair"
+    ]
+  },
+  {
+    "name": "Lounge chair A back cross rail.011",
+    "status": "exported_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.002",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-occupied-walnut-lounge-chair"
+    ]
+  },
+  {
+    "name": "Lounge chair A back cross rail.012",
+    "status": "exported_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.002",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-occupied-walnut-lounge-chair"
+    ]
+  },
+  {
+    "name": "Lounge chair A back cushion.006",
+    "status": "exported_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.002",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-occupied-walnut-lounge-chair"
+    ]
+  },
+  {
+    "name": "Seat cushion welt | Lounge chair A back cushion.006",
+    "status": "exported_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.002",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-occupied-walnut-lounge-chair"
+    ]
+  },
+  {
+    "name": "Lounge chair A cushion.006",
+    "status": "exported_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.002",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-occupied-walnut-lounge-chair"
+    ]
+  },
+  {
+    "name": "Seat cushion welt | Lounge chair A cushion.006",
+    "status": "exported_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.002",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-occupied-walnut-lounge-chair"
+    ]
+  },
+  {
+    "name": "Lounge chair A front leg.011",
+    "status": "exported_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.002",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-occupied-walnut-lounge-chair"
+    ]
+  },
+  {
+    "name": "Lounge chair A front leg.012",
+    "status": "exported_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.002",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-occupied-walnut-lounge-chair"
+    ]
+  },
+  {
+    "name": "Lounge chair A rear post.011",
+    "status": "exported_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.002",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-occupied-walnut-lounge-chair"
+    ]
+  },
+  {
+    "name": "Lounge chair A rear post.012",
+    "status": "exported_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.002",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-occupied-walnut-lounge-chair"
+    ]
+  },
+  {
+    "name": "Lounge chair A seat frame.006",
+    "status": "exported_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.002",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-occupied-walnut-lounge-chair"
+    ]
+  },
+  {
+    "name": "RK Chair - Walnut Lounge slot.002",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.002",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge geometry.003",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.003",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge | placement root.007",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.003",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Lounge chair A armrest.015",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.003",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A armrest.016",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.003",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cross rail.015",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.003",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cross rail.016",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.003",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cushion.008",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.003",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Seat cushion welt | Lounge chair A back cushion.008",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.003",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A cushion.008",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.003",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Seat cushion welt | Lounge chair A cushion.008",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.003",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A front leg.015",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.003",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A front leg.016",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.003",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A lumbar pillow.008",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.003",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Pillow tailored perimeter | Lounge chair A lumbar pillow.008",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.003",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A rear post.015",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.003",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A rear post.016",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.003",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A seat frame.008",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.003",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge slot.003",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.003",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Dining table 2",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Dining table 2",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge geometry.004",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.004",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge | placement root.009",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.004",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Lounge chair A armrest.019",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.004",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A armrest.020",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.004",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cross rail.019",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.004",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cross rail.020",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.004",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cushion.010",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.004",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Seat cushion welt | Lounge chair A back cushion.010",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.004",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A cushion.010",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.004",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Seat cushion welt | Lounge chair A cushion.010",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.004",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A front leg.019",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.004",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A front leg.020",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.004",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A lumbar pillow.010",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.004",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Pillow tailored perimeter | Lounge chair A lumbar pillow.010",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.004",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A rear post.019",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.004",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A rear post.020",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.004",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A seat frame.010",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.004",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge slot.004",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.004",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge geometry.005",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.005",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge | placement root.011",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.005",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Lounge chair A armrest.023",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.005",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A armrest.024",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.005",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cross rail.023",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.005",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cross rail.024",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.005",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cushion.012",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.005",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Seat cushion welt | Lounge chair A back cushion.012",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.005",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A cushion.012",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.005",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Seat cushion welt | Lounge chair A cushion.012",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.005",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A front leg.023",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.005",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A front leg.024",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.005",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A lumbar pillow.012",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.005",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Pillow tailored perimeter | Lounge chair A lumbar pillow.012",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.005",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A rear post.023",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.005",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A rear post.024",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.005",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A seat frame.012",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.005",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge slot.005",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.005",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Dining table 3",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Dining table 3",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge geometry.006",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.006",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge | placement root.013",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.006",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Lounge chair A armrest.027",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.006",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A armrest.028",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.006",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cross rail.027",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.006",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cross rail.028",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.006",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cushion.014",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.006",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Seat cushion welt | Lounge chair A back cushion.014",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.006",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A cushion.014",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.006",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Seat cushion welt | Lounge chair A cushion.014",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.006",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A front leg.027",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.006",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A front leg.028",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.006",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A lumbar pillow.014",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.006",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Pillow tailored perimeter | Lounge chair A lumbar pillow.014",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.006",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A rear post.027",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.006",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A rear post.028",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.006",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A seat frame.014",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.006",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge slot.006",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.006",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge geometry.007",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.007",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge | placement root.015",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.007",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Lounge chair A armrest.031",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.007",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A armrest.032",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.007",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cross rail.031",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.007",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cross rail.032",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.007",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cushion.016",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.007",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Seat cushion welt | Lounge chair A back cushion.016",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.007",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A cushion.016",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.007",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Seat cushion welt | Lounge chair A cushion.016",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.007",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A front leg.031",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.007",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A front leg.032",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.007",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A lumbar pillow.016",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.007",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Pillow tailored perimeter | Lounge chair A lumbar pillow.016",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.007",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A rear post.031",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.007",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A rear post.032",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.007",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A seat frame.016",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.007",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge slot.007",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.007",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Dining table 4",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Dining table 4",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge geometry.008",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.008",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge | placement root.017",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.008",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Lounge chair A armrest.035",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.008",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A armrest.036",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.008",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cross rail.035",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.008",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cross rail.036",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.008",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cushion.018",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.008",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Seat cushion welt | Lounge chair A back cushion.018",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.008",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A cushion.018",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.008",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Seat cushion welt | Lounge chair A cushion.018",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.008",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A front leg.035",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.008",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A front leg.036",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.008",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A lumbar pillow.018",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.008",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Pillow tailored perimeter | Lounge chair A lumbar pillow.018",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.008",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A rear post.035",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.008",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A rear post.036",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.008",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A seat frame.018",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.008",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge slot.008",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.008",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge geometry.009",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.009",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge | placement root.019",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.009",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Lounge chair A armrest.039",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.009",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A armrest.040",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.009",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cross rail.039",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.009",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cross rail.040",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.009",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cushion.020",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.009",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Seat cushion welt | Lounge chair A back cushion.020",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.009",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A cushion.020",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.009",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Seat cushion welt | Lounge chair A cushion.020",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.009",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A front leg.039",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.009",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A front leg.040",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.009",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A lumbar pillow.020",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.009",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Pillow tailored perimeter | Lounge chair A lumbar pillow.020",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.009",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A rear post.039",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.009",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A rear post.040",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.009",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A seat frame.020",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.009",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge slot.009",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.009",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Dining table 5",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Dining table 5",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge geometry.010",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.010",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge | placement root.021",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.010",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Lounge chair A armrest.043",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.010",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A armrest.044",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.010",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cross rail.043",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.010",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cross rail.044",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.010",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cushion.022",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.010",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Seat cushion welt | Lounge chair A back cushion.022",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.010",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A cushion.022",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.010",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Seat cushion welt | Lounge chair A cushion.022",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.010",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A front leg.043",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.010",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A front leg.044",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.010",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A lumbar pillow.022",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.010",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Pillow tailored perimeter | Lounge chair A lumbar pillow.022",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.010",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A rear post.043",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.010",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A rear post.044",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.010",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A seat frame.022",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.010",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge slot.010",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.010",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge geometry.011",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.011",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge | placement root.023",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.011",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Lounge chair A armrest.047",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.011",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A armrest.048",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.011",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cross rail.047",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.011",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cross rail.048",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.011",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cushion.024",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.011",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Seat cushion welt | Lounge chair A back cushion.024",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.011",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A cushion.024",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.011",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Seat cushion welt | Lounge chair A cushion.024",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.011",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A front leg.047",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.011",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A front leg.048",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.011",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A lumbar pillow.024",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.011",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Pillow tailored perimeter | Lounge chair A lumbar pillow.024",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.011",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A rear post.047",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.011",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A rear post.048",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.011",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A seat frame.024",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.011",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge slot.011",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.011",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Dining table 6",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Dining table 6",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge geometry.012",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.012",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge | placement root.025",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.012",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Lounge chair A armrest.051",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.012",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A armrest.052",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.012",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cross rail.051",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.012",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cross rail.052",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.012",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cushion.026",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.012",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Seat cushion welt | Lounge chair A back cushion.026",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.012",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A cushion.026",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.012",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Seat cushion welt | Lounge chair A cushion.026",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.012",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A front leg.051",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.012",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A front leg.052",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.012",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A lumbar pillow.026",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.012",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Pillow tailored perimeter | Lounge chair A lumbar pillow.026",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.012",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A rear post.051",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.012",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A rear post.052",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.012",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A seat frame.026",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.012",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge slot.012",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.012",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge geometry.013",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.013",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge | placement root.027",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.013",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Lounge chair A armrest.055",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.013",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A armrest.056",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.013",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cross rail.055",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.013",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cross rail.056",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.013",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A back cushion.028",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.013",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Seat cushion welt | Lounge chair A back cushion.028",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.013",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A cushion.028",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.013",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Seat cushion welt | Lounge chair A cushion.028",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.013",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A front leg.055",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.013",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A front leg.056",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.013",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A lumbar pillow.028",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.013",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Pillow tailored perimeter | Lounge chair A lumbar pillow.028",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.013",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A rear post.055",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.013",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A rear post.056",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.013",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Lounge chair A seat frame.028",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Walnut Lounge slot.013",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "RK Chair - Walnut Lounge slot.013",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Walnut Lounge slot.013",
+    "asset_id": "roomkit-v1/chair-walnut-lounge",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Workflow reference camera",
+    "status": "scene_camera_or_light_excluded",
+    "source_root": "Workflow reference camera",
+    "asset_id": null
+  },
+  {
+    "name": "Workflow reference camera.001",
+    "status": "scene_camera_or_light_excluded",
+    "source_root": "Workflow reference camera.001",
+    "asset_id": null
+  },
+  {
+    "name": "Floor",
+    "status": "room_recipe_excluded",
+    "source_root": "Floor",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Ceiling",
+    "status": "room_recipe_excluded",
+    "source_root": "Ceiling",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Rear wall art span",
+    "status": "room_recipe_excluded",
+    "source_root": "Rear wall art span",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Alcove lintel",
+    "status": "room_recipe_excluded",
+    "source_root": "Alcove lintel",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Alcove left pier",
+    "status": "room_recipe_excluded",
+    "source_root": "Alcove left pier",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Alcove backdrop",
+    "status": "room_recipe_excluded",
+    "source_root": "Alcove backdrop",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Rear staff counter",
+    "status": "exported_geometry",
+    "source_root": "Rear staff counter",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-staff-counter-block"
+    ]
+  },
+  {
+    "name": "Alcove left return",
+    "status": "room_recipe_excluded",
+    "source_root": "Alcove left return",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Left lounge wall",
+    "status": "room_recipe_excluded",
+    "source_root": "Left lounge wall",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Fireplace wall",
+    "status": "room_recipe_excluded",
+    "source_root": "Fireplace wall",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Fireplace dark opening",
+    "status": "room_recipe_excluded",
+    "source_root": "Fireplace dark opening",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Fireplace candle",
+    "status": "exported_geometry",
+    "source_root": "Fireplace candle",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-six-candle-group"
+    ]
+  },
+  {
+    "name": "Fireplace candle.001",
+    "status": "exported_geometry",
+    "source_root": "Fireplace candle.001",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-six-candle-group"
+    ]
+  },
+  {
+    "name": "Fireplace candle.002",
+    "status": "exported_geometry",
+    "source_root": "Fireplace candle.002",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-six-candle-group"
+    ]
+  },
+  {
+    "name": "Fireplace candle.003",
+    "status": "exported_geometry",
+    "source_root": "Fireplace candle.003",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-six-candle-group"
+    ]
+  },
+  {
+    "name": "Fireplace candle.004",
+    "status": "exported_geometry",
+    "source_root": "Fireplace candle.004",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-six-candle-group"
+    ]
+  },
+  {
+    "name": "Fireplace candle.005",
+    "status": "exported_geometry",
+    "source_root": "Fireplace candle.005",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-six-candle-group"
+    ]
+  },
+  {
+    "name": "Concrete window pier",
+    "status": "room_recipe_excluded",
+    "source_root": "Concrete window pier",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Concrete window pier.001",
+    "status": "room_recipe_excluded",
+    "source_root": "Concrete window pier.001",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Concrete window pier.002",
+    "status": "room_recipe_excluded",
+    "source_root": "Concrete window pier.002",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Concrete window pier.003",
+    "status": "room_recipe_excluded",
+    "source_root": "Concrete window pier.003",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Window sill",
+    "status": "exported_geometry",
+    "source_root": "Window sill",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-lounge-window-frame"
+    ]
+  },
+  {
+    "name": "Window header",
+    "status": "exported_geometry",
+    "source_root": "Window header",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-lounge-window-frame"
+    ]
+  },
+  {
+    "name": "Window mullion",
+    "status": "exported_geometry",
+    "source_root": "Window mullion",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-lounge-window-frame"
+    ]
+  },
+  {
+    "name": "Window sill.001",
+    "status": "repeated_instance_reference",
+    "source_root": "Window sill.001",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-lounge-window-frame"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Window header.001",
+    "status": "repeated_instance_reference",
+    "source_root": "Window header.001",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-lounge-window-frame"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Window mullion.001",
+    "status": "repeated_instance_reference",
+    "source_root": "Window mullion.001",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-lounge-window-frame"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Window sill.002",
+    "status": "repeated_instance_reference",
+    "source_root": "Window sill.002",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-lounge-window-frame"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Window header.002",
+    "status": "repeated_instance_reference",
+    "source_root": "Window header.002",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-lounge-window-frame"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Window mullion.002",
+    "status": "repeated_instance_reference",
+    "source_root": "Window mullion.002",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-lounge-window-frame"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Lounge rear sofa plinth",
+    "status": "exported_geometry",
+    "source_root": "Lounge rear sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-lounge-rear-sofa"
+    ]
+  },
+  {
+    "name": "Lounge rear sofa stone platform",
+    "status": "exported_geometry",
+    "source_root": "Lounge rear sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-lounge-rear-sofa"
+    ]
+  },
+  {
+    "name": "Lounge rear sofa seat",
+    "status": "exported_geometry",
+    "source_root": "Lounge rear sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-lounge-rear-sofa"
+    ]
+  },
+  {
+    "name": "Lounge rear sofa back",
+    "status": "exported_geometry",
+    "source_root": "Lounge rear sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-lounge-rear-sofa"
+    ]
+  },
+  {
+    "name": "Lounge rear sofa loose pillow",
+    "status": "exported_geometry",
+    "source_root": "Lounge rear sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-lounge-rear-sofa"
+    ]
+  },
+  {
+    "name": "Lounge rear sofa seat.001",
+    "status": "exported_geometry",
+    "source_root": "Lounge rear sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-lounge-rear-sofa"
+    ]
+  },
+  {
+    "name": "Lounge rear sofa back.001",
+    "status": "exported_geometry",
+    "source_root": "Lounge rear sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-lounge-rear-sofa"
+    ]
+  },
+  {
+    "name": "Lounge rear sofa seat.002",
+    "status": "exported_geometry",
+    "source_root": "Lounge rear sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-lounge-rear-sofa"
+    ]
+  },
+  {
+    "name": "Lounge rear sofa back.002",
+    "status": "exported_geometry",
+    "source_root": "Lounge rear sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-lounge-rear-sofa"
+    ]
+  },
+  {
+    "name": "Lounge rear sofa loose pillow.001",
+    "status": "exported_geometry",
+    "source_root": "Lounge rear sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-lounge-rear-sofa"
+    ]
+  },
+  {
+    "name": "Lounge rear sofa seat.003",
+    "status": "exported_geometry",
+    "source_root": "Lounge rear sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-lounge-rear-sofa"
+    ]
+  },
+  {
+    "name": "Lounge rear sofa back.003",
+    "status": "exported_geometry",
+    "source_root": "Lounge rear sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-lounge-rear-sofa"
+    ]
+  },
+  {
+    "name": "Lounge rear sofa arm",
+    "status": "exported_geometry",
+    "source_root": "Lounge rear sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-lounge-rear-sofa"
+    ]
+  },
+  {
+    "name": "Lounge rear sofa arm.001",
+    "status": "exported_geometry",
+    "source_root": "Lounge rear sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-lounge-rear-sofa"
+    ]
+  },
+  {
+    "name": "Main right sofa plinth",
+    "status": "exported_geometry",
+    "source_root": "Main right sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-main-right-sofa",
+      "additional-444547-45-v1/additional-45-right-sectional-assembly"
+    ]
+  },
+  {
+    "name": "Main right sofa stone platform",
+    "status": "exported_geometry",
+    "source_root": "Main right sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-main-right-sofa",
+      "additional-444547-45-v1/additional-45-right-sectional-assembly"
+    ]
+  },
+  {
+    "name": "Main right sofa seat",
+    "status": "exported_geometry",
+    "source_root": "Main right sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-main-right-sofa",
+      "additional-444547-45-v1/additional-45-right-sectional-assembly"
+    ]
+  },
+  {
+    "name": "Main right sofa back",
+    "status": "exported_geometry",
+    "source_root": "Main right sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-main-right-sofa",
+      "additional-444547-45-v1/additional-45-right-sectional-assembly"
+    ]
+  },
+  {
+    "name": "Main right sofa loose pillow",
+    "status": "exported_geometry",
+    "source_root": "Main right sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-main-right-sofa",
+      "additional-444547-45-v1/additional-45-right-sectional-assembly"
+    ]
+  },
+  {
+    "name": "Main right sofa seat.001",
+    "status": "exported_geometry",
+    "source_root": "Main right sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-main-right-sofa",
+      "additional-444547-45-v1/additional-45-right-sectional-assembly"
+    ]
+  },
+  {
+    "name": "Main right sofa back.001",
+    "status": "exported_geometry",
+    "source_root": "Main right sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-main-right-sofa",
+      "additional-444547-45-v1/additional-45-right-sectional-assembly"
+    ]
+  },
+  {
+    "name": "Main right sofa seat.002",
+    "status": "exported_geometry",
+    "source_root": "Main right sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-main-right-sofa",
+      "additional-444547-45-v1/additional-45-right-sectional-assembly"
+    ]
+  },
+  {
+    "name": "Main right sofa back.002",
+    "status": "exported_geometry",
+    "source_root": "Main right sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-main-right-sofa",
+      "additional-444547-45-v1/additional-45-right-sectional-assembly"
+    ]
+  },
+  {
+    "name": "Main right sofa loose pillow.001",
+    "status": "exported_geometry",
+    "source_root": "Main right sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-main-right-sofa",
+      "additional-444547-45-v1/additional-45-right-sectional-assembly"
+    ]
+  },
+  {
+    "name": "Main right sofa arm",
+    "status": "exported_geometry",
+    "source_root": "Main right sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-main-right-sofa",
+      "additional-444547-45-v1/additional-45-right-sectional-assembly"
+    ]
+  },
+  {
+    "name": "Main right sofa arm.001",
+    "status": "exported_geometry",
+    "source_root": "Main right sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-main-right-sofa",
+      "additional-444547-45-v1/additional-45-right-sectional-assembly"
+    ]
+  },
+  {
+    "name": "Main right return plinth",
+    "status": "exported_geometry",
+    "source_root": "Main right return",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-main-right-return",
+      "additional-444547-45-v1/additional-45-right-sectional-assembly"
+    ]
+  },
+  {
+    "name": "Main right return stone platform",
+    "status": "exported_geometry",
+    "source_root": "Main right return",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-main-right-return",
+      "additional-444547-45-v1/additional-45-right-sectional-assembly"
+    ]
+  },
+  {
+    "name": "Main right return seat",
+    "status": "exported_geometry",
+    "source_root": "Main right return",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-main-right-return",
+      "additional-444547-45-v1/additional-45-right-sectional-assembly"
+    ]
+  },
+  {
+    "name": "Main right return back",
+    "status": "exported_geometry",
+    "source_root": "Main right return",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-main-right-return",
+      "additional-444547-45-v1/additional-45-right-sectional-assembly"
+    ]
+  },
+  {
+    "name": "Main right return loose pillow",
+    "status": "exported_geometry",
+    "source_root": "Main right return",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-main-right-return",
+      "additional-444547-45-v1/additional-45-right-sectional-assembly"
+    ]
+  },
+  {
+    "name": "Main right return seat.001",
+    "status": "exported_geometry",
+    "source_root": "Main right return",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-main-right-return",
+      "additional-444547-45-v1/additional-45-right-sectional-assembly"
+    ]
+  },
+  {
+    "name": "Main right return back.001",
+    "status": "exported_geometry",
+    "source_root": "Main right return",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-main-right-return",
+      "additional-444547-45-v1/additional-45-right-sectional-assembly"
+    ]
+  },
+  {
+    "name": "Main right return arm",
+    "status": "exported_geometry",
+    "source_root": "Main right return",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-main-right-return",
+      "additional-444547-45-v1/additional-45-right-sectional-assembly"
+    ]
+  },
+  {
+    "name": "Main right return arm.001",
+    "status": "exported_geometry",
+    "source_root": "Main right return",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-main-right-return",
+      "additional-444547-45-v1/additional-45-right-sectional-assembly"
+    ]
+  },
+  {
+    "name": "Central island sofa plinth",
+    "status": "exported_geometry",
+    "source_root": "Central island sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-central-island-sofa"
+    ]
+  },
+  {
+    "name": "Central island sofa stone platform",
+    "status": "exported_geometry",
+    "source_root": "Central island sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-central-island-sofa"
+    ]
+  },
+  {
+    "name": "Central island sofa seat",
+    "status": "exported_geometry",
+    "source_root": "Central island sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-central-island-sofa"
+    ]
+  },
+  {
+    "name": "Central island sofa back",
+    "status": "exported_geometry",
+    "source_root": "Central island sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-central-island-sofa"
+    ]
+  },
+  {
+    "name": "Central island sofa loose pillow",
+    "status": "exported_geometry",
+    "source_root": "Central island sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-central-island-sofa"
+    ]
+  },
+  {
+    "name": "Central island sofa seat.001",
+    "status": "exported_geometry",
+    "source_root": "Central island sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-central-island-sofa"
+    ]
+  },
+  {
+    "name": "Central island sofa back.001",
+    "status": "exported_geometry",
+    "source_root": "Central island sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-central-island-sofa"
+    ]
+  },
+  {
+    "name": "Central island sofa seat.002",
+    "status": "exported_geometry",
+    "source_root": "Central island sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-central-island-sofa"
+    ]
+  },
+  {
+    "name": "Central island sofa back.002",
+    "status": "exported_geometry",
+    "source_root": "Central island sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-central-island-sofa"
+    ]
+  },
+  {
+    "name": "Central island sofa loose pillow.001",
+    "status": "exported_geometry",
+    "source_root": "Central island sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-central-island-sofa"
+    ]
+  },
+  {
+    "name": "Central island sofa seat.003",
+    "status": "exported_geometry",
+    "source_root": "Central island sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-central-island-sofa"
+    ]
+  },
+  {
+    "name": "Central island sofa back.003",
+    "status": "exported_geometry",
+    "source_root": "Central island sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-central-island-sofa"
+    ]
+  },
+  {
+    "name": "Central island sofa seat.004",
+    "status": "exported_geometry",
+    "source_root": "Central island sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-central-island-sofa"
+    ]
+  },
+  {
+    "name": "Central island sofa back.004",
+    "status": "exported_geometry",
+    "source_root": "Central island sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-central-island-sofa"
+    ]
+  },
+  {
+    "name": "Central island sofa loose pillow.002",
+    "status": "exported_geometry",
+    "source_root": "Central island sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-central-island-sofa"
+    ]
+  },
+  {
+    "name": "Central island sofa arm",
+    "status": "exported_geometry",
+    "source_root": "Central island sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-central-island-sofa"
+    ]
+  },
+  {
+    "name": "Central island sofa arm.001",
+    "status": "exported_geometry",
+    "source_root": "Central island sofa",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-central-island-sofa"
+    ]
+  },
+  {
+    "name": "Table 0 base",
+    "status": "exported_geometry",
+    "source_root": "Brass side table 0",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-round-brass-side-table"
+    ]
+  },
+  {
+    "name": "Table 0 top",
+    "status": "exported_geometry",
+    "source_root": "Brass side table 0",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-round-brass-side-table"
+    ]
+  },
+  {
+    "name": "Table 0 vase",
+    "status": "exported_geometry",
+    "source_root": "Brass side table 0",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-tall-porcelain-vase"
+    ]
+  },
+  {
+    "name": "Table 1 base",
+    "status": "repeated_instance_reference",
+    "source_root": "Brass side table 1",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-round-brass-side-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table 1 top",
+    "status": "repeated_instance_reference",
+    "source_root": "Brass side table 1",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-round-brass-side-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table 1 vase",
+    "status": "repeated_instance_reference",
+    "source_root": "Brass side table 1",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-tall-porcelain-vase"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table 2 base",
+    "status": "repeated_instance_reference",
+    "source_root": "Brass side table 2",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-round-brass-side-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table 2 top",
+    "status": "repeated_instance_reference",
+    "source_root": "Brass side table 2",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-round-brass-side-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table 2 vase",
+    "status": "repeated_instance_reference",
+    "source_root": "Brass side table 2",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-tall-porcelain-vase"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table 3 base",
+    "status": "repeated_instance_reference",
+    "source_root": "Brass side table 3",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-round-brass-side-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table 3 top",
+    "status": "repeated_instance_reference",
+    "source_root": "Brass side table 3",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-round-brass-side-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table 3 vase",
+    "status": "repeated_instance_reference",
+    "source_root": "Brass side table 3",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-tall-porcelain-vase"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table 4 base",
+    "status": "repeated_instance_reference",
+    "source_root": "Brass side table 4",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-round-brass-side-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table 4 top",
+    "status": "repeated_instance_reference",
+    "source_root": "Brass side table 4",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-round-brass-side-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table 4 vase",
+    "status": "repeated_instance_reference",
+    "source_root": "Brass side table 4",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-tall-porcelain-vase"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Dining top 0",
+    "status": "exported_geometry",
+    "source_root": "Dining table 0",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table"
+    ]
+  },
+  {
+    "name": "Table leg 0",
+    "status": "exported_geometry",
+    "source_root": "Dining table 0",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table"
+    ]
+  },
+  {
+    "name": "Table leg 0.001",
+    "status": "exported_geometry",
+    "source_root": "Dining table 0",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table"
+    ]
+  },
+  {
+    "name": "Table leg 0.002",
+    "status": "exported_geometry",
+    "source_root": "Dining table 0",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table"
+    ]
+  },
+  {
+    "name": "Table leg 0.003",
+    "status": "exported_geometry",
+    "source_root": "Dining table 0",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table"
+    ]
+  },
+  {
+    "name": "Napkin 0",
+    "status": "exported_geometry",
+    "source_root": "Dining table 0",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-folded-linen-napkin"
+    ]
+  },
+  {
+    "name": "Napkin 0.001",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 0",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-folded-linen-napkin"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Dining vase 0",
+    "status": "exported_geometry",
+    "source_root": "Dining table 0",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-small-porcelain-vase"
+    ]
+  },
+  {
+    "name": "Dining top 1",
+    "status": "exported_geometry",
+    "source_root": "Dining table 1",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table-wide-support"
+    ]
+  },
+  {
+    "name": "Table leg 1",
+    "status": "exported_geometry",
+    "source_root": "Dining table 1",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table-wide-support"
+    ]
+  },
+  {
+    "name": "Table leg 1.001",
+    "status": "exported_geometry",
+    "source_root": "Dining table 1",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table-wide-support"
+    ]
+  },
+  {
+    "name": "Table leg 1.002",
+    "status": "exported_geometry",
+    "source_root": "Dining table 1",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table-wide-support"
+    ]
+  },
+  {
+    "name": "Table leg 1.003",
+    "status": "exported_geometry",
+    "source_root": "Dining table 1",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table-wide-support"
+    ]
+  },
+  {
+    "name": "Napkin 1",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 1",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-folded-linen-napkin"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Napkin 1.001",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 1",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-folded-linen-napkin"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Dining vase 1",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 1",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-small-porcelain-vase"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Dining top 2",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 2",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table leg 2",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 2",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table leg 2.001",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 2",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table leg 2.002",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 2",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table leg 2.003",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 2",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Napkin 2",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 2",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-folded-linen-napkin"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Napkin 2.001",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 2",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-folded-linen-napkin"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Dining vase 2",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 2",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-small-porcelain-vase"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Dining top 3",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 3",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table leg 3",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 3",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table leg 3.001",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 3",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table leg 3.002",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 3",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table leg 3.003",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 3",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Napkin 3",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 3",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-folded-linen-napkin"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Napkin 3.001",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 3",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-folded-linen-napkin"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Dining vase 3",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 3",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-small-porcelain-vase"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Dining top 4",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 4",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table leg 4",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 4",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table leg 4.001",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 4",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table leg 4.002",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 4",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table leg 4.003",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 4",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Napkin 4",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 4",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-folded-linen-napkin"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Napkin 4.001",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 4",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-folded-linen-napkin"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Dining vase 4",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 4",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-small-porcelain-vase"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Dining top 5",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 5",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table leg 5",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 5",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table leg 5.001",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 5",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table leg 5.002",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 5",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table leg 5.003",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 5",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Napkin 5",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 5",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-folded-linen-napkin"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Napkin 5.001",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 5",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-folded-linen-napkin"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Dining vase 5",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 5",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-small-porcelain-vase"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Dining top 6",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 6",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table leg 6",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 6",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table leg 6.001",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 6",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table leg 6.002",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 6",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Table leg 6.003",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 6",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-square-dining-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Napkin 6",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 6",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-folded-linen-napkin"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Napkin 6.001",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 6",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-folded-linen-napkin"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Dining vase 6",
+    "status": "repeated_instance_reference",
+    "source_root": "Dining table 6",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-small-porcelain-vase"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/desert_view_lounge_g0061/blender/build_room_v3.py"
+  },
+  {
+    "name": "Artwork frame",
+    "status": "exported_geometry",
+    "source_root": "Artwork frame",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-abstract-wall-panel"
+    ]
+  },
+  {
+    "name": "Artwork canvas",
+    "status": "exported_geometry",
+    "source_root": "Artwork canvas",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-abstract-wall-panel"
+    ]
+  },
+  {
+    "name": "Abstract pigment",
+    "status": "exported_geometry",
+    "source_root": "Abstract pigment",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-abstract-wall-panel"
+    ]
+  },
+  {
+    "name": "Abstract pigment.001",
+    "status": "exported_geometry",
+    "source_root": "Abstract pigment.001",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-abstract-wall-panel"
+    ]
+  },
+  {
+    "name": "Abstract pigment.002",
+    "status": "exported_geometry",
+    "source_root": "Abstract pigment.002",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-45-v1/additional-45-abstract-wall-panel"
+    ]
+  },
+  {
+    "name": "Area daylight 0",
+    "status": "scene_camera_or_light_excluded",
+    "source_root": "Area daylight 0",
+    "asset_id": null
+  },
+  {
+    "name": "Area daylight 1",
+    "status": "scene_camera_or_light_excluded",
+    "source_root": "Area daylight 1",
+    "asset_id": null
+  },
+  {
+    "name": "Area daylight 2",
+    "status": "scene_camera_or_light_excluded",
+    "source_root": "Area daylight 2",
+    "asset_id": null
+  },
+  {
+    "name": "Area daylight 3",
+    "status": "scene_camera_or_light_excluded",
+    "source_root": "Area daylight 3",
+    "asset_id": null
+  },
+  {
+    "name": "Area daylight 4",
+    "status": "scene_camera_or_light_excluded",
+    "source_root": "Area daylight 4",
+    "asset_id": null
+  },
+  {
+    "name": "Person_001_Placement",
+    "status": "generated_human_excluded",
+    "source_root": "Person_001_Placement",
+    "asset_id": null
+  },
+  {
+    "name": "Person_001_Body",
+    "status": "generated_human_excluded",
+    "source_root": "Person_001_Placement",
+    "asset_id": null
+  },
+  {
+    "name": "Person_002_Placement",
+    "status": "generated_human_excluded",
+    "source_root": "Person_002_Placement",
+    "asset_id": null
+  },
+  {
+    "name": "Person_002_Body",
+    "status": "generated_human_excluded",
+    "source_root": "Person_002_Placement",
+    "asset_id": null
+  },
+  {
+    "name": "Person_003_Placement",
+    "status": "generated_human_excluded",
+    "source_root": "Person_003_Placement",
+    "asset_id": null
+  },
+  {
+    "name": "Person_003_Body",
+    "status": "generated_human_excluded",
+    "source_root": "Person_003_Placement",
+    "asset_id": null
+  },
+  {
+    "name": "Person_004_Placement",
+    "status": "generated_human_excluded",
+    "source_root": "Person_004_Placement",
+    "asset_id": null
+  },
+  {
+    "name": "Person_004_Body",
+    "status": "generated_human_excluded",
+    "source_root": "Person_004_Placement",
+    "asset_id": null
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "name": "roomkit-browser",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "cannon-es": "0.20.0",
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.10",
+    "playwright": "1.55.1"
+  }
+}

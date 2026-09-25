@@ -1,0 +1,10 @@
+{
+  "generator": "tools/build_tabletop_plant_assets.py",
+  "generator_sha256": "45297760e97cd272203c30b01e8afdc79fc06a54681d1987724c6ac33e70d82b",
+  "seed": 20260912,
+  "source": "Authored procedural ornamental geometry; no scan, downloaded model or external textures.",
+  "library_sha256": "199fcb7e7b6972b2fbf3efb171f67a4f861f48a42ffad584f199580c3591d63f",
+  "origin": "Actual physical pot bottom center; asymmetric foliage bounds are not recentered.",
+  "validation_scope": "Candidate front/top/low/side reviewed; registered import and scene support checks follow before publication.",
+  "limitations": "Stylized foliage and flower heads; local leaflet/floret intersections remain possible; no botanical or photorealistic guarantee."
+}

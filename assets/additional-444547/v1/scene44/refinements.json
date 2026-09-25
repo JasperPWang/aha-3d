@@ -1,0 +1,39 @@
+{
+  "initial_library_sha256": "7daba0f7594294593a6bc11b9e844bfab2e1bab63cde7daf16dc12a000380730",
+  "refinements": [
+    {
+      "asset": "Upholstered open frame chair",
+      "refinement": "Aligned the source floating unrotated upholstery slab to the existing native chair back, retaining its .43 x .055 x .52 m dimensions; lower pad overlaps the supporting back frame. Original source geometry remains unchanged."
+    },
+    {
+      "asset": "Clear polycarbonate dining chair",
+      "refinement": "Extended lower back panel to overlap seat by10mm; eliminated source17.5mm unsupported gap, preserving top height and transmission material."
+    },
+    {
+      "asset": "Formal dining table",
+      "refinement": "Extended leg tops to overlap tabletop underside5mm; corrected2.5mm source support gap."
+    },
+    {
+      "asset": "Double ring chandelier",
+      "refinement": "Added six diagonal ring suspension links, six inner radial spokes, central stem and canopy to make source disconnected ring/rod proxy a coherent ceiling fixture. Mount origin now canopy top. Added support is authored completion, not observed detail; no photometric emitter."
+    }
+  ],
+  "initial_previews": "runs/additional_assets_444547/20260911/initial_previews/scene44",
+  "source_scene_unchanged": true,
+  "removed_cane_parts": [
+    "EXPORT_PART_44_2__Dining near chair 1 cane back panel.001",
+    "EXPORT_PART_44_2__Dining near chair 1 cane vertical slat.012",
+    "EXPORT_PART_44_2__Dining near chair 1 cane vertical slat.013",
+    "EXPORT_PART_44_2__Dining near chair 1 cane vertical slat.014",
+    "EXPORT_PART_44_2__Dining near chair 1 cane vertical slat.015",
+    "EXPORT_PART_44_2__Dining near chair 1 cane vertical slat.016",
+    "EXPORT_PART_44_2__Dining near chair 1 cane vertical slat.017",
+    "EXPORT_PART_44_2__Dining near chair 1 cane vertical slat.018",
+    "EXPORT_PART_44_2__Dining near chair 1 cane vertical slat.019",
+    "EXPORT_PART_44_2__Dining near chair 1 cane vertical slat.020",
+    "EXPORT_PART_44_2__Dining near chair 1 cane vertical slat.021",
+    "EXPORT_PART_44_2__Dining near chair 1 cane vertical slat.022",
+    "EXPORT_PART_44_2__Dining near chair 1 cane vertical slat.023"
+  ],
+  "followup": "Corrected direct cylinder endpoint transforms for diagonal/radial chandelier rods; fitted upholstery inside native back-frame envelope and replaced cane infill/slats. Earlier refined copy and previews retained in runs/additional_assets_444547/20260911/refinement1_scene44."
+}

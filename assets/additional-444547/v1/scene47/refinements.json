@@ -1,0 +1,11 @@
+{
+  "initial_library_sha256": "9f607d8f0b5238d9b887aa496b66979b26c88c9d2bf19313af95f0730c31ab5c",
+  "refinements": [
+    {
+      "asset": "Banded linen curtain pair",
+      "refinement": "Extended linen panel upper edge10mm into rod lower surface to remove15mm source mounting gap. Static cloth approximation retained."
+    }
+  ],
+  "initial_previews": "runs/additional_assets_444547/20260911/initial_previews/scene47",
+  "source_scene_unchanged": true
+}

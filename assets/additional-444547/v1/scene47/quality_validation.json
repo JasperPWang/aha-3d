@@ -1,0 +1,305 @@
+{
+  "schema_version": 1,
+  "library": "assets/additional-444547/v1/scene47/roomkit_furniture_materials.blend",
+  "sha256": "dd0269178496626e12512bfef083f0c8e2256688d9492933b49e7d49798cee3c",
+  "date": "2026-09-14",
+  "save_reopen": "passed",
+  "registered_import": "passed",
+  "collections": {
+    "Additional 47 | Four poster bed": {
+      "parts": 33,
+      "vertices": 2712,
+      "dimensions_m": [
+        1.7260001301765442,
+        2.0260000228881836,
+        1.90500009059906
+      ],
+      "bounds_min_m": [
+        -0.8630000948905945,
+        -1.0130000114440918,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.8630000352859497,
+        1.0130000114440918,
+        1.90500009059906
+      ],
+      "objects": 34,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "a9898e8a14c3a2da367675ab95f063bc2bf25eca2df13b45331eb9a27d7b1857"
+    },
+    "Additional 47 | Foot desk": {
+      "parts": 10,
+      "vertices": 768,
+      "dimensions_m": [
+        1.5199999809265137,
+        0.5400000810623169,
+        0.6550000309944153
+      ],
+      "bounds_min_m": [
+        -0.7599999904632568,
+        -0.27000004053115845,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.7599999904632568,
+        0.27000004053115845,
+        0.6550000309944153
+      ],
+      "objects": 11,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "1d73a24a74d0ee1a09099216ca4a7730414e26808637bd61253c797d8af7162f"
+    },
+    "Additional 47 | Six drawer dresser": {
+      "parts": 24,
+      "vertices": 3816,
+      "dimensions_m": [
+        1.4799998998641968,
+        0.5409999489784241,
+        0.8850000500679016
+      ],
+      "bounds_min_m": [
+        -0.7399999499320984,
+        -0.27049997448921204,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.7399999499320984,
+        0.27049997448921204,
+        0.8850000500679016
+      ],
+      "objects": 25,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "70ead5cc2a21fd7695db6e1edd5a34ca549a72dc33d28f52e00c1cd753806693"
+    },
+    "Additional 47 | Low back chaise": {
+      "parts": 7,
+      "vertices": 672,
+      "dimensions_m": [
+        0.6499999761581421,
+        1.279999852180481,
+        0.8100000023841858
+      ],
+      "bounds_min_m": [
+        -0.32499998807907104,
+        -0.6399999260902405,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.32499998807907104,
+        0.6399999260902405,
+        0.8100000023841858
+      ],
+      "objects": 8,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "4562fc90b94359711950603a4b84977e3e29be8c605920af6072a1ac671ae683"
+    },
+    "Additional 47 | Walnut bedside table": {
+      "parts": 5,
+      "vertices": 480,
+      "dimensions_m": [
+        0.6100000143051147,
+        0.49000003933906555,
+        0.6474999785423279
+      ],
+      "bounds_min_m": [
+        -0.3050000071525574,
+        -0.24500001966953278,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.3050000071525574,
+        0.24500001966953278,
+        0.6474999785423279
+      ],
+      "objects": 6,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "591a388acf5f494294e8e849541319b88dd9a9128d11a8b90ef738892a265ec8"
+    },
+    "Additional 47 | Framed portrait panel": {
+      "parts": 3,
+      "vertices": 288,
+      "dimensions_m": [
+        0.6200000047683716,
+        0.06199986860156059,
+        0.7900000214576721
+      ],
+      "bounds_min_m": [
+        -0.3100000023841858,
+        -0.06199986860156059,
+        -0.39500001072883606
+      ],
+      "bounds_max_m": [
+        0.3100000023841858,
+        0.0,
+        0.39500001072883606
+      ],
+      "objects": 4,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "6bf98d4cf4b984f1724c85a30e1e82fe043bf553a8d4cf361d0264f59a40b28c"
+    },
+    "Additional 47 | Small gallery panel": {
+      "parts": 3,
+      "vertices": 288,
+      "dimensions_m": [
+        0.3499999940395355,
+        0.0620000958442688,
+        0.4399999976158142
+      ],
+      "bounds_min_m": [
+        -0.17499999701976776,
+        -0.0620000958442688,
+        -0.2199999988079071
+      ],
+      "bounds_max_m": [
+        0.17499999701976776,
+        0.0,
+        0.2199999988079071
+      ],
+      "objects": 4,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "86ffd326b11bd4663f242c04b7e70c1591925c7e1f6ca8cefc9e0f0d645aa3e2"
+    },
+    "Additional 47 | Landscape wall panel": {
+      "parts": 3,
+      "vertices": 288,
+      "dimensions_m": [
+        0.7200000286102295,
+        0.06200045347213745,
+        0.5799999833106995
+      ],
+      "bounds_min_m": [
+        -0.36000001430511475,
+        -0.06200045347213745,
+        -0.28999999165534973
+      ],
+      "bounds_max_m": [
+        0.36000001430511475,
+        0.0,
+        0.28999999165534973
+      ],
+      "objects": 4,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "c7929cfb5ea1067c937b702f3ff41af81ea3fce9d9072d26330516f4d6bc2663"
+    },
+    "Additional 47 | Bedroom window casing": {
+      "parts": 10,
+      "vertices": 960,
+      "dimensions_m": [
+        1.0099999904632568,
+        0.11000069975852966,
+        1.8799998760223389
+      ],
+      "bounds_min_m": [
+        -0.5049999952316284,
+        -0.11000069975852966,
+        -0.9399999380111694
+      ],
+      "bounds_max_m": [
+        0.5049999952316284,
+        0.0,
+        0.9399999380111694
+      ],
+      "objects": 11,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "e1b622eebec44c86f25c95a7829644da64ad45ca8250c738ededd4220aa4da4a"
+    },
+    "Additional 47 | Brass linen table lamp": {
+      "parts": 7,
+      "vertices": 818,
+      "dimensions_m": [
+        0.3296000063419342,
+        0.3296000063419342,
+        0.5664999838918447
+      ],
+      "bounds_min_m": [
+        -0.16479994356632233,
+        -0.16479988396167755,
+        2.421438694000244e-08
+      ],
+      "bounds_max_m": [
+        0.16480006277561188,
+        0.16480012238025665,
+        0.5665000081062317
+      ],
+      "objects": 8,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "3c80c4d3217ab4dd8c4f87474e98bef16c150be2de0d87e9932a704ba2a7e4c9"
+    },
+    "Additional 47 | Banded linen curtain pair": {
+      "parts": 3,
+      "vertices": 26356,
+      "dimensions_m": [
+        1.4800000190734863,
+        0.13250002264976501,
+        2.0450000762939453
+      ],
+      "bounds_min_m": [
+        -0.7400000095367432,
+        -0.02500002086162567,
+        -2.0199999809265137
+      ],
+      "bounds_max_m": [
+        0.7400000095367432,
+        0.10750000178813934,
+        0.02500009536743164
+      ],
+      "objects": 4,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "c0307822bed85d4acee9c007c2362dd3a014dc33c73612b01781a6c2e4ab64cb"
+    }
+  },
+  "registered_materials": [
+    "RK | Aged brass",
+    "RK | Ivory linen",
+    "RK | Ivory trim",
+    "RK | Muted landscape artwork",
+    "RK | Pale wool carpet",
+    "RK | Soft blue window view"
+  ],
+  "validation_scope": "Current merged bytes, geometry/UV/shader binding preservation, registered import and reopen. Physics only the five listed vessels and platter stack."
+}

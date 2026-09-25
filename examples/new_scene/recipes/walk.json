@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "scene": "new_scene",
+  "id": "walk",
+  "description": "Approximate text-guided walking; five seconds at 24 fps",
+  "source": "scenes/new_scene/blender/room.blend",
+  "timing": {"fps": "24", "frames": 120},
+  "body": {
+    "mode": "generate",
+    "prompt": "A person walks slowly forward with natural arm swing.",
+    "durations": [5],
+    "seed": 42,
+    "model": "Kimodo-SMPLX-RP-v1"
+  },
+  "render": {"kind": "video", "mode": "clay", "width": 640, "height": 360, "samples": 8},
+  "validation": {"collisions": "report", "sample_frames": "all"},
+  "runtime": "local"
+}

@@ -1,0 +1,30 @@
+{
+  "selection_method": "Analyst selected approximate visible surface locations in processed source frame 144 of the home-office pilot_24 bundle. Interior samples near edges are not automatic segmentation or exact physical corners.",
+  "floor_reference": "Estimated floor hypothesis from pilot_24/analysis.json; visually reviewed in the original measurement task, physical height unverified",
+  "landmarks": [
+    {"id": "P01", "label": "Desk near left", "source_frame": 144, "pixel_uv": [71, 306]},
+    {"id": "P02", "label": "Desk near right", "source_frame": 144, "pixel_uv": [322, 341]},
+    {"id": "P03", "label": "Desk far right", "source_frame": 144, "pixel_uv": [352, 283]},
+    {"id": "P04", "label": "Desk far left", "source_frame": 144, "pixel_uv": [164, 273]},
+    {"id": "P05", "label": "Cabinet counter left", "source_frame": 144, "pixel_uv": [154, 225]},
+    {"id": "P06", "label": "Cabinet counter right", "source_frame": 144, "pixel_uv": [473, 240]}
+  ],
+  "polylines": [["P01", "P02", "P03", "P04", "P01"], ["P05", "P06"]],
+  "views": {
+    "front": {
+      "dimension_offsets": {"M03": -220, "M05": 320},
+      "point_label_offsets": {"P01": [-35, -25], "P04": [20, -55], "P02": [-20, 25], "P03": [25, -35]}
+    },
+    "side": {
+      "dimension_offsets": {"M03": -160, "M05": 140},
+      "point_label_offsets": {"P01": [-35, -25], "P02": [-25, 25], "P03": [35, -25], "P04": [-35, -55], "P05": [35, -30], "P06": [-35, 25]}
+    }
+  },
+  "measurements": [
+    {"id": "M01", "label": "Desk width", "kind": "horizontal_distance", "points": ["P01", "P02"]},
+    {"id": "M02", "label": "Desk depth", "kind": "horizontal_distance", "points": ["P02", "P03"]},
+    {"id": "M03", "label": "Desk top height", "kind": "median_height", "points": ["P01", "P02", "P03", "P04"]},
+    {"id": "M04", "label": "Cabinet counter span", "kind": "horizontal_distance", "points": ["P05", "P06"]},
+    {"id": "M05", "label": "Cabinet counter height", "kind": "median_height", "points": ["P05", "P06"]}
+  ]
+}

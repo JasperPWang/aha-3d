@@ -1,0 +1,90 @@
+[
+  {
+    "name": "RK | Brass",
+    "preview": "previews/material_01.png",
+    "nodes": [
+      "BSDF_PRINCIPLED",
+      "OUTPUT_MATERIAL"
+    ]
+  },
+  {
+    "name": "RK | Brown floor",
+    "preview": "previews/material_02.png",
+    "nodes": [
+      "BSDF_PRINCIPLED",
+      "OUTPUT_MATERIAL"
+    ]
+  },
+  {
+    "name": "RK | Charcoal upholstery",
+    "preview": "previews/material_03.png",
+    "nodes": [
+      "BSDF_PRINCIPLED",
+      "OUTPUT_MATERIAL"
+    ]
+  },
+  {
+    "name": "RK | Clear polycarbonate",
+    "preview": "previews/material_04.png",
+    "nodes": [
+      "BSDF_PRINCIPLED",
+      "OUTPUT_MATERIAL"
+    ]
+  },
+  {
+    "name": "RK | Dark stone",
+    "preview": "previews/material_05.png",
+    "nodes": [
+      "BSDF_PRINCIPLED",
+      "OUTPUT_MATERIAL"
+    ]
+  },
+  {
+    "name": "RK | Glass approximation",
+    "preview": "previews/material_06.png",
+    "nodes": [
+      "BSDF_PRINCIPLED",
+      "OUTPUT_MATERIAL"
+    ]
+  },
+  {
+    "name": "RK | Mahogany sideboard",
+    "preview": "previews/material_07.png",
+    "nodes": [
+      "BSDF_PRINCIPLED",
+      "OUTPUT_MATERIAL"
+    ]
+  },
+  {
+    "name": "RK | Picture ink",
+    "preview": "previews/material_08.png",
+    "nodes": [
+      "BSDF_PRINCIPLED",
+      "OUTPUT_MATERIAL"
+    ]
+  },
+  {
+    "name": "RK | Silver platter",
+    "preview": "previews/material_09.png",
+    "nodes": [
+      "BSDF_PRINCIPLED",
+      "OUTPUT_MATERIAL"
+    ]
+  },
+  {
+    "name": "RK | Warm grey wall paint",
+    "preview": "previews/material_10.png",
+    "nodes": [
+      "BSDF_PRINCIPLED",
+      "OUTPUT_MATERIAL"
+    ]
+  },
+  {
+    "name": "RK | Warm white",
+    "preview": "previews/material_11.png",
+    "nodes": [
+      "BSDF_PRINCIPLED",
+      "OUTPUT_MATERIAL"
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+source "$(dirname -- "${BASH_SOURCE[0]}")/../kimodo_blender/env.sh"
+if [[ ! -x "$KIMODO_ENV/bin/python" ]]; then
+  printf 'Set KIMODO_ENV to your Python environment; see docs/SETUP.md.\n' >&2
+  exit 2
+fi
+exec "$KIMODO_ENV/bin/python" -m aha3d "$@"

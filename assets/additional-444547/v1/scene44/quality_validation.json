@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "library": "assets/additional-444547/v1/scene44/roomkit_furniture_materials.blend",
+  "sha256": "1f78baf1276333c409f8d39a00d0e85031fb224bc035bbe3b9f860f7c189c791",
+  "date": "2026-09-14",
+  "save_reopen": "passed",
+  "registered_import": "passed",
+  "collections": {
+    "Additional 44 | Silver serving platter": {
+      "parts": 1,
+      "vertices": 1666,
+      "dimensions_m": [
+        0.30799999833106995,
+        0.30799999833106995,
+        0.017999999225139618
+      ],
+      "bounds_min_m": [
+        -0.15399999916553497,
+        -0.15399999916553497,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.15399999916553497,
+        0.15399999916553497,
+        0.017999999225139618
+      ],
+      "objects": 2,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "507cda2d251a786cb08d339e52aab539565c630ef9d568168df883435c988ef8"
+    },
+    "Additional 44 | Stylized stemmed vessel": {
+      "parts": 1,
+      "vertices": 2818,
+      "dimensions_m": [
+        0.09000003337860107,
+        0.09000003337860107,
+        0.30549997091293335
+      ],
+      "bounds_min_m": [
+        -0.04500001668930054,
+        -0.04500001668930054,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.04500001668930054,
+        0.04500001668930054,
+        0.30549997091293335
+      ],
+      "objects": 2,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "198ab68f6e6c102332c254a11883e0bd0c4d1ca28fd7a7864c6abb1a90f348eb"
+    },
+    "Additional 44 | Clear polycarbonate dining chair": {
+      "parts": 6,
+      "vertices": 576,
+      "dimensions_m": [
+        0.4500000476837158,
+        0.4299999475479126,
+        1.2599999904632568
+      ],
+      "bounds_min_m": [
+        -0.2250000238418579,
+        -0.21500003337860107,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.2250000238418579,
+        0.21499991416931152,
+        1.2599999904632568
+      ],
+      "objects": 7,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "0a9af046db41958ab265b573965f065e25bc4fd7a6a0c2fd2a74d66502597598"
+    },
+    "Additional 44 | Upholstered open frame chair": {
+      "parts": 11,
+      "vertices": 1056,
+      "dimensions_m": [
+        0.49000000953674316,
+        0.44249996542930603,
+        0.8600000739097595
+      ],
+      "bounds_min_m": [
+        -0.24500006437301636,
+        -0.22125011682510376,
+        -5.960464477539063e-08
+      ],
+      "bounds_max_m": [
+        0.2449999451637268,
+        0.22124984860420227,
+        0.8600000143051147
+      ],
+      "objects": 12,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "46c1e5a12909670bcf78910547b1fe2b4e0b299b0b97e7b66f81f58fc9ea603c"
+    },
+    "Additional 44 | Formal dining table": {
+      "parts": 5,
+      "vertices": 480,
+      "dimensions_m": [
+        2.0999999046325684,
+        0.7999999821186066,
+        0.7774999737739563
+      ],
+      "bounds_min_m": [
+        -1.0499999523162842,
+        -0.4000000059604645,
+        0.0
+      ],
+      "bounds_max_m": [
+        1.0499999523162842,
+        0.3999999761581421,
+        0.7774999737739563
+      ],
+      "objects": 6,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "2aa883cf734544667132aa2c2d0ba294fe561235b142d0b731d6809ded7fb333"
+    },
+    "Additional 44 | Six drawer mahogany sideboard": {
+      "parts": 18,
+      "vertices": 1728,
+      "dimensions_m": [
+        2.1050000190734863,
+        0.567500114440918,
+        0.9575000405311584
+      ],
+      "bounds_min_m": [
+        -1.0525000095367432,
+        -0.283750057220459,
+        0.0
+      ],
+      "bounds_max_m": [
+        1.0525000095367432,
+        0.283750057220459,
+        0.9575000405311584
+      ],
+      "objects": 19,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "ce329bacf00e81453c1a20d6dd5b1757b33bdefabdbfc0f226b3219ddd667777"
+    },
+    "Additional 44 | Double ring chandelier": {
+      "parts": 22,
+      "vertices": 1504,
+      "dimensions_m": [
+        1.224000096321106,
+        1.2240000367164612,
+        0.7219999991357327
+      ],
+      "bounds_min_m": [
+        -0.612000048160553,
+        -0.612000048160553,
+        -0.722000002861023
+      ],
+      "bounds_max_m": [
+        0.612000048160553,
+        0.6119999885559082,
+        -3.725290298461914e-09
+      ],
+      "objects": 23,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "ce7e9d47c794e306a200596b4ede2c45b5ef44685bda079244a2497994c906ea"
+    },
+    "Additional 44 | Classical vase wall panel": {
+      "parts": 3,
+      "vertices": 208,
+      "dimensions_m": [
+        0.6000001430511475,
+        0.07650017738342285,
+        0.7799999713897705
+      ],
+      "bounds_min_m": [
+        -0.30000007152557373,
+        -0.07650017738342285,
+        -0.38999998569488525
+      ],
+      "bounds_max_m": [
+        0.30000007152557373,
+        0.0,
+        0.38999998569488525
+      ],
+      "objects": 4,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "fca600a130d513c0ba62be2b782a3d79cd2bdfc7d26c0f8bb92c059509ab0dda"
+    },
+    "Additional 44 | Wall sconce": {
+      "parts": 5,
+      "vertices": 370,
+      "dimensions_m": [
+        0.15000009536743164,
+        0.19499993324279785,
+        0.3199999928474426
+      ],
+      "bounds_min_m": [
+        -0.07500004768371582,
+        -0.19499993324279785,
+        -0.1599999964237213
+      ],
+      "bounds_max_m": [
+        0.07500004768371582,
+        0.0,
+        0.1599999964237213
+      ],
+      "objects": 6,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "09201805a3601c7b46e4eea6e2963361abecac37379774ba40e278e366249380"
+    }
+  },
+  "registered_materials": [
+    "RK | Brass",
+    "RK | Brown floor",
+    "RK | Charcoal upholstery",
+    "RK | Clear polycarbonate",
+    "RK | Dark stone",
+    "RK | Glass approximation",
+    "RK | Mahogany sideboard",
+    "RK | Picture ink",
+    "RK | Silver platter",
+    "RK | Warm grey wall paint",
+    "RK | Warm white"
+  ],
+  "validation_scope": "Current merged bytes, geometry/UV/shader binding preservation, registered import and reopen. Physics only the five listed vessels and platter stack."
+}

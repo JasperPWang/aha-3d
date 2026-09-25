@@ -1,0 +1,206 @@
+{
+  "version": 1,
+  "articulated_schema_version": 1,
+  "blender_version": "5.2.1 LTS",
+  "library": "articulated_furniture.blend",
+  "furniture": [
+    {
+      "name": "RK Cabinet - Mixed Storage",
+      "source_root": "Cabinet mixed | placement root",
+      "root_object": "Cabinet mixed | placement root.001",
+      "parts": 28,
+      "vertices": 224,
+      "dimensions_m": [
+        1.6500000953674316,
+        0.7079999446868896,
+        1.4500000476837158
+      ],
+      "bounds_min_m": [
+        -0.8250000476837158,
+        -0.382999986410141,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.8250000476837158,
+        0.32499998807907104,
+        1.4500000476837158
+      ],
+      "description": "Editable cabinet with independent native door and drawer controls.",
+      "category": "furniture/storage/cabinets",
+      "semantic_class": "furniture/storage/cabinets",
+      "articulation": true,
+      "import_mode": "articulated",
+      "controls": [
+        {
+          "object": "Cabinet mixed | c0s0 Door left.001",
+          "joint_id": "c0s0.door.left",
+          "joint_type": "hinge",
+          "properties": [
+            "open_amount"
+          ],
+          "metadata": {
+            "joint_id": "c0s0.door.left",
+            "joint_type": "hinge",
+            "joint_axis": "Z",
+            "joint_limit": -1.6580627893946132,
+            "joint_limit_unit": "radians",
+            "joint_closed_location": [
+              -0.7989999999999999,
+              -0.342,
+              0.725
+            ],
+            "joint_closed_rotation": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "object": "Cabinet mixed | c1s0 drawer 0.001",
+          "joint_id": "c1s0.drawer.0",
+          "joint_type": "slider",
+          "properties": [
+            "open_amount"
+          ],
+          "metadata": {
+            "joint_id": "c1s0.drawer.0",
+            "joint_type": "slider",
+            "joint_axis": "Y",
+            "joint_limit": -0.40690000000000004,
+            "joint_limit_unit": "metres",
+            "joint_closed_location": [
+              0.5379999999999998,
+              -0.325,
+              0.3745
+            ],
+            "joint_closed_rotation": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "object": "Cabinet mixed | c1s0 drawer 1.001",
+          "joint_id": "c1s0.drawer.1",
+          "joint_type": "slider",
+          "properties": [
+            "open_amount"
+          ],
+          "metadata": {
+            "joint_id": "c1s0.drawer.1",
+            "joint_type": "slider",
+            "joint_axis": "Y",
+            "joint_limit": -0.40690000000000004,
+            "joint_limit_unit": "metres",
+            "joint_closed_location": [
+              0.5379999999999998,
+              -0.325,
+              0.90025
+            ],
+            "joint_closed_rotation": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "object": "Cabinet mixed | c1s0 drawer 2.001",
+          "joint_id": "c1s0.drawer.2",
+          "joint_type": "slider",
+          "properties": [
+            "open_amount"
+          ],
+          "metadata": {
+            "joint_id": "c1s0.drawer.2",
+            "joint_type": "slider",
+            "joint_axis": "Y",
+            "joint_limit": -0.40690000000000004,
+            "joint_limit_unit": "metres",
+            "joint_closed_location": [
+              0.5379999999999998,
+              -0.325,
+              1.2507499999999998
+            ],
+            "joint_closed_rotation": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ],
+      "root_metadata": {
+        "semantics_schema_version": 1,
+        "instance_id": "asset-template",
+        "semantic_class": "furniture/storage/cabinets",
+        "asset_id": "generator/roomkit-cabinet",
+        "cabinet_layout_json": "{\"columns\": [{\"index\": 0, \"sections\": [{\"bottom\": 0.024, \"dividers\": [], \"drawer_heights\": [], \"front\": \"door_left\", \"height\": 1.402, \"index\": 0, \"shelves\": [0.35, 0.7]}], \"width\": 1.0519999999999998, \"x\": -0.275}, {\"index\": 1, \"sections\": [{\"bottom\": 0.024, \"dividers\": [], \"drawer_heights\": [0.701, 0.3505, 0.3505], \"front\": \"drawers\", \"height\": 1.402, \"index\": 0, \"shelves\": []}], \"width\": 0.5259999999999999, \"x\": 0.5379999999999998}], \"door_angle_degrees\": 95.0, \"drawer_travel_fraction\": 0.65, \"front_thickness\": 0.026, \"gap\": 0.004, \"panel_thickness\": 0.024, \"recipe\": {\"columns\": [{\"sections\": [{\"front\": \"door_left\", \"shelves\": [0.35, 0.7]}], \"width\": 2}, {\"sections\": [{\"drawer_heights\": [2, 1, 1], \"front\": \"drawers\"}], \"width\": 1}]}, \"schema_version\": 1, \"size_m\": [1.65, 0.65, 1.45]}",
+        "asset_origin": "carcass_floor_center",
+        "asset_front_axis": "-Y",
+        "articulation_schema_version": 1,
+        "support_plane": "{\"xmin\": -0.825, \"xmax\": 0.825, \"ymin\": -0.325, \"ymax\": 0.325, \"z\": 1.45}",
+        "joint_ids_json": "[\"c0s0.door.left\", \"c1s0.drawer.0\", \"c1s0.drawer.1\", \"c1s0.drawer.2\"]",
+        "articulated_root": true,
+        "articulated_schema_version": 1,
+        "support_id": "",
+        "asset_source_object": "Cabinet mixed | placement root"
+      },
+      "catalog_id": "55b07d27-71bf-560a-bd76-1fde383886fa"
+    }
+  ],
+  "materials": [],
+  "origin": "source placement root",
+  "forward": "-Y",
+  "units": "metres",
+  "geometry": "Separate editable meshes; native hierarchy, modifiers, constraints and drivers retained.",
+  "timeline_animation": "Source action and NLA keys removed; native drivers retained; controls closed.",
+  "source": {
+    "blend": "${INDOOR_PROJECT_ROOT}/runs/roomkit_variants_demo/20260910/source.blend",
+    "root": "Cabinet mixed | placement root",
+    "frame": 1,
+    "root_world_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.949999988079071
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        2.119999885559082
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "saved_file_sha256": "c13eae6fb4e7b891c91c8816eaed320be5899d01e17da466f91a470488fdda01",
+    "live_state_may_differ_from_saved_file": false
+  },
+  "library_sha256": "20fd7bcd39e47332e049e66b8eb38645957ded78c6fb6696bdd67be796d03658",
+  "material_dependencies": [
+    {
+      "name": "Demo light interior.001",
+      "source_name": "Demo light interior.001",
+      "world_coordinates": false
+    },
+    {
+      "name": "Demo cabinet blue.001",
+      "source_name": "Demo cabinet blue.001",
+      "world_coordinates": false
+    }
+  ]
+}

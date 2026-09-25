@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "scene": "living_room_kitchen_g0025",
+  "preset": "whitebox",
+  "inputs": {"video": "scenes/living_room_kitchen_g0025/references/01_living_room_kitchen_g0025.mp4"},
+  "variants": {"models": false, "materials": false}
+}

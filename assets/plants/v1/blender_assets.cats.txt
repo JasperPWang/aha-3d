@@ -1,0 +1,5 @@
+# Blender Asset Catalog Definition File
+VERSION 1
+
+725a064f-67e6-56ab-9cd5-f3311edcf80a:RoomKit/Furniture/Plants:RoomKit - Furniture - Plants
+0cd907c6-a3f5-560d-8d09-0f1ec422fc96:RoomKit/Materials/Other:RoomKit - Materials - Other

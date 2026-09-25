@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "library": "assets/additional-444547/v1/scene45/roomkit_furniture_materials.blend",
+  "sha256": "1e27a7ddf15800acf6515f1b5d1fc615547738ae202a7a94f6fefa5185bd6d9c",
+  "status": "passed",
+  "current_quality_validation": "assets/additional-444547/v1/scene45/quality_validation.json",
+  "scope": "Supersedes the original extraction payload validation; see current quality checks."
+}

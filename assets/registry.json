@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "assets": {
+    "roomkit-v1": {
+      "path": "assets/roomkit/v1/roomkit_furniture_materials.blend",
+      "sha256": "750c6ab93f23d046b6cc3ca31718dab08a9f52d82a24cb8b94b3e37fe7bd7ed0",
+      "metadata": "assets/roomkit/v1/manifest.json",
+      "units": "metres",
+      "world_up": "Z",
+      "forward": "-Y"
+    },
+    "cabinets-v1": {
+      "path": "assets/cabinets/v1/articulated_furniture.blend",
+      "sha256": "20fd7bcd39e47332e049e66b8eb38645957ded78c6fb6696bdd67be796d03658",
+      "metadata": "assets/cabinets/v1/manifest.json",
+      "units": "metres",
+      "world_up": "Z",
+      "forward": "-Y"
+    },
+    "dining-chair-v1": {
+      "path": "assets/scene-extracted/v1/chair/roomkit_furniture_materials.blend",
+      "sha256": "ede8a98e239929a7b2e07b97c594de88f8012f7b7c47447097056c8bc1a8c541",
+      "metadata": "assets/scene-extracted/v1/chair/manifest.json",
+      "units": "metres",
+      "world_up": "Z",
+      "forward": "-Y"
+    },
+    "ceramic-vase-v1": {
+      "path": "assets/scene-extracted/v1/vase/roomkit_furniture_materials.blend",
+      "sha256": "13ef2102f21af1e9c6b7b5fb2c882c04544a2d2de9f52a4b6005f12472051547",
+      "metadata": "assets/scene-extracted/v1/vase/manifest.json",
+      "units": "metres",
+      "world_up": "Z",
+      "forward": "-Y"
+    },
+    "faucet-simple-v1": {
+      "path": "assets/fixtures/v1/simple_faucet/roomkit_furniture_materials.blend",
+      "sha256": "e77fa43d13c56c7f5770f21190f28bb961bf0311f420a46024400d8bf2728492",
+      "metadata": "assets/fixtures/v1/simple_faucet/manifest.json",
+      "units": "metres",
+      "world_up": "Z",
+      "forward": "-Y"
+    },
+    "seating-refined-v1": {
+      "path": "assets/seating/refined_v1/roomkit_furniture_materials.blend",
+      "sha256": "7f19fa95236874f8dfae0df53fc51e790b2003bc37c6f6c59c2fd172609bb844",
+      "metadata": "assets/seating/refined_v1/manifest.json",
+      "units": "metres",
+      "world_up": "Z",
+      "forward": "-Y"
+    },
+    "plants-v1": {
+      "path": "assets/plants/v1/roomkit_furniture_materials.blend",
+      "sha256": "ff45e5f0d047b27588a2c5eead18e0be58764dcf55695cb66591145883aa3984",
+      "metadata": "assets/plants/v1/manifest.json",
+      "units": "metres",
+      "world_up": "Z",
+      "forward": "-Y"
+    },
+    "plants-v2": {
+      "path": "assets/plants/v2/roomkit_furniture_materials.blend",
+      "sha256": "71f9c0d2774f8b94da032e770490d2f4bd4a8379de13d8543fdff6286b60d19f",
+      "metadata": "assets/plants/v2/manifest.json",
+      "units": "metres",
+      "world_up": "Z",
+      "forward": "-Y"
+    },
+    "additional-444547-44-v1": {
+      "path": "assets/additional-444547/v1/scene44/roomkit_furniture_materials.blend",
+      "sha256": "1f78baf1276333c409f8d39a00d0e85031fb224bc035bbe3b9f860f7c189c791",
+      "metadata": "assets/additional-444547/v1/scene44/manifest.json",
+      "units": "metres",
+      "world_up": "Z",
+      "forward": "-Y"
+    },
+    "additional-444547-45-v1": {
+      "path": "assets/additional-444547/v1/scene45/roomkit_furniture_materials.blend",
+      "sha256": "1e27a7ddf15800acf6515f1b5d1fc615547738ae202a7a94f6fefa5185bd6d9c",
+      "metadata": "assets/additional-444547/v1/scene45/manifest.json",
+      "units": "metres",
+      "world_up": "Z",
+      "forward": "-Y"
+    },
+    "additional-444547-47-v1": {
+      "path": "assets/additional-444547/v1/scene47/roomkit_furniture_materials.blend",
+      "sha256": "dd0269178496626e12512bfef083f0c8e2256688d9492933b49e7d49798cee3c",
+      "metadata": "assets/additional-444547/v1/scene47/manifest.json",
+      "units": "metres",
+      "world_up": "Z",
+      "forward": "-Y"
+    },
+    "tabletop-plants-v1": {
+      "path": "assets/plants/tabletop_v1/roomkit_furniture_materials.blend",
+      "sha256": "18f0a490d086954de3348160edb434b086f083eed86ce646985c9ef405c8f39a",
+      "metadata": "assets/plants/tabletop_v1/manifest.json",
+      "units": "metres",
+      "world_up": "Z",
+      "forward": "-Y"
+    }
+  }
+}

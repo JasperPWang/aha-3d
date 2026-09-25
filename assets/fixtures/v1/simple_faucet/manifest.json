@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "blender_version": "5.2.1 LTS",
+  "library": "roomkit_furniture_materials.blend",
+  "furniture": [
+    {
+      "name": "RK Faucet - Simple Gooseneck",
+      "source_root": "Reviewed faucet mounting root",
+      "parts": 1,
+      "vertices": 740,
+      "dimensions_m": [
+        0.024000167846679688,
+        0.2535593509674072,
+        0.36257416009902954
+      ],
+      "description": "Added a 1.2 mm inward wall and annular end rims to the existing open single-surface tube; outlet and mounting end remain open. Assigned brushed stainless steel instead of the extraction clay; retained original centerline and mount origin. No valve, internal flow or plumbing simulation model.",
+      "catalog_id": "4f80a169-3fb2-562f-a4ce-09a325c703dc",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "mount_center",
+        "semantic_front": "spout",
+        "status": "reviewed",
+        "evidence": "runs/asset_orientation_audit/20260910/review_v2/scene__g0055__gooseneck-faucet/audit.json; mounting-to-spout direction and oblique preview reviewed"
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "mount_center",
+        "semantic_front": "spout",
+        "status": "reviewed",
+        "evidence": "runs/asset_orientation_audit/20260910/review_v2/scene__g0055__gooseneck-faucet/audit.json; mounting-to-spout direction and oblique preview reviewed"
+      },
+      "bounds_min_m": [
+        -0.012000083923339844,
+        -0.2187671661376953,
+        -4.297494888305664e-05
+      ],
+      "bounds_max_m": [
+        0.012000083923339844,
+        0.034792184829711914,
+        0.3625311851501465
+      ],
+      "origin_normalization": "declared root retained",
+      "preview": "assets/quality_previews/faucet-simple-v1__faucet-simple-gooseneck.png",
+      "quality_review": {
+        "date": "2026-09-14",
+        "status": "upgraded",
+        "changes": [
+          "Added a 1.2 mm inward wall and annular end rims to the existing open single-surface tube; outlet and mounting end remain open.",
+          "Assigned brushed stainless steel instead of the extraction clay; retained original centerline and mount origin.",
+          "No valve, internal flow or plumbing simulation model."
+        ],
+        "validation": {
+          "drivers_before": 0,
+          "drivers_after": 0,
+          "physics": "Not simulation certified; material/density/collision preparation still required.",
+          "inward_meshes_repaired": [],
+          "finite_meshes": 1,
+          "missing_materials": 0,
+          "save_reopen": true,
+          "linked_libraries": 0,
+          "max_bounds_error_m": 0.0,
+          "visual_review": {
+            "status": "reviewed",
+            "scope": "Three clay views and material view; source silhouette, cavity/support detail and retained dimensions inspected.",
+            "limitations": "Stylized authored asset quality; no photorealism, structural-load, cloth or rigid-body stability certification."
+          },
+          "closed_mesh_topology": "All modified collection mesh parts have zero boundary/nonmanifold edges and positive signed volume.",
+          "source_report": "runs/_tools/asset_quality_upgrade_models_20260914/deltas.json"
+        },
+        "visual_review": {
+          "by": "asset-quality-parent-20260914",
+          "status": "passed",
+          "date": "2026-09-14",
+          "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+          "evidence": [
+            "runs/_tools/asset_quality_upgrade_models_20260914/faucet-simple-v1__faucet-simple-gooseneck_front_before.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/faucet-simple-v1__faucet-simple-gooseneck_back_before.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/faucet-simple-v1__faucet-simple-gooseneck_top_before.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/faucet-simple-v1__faucet-simple-gooseneck_front_after.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/faucet-simple-v1__faucet-simple-gooseneck_back_after.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/faucet-simple-v1__faucet-simple-gooseneck_top_after.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/faucet-simple-v1__faucet-simple-gooseneck_material_after.png"
+          ]
+        },
+        "physics": "Not dynamically tested",
+        "source_geometry": {
+          "parts": 1,
+          "vertices": 370
+        },
+        "source_signature": "ab20ebab9c9da7b4b43276a17631a36eee193be809722fd2d0a2e3ff864ad42b"
+      }
+    }
+  ],
+  "materials": [],
+  "origin": "mount_center",
+  "forward": "-Y",
+  "units": "metres",
+  "geometry": "Separate editable mesh parts; modifiers baked; no room animation/drivers retained.",
+  "material_dependencies": [
+    {
+      "name": "RK | Neutral white room clay",
+      "source_name": "Neutral white room clay",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    }
+  ],
+  "current_quality_update": {
+    "date": "2026-09-14",
+    "policy": "Replace current payload after review; keep stable IDs",
+    "changed_collections": [
+      "RK Faucet - Simple Gooseneck"
+    ],
+    "geometry_and_reopen_checked": true,
+    "physics_validation": "not performed"
+  }
+}

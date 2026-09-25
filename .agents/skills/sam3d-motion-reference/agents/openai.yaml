@@ -1,0 +1,4 @@
+interface:
+  display_name: "SAM 3D Motion Reference"
+  short_description: "Turn SAM and Pi3X references into Kimodo guidance"
+  default_prompt: "Use $sam3d-motion-reference to prepare sparse Kimodo gesture guidance from reference frames and same-shot Pi3X cameras."

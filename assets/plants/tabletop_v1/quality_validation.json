@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "library": "assets/plants/tabletop_v1/roomkit_furniture_materials.blend",
+  "sha256": "18f0a490d086954de3348160edb434b086f083eed86ce646985c9ef405c8f39a",
+  "date": "2026-09-14",
+  "save_reopen": "passed",
+  "registered_import": "passed",
+  "collections": {
+    "RK Plant - Compact Fern": {
+      "parts": 44,
+      "vertices": 51268,
+      "dimensions_m": [
+        0.3534439653158188,
+        0.3550977557897568,
+        0.275668740272522
+      ],
+      "bounds_min_m": [
+        -0.1844787746667862,
+        -0.18237167596817017,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.1689651906490326,
+        0.1727260798215866,
+        0.275668740272522
+      ],
+      "objects": 45,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "ecbd9fbe1a3bd4a5fc07af2ce8d299984af657a5ee8e53b2923c37d8cd33b80d"
+    },
+    "RK Flowers - Pink Hydrangea Bowl": {
+      "parts": 33,
+      "vertices": 145078,
+      "dimensions_m": [
+        0.24819932878017426,
+        0.23172079771757126,
+        0.2937328815460205
+      ],
+      "bounds_min_m": [
+        -0.12448184937238693,
+        -0.11760430037975311,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.12371747940778732,
+        0.11411649733781815,
+        0.2937328815460205
+      ],
+      "objects": 34,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "224cdfd61e69e574c351e7301ec50b46dd86b55d4b147582ef13a7873344ace8"
+    }
+  },
+  "registered_materials": [],
+  "validation_scope": "Current merged bytes, geometry/UV/shader binding preservation, registered import and reopen. Physics only the five listed vessels and platter stack."
+}

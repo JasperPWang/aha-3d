@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blender RoomKit"
+  short_description: "Build and compare interior models from visual references"
+  default_prompt: "Use $blender-roomkit to build or refine an interior model with reusable assets and compare its main forms and layout against the references."

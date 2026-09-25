@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "library": "assets/fixtures/v1/simple_faucet/roomkit_furniture_materials.blend",
+  "sha256": "e77fa43d13c56c7f5770f21190f28bb961bf0311f420a46024400d8bf2728492",
+  "date": "2026-09-14",
+  "save_reopen": "passed",
+  "registered_import": "passed",
+  "collections": {
+    "RK Faucet - Simple Gooseneck": {
+      "parts": 1,
+      "vertices": 740,
+      "dimensions_m": [
+        0.024000167846679688,
+        0.2535593509674072,
+        0.36257416009902954
+      ],
+      "bounds_min_m": [
+        -0.012000083923339844,
+        -0.2187671661376953,
+        -4.297494888305664e-05
+      ],
+      "bounds_max_m": [
+        0.012000083923339844,
+        0.034792184829711914,
+        0.3625311851501465
+      ],
+      "objects": 2,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "8c5bc3eb786642229b29a34e77fffac1fec2672d4b141f7945bd234d5cd5fc17"
+    }
+  },
+  "registered_materials": [],
+  "validation_scope": "Current merged bytes, geometry/UV/shader binding preservation, registered import and reopen. Physics only the five listed vessels and platter stack."
+}

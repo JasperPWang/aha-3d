@@ -1,0 +1,123 @@
+{
+  "model_to_world": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "model_transform_reason": "EXAMPLE ONLY: replace after verifying the authored model and reviewed cameras share a calibrated or explicitly provisional basis",
+  "resolution": 700,
+  "edge_width_m": 0.012,
+  "edge_angle_degrees": 30,
+  "source_frames": [
+    0
+  ],
+  "views": {
+    "top": {
+      "location": [
+        0.8,
+        3.6,
+        13.75
+      ],
+      "target": [
+        0.8,
+        3.6,
+        1.75
+      ],
+      "rotation_euler": [
+        0,
+        0,
+        0.3490658504
+      ],
+      "ortho_scale": 8,
+      "crop_xyz_m": [
+        [
+          -10,
+          10
+        ],
+        [
+          -10,
+          15
+        ],
+        [
+          -0.15,
+          1.2
+        ]
+      ]
+    },
+    "front": {
+      "location": [
+        4.90424,
+        -7.67631,
+        1.75
+      ],
+      "target": [
+        0.8,
+        3.6,
+        1.75
+      ],
+      "ortho_scale": 8,
+      "crop_xyz_m": [
+        [
+          -10,
+          10
+        ],
+        [
+          -10,
+          15
+        ],
+        [
+          -0.15,
+          3.5
+        ]
+      ]
+    },
+    "side": {
+      "location": [
+        12.07631,
+        7.70424,
+        1.75
+      ],
+      "target": [
+        0.8,
+        3.6,
+        1.75
+      ],
+      "ortho_scale": 8,
+      "crop_xyz_m": [
+        [
+          -10,
+          10
+        ],
+        [
+          -10,
+          15
+        ],
+        [
+          -0.15,
+          3.5
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "config": {
+    "floor_z": 0.0,
+    "clearance": 0.005,
+    "height_trigger": 0.03,
+    "max_shift": 0.5,
+    "iterations": 300
+  },
+  "actors": [
+    {
+      "id": "person_001",
+      "motion": "../../runs/example/person_001/motion_native.npz",
+      "alignment": "../../runs/example/person_001/aligned/alignment.json",
+      "cache": "../../runs/example/person_001/aligned/body_room.npz",
+      "grounded_motion": true,
+      "exclude_seconds": [],
+      "pose_confidence": "../../runs/example/person_001/preprocess/vitpose.pt"
+    }
+  ],
+  "render": {
+    "scene": "../../scenes/example/blender/room.blend",
+    "camera_cache": "../../runs/example/camera.npz",
+    "source_video": "../../references/example.mp4"
+  },
+  "group_alignment": {
+    "up_rotation": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ],
+    "floor_z": 0,
+    "clearance": 0.005
+  }
+}

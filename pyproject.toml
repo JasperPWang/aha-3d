@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aha3d"
+version = "0.1.0"
+description = "Reusable Blender assets, approximate motion and scene workflow tools"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+reference = ["numpy==1.26.4", "scipy>=1.10,<2", "Pillow>=10", "open3d==0.18.0"]
+preview = ["numpy>=1.24", "scipy>=1.10", "Pillow>=10", "imageio-ffmpeg>=0.5"]
+test = ["numpy>=1.24", "scipy>=1.10", "Pillow>=10", "imageio-ffmpeg>=0.5", "PyYAML>=6"]
+
+[project.scripts]
+indoor = "aha3d.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

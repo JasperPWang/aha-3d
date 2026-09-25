@@ -1,0 +1,90 @@
+[
+  {
+    "name": "RK | Aged brass",
+    "preview": "previews/material_01.png",
+    "nodes": [
+      "BSDF_PRINCIPLED",
+      "OUTPUT_MATERIAL"
+    ]
+  },
+  {
+    "name": "RK | Artwork pigment 0",
+    "preview": "previews/material_02.png",
+    "nodes": [
+      "BSDF_PRINCIPLED",
+      "OUTPUT_MATERIAL"
+    ]
+  },
+  {
+    "name": "RK | Artwork pigment 1",
+    "preview": "previews/material_03.png",
+    "nodes": [
+      "BSDF_PRINCIPLED",
+      "OUTPUT_MATERIAL"
+    ]
+  },
+  {
+    "name": "RK | Artwork pigment 2",
+    "preview": "previews/material_04.png",
+    "nodes": [
+      "BSDF_PRINCIPLED",
+      "OUTPUT_MATERIAL"
+    ]
+  },
+  {
+    "name": "RK | Dark bronze",
+    "preview": "previews/material_05.png",
+    "nodes": [
+      "BSDF_PRINCIPLED",
+      "OUTPUT_MATERIAL"
+    ]
+  },
+  {
+    "name": "RK | Honed limestone",
+    "preview": "previews/material_06.png",
+    "nodes": [
+      "BSDF_PRINCIPLED",
+      "OUTPUT_MATERIAL"
+    ]
+  },
+  {
+    "name": "RK | Navy upholstery",
+    "preview": "previews/material_07.png",
+    "nodes": [
+      "BSDF_PRINCIPLED",
+      "OUTPUT_MATERIAL"
+    ]
+  },
+  {
+    "name": "RK | Pale woven linen",
+    "preview": "previews/material_08.png",
+    "nodes": [
+      "BSDF_PRINCIPLED",
+      "OUTPUT_MATERIAL"
+    ]
+  },
+  {
+    "name": "RK | Porcelain",
+    "preview": "previews/material_09.png",
+    "nodes": [
+      "BSDF_PRINCIPLED",
+      "OUTPUT_MATERIAL"
+    ]
+  },
+  {
+    "name": "RK | Walnut",
+    "preview": "previews/material_10.png",
+    "nodes": [
+      "BSDF_PRINCIPLED",
+      "OUTPUT_MATERIAL"
+    ]
+  },
+  {
+    "name": "RK | Warm pale concrete",
+    "preview": "previews/material_11.png",
+    "nodes": [
+      "BSDF_PRINCIPLED",
+      "OUTPUT_MATERIAL"
+    ]
+  }
+]

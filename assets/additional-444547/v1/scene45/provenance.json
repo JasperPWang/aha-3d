@@ -1,0 +1,3289 @@
+{
+  "scene": "45",
+  "source": "scenes/desert_view_lounge_g0061/blender/desert_view_lounge_final.blend",
+  "source_sha256": "e08aba830f24236c3dd112f3e6172d91191e99fc8af6a40c0744e32b7d454edd",
+  "source_frame": 1,
+  "assets": [
+    {
+      "key": "Lounge rear sofa",
+      "name": "Additional 45 | Lounge rear sofa",
+      "objects": [
+        "Lounge rear sofa arm",
+        "Lounge rear sofa arm.001",
+        "Lounge rear sofa back",
+        "Lounge rear sofa back.001",
+        "Lounge rear sofa back.002",
+        "Lounge rear sofa back.003",
+        "Lounge rear sofa loose pillow",
+        "Lounge rear sofa loose pillow.001",
+        "Lounge rear sofa plinth",
+        "Lounge rear sofa seat",
+        "Lounge rear sofa seat.001",
+        "Lounge rear sofa seat.002",
+        "Lounge rear sofa seat.003",
+        "Lounge rear sofa stone platform"
+      ],
+      "catalog": "Sofas",
+      "yaw_deg": 20,
+      "basis_root": null,
+      "front_axis": "-Y",
+      "origin": "floor_center",
+      "symmetry": "none",
+      "semantic_front": "seating",
+      "notes": "Separate editable plinth, platform, upholstery and pillows; source-specific approximate dimensions.",
+      "source_frame": 1,
+      "rigid_basis_world": [
+        [
+          0.9396926164627075,
+          -0.34202006459236145,
+          0.0,
+          0.0
+        ],
+        [
+          0.34202006459236145,
+          0.9396926164627075,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mount_offset_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pre_export_bounds_min": [
+        -1.7500009536743164,
+        6.175000190734863,
+        0.0
+      ],
+      "pre_export_bounds_max": [
+        1.049999475479126,
+        7.125000953674316,
+        0.8799999952316284
+      ],
+      "normalization": "Source world geometry evaluated, rigid root pose removed, all source scale baked into mesh; canonical -Y/front and Z/up applied by repository static exporter."
+    },
+    {
+      "key": "Main right sofa",
+      "name": "Additional 45 | Main right sofa",
+      "objects": [
+        "Main right sofa arm",
+        "Main right sofa arm.001",
+        "Main right sofa back",
+        "Main right sofa back.001",
+        "Main right sofa back.002",
+        "Main right sofa loose pillow",
+        "Main right sofa loose pillow.001",
+        "Main right sofa plinth",
+        "Main right sofa seat",
+        "Main right sofa seat.001",
+        "Main right sofa seat.002",
+        "Main right sofa stone platform"
+      ],
+      "catalog": "Sofas",
+      "yaw_deg": 110,
+      "basis_root": null,
+      "front_axis": "-Y",
+      "origin": "floor_center",
+      "symmetry": "none",
+      "semantic_front": "seating",
+      "notes": "Separate editable plinth, platform, upholstery and pillows; source-specific approximate dimensions.",
+      "source_frame": 1,
+      "rigid_basis_world": [
+        [
+          -0.3420200049877167,
+          -0.9396926760673523,
+          0.0,
+          0.0
+        ],
+        [
+          0.9396926760673523,
+          -0.3420200049877167,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mount_offset_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pre_export_bounds_min": [
+        1.7000001668930054,
+        -2.5749998092651367,
+        0.0
+      ],
+      "pre_export_bounds_max": [
+        4.0,
+        -1.6249995231628418,
+        0.8799999952316284
+      ],
+      "normalization": "Source world geometry evaluated, rigid root pose removed, all source scale baked into mesh; canonical -Y/front and Z/up applied by repository static exporter."
+    },
+    {
+      "key": "Main right return",
+      "name": "Additional 45 | Main right return",
+      "objects": [
+        "Main right return arm",
+        "Main right return arm.001",
+        "Main right return back",
+        "Main right return back.001",
+        "Main right return loose pillow",
+        "Main right return plinth",
+        "Main right return seat",
+        "Main right return seat.001",
+        "Main right return stone platform"
+      ],
+      "catalog": "Sofas",
+      "yaw_deg": 20,
+      "basis_root": null,
+      "front_axis": "-Y",
+      "origin": "floor_center",
+      "symmetry": "none",
+      "semantic_front": "seating",
+      "notes": "Separate editable plinth, platform, upholstery and pillows; source-specific approximate dimensions.",
+      "source_frame": 1,
+      "rigid_basis_world": [
+        [
+          0.9396926164627075,
+          -0.34202006459236145,
+          0.0,
+          0.0
+        ],
+        [
+          0.34202006459236145,
+          0.9396926164627075,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mount_offset_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pre_export_bounds_min": [
+        0.6749997138977051,
+        3.375000476837158,
+        0.0
+      ],
+      "pre_export_bounds_max": [
+        2.325000047683716,
+        4.325000762939453,
+        0.8799999952316284
+      ],
+      "normalization": "Source world geometry evaluated, rigid root pose removed, all source scale baked into mesh; canonical -Y/front and Z/up applied by repository static exporter."
+    },
+    {
+      "key": "Central island sofa",
+      "name": "Additional 45 | Central island sofa",
+      "objects": [
+        "Central island sofa arm",
+        "Central island sofa arm.001",
+        "Central island sofa back",
+        "Central island sofa back.001",
+        "Central island sofa back.002",
+        "Central island sofa back.003",
+        "Central island sofa back.004",
+        "Central island sofa loose pillow",
+        "Central island sofa loose pillow.001",
+        "Central island sofa loose pillow.002",
+        "Central island sofa plinth",
+        "Central island sofa seat",
+        "Central island sofa seat.001",
+        "Central island sofa seat.002",
+        "Central island sofa seat.003",
+        "Central island sofa seat.004",
+        "Central island sofa stone platform"
+      ],
+      "catalog": "Sofas",
+      "yaw_deg": 110,
+      "basis_root": null,
+      "front_axis": "-Y",
+      "origin": "floor_center",
+      "symmetry": "none",
+      "semantic_front": "seating",
+      "notes": "Separate editable plinth, platform, upholstery and pillows; source-specific approximate dimensions.",
+      "source_frame": 1,
+      "rigid_basis_world": [
+        [
+          -0.3420200049877167,
+          -0.9396926760673523,
+          0.0,
+          0.0
+        ],
+        [
+          0.9396926760673523,
+          -0.3420200049877167,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mount_offset_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pre_export_bounds_min": [
+        0.524999737739563,
+        1.024999976158142,
+        0.0
+      ],
+      "pre_export_bounds_max": [
+        3.7749998569488525,
+        1.9750005006790161,
+        0.8799999952316284
+      ],
+      "normalization": "Source world geometry evaluated, rigid root pose removed, all source scale baked into mesh; canonical -Y/front and Z/up applied by repository static exporter."
+    },
+    {
+      "key": "Right sectional assembly",
+      "name": "Additional 45 | Right sectional assembly",
+      "objects": [
+        "Main right return arm",
+        "Main right return arm.001",
+        "Main right return back",
+        "Main right return back.001",
+        "Main right return loose pillow",
+        "Main right return plinth",
+        "Main right return seat",
+        "Main right return seat.001",
+        "Main right return stone platform",
+        "Main right sofa arm",
+        "Main right sofa arm.001",
+        "Main right sofa back",
+        "Main right sofa back.001",
+        "Main right sofa back.002",
+        "Main right sofa loose pillow",
+        "Main right sofa loose pillow.001",
+        "Main right sofa plinth",
+        "Main right sofa seat",
+        "Main right sofa seat.001",
+        "Main right sofa seat.002",
+        "Main right sofa stone platform"
+      ],
+      "catalog": "Sofas",
+      "yaw_deg": 20,
+      "basis_root": null,
+      "front_axis": "-Y",
+      "origin": "floor_center",
+      "symmetry": "none",
+      "semantic_front": "seating",
+      "notes": "Combined source L arrangement; module meeting corner must be reviewed. Separate module exports remain available.",
+      "source_frame": 1,
+      "rigid_basis_world": [
+        [
+          0.9396926164627075,
+          -0.34202006459236145,
+          0.0,
+          0.0
+        ],
+        [
+          0.34202006459236145,
+          0.9396926164627075,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mount_offset_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pre_export_bounds_min": [
+        0.6749997138977051,
+        1.700000286102295,
+        0.0
+      ],
+      "pre_export_bounds_max": [
+        2.575000047683716,
+        4.325000762939453,
+        0.8799999952316284
+      ],
+      "normalization": "Source world geometry evaluated, rigid root pose removed, all source scale baked into mesh; canonical -Y/front and Z/up applied by repository static exporter."
+    },
+    {
+      "key": "Round brass side table",
+      "name": "Additional 45 | Round brass side table",
+      "objects": [
+        "Table 0 base",
+        "Table 0 top"
+      ],
+      "catalog": "Tables",
+      "yaw_deg": 0,
+      "basis_root": null,
+      "front_axis": null,
+      "origin": "floor_center",
+      "symmetry": "continuous_z",
+      "semantic_front": "none",
+      "notes": "One of five repeated side tables; vase exported separately.",
+      "source_frame": 1,
+      "rigid_basis_world": [
+        [
+          1.0,
+          -0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mount_offset_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pre_export_bounds_min": [
+        -0.3609791398048401,
+        2.6002607345581055,
+        0.0
+      ],
+      "pre_export_bounds_max": [
+        0.4190208315849304,
+        3.380260467529297,
+        0.4975000023841858
+      ],
+      "normalization": "Source world geometry evaluated, rigid root pose removed, all source scale baked into mesh; canonical -Y/front and Z/up applied by repository static exporter."
+    },
+    {
+      "key": "Square dining table",
+      "name": "Additional 45 | Square dining table",
+      "objects": [
+        "Dining top 0",
+        "Table leg 0",
+        "Table leg 0.001",
+        "Table leg 0.002",
+        "Table leg 0.003"
+      ],
+      "catalog": "Tables",
+      "yaw_deg": 20,
+      "basis_root": null,
+      "front_axis": "-Y",
+      "origin": "floor_center",
+      "symmetry": "none",
+      "semantic_front": "generic",
+      "notes": "Default square tabletop; one of six repeated unadapted table placements.",
+      "source_frame": 1,
+      "rigid_basis_world": [
+        [
+          0.9396926164627075,
+          -0.34202006459236145,
+          0.0,
+          0.0
+        ],
+        [
+          0.34202006459236145,
+          0.9396926164627075,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mount_offset_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pre_export_bounds_min": [
+        -6.690000057220459,
+        -3.840001106262207,
+        0.0
+      ],
+      "pre_export_bounds_max": [
+        -5.610000133514404,
+        -2.760000705718994,
+        0.5625
+      ],
+      "normalization": "Source world geometry evaluated, rigid root pose removed, all source scale baked into mesh; canonical -Y/front and Z/up applied by repository static exporter."
+    },
+    {
+      "key": "Square dining table wide support",
+      "name": "Additional 45 | Square dining table wide support",
+      "objects": [
+        "Dining top 1",
+        "Table leg 1",
+        "Table leg 1.001",
+        "Table leg 1.002",
+        "Table leg 1.003"
+      ],
+      "catalog": "Tables",
+      "yaw_deg": 20,
+      "basis_root": null,
+      "front_axis": "-Y",
+      "origin": "floor_center",
+      "symmetry": "none",
+      "semantic_front": "generic",
+      "notes": "Wide-support variant has source final leg offsets +/-0.46 m.",
+      "source_frame": 1,
+      "rigid_basis_world": [
+        [
+          0.9396926164627075,
+          -0.34202006459236145,
+          0.0,
+          0.0
+        ],
+        [
+          0.34202006459236145,
+          0.9396926164627075,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mount_offset_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pre_export_bounds_min": [
+        -6.690000057220459,
+        -0.6400007605552673,
+        0.0
+      ],
+      "pre_export_bounds_max": [
+        -5.610000133514404,
+        0.439999520778656,
+        0.5625
+      ],
+      "normalization": "Source world geometry evaluated, rigid root pose removed, all source scale baked into mesh; canonical -Y/front and Z/up applied by repository static exporter."
+    },
+    {
+      "key": "Occupied walnut lounge chair",
+      "name": "Additional 45 | Occupied walnut lounge chair",
+      "objects": [
+        "Lounge chair A armrest.011",
+        "Lounge chair A armrest.012",
+        "Lounge chair A back cross rail.011",
+        "Lounge chair A back cross rail.012",
+        "Lounge chair A back cushion.006",
+        "Lounge chair A cushion.006",
+        "Lounge chair A front leg.011",
+        "Lounge chair A front leg.012",
+        "Lounge chair A rear post.011",
+        "Lounge chair A rear post.012",
+        "Lounge chair A seat frame.006",
+        "Seat cushion welt | Lounge chair A back cushion.006",
+        "Seat cushion welt | Lounge chair A cushion.006"
+      ],
+      "catalog": "Chairs",
+      "yaw_deg": 0,
+      "basis_root": "RK Chair - Walnut Lounge slot.002",
+      "front_axis": "-Y",
+      "origin": "floor_center",
+      "symmetry": "none",
+      "semantic_front": "seating",
+      "notes": "Adapted roomkit-v1/chair-walnut-lounge: width x1.15 on uniform .62 scale, cushion +.012 m, lumbar pillow removed. Scale baked into editable mesh.",
+      "source_frame": 1,
+      "rigid_basis_world": [
+        [
+          -0.09065181761980057,
+          0.9958827495574951,
+          0.0,
+          -4.809360980987549
+        ],
+        [
+          -0.9958827495574951,
+          -0.09065181761980057,
+          0.0,
+          -2.28255295753479
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mount_offset_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pre_export_bounds_min": [
+        -0.30124253034591675,
+        -0.2758999764919281,
+        0.0
+      ],
+      "pre_export_bounds_max": [
+        0.30124253034591675,
+        0.2759004533290863,
+        0.6692023277282715
+      ],
+      "normalization": "Source world geometry evaluated, rigid root pose removed, all source scale baked into mesh; canonical -Y/front and Z/up applied by repository static exporter."
+    },
+    {
+      "key": "Tall porcelain vase",
+      "name": "Additional 45 | Tall porcelain vase",
+      "objects": [
+        "Table 0 vase"
+      ],
+      "catalog": "Vases",
+      "yaw_deg": 0,
+      "basis_root": null,
+      "front_axis": null,
+      "origin": "floor_center",
+      "symmetry": "continuous_z",
+      "semantic_front": "none",
+      "notes": "Solid cylinder vase approximation, no hollow interior; repeated side-table prop.",
+      "source_frame": 1,
+      "rigid_basis_world": [
+        [
+          1.0,
+          -0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mount_offset_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pre_export_bounds_min": [
+        -0.035979148000478745,
+        2.925260543823242,
+        0.5
+      ],
+      "pre_export_bounds_max": [
+        0.09402084350585938,
+        3.05526065826416,
+        0.7000000476837158
+      ],
+      "normalization": "Source world geometry evaluated, rigid root pose removed, all source scale baked into mesh; canonical -Y/front and Z/up applied by repository static exporter."
+    },
+    {
+      "key": "Small porcelain vase",
+      "name": "Additional 45 | Small porcelain vase",
+      "objects": [
+        "Dining vase 0"
+      ],
+      "catalog": "Vases",
+      "yaw_deg": 0,
+      "basis_root": null,
+      "front_axis": null,
+      "origin": "floor_center",
+      "symmetry": "continuous_z",
+      "semantic_front": "none",
+      "notes": "Small solid cylinder vase approximation, no hollow interior; repeated dining prop.",
+      "source_frame": 1,
+      "rigid_basis_world": [
+        [
+          1.0,
+          -0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mount_offset_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pre_export_bounds_min": [
+        -4.69044303894043,
+        -5.244409561157227,
+        0.5600000023841858
+      ],
+      "pre_export_bounds_max": [
+        -4.610443115234375,
+        -5.164409637451172,
+        0.6800000071525574
+      ],
+      "normalization": "Source world geometry evaluated, rigid root pose removed, all source scale baked into mesh; canonical -Y/front and Z/up applied by repository static exporter."
+    },
+    {
+      "key": "Folded linen napkin",
+      "name": "Additional 45 | Folded linen napkin",
+      "objects": [
+        "Napkin 0"
+      ],
+      "catalog": "Tableware",
+      "yaw_deg": 20,
+      "basis_root": null,
+      "front_axis": "-Y",
+      "origin": "floor_center",
+      "symmetry": "none",
+      "semantic_front": "generic",
+      "notes": "Beveled rectangular folded napkin approximation; repeated placements share design.",
+      "source_frame": 1,
+      "rigid_basis_world": [
+        [
+          0.9396926164627075,
+          -0.34202006459236145,
+          0.0,
+          0.0
+        ],
+        [
+          0.34202006459236145,
+          0.9396926164627075,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mount_offset_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pre_export_bounds_min": [
+        -6.545000076293945,
+        -3.3500006198883057,
+        0.5634999871253967
+      ],
+      "pre_export_bounds_max": [
+        -6.3550004959106445,
+        -3.2500007152557373,
+        0.5884999632835388
+      ],
+      "normalization": "Source world geometry evaluated, rigid root pose removed, all source scale baked into mesh; canonical -Y/front and Z/up applied by repository static exporter."
+    },
+    {
+      "key": "Abstract wall panel",
+      "name": "Additional 45 | Abstract wall panel",
+      "objects": [
+        "Abstract pigment",
+        "Abstract pigment.001",
+        "Abstract pigment.002",
+        "Artwork canvas",
+        "Artwork frame"
+      ],
+      "catalog": "Wall Art",
+      "yaw_deg": 20,
+      "basis_root": null,
+      "front_axis": "-Y",
+      "origin": "mount_center",
+      "symmetry": "none",
+      "semantic_front": "generic",
+      "notes": "Editable shallow geometric pigment panels; no reference image texture.",
+      "source_frame": 1,
+      "rigid_basis_world": [
+        [
+          0.9396926164627075,
+          -0.34202006459236145,
+          0.0,
+          0.0
+        ],
+        [
+          0.34202006459236145,
+          0.9396926164627075,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mount_offset_local": [
+        1.9999995231628418,
+        7.812500953674316,
+        1.6299999952316284
+      ],
+      "pre_export_bounds_min": [
+        0.7749993801116943,
+        7.722500801086426,
+        1.1549999713897705
+      ],
+      "pre_export_bounds_max": [
+        3.2249996662139893,
+        7.812500953674316,
+        2.1050000190734863
+      ],
+      "normalization": "Source world geometry evaluated, rigid root pose removed, all source scale baked into mesh; canonical -Y/front and Z/up applied by repository static exporter."
+    },
+    {
+      "key": "Six candle group",
+      "name": "Additional 45 | Six candle group",
+      "objects": [
+        "Fireplace candle",
+        "Fireplace candle.001",
+        "Fireplace candle.002",
+        "Fireplace candle.003",
+        "Fireplace candle.004",
+        "Fireplace candle.005"
+      ],
+      "catalog": "Decor",
+      "yaw_deg": 20,
+      "basis_root": null,
+      "front_axis": "-Y",
+      "origin": "floor_center",
+      "symmetry": "none",
+      "semantic_front": "generic",
+      "notes": "Six varying-height solid candle proxies; no wick, flame or simulation.",
+      "source_frame": 1,
+      "rigid_basis_world": [
+        [
+          0.9396926164627075,
+          -0.34202006459236145,
+          0.0,
+          0.0
+        ],
+        [
+          0.34202006459236145,
+          0.9396926164627075,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mount_offset_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pre_export_bounds_min": [
+        -5.4825005531311035,
+        3.437499761581421,
+        0.10999999940395355
+      ],
+      "pre_export_bounds_max": [
+        -4.617501258850098,
+        3.50249981880188,
+        0.5899999737739563
+      ],
+      "normalization": "Source world geometry evaluated, rigid root pose removed, all source scale baked into mesh; canonical -Y/front and Z/up applied by repository static exporter."
+    },
+    {
+      "key": "Staff counter block",
+      "name": "Additional 45 | Staff counter block",
+      "objects": [
+        "Rear staff counter"
+      ],
+      "catalog": "Storage",
+      "yaw_deg": 20,
+      "basis_root": null,
+      "front_axis": "-Y",
+      "origin": "floor_center",
+      "symmetry": "none",
+      "semantic_front": "door",
+      "notes": "Minimal freestanding counter block proxy; no hidden service fittings or operative cabinet doors.",
+      "source_frame": 1,
+      "rigid_basis_world": [
+        [
+          0.9396926164627075,
+          -0.34202006459236145,
+          0.0,
+          0.0
+        ],
+        [
+          0.34202006459236145,
+          0.9396926164627075,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mount_offset_local": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pre_export_bounds_min": [
+        -4.55000114440918,
+        9.050000190734863,
+        0.0
+      ],
+      "pre_export_bounds_max": [
+        -0.050000905990600586,
+        9.750000953674316,
+        1.0199999809265137
+      ],
+      "normalization": "Source world geometry evaluated, rigid root pose removed, all source scale baked into mesh; canonical -Y/front and Z/up applied by repository static exporter."
+    },
+    {
+      "key": "Lounge window frame",
+      "name": "Additional 45 | Lounge window frame",
+      "objects": [
+        "Window header",
+        "Window mullion",
+        "Window sill"
+      ],
+      "catalog": "Windows",
+      "yaw_deg": 110,
+      "basis_root": null,
+      "front_axis": "-Y",
+      "origin": "mount_center",
+      "symmetry": "none",
+      "semantic_front": "generic",
+      "notes": "Source standalone opening trim assembly; no glass, hinges, wall or outdoor scenery. Mount origin at bounding center.",
+      "source_frame": 1,
+      "rigid_basis_world": [
+        [
+          -0.3420200049877167,
+          -0.9396926760673523,
+          0.0,
+          0.0
+        ],
+        [
+          0.9396926760673523,
+          -0.3420200049877167,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mount_offset_local": [
+        -4.200001239776611,
+        7.07499885559082,
+        1.3149999380111694
+      ],
+      "pre_export_bounds_min": [
+        -5.400001525878906,
+        6.82499885559082,
+        0.0
+      ],
+      "pre_export_bounds_max": [
+        -3.0000011920928955,
+        7.07499885559082,
+        2.629999876022339
+      ],
+      "normalization": "Source world geometry evaluated, rigid root pose removed, all source scale baked into mesh; canonical -Y/front and Z/up applied by repository static exporter."
+    }
+  ],
+  "material_palette": [
+    {
+      "source_name": "Aged brass",
+      "status": "scene_parameter_palette_variant",
+      "source_users": 14,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "Aged brass",
+        "users": 14,
+        "diffuse_color": [
+          0.38999998569488525,
+          0.2800000011920929,
+          0.11999999731779099,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.38999998569488525,
+                0.2800000011920929,
+                0.11999999731779099,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.6499999761581421,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "Artwork pigment 0",
+      "status": "scene_parameter_palette_variant",
+      "source_users": 1,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "Artwork pigment 0",
+        "users": 1,
+        "diffuse_color": [
+          0.5099999904632568,
+          0.23000000417232513,
+          0.11999999731779099,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.5099999904632568,
+                0.23000000417232513,
+                0.11999999731779099,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.6499999761581421,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "Artwork pigment 1",
+      "status": "scene_parameter_palette_variant",
+      "source_users": 1,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "Artwork pigment 1",
+        "users": 1,
+        "diffuse_color": [
+          0.3100000023841858,
+          0.3700000047683716,
+          0.25,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.3100000023841858,
+                0.3700000047683716,
+                0.25,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.6499999761581421,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "Artwork pigment 2",
+      "status": "scene_parameter_palette_variant",
+      "source_users": 1,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "Artwork pigment 2",
+        "users": 1,
+        "diffuse_color": [
+          0.6000000238418579,
+          0.47999998927116394,
+          0.2800000011920929,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.6000000238418579,
+                0.47999998927116394,
+                0.2800000011920929,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.6499999761581421,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "Dark bronze",
+      "status": "scene_parameter_palette_variant",
+      "source_users": 34,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "Dark bronze",
+        "users": 34,
+        "diffuse_color": [
+          0.05000000074505806,
+          0.0430000014603138,
+          0.03500000014901161,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.05000000074505806,
+                0.0430000014603138,
+                0.03500000014901161,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.6499999761581421,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "Honed limestone",
+      "status": "scene_parameter_palette_variant",
+      "source_users": 1,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "Honed limestone",
+        "users": 1,
+        "diffuse_color": [
+          0.38999998569488525,
+          0.3700000047683716,
+          0.3100000023841858,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.38999998569488525,
+                0.3700000047683716,
+                0.3100000023841858,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.6499999761581421,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "Navy upholstery",
+      "status": "scene_parameter_palette_variant",
+      "source_users": 28,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "Navy upholstery",
+        "users": 28,
+        "diffuse_color": [
+          0.017000000923871994,
+          0.02500000037252903,
+          0.04500000178813934,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.017000000923871994,
+                0.02500000037252903,
+                0.04500000178813934,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.6499999761581421,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "Pale woven linen",
+      "status": "scene_parameter_palette_variant",
+      "source_users": 29,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "Pale woven linen",
+        "users": 29,
+        "diffuse_color": [
+          0.7599999904632568,
+          0.7300000190734863,
+          0.6399999856948853,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.7599999904632568,
+                0.7300000190734863,
+                0.6399999856948853,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.6499999761581421,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "Person_001_Clay",
+      "status": "render_or_human_utility_excluded",
+      "source_users": 1,
+      "used_by_static_mesh": false,
+      "parameters": {
+        "name": "Person_001_Clay",
+        "users": 1,
+        "diffuse_color": [
+          0.3799999952316284,
+          0.5799999833106995,
+          0.7300000190734863,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.5,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "Person_002_Clay",
+      "status": "render_or_human_utility_excluded",
+      "source_users": 1,
+      "used_by_static_mesh": false,
+      "parameters": {
+        "name": "Person_002_Clay",
+        "users": 1,
+        "diffuse_color": [
+          0.3799999952316284,
+          0.5799999833106995,
+          0.7300000190734863,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.5,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "Person_003_Clay",
+      "status": "render_or_human_utility_excluded",
+      "source_users": 1,
+      "used_by_static_mesh": false,
+      "parameters": {
+        "name": "Person_003_Clay",
+        "users": 1,
+        "diffuse_color": [
+          0.3799999952316284,
+          0.5799999833106995,
+          0.7300000190734863,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.5,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "Person_004_Clay",
+      "status": "render_or_human_utility_excluded",
+      "source_users": 1,
+      "used_by_static_mesh": false,
+      "parameters": {
+        "name": "Person_004_Clay",
+        "users": 1,
+        "diffuse_color": [
+          0.3799999952316284,
+          0.5799999833106995,
+          0.7300000190734863,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.5,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "Pipeline clay override",
+      "status": "render_or_human_utility_excluded",
+      "source_users": 1,
+      "used_by_static_mesh": false,
+      "parameters": {
+        "name": "Pipeline clay override",
+        "users": 1,
+        "diffuse_color": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.7200000286102295,
+                0.7200000286102295,
+                0.7200000286102295,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.800000011920929,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "Porcelain",
+      "status": "scene_parameter_palette_variant",
+      "source_users": 12,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "Porcelain",
+        "users": 12,
+        "diffuse_color": [
+          0.800000011920929,
+          0.8100000023841858,
+          0.7900000214576721,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.800000011920929,
+                0.8100000023841858,
+                0.7900000214576721,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.6499999761581421,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "RK | Charcoal woven upholstery",
+      "status": "reused_registered_material_dependency",
+      "source_users": 7,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "RK | Charcoal woven upholstery",
+        "users": 7,
+        "diffuse_color": [
+          0.09084171056747437,
+          0.10224173218011856,
+          0.10702310502529144,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "\u539f\u7406\u5316 BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.09084171056747437,
+                0.10224173218011856,
+                0.10702310502529144,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.8899999856948853,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "\u6750\u8d28\u8f93\u51fa",
+            "type": "OUTPUT_MATERIAL"
+          },
+          {
+            "name": "\u7eb9\u7406\u5750\u6807",
+            "type": "TEX_COORD",
+            "object": null
+          },
+          {
+            "name": "\u77e2\u91cf\u8fd0\u7b97",
+            "type": "VECT_MATH"
+          },
+          {
+            "name": "\u566a\u6ce2\u7eb9\u7406",
+            "type": "TEX_NOISE"
+          },
+          {
+            "name": "\u51f9\u51f8",
+            "type": "BUMP"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "RK | Charcoal woven upholstery.001",
+      "status": "reused_registered_material_dependency",
+      "source_users": 7,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "RK | Charcoal woven upholstery.001",
+        "users": 7,
+        "diffuse_color": [
+          0.09084171056747437,
+          0.10224173218011856,
+          0.10702310502529144,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "\u539f\u7406\u5316 BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.09084171056747437,
+                0.10224173218011856,
+                0.10702310502529144,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.8899999856948853,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "\u6750\u8d28\u8f93\u51fa",
+            "type": "OUTPUT_MATERIAL"
+          },
+          {
+            "name": "\u7eb9\u7406\u5750\u6807",
+            "type": "TEX_COORD",
+            "object": null
+          },
+          {
+            "name": "\u77e2\u91cf\u8fd0\u7b97",
+            "type": "VECT_MATH"
+          },
+          {
+            "name": "\u566a\u6ce2\u7eb9\u7406",
+            "type": "TEX_NOISE"
+          },
+          {
+            "name": "\u51f9\u51f8",
+            "type": "BUMP"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "RK | Charcoal woven upholstery.002",
+      "status": "reused_registered_material_dependency",
+      "source_users": 7,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "RK | Charcoal woven upholstery.002",
+        "users": 7,
+        "diffuse_color": [
+          0.09084171056747437,
+          0.10224173218011856,
+          0.10702310502529144,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "\u539f\u7406\u5316 BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.09084171056747437,
+                0.10224173218011856,
+                0.10702310502529144,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.8899999856948853,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "\u6750\u8d28\u8f93\u51fa",
+            "type": "OUTPUT_MATERIAL"
+          },
+          {
+            "name": "\u7eb9\u7406\u5750\u6807",
+            "type": "TEX_COORD",
+            "object": null
+          },
+          {
+            "name": "\u77e2\u91cf\u8fd0\u7b97",
+            "type": "VECT_MATH"
+          },
+          {
+            "name": "\u566a\u6ce2\u7eb9\u7406",
+            "type": "TEX_NOISE"
+          },
+          {
+            "name": "\u51f9\u51f8",
+            "type": "BUMP"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "RK | Charcoal woven upholstery.003",
+      "status": "reused_registered_material_dependency",
+      "source_users": 7,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "RK | Charcoal woven upholstery.003",
+        "users": 7,
+        "diffuse_color": [
+          0.09084171056747437,
+          0.10224173218011856,
+          0.10702310502529144,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "\u539f\u7406\u5316 BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.09084171056747437,
+                0.10224173218011856,
+                0.10702310502529144,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.8899999856948853,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "\u6750\u8d28\u8f93\u51fa",
+            "type": "OUTPUT_MATERIAL"
+          },
+          {
+            "name": "\u7eb9\u7406\u5750\u6807",
+            "type": "TEX_COORD",
+            "object": null
+          },
+          {
+            "name": "\u77e2\u91cf\u8fd0\u7b97",
+            "type": "VECT_MATH"
+          },
+          {
+            "name": "\u566a\u6ce2\u7eb9\u7406",
+            "type": "TEX_NOISE"
+          },
+          {
+            "name": "\u51f9\u51f8",
+            "type": "BUMP"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "RK | Charcoal woven upholstery.004",
+      "status": "reused_registered_material_dependency",
+      "source_users": 7,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "RK | Charcoal woven upholstery.004",
+        "users": 7,
+        "diffuse_color": [
+          0.09084171056747437,
+          0.10224173218011856,
+          0.10702310502529144,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "\u539f\u7406\u5316 BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.09084171056747437,
+                0.10224173218011856,
+                0.10702310502529144,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.8899999856948853,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "\u6750\u8d28\u8f93\u51fa",
+            "type": "OUTPUT_MATERIAL"
+          },
+          {
+            "name": "\u7eb9\u7406\u5750\u6807",
+            "type": "TEX_COORD",
+            "object": null
+          },
+          {
+            "name": "\u77e2\u91cf\u8fd0\u7b97",
+            "type": "VECT_MATH"
+          },
+          {
+            "name": "\u566a\u6ce2\u7eb9\u7406",
+            "type": "TEX_NOISE"
+          },
+          {
+            "name": "\u51f9\u51f8",
+            "type": "BUMP"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "RK | Charcoal woven upholstery.005",
+      "status": "reused_registered_material_dependency",
+      "source_users": 7,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "RK | Charcoal woven upholstery.005",
+        "users": 7,
+        "diffuse_color": [
+          0.09084171056747437,
+          0.10224173218011856,
+          0.10702310502529144,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "\u539f\u7406\u5316 BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.09084171056747437,
+                0.10224173218011856,
+                0.10702310502529144,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.8899999856948853,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "\u6750\u8d28\u8f93\u51fa",
+            "type": "OUTPUT_MATERIAL"
+          },
+          {
+            "name": "\u7eb9\u7406\u5750\u6807",
+            "type": "TEX_COORD",
+            "object": null
+          },
+          {
+            "name": "\u77e2\u91cf\u8fd0\u7b97",
+            "type": "VECT_MATH"
+          },
+          {
+            "name": "\u566a\u6ce2\u7eb9\u7406",
+            "type": "TEX_NOISE"
+          },
+          {
+            "name": "\u51f9\u51f8",
+            "type": "BUMP"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "RK | Charcoal woven upholstery.006",
+      "status": "reused_registered_material_dependency",
+      "source_users": 7,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "RK | Charcoal woven upholstery.006",
+        "users": 7,
+        "diffuse_color": [
+          0.09084171056747437,
+          0.10224173218011856,
+          0.10702310502529144,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "\u539f\u7406\u5316 BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.09084171056747437,
+                0.10224173218011856,
+                0.10702310502529144,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.8899999856948853,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "\u6750\u8d28\u8f93\u51fa",
+            "type": "OUTPUT_MATERIAL"
+          },
+          {
+            "name": "\u7eb9\u7406\u5750\u6807",
+            "type": "TEX_COORD",
+            "object": null
+          },
+          {
+            "name": "\u77e2\u91cf\u8fd0\u7b97",
+            "type": "VECT_MATH"
+          },
+          {
+            "name": "\u566a\u6ce2\u7eb9\u7406",
+            "type": "TEX_NOISE"
+          },
+          {
+            "name": "\u51f9\u51f8",
+            "type": "BUMP"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "RK | Charcoal woven upholstery.007",
+      "status": "reused_registered_material_dependency",
+      "source_users": 7,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "RK | Charcoal woven upholstery.007",
+        "users": 7,
+        "diffuse_color": [
+          0.09084171056747437,
+          0.10224173218011856,
+          0.10702310502529144,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "\u539f\u7406\u5316 BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.09084171056747437,
+                0.10224173218011856,
+                0.10702310502529144,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.8899999856948853,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "\u6750\u8d28\u8f93\u51fa",
+            "type": "OUTPUT_MATERIAL"
+          },
+          {
+            "name": "\u7eb9\u7406\u5750\u6807",
+            "type": "TEX_COORD",
+            "object": null
+          },
+          {
+            "name": "\u77e2\u91cf\u8fd0\u7b97",
+            "type": "VECT_MATH"
+          },
+          {
+            "name": "\u566a\u6ce2\u7eb9\u7406",
+            "type": "TEX_NOISE"
+          },
+          {
+            "name": "\u51f9\u51f8",
+            "type": "BUMP"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "RK | Charcoal woven upholstery.008",
+      "status": "reused_registered_material_dependency",
+      "source_users": 7,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "RK | Charcoal woven upholstery.008",
+        "users": 7,
+        "diffuse_color": [
+          0.09084171056747437,
+          0.10224173218011856,
+          0.10702310502529144,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "\u539f\u7406\u5316 BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.09084171056747437,
+                0.10224173218011856,
+                0.10702310502529144,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.8899999856948853,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "\u6750\u8d28\u8f93\u51fa",
+            "type": "OUTPUT_MATERIAL"
+          },
+          {
+            "name": "\u7eb9\u7406\u5750\u6807",
+            "type": "TEX_COORD",
+            "object": null
+          },
+          {
+            "name": "\u77e2\u91cf\u8fd0\u7b97",
+            "type": "VECT_MATH"
+          },
+          {
+            "name": "\u566a\u6ce2\u7eb9\u7406",
+            "type": "TEX_NOISE"
+          },
+          {
+            "name": "\u51f9\u51f8",
+            "type": "BUMP"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "RK | Charcoal woven upholstery.009",
+      "status": "reused_registered_material_dependency",
+      "source_users": 7,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "RK | Charcoal woven upholstery.009",
+        "users": 7,
+        "diffuse_color": [
+          0.09084171056747437,
+          0.10224173218011856,
+          0.10702310502529144,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "\u539f\u7406\u5316 BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.09084171056747437,
+                0.10224173218011856,
+                0.10702310502529144,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.8899999856948853,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "\u6750\u8d28\u8f93\u51fa",
+            "type": "OUTPUT_MATERIAL"
+          },
+          {
+            "name": "\u7eb9\u7406\u5750\u6807",
+            "type": "TEX_COORD",
+            "object": null
+          },
+          {
+            "name": "\u77e2\u91cf\u8fd0\u7b97",
+            "type": "VECT_MATH"
+          },
+          {
+            "name": "\u566a\u6ce2\u7eb9\u7406",
+            "type": "TEX_NOISE"
+          },
+          {
+            "name": "\u51f9\u51f8",
+            "type": "BUMP"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "RK | Charcoal woven upholstery.010",
+      "status": "reused_registered_material_dependency",
+      "source_users": 7,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "RK | Charcoal woven upholstery.010",
+        "users": 7,
+        "diffuse_color": [
+          0.09084171056747437,
+          0.10224173218011856,
+          0.10702310502529144,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "\u539f\u7406\u5316 BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.09084171056747437,
+                0.10224173218011856,
+                0.10702310502529144,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.8899999856948853,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "\u6750\u8d28\u8f93\u51fa",
+            "type": "OUTPUT_MATERIAL"
+          },
+          {
+            "name": "\u7eb9\u7406\u5750\u6807",
+            "type": "TEX_COORD",
+            "object": null
+          },
+          {
+            "name": "\u77e2\u91cf\u8fd0\u7b97",
+            "type": "VECT_MATH"
+          },
+          {
+            "name": "\u566a\u6ce2\u7eb9\u7406",
+            "type": "TEX_NOISE"
+          },
+          {
+            "name": "\u51f9\u51f8",
+            "type": "BUMP"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "RK | Charcoal woven upholstery.011",
+      "status": "reused_registered_material_dependency",
+      "source_users": 7,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "RK | Charcoal woven upholstery.011",
+        "users": 7,
+        "diffuse_color": [
+          0.09084171056747437,
+          0.10224173218011856,
+          0.10702310502529144,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "\u539f\u7406\u5316 BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.09084171056747437,
+                0.10224173218011856,
+                0.10702310502529144,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.8899999856948853,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "\u6750\u8d28\u8f93\u51fa",
+            "type": "OUTPUT_MATERIAL"
+          },
+          {
+            "name": "\u7eb9\u7406\u5750\u6807",
+            "type": "TEX_COORD",
+            "object": null
+          },
+          {
+            "name": "\u77e2\u91cf\u8fd0\u7b97",
+            "type": "VECT_MATH"
+          },
+          {
+            "name": "\u566a\u6ce2\u7eb9\u7406",
+            "type": "TEX_NOISE"
+          },
+          {
+            "name": "\u51f9\u51f8",
+            "type": "BUMP"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "RK | Charcoal woven upholstery.012",
+      "status": "reused_registered_material_dependency",
+      "source_users": 7,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "RK | Charcoal woven upholstery.012",
+        "users": 7,
+        "diffuse_color": [
+          0.09084171056747437,
+          0.10224173218011856,
+          0.10702310502529144,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "\u539f\u7406\u5316 BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.09084171056747437,
+                0.10224173218011856,
+                0.10702310502529144,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.8899999856948853,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "\u6750\u8d28\u8f93\u51fa",
+            "type": "OUTPUT_MATERIAL"
+          },
+          {
+            "name": "\u7eb9\u7406\u5750\u6807",
+            "type": "TEX_COORD",
+            "object": null
+          },
+          {
+            "name": "\u77e2\u91cf\u8fd0\u7b97",
+            "type": "VECT_MATH"
+          },
+          {
+            "name": "\u566a\u6ce2\u7eb9\u7406",
+            "type": "TEX_NOISE"
+          },
+          {
+            "name": "\u51f9\u51f8",
+            "type": "BUMP"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "RK | Charcoal woven upholstery.013",
+      "status": "reused_registered_material_dependency",
+      "source_users": 7,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "RK | Charcoal woven upholstery.013",
+        "users": 7,
+        "diffuse_color": [
+          0.09084171056747437,
+          0.10224173218011856,
+          0.10702310502529144,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "\u539f\u7406\u5316 BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.09084171056747437,
+                0.10224173218011856,
+                0.10702310502529144,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.8899999856948853,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "\u6750\u8d28\u8f93\u51fa",
+            "type": "OUTPUT_MATERIAL"
+          },
+          {
+            "name": "\u7eb9\u7406\u5750\u6807",
+            "type": "TEX_COORD",
+            "object": null
+          },
+          {
+            "name": "\u77e2\u91cf\u8fd0\u7b97",
+            "type": "VECT_MATH"
+          },
+          {
+            "name": "\u566a\u6ce2\u7eb9\u7406",
+            "type": "TEX_NOISE"
+          },
+          {
+            "name": "\u51f9\u51f8",
+            "type": "BUMP"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "RK | Walnut furniture frames",
+      "status": "reused_registered_material_dependency",
+      "source_users": 10,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "RK | Walnut furniture frames",
+        "users": 10,
+        "diffuse_color": [
+          0.11697066575288773,
+          0.06847816705703735,
+          0.03433980792760849,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "\u539f\u7406\u5316 BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.11697066575288773,
+                0.06847816705703735,
+                0.03433980792760849,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.46000000834465027,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "\u6750\u8d28\u8f93\u51fa",
+            "type": "OUTPUT_MATERIAL"
+          },
+          {
+            "name": "\u7eb9\u7406\u5750\u6807",
+            "type": "TEX_COORD",
+            "object": null
+          },
+          {
+            "name": "\u77e2\u91cf\u8fd0\u7b97",
+            "type": "VECT_MATH"
+          },
+          {
+            "name": "\u566a\u6ce2\u7eb9\u7406",
+            "type": "TEX_NOISE"
+          },
+          {
+            "name": "\u51f9\u51f8",
+            "type": "BUMP"
+          },
+          {
+            "name": "\u989c\u8272\u6e10\u53d8",
+            "type": "VALTORGB"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "RK | Walnut furniture frames.001",
+      "status": "reused_registered_material_dependency",
+      "source_users": 10,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "RK | Walnut furniture frames.001",
+        "users": 10,
+        "diffuse_color": [
+          0.11697066575288773,
+          0.06847816705703735,
+          0.03433980792760849,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "\u539f\u7406\u5316 BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.11697066575288773,
+                0.06847816705703735,
+                0.03433980792760849,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.46000000834465027,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "\u6750\u8d28\u8f93\u51fa",
+            "type": "OUTPUT_MATERIAL"
+          },
+          {
+            "name": "\u7eb9\u7406\u5750\u6807",
+            "type": "TEX_COORD",
+            "object": null
+          },
+          {
+            "name": "\u77e2\u91cf\u8fd0\u7b97",
+            "type": "VECT_MATH"
+          },
+          {
+            "name": "\u566a\u6ce2\u7eb9\u7406",
+            "type": "TEX_NOISE"
+          },
+          {
+            "name": "\u51f9\u51f8",
+            "type": "BUMP"
+          },
+          {
+            "name": "\u989c\u8272\u6e10\u53d8",
+            "type": "VALTORGB"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "RK | Walnut furniture frames.002",
+      "status": "reused_registered_material_dependency",
+      "source_users": 10,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "RK | Walnut furniture frames.002",
+        "users": 10,
+        "diffuse_color": [
+          0.11697066575288773,
+          0.06847816705703735,
+          0.03433980792760849,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "\u539f\u7406\u5316 BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.11697066575288773,
+                0.06847816705703735,
+                0.03433980792760849,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.46000000834465027,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "\u6750\u8d28\u8f93\u51fa",
+            "type": "OUTPUT_MATERIAL"
+          },
+          {
+            "name": "\u7eb9\u7406\u5750\u6807",
+            "type": "TEX_COORD",
+            "object": null
+          },
+          {
+            "name": "\u77e2\u91cf\u8fd0\u7b97",
+            "type": "VECT_MATH"
+          },
+          {
+            "name": "\u566a\u6ce2\u7eb9\u7406",
+            "type": "TEX_NOISE"
+          },
+          {
+            "name": "\u51f9\u51f8",
+            "type": "BUMP"
+          },
+          {
+            "name": "\u989c\u8272\u6e10\u53d8",
+            "type": "VALTORGB"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "RK | Walnut furniture frames.003",
+      "status": "reused_registered_material_dependency",
+      "source_users": 10,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "RK | Walnut furniture frames.003",
+        "users": 10,
+        "diffuse_color": [
+          0.11697066575288773,
+          0.06847816705703735,
+          0.03433980792760849,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "\u539f\u7406\u5316 BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.11697066575288773,
+                0.06847816705703735,
+                0.03433980792760849,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.46000000834465027,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "\u6750\u8d28\u8f93\u51fa",
+            "type": "OUTPUT_MATERIAL"
+          },
+          {
+            "name": "\u7eb9\u7406\u5750\u6807",
+            "type": "TEX_COORD",
+            "object": null
+          },
+          {
+            "name": "\u77e2\u91cf\u8fd0\u7b97",
+            "type": "VECT_MATH"
+          },
+          {
+            "name": "\u566a\u6ce2\u7eb9\u7406",
+            "type": "TEX_NOISE"
+          },
+          {
+            "name": "\u51f9\u51f8",
+            "type": "BUMP"
+          },
+          {
+            "name": "\u989c\u8272\u6e10\u53d8",
+            "type": "VALTORGB"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "RK | Walnut furniture frames.004",
+      "status": "reused_registered_material_dependency",
+      "source_users": 10,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "RK | Walnut furniture frames.004",
+        "users": 10,
+        "diffuse_color": [
+          0.11697066575288773,
+          0.06847816705703735,
+          0.03433980792760849,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "\u539f\u7406\u5316 BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.11697066575288773,
+                0.06847816705703735,
+                0.03433980792760849,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.46000000834465027,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "\u6750\u8d28\u8f93\u51fa",
+            "type": "OUTPUT_MATERIAL"
+          },
+          {
+            "name": "\u7eb9\u7406\u5750\u6807",
+            "type": "TEX_COORD",
+            "object": null
+          },
+          {
+            "name": "\u77e2\u91cf\u8fd0\u7b97",
+            "type": "VECT_MATH"
+          },
+          {
+            "name": "\u566a\u6ce2\u7eb9\u7406",
+            "type": "TEX_NOISE"
+          },
+          {
+            "name": "\u51f9\u51f8",
+            "type": "BUMP"
+          },
+          {
+            "name": "\u989c\u8272\u6e10\u53d8",
+            "type": "VALTORGB"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "RK | Walnut furniture frames.005",
+      "status": "reused_registered_material_dependency",
+      "source_users": 10,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "RK | Walnut furniture frames.005",
+        "users": 10,
+        "diffuse_color": [
+          0.11697066575288773,
+          0.06847816705703735,
+          0.03433980792760849,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "\u539f\u7406\u5316 BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.11697066575288773,
+                0.06847816705703735,
+                0.03433980792760849,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.46000000834465027,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "\u6750\u8d28\u8f93\u51fa",
+            "type": "OUTPUT_MATERIAL"
+          },
+          {
+            "name": "\u7eb9\u7406\u5750\u6807",
+            "type": "TEX_COORD",
+            "object": null
+          },
+          {
+            "name": "\u77e2\u91cf\u8fd0\u7b97",
+            "type": "VECT_MATH"
+          },
+          {
+            "name": "\u566a\u6ce2\u7eb9\u7406",
+            "type": "TEX_NOISE"
+          },
+          {
+            "name": "\u51f9\u51f8",
+            "type": "BUMP"
+          },
+          {
+            "name": "\u989c\u8272\u6e10\u53d8",
+            "type": "VALTORGB"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "RK | Walnut furniture frames.006",
+      "status": "reused_registered_material_dependency",
+      "source_users": 10,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "RK | Walnut furniture frames.006",
+        "users": 10,
+        "diffuse_color": [
+          0.11697066575288773,
+          0.06847816705703735,
+          0.03433980792760849,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "\u539f\u7406\u5316 BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.11697066575288773,
+                0.06847816705703735,
+                0.03433980792760849,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.46000000834465027,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "\u6750\u8d28\u8f93\u51fa",
+            "type": "OUTPUT_MATERIAL"
+          },
+          {
+            "name": "\u7eb9\u7406\u5750\u6807",
+            "type": "TEX_COORD",
+            "object": null
+          },
+          {
+            "name": "\u77e2\u91cf\u8fd0\u7b97",
+            "type": "VECT_MATH"
+          },
+          {
+            "name": "\u566a\u6ce2\u7eb9\u7406",
+            "type": "TEX_NOISE"
+          },
+          {
+            "name": "\u51f9\u51f8",
+            "type": "BUMP"
+          },
+          {
+            "name": "\u989c\u8272\u6e10\u53d8",
+            "type": "VALTORGB"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "RK | Walnut furniture frames.007",
+      "status": "reused_registered_material_dependency",
+      "source_users": 10,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "RK | Walnut furniture frames.007",
+        "users": 10,
+        "diffuse_color": [
+          0.11697066575288773,
+          0.06847816705703735,
+          0.03433980792760849,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "\u539f\u7406\u5316 BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.11697066575288773,
+                0.06847816705703735,
+                0.03433980792760849,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.46000000834465027,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "\u6750\u8d28\u8f93\u51fa",
+            "type": "OUTPUT_MATERIAL"
+          },
+          {
+            "name": "\u7eb9\u7406\u5750\u6807",
+            "type": "TEX_COORD",
+            "object": null
+          },
+          {
+            "name": "\u77e2\u91cf\u8fd0\u7b97",
+            "type": "VECT_MATH"
+          },
+          {
+            "name": "\u566a\u6ce2\u7eb9\u7406",
+            "type": "TEX_NOISE"
+          },
+          {
+            "name": "\u51f9\u51f8",
+            "type": "BUMP"
+          },
+          {
+            "name": "\u989c\u8272\u6e10\u53d8",
+            "type": "VALTORGB"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "RK | Walnut furniture frames.008",
+      "status": "reused_registered_material_dependency",
+      "source_users": 10,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "RK | Walnut furniture frames.008",
+        "users": 10,
+        "diffuse_color": [
+          0.11697066575288773,
+          0.06847816705703735,
+          0.03433980792760849,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "\u539f\u7406\u5316 BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.11697066575288773,
+                0.06847816705703735,
+                0.03433980792760849,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.46000000834465027,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "\u6750\u8d28\u8f93\u51fa",
+            "type": "OUTPUT_MATERIAL"
+          },
+          {
+            "name": "\u7eb9\u7406\u5750\u6807",
+            "type": "TEX_COORD",
+            "object": null
+          },
+          {
+            "name": "\u77e2\u91cf\u8fd0\u7b97",
+            "type": "VECT_MATH"
+          },
+          {
+            "name": "\u566a\u6ce2\u7eb9\u7406",
+            "type": "TEX_NOISE"
+          },
+          {
+            "name": "\u51f9\u51f8",
+            "type": "BUMP"
+          },
+          {
+            "name": "\u989c\u8272\u6e10\u53d8",
+            "type": "VALTORGB"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "RK | Walnut furniture frames.009",
+      "status": "reused_registered_material_dependency",
+      "source_users": 10,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "RK | Walnut furniture frames.009",
+        "users": 10,
+        "diffuse_color": [
+          0.11697066575288773,
+          0.06847816705703735,
+          0.03433980792760849,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "\u539f\u7406\u5316 BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.11697066575288773,
+                0.06847816705703735,
+                0.03433980792760849,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.46000000834465027,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "\u6750\u8d28\u8f93\u51fa",
+            "type": "OUTPUT_MATERIAL"
+          },
+          {
+            "name": "\u7eb9\u7406\u5750\u6807",
+            "type": "TEX_COORD",
+            "object": null
+          },
+          {
+            "name": "\u77e2\u91cf\u8fd0\u7b97",
+            "type": "VECT_MATH"
+          },
+          {
+            "name": "\u566a\u6ce2\u7eb9\u7406",
+            "type": "TEX_NOISE"
+          },
+          {
+            "name": "\u51f9\u51f8",
+            "type": "BUMP"
+          },
+          {
+            "name": "\u989c\u8272\u6e10\u53d8",
+            "type": "VALTORGB"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "RK | Walnut furniture frames.010",
+      "status": "reused_registered_material_dependency",
+      "source_users": 10,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "RK | Walnut furniture frames.010",
+        "users": 10,
+        "diffuse_color": [
+          0.11697066575288773,
+          0.06847816705703735,
+          0.03433980792760849,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "\u539f\u7406\u5316 BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.11697066575288773,
+                0.06847816705703735,
+                0.03433980792760849,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.46000000834465027,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "\u6750\u8d28\u8f93\u51fa",
+            "type": "OUTPUT_MATERIAL"
+          },
+          {
+            "name": "\u7eb9\u7406\u5750\u6807",
+            "type": "TEX_COORD",
+            "object": null
+          },
+          {
+            "name": "\u77e2\u91cf\u8fd0\u7b97",
+            "type": "VECT_MATH"
+          },
+          {
+            "name": "\u566a\u6ce2\u7eb9\u7406",
+            "type": "TEX_NOISE"
+          },
+          {
+            "name": "\u51f9\u51f8",
+            "type": "BUMP"
+          },
+          {
+            "name": "\u989c\u8272\u6e10\u53d8",
+            "type": "VALTORGB"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "RK | Walnut furniture frames.011",
+      "status": "reused_registered_material_dependency",
+      "source_users": 10,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "RK | Walnut furniture frames.011",
+        "users": 10,
+        "diffuse_color": [
+          0.11697066575288773,
+          0.06847816705703735,
+          0.03433980792760849,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "\u539f\u7406\u5316 BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.11697066575288773,
+                0.06847816705703735,
+                0.03433980792760849,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.46000000834465027,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "\u6750\u8d28\u8f93\u51fa",
+            "type": "OUTPUT_MATERIAL"
+          },
+          {
+            "name": "\u7eb9\u7406\u5750\u6807",
+            "type": "TEX_COORD",
+            "object": null
+          },
+          {
+            "name": "\u77e2\u91cf\u8fd0\u7b97",
+            "type": "VECT_MATH"
+          },
+          {
+            "name": "\u566a\u6ce2\u7eb9\u7406",
+            "type": "TEX_NOISE"
+          },
+          {
+            "name": "\u51f9\u51f8",
+            "type": "BUMP"
+          },
+          {
+            "name": "\u989c\u8272\u6e10\u53d8",
+            "type": "VALTORGB"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "RK | Walnut furniture frames.012",
+      "status": "reused_registered_material_dependency",
+      "source_users": 10,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "RK | Walnut furniture frames.012",
+        "users": 10,
+        "diffuse_color": [
+          0.11697066575288773,
+          0.06847816705703735,
+          0.03433980792760849,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "\u539f\u7406\u5316 BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.11697066575288773,
+                0.06847816705703735,
+                0.03433980792760849,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.46000000834465027,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "\u6750\u8d28\u8f93\u51fa",
+            "type": "OUTPUT_MATERIAL"
+          },
+          {
+            "name": "\u7eb9\u7406\u5750\u6807",
+            "type": "TEX_COORD",
+            "object": null
+          },
+          {
+            "name": "\u77e2\u91cf\u8fd0\u7b97",
+            "type": "VECT_MATH"
+          },
+          {
+            "name": "\u566a\u6ce2\u7eb9\u7406",
+            "type": "TEX_NOISE"
+          },
+          {
+            "name": "\u51f9\u51f8",
+            "type": "BUMP"
+          },
+          {
+            "name": "\u989c\u8272\u6e10\u53d8",
+            "type": "VALTORGB"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "RK | Walnut furniture frames.013",
+      "status": "reused_registered_material_dependency",
+      "source_users": 10,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "RK | Walnut furniture frames.013",
+        "users": 10,
+        "diffuse_color": [
+          0.11697066575288773,
+          0.06847816705703735,
+          0.03433980792760849,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "\u539f\u7406\u5316 BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.11697066575288773,
+                0.06847816705703735,
+                0.03433980792760849,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.46000000834465027,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "\u6750\u8d28\u8f93\u51fa",
+            "type": "OUTPUT_MATERIAL"
+          },
+          {
+            "name": "\u7eb9\u7406\u5750\u6807",
+            "type": "TEX_COORD",
+            "object": null
+          },
+          {
+            "name": "\u77e2\u91cf\u8fd0\u7b97",
+            "type": "VECT_MATH"
+          },
+          {
+            "name": "\u566a\u6ce2\u7eb9\u7406",
+            "type": "TEX_NOISE"
+          },
+          {
+            "name": "\u51f9\u51f8",
+            "type": "BUMP"
+          },
+          {
+            "name": "\u989c\u8272\u6e10\u53d8",
+            "type": "VALTORGB"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "Walnut",
+      "status": "scene_parameter_palette_variant",
+      "source_users": 8,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "Walnut",
+        "users": 8,
+        "diffuse_color": [
+          0.1599999964237213,
+          0.07500000298023224,
+          0.03200000151991844,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.1599999964237213,
+                0.07500000298023224,
+                0.03200000151991844,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.6499999761581421,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL"
+          }
+        ]
+      }
+    },
+    {
+      "source_name": "Warm pale concrete",
+      "status": "scene_parameter_palette_variant",
+      "source_users": 29,
+      "used_by_static_mesh": true,
+      "parameters": {
+        "name": "Warm pale concrete",
+        "users": 29,
+        "diffuse_color": [
+          0.5299999713897705,
+          0.47999998927116394,
+          0.38999998569488525,
+          1.0
+        ],
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "inputs": {
+              "Base Color": [
+                0.5299999713897705,
+                0.47999998927116394,
+                0.38999998569488525,
+                1.0
+              ],
+              "Metallic": 0.0,
+              "Roughness": 0.6499999761581421,
+              "IOR": 1.5,
+              "Alpha": 1.0,
+              "Transmission Weight": 0.0
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL"
+          }
+        ]
+      }
+    }
+  ],
+  "portable_refinements": "refinements.json",
+  "validation": "validation.json",
+  "source_integrity": "../final_integrity.json"
+}

@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "id": "new_scene",
+  "description": "Generic input template; no source scene or generated output is included"
+}

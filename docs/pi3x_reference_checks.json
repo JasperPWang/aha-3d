@@ -1,0 +1,73 @@
+{
+  "date": "2026-09-12",
+  "status": "passed",
+  "scope": "Portable code tested in the existing deployed CPU runtime using cached source predictions and masks",
+  "tests": {
+    "tests_run": 30,
+    "failures": 0,
+    "errors": 0,
+    "skipped": [],
+    "patterns": [
+      "test_layout_inspection.py",
+      "test_layout_semantics.py",
+      "test_mesh_measurements.py",
+      "test_reference_entry.py",
+      "test_reference_geometry.py",
+      "test_reference_views.py",
+      "test_geometry_study.py",
+      "test_pi3x_frame_policy.py"
+    ]
+  },
+  "runtime": {
+    "python": "3.11.16 (main, Sep  2 2026, 23:39:52) [GCC 15.3.0]",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "open3d": "0.18.0",
+    "pillow": "12.3.0"
+  },
+  "cached_build": {
+    "frame_count": 32,
+    "source_view_frames": [
+      0,
+      232,
+      435,
+      666,
+      898
+    ],
+    "images_decoded": 16,
+    "native_rgb_exact": true,
+    "cameras_exact": true,
+    "untouched_no_hit_and_person_pixels": true,
+    "measurement_support_unchanged": true,
+    "finite_nonperson_observations": 8123784,
+    "retained_below_confidence_half": 1446203,
+    "reference_sha256": "b9395a8c2ea68ef03ee36673f14e6f3ae56f85132749a95d117aee9d72b10371",
+    "source_views_sha256": "ebf86046a885e903df20f129b7556b86af491d25d8746bd47ed344f5538a4d27"
+  },
+  "visual_review": "Five-view contact sheet inspected: source/core/context legend, native framing and retained distant/window context; noisy surfaces and residual depth layers remain visible",
+  "exclusions": [
+    "Fresh environment installation",
+    "New GPU inference or SAM3 inference",
+    "Independent geometric accuracy or metric calibration",
+    "New Blender room rendering"
+  ],
+  "artifact_policy": "Generated scene data and private runtime paths are excluded from this distribution",
+  "code_sha256": {
+    ".agents/skills/pi3x-scene-reference/scripts/reconstruct.py": "52a60826b488bd109345713a4c40baecfc8a339be4195bfaf424386e53002292",
+    "tests/test_geometry_study.py": "7143b92cc81a1d4ecdf922d0ae402b0c0809aa76be884987e554ea1f760bfcd3",
+    "tests/test_layout_inspection.py": "7178e2ce0c02069a9763d5c7f45e67c369d13c09d3e9b3d2ac5f1245ae898d74",
+    "tests/test_mesh_measurements.py": "044b2f41f9ae091611f9e76732d8403e56132eb468de53d5e3bee0716216b6a0",
+    "tests/test_pi3x_frame_policy.py": "922deacbb5d402d10cb956c884b69be41383356988fa54a185b5d82668f26fb5",
+    "tests/test_reference_entry.py": "963f41f3b6a9d53453452054810f46a951073902f5aabcf7cd2132898236b41e",
+    "tests/test_reference_geometry.py": "e6e403f4a9053f1e16c933874e13e83846f06009386bc1f0e7d2312cb37612a0",
+    "tests/test_reference_views.py": "fe9db31b5605d6a8160edf76d186ebafcb9d0e47440005725098ecdf2e62ee74",
+    "tools/layout_inspection/build_reference.py": "1517f7887d7840c7926e96fb06fbd693856d911c6b749de4806285d4147d9e2b",
+    "tools/layout_inspection/config.py": "1c07c619563518c7c9df66db7022f9f576903dea511e589af2dbacd64d436d48",
+    "tools/layout_inspection/geometry_study.py": "1d8bc363c2f8538958e91d6d7e6cb18857c44786f3884e466ad2eb41c4f26a94",
+    "tools/layout_inspection/measure_mesh.py": "c6e120dddd7ac2a012a85c1ba582fd9f704d48156e531aa43030a7f56176c981",
+    "tools/layout_inspection/prepare.py": "b5e28b4b2a8f7cbb51815d77e7807dc900d6855fb9c53055a6800fb6af34095a",
+    "tools/layout_inspection/reference_geometry.py": "0fce2f0aa2ad8a7443fa3a563bfde7a9f706140f607f7b710afc0533819890c5",
+    "tools/layout_inspection/reference_views.py": "f84f80baffc4f9ed57b3b30188aa21caec525077b000d032be406997b9fe7b59",
+    "tools/layout_inspection/render_blender.py": "1cd2700cf9fc2174ff036de64e57b0355b88f6c1ecb0477e72755ffe26d5ca38"
+  }
+}

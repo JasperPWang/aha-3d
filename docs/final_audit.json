@@ -1,0 +1,10 @@
+{
+  "python_files": 111,
+  "shell_files": 25,
+  "skills": 6,
+  "skill_payload_files": 74,
+  "passed": true,
+  "errors": [],
+  "binary_hashes_preserved": true,
+  "empty_historical_directories": true
+}

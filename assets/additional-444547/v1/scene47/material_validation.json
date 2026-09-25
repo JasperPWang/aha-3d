@@ -1,0 +1,50 @@
+[
+  {
+    "name": "RK | Aged brass",
+    "preview": "previews/material_01.png",
+    "nodes": [
+      "BSDF_PRINCIPLED",
+      "OUTPUT_MATERIAL"
+    ]
+  },
+  {
+    "name": "RK | Ivory linen",
+    "preview": "previews/material_02.png",
+    "nodes": [
+      "BSDF_PRINCIPLED",
+      "OUTPUT_MATERIAL"
+    ]
+  },
+  {
+    "name": "RK | Ivory trim",
+    "preview": "previews/material_03.png",
+    "nodes": [
+      "BSDF_PRINCIPLED",
+      "OUTPUT_MATERIAL"
+    ]
+  },
+  {
+    "name": "RK | Muted landscape artwork",
+    "preview": "previews/material_04.png",
+    "nodes": [
+      "BSDF_PRINCIPLED",
+      "OUTPUT_MATERIAL"
+    ]
+  },
+  {
+    "name": "RK | Pale wool carpet",
+    "preview": "previews/material_05.png",
+    "nodes": [
+      "BSDF_PRINCIPLED",
+      "OUTPUT_MATERIAL"
+    ]
+  },
+  {
+    "name": "RK | Soft blue window view",
+    "preview": "previews/material_06.png",
+    "nodes": [
+      "BSDF_PRINCIPLED",
+      "OUTPUT_MATERIAL"
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+# Blender Asset Catalog Definition File
+VERSION 1
+
+5e073d5b-1acb-5acf-8c0b-073a2acad628:RoomKit/Furniture/Decor/Tabletop/Vases:RoomKit - Furniture - Decor - Tabletop - Vases
+0cd907c6-a3f5-560d-8d09-0f1ec422fc96:RoomKit/Materials/Other:RoomKit - Materials - Other

@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "date": "2026-09-11",
+  "cpu_only": true,
+  "relocated_core_tests_without_h3": "143 passed",
+  "catalog_deterministic_and_stale_detection": true,
+  "skill_frontmatter_validated": 7,
+  "all_original_skill_payloads_present": 74,
+  "distribution_text_and_file_audit": "passed",
+  "reference_demos": 17,
+  "shared_architecture_imports": "Kimodo, motion_correction, Pi3X and SAM 3D Body passed together in one existing environment",
+  "h3_cpu_adapter_checks": {
+    "h3_dry_run_no_install_no_imports_no_subprocess_no_writes": true,
+    "h3_valid_frame_cases": 3,
+    "h3_rejected_cases": [
+      "15-second aligned overflow",
+      "existing output",
+      "missing reference",
+      "empty reference",
+      "image before video",
+      "malformed example"
+    ],
+    "h3_mocked_runtime_dispatch": true
+  },
+  "limits": [
+    "No fresh dependency installation",
+    "No model weights loaded",
+    "No GPU inference or scene generation",
+    "Existing unchanged asset load evidence reused"
+  ]
+}

@@ -1,0 +1,3063 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-14",
+  "scope": "All registered model collections and independent materials",
+  "policy": "Reviewed improvements replace current payloads under stable IDs; no duplicate obsolete library is registered.",
+  "counts": {
+    "models": 49,
+    "models_upgraded": 19,
+    "models_retained": 30,
+    "materials_reviewed": 59,
+    "materials_retained": 59
+  },
+  "models": [
+    {
+      "asset_id": "additional-444547-44-v1/additional-44-silver-serving-platter",
+      "library_id": "additional-444547-44-v1",
+      "datablock": "Additional 44 | Silver serving platter",
+      "status": "upgraded",
+      "changes": [
+        "Replaced overlapping thick disk and torus with one continuous serving surface, recessed well, rolled rim and support foot.",
+        "Preserved 308 mm outer diameter, 18 mm overall height and silver material."
+      ],
+      "reason": "Corrected verified vessel geometry or topology defect.",
+      "validation": {
+        "max_bounds_delta_m": 0.0,
+        "changed_meshes": [
+          {
+            "name": "EXPORT_PART_44_0__Silver serving platter.001",
+            "bounds_min_m": [
+              -0.15399999916553497,
+              -0.15399999916553497,
+              0.0
+            ],
+            "bounds_max_m": [
+              0.15399999916553497,
+              0.15399999916553497,
+              0.017999999225139618
+            ],
+            "materials": [
+              "RK | Silver platter"
+            ],
+            "vertices": 1666,
+            "edges": 3456,
+            "faces": 1792,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "signed_volume_m3": 0.00033719813908644145
+          }
+        ],
+        "cavity_checks": [
+          {
+            "object": "EXPORT_PART_44_0__Silver serving platter.001",
+            "floor_z_m": 0.006000000983476639,
+            "rim_z_m": 0.017999999225139618,
+            "center_cavity_depth_m": 0.011999998241662979,
+            "wall_rays": [
+              {
+                "angle_rad": 0,
+                "wall_distance_m": 0.14100000262260437,
+                "hit": true
+              },
+              {
+                "angle_rad": 1.5707963267948966,
+                "wall_distance_m": 0.14100000262260437,
+                "hit": true
+              },
+              {
+                "angle_rad": 3.141592653589793,
+                "wall_distance_m": 0.14100000262260437,
+                "hit": true
+              },
+              {
+                "angle_rad": 4.71238898038469,
+                "wall_distance_m": 0.14100000262260437,
+                "hit": true
+              }
+            ],
+            "scope": "Vessel mesh only; soil and foliage excluded. No dynamics certification."
+          }
+        ],
+        "visual_review": "passed: agent inspected matched before/after material oblique and clay cavity views; plant vessels also inspected with foliage and substrate hidden",
+        "scope": "Changed vessel/substrate meshes only. Foliage and simulation not certified.",
+        "saved_reopen_passed": true,
+        "visual_review_scope": "Same camera/light/framing before and after. All nine collections reviewed; original material appearance, placement envelope and whole-plant arrangement retained.",
+        "limits": [
+          "No rigid-body or fluid simulation was run.",
+          "Unchanged plant foliage is not certified manifold or collision-free.",
+          "Wall and base dimensions are authored approximations, not source measurements."
+        ],
+        "job_id": "46324895",
+        "comparison_sheets": [
+          "runs/_tools/asset_quality_tabletop_20260913/refined/vessels_comparison.jpg",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plant_containers_comparison.jpg",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plants_whole_comparison.jpg"
+        ],
+        "source_report": "runs/_tools/asset_quality_tabletop_20260913/refined/report.json"
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "passed",
+        "date": "2026-09-14",
+        "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+        "evidence": [
+          "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-44-v1/additional-44-silver-serving-platter/before_oblique.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-44-v1/additional-44-silver-serving-platter/before_cavity.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-44-v1/additional-44-silver-serving-platter/after_oblique.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-44-v1/additional-44-silver-serving-platter/after_cavity.png"
+        ]
+      },
+      "preview": "assets/quality_previews/additional-444547-44-v1__additional-44-silver-serving-platter.png",
+      "physics": "Passed the bounded exterior-contact drop test; no cavity-insertion test."
+    },
+    {
+      "asset_id": "additional-444547-44-v1/additional-44-stylized-stemmed-vessel",
+      "library_id": "additional-444547-44-v1",
+      "datablock": "Additional 44 | Stylized stemmed vessel",
+      "status": "upgraded",
+      "changes": [
+        "Replaced three intersecting 24-sided solid proxies with one continuous 128-sided vessel shell.",
+        "Authored open cup, 2.4 mm straight wall, sealed floor, softened rim and continuous stem/base junction."
+      ],
+      "reason": "Corrected verified vessel geometry or topology defect.",
+      "validation": {
+        "max_bounds_delta_m": 5.960464477539063e-08,
+        "changed_meshes": [
+          {
+            "name": "EXPORT_PART_44_5__Sideboard glass bowl.001",
+            "bounds_min_m": [
+              -0.04500001668930054,
+              -0.04500001668930054,
+              0.0
+            ],
+            "bounds_max_m": [
+              0.04500001668930054,
+              0.04500001668930054,
+              0.30549997091293335
+            ],
+            "materials": [
+              "RK | Glass approximation"
+            ],
+            "vertices": 2818,
+            "edges": 5760,
+            "faces": 2944,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "signed_volume_m3": 0.0002882079774881768
+          }
+        ],
+        "cavity_checks": [
+          {
+            "object": "EXPORT_PART_44_5__Sideboard glass bowl.001",
+            "floor_z_m": 0.2120000123977661,
+            "rim_z_m": 0.30549997091293335,
+            "center_cavity_depth_m": 0.09349995851516724,
+            "wall_rays": [
+              {
+                "angle_rad": 0,
+                "wall_distance_m": 0.04259999841451645,
+                "hit": true
+              },
+              {
+                "angle_rad": 1.5707963267948966,
+                "wall_distance_m": 0.04259999841451645,
+                "hit": true
+              },
+              {
+                "angle_rad": 3.141592653589793,
+                "wall_distance_m": 0.04259999841451645,
+                "hit": true
+              },
+              {
+                "angle_rad": 4.71238898038469,
+                "wall_distance_m": 0.04259999841451645,
+                "hit": true
+              }
+            ],
+            "scope": "Vessel mesh only; soil and foliage excluded. No dynamics certification."
+          }
+        ],
+        "visual_review": "passed: agent inspected matched before/after material oblique and clay cavity views; plant vessels also inspected with foliage and substrate hidden",
+        "scope": "Changed vessel/substrate meshes only. Foliage and simulation not certified.",
+        "saved_reopen_passed": true,
+        "visual_review_scope": "Same camera/light/framing before and after. All nine collections reviewed; original material appearance, placement envelope and whole-plant arrangement retained.",
+        "limits": [
+          "No rigid-body or fluid simulation was run.",
+          "Unchanged plant foliage is not certified manifold or collision-free.",
+          "Wall and base dimensions are authored approximations, not source measurements."
+        ],
+        "job_id": "46324895",
+        "comparison_sheets": [
+          "runs/_tools/asset_quality_tabletop_20260913/refined/vessels_comparison.jpg",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plant_containers_comparison.jpg",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plants_whole_comparison.jpg"
+        ],
+        "source_report": "runs/_tools/asset_quality_tabletop_20260913/refined/report.json"
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "passed",
+        "date": "2026-09-14",
+        "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+        "evidence": [
+          "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-44-v1/additional-44-stylized-stemmed-vessel/before_oblique.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-44-v1/additional-44-stylized-stemmed-vessel/before_cavity.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-44-v1/additional-44-stylized-stemmed-vessel/after_oblique.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-44-v1/additional-44-stylized-stemmed-vessel/after_cavity.png"
+        ]
+      },
+      "preview": "assets/quality_previews/additional-444547-44-v1__additional-44-stylized-stemmed-vessel.png",
+      "physics": "Passed the bounded exterior-contact drop test; no cavity-insertion test."
+    },
+    {
+      "asset_id": "additional-444547-45-v1/additional-45-tall-porcelain-vase",
+      "library_id": "additional-444547-45-v1",
+      "datablock": "Additional 45 | Tall porcelain vase",
+      "status": "upgraded",
+      "changes": [
+        "Rebuilt capped solid porcelain cylinder as a sealed hollow vessel with 128 radial segments.",
+        "Retained measured rounded outer silhouette and ceramic material; authored 4 mm radial wall and 7 mm base."
+      ],
+      "reason": "Corrected verified vessel geometry or topology defect.",
+      "validation": {
+        "max_bounds_delta_m": 5.960464477539063e-08,
+        "changed_meshes": [
+          {
+            "name": "EXPORT_PART_45_9__Table 0 vase.001",
+            "bounds_min_m": [
+              -0.06500005722045898,
+              -0.06500005722045898,
+              0.0
+            ],
+            "bounds_max_m": [
+              0.06500005722045898,
+              0.06500005722045898,
+              0.20000004768371582
+            ],
+            "materials": [
+              "RK | Porcelain"
+            ],
+            "vertices": 7810,
+            "edges": 15744,
+            "faces": 7936,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "signed_volume_m3": 0.00039334806253322807
+          }
+        ],
+        "cavity_checks": [
+          {
+            "object": "EXPORT_PART_45_9__Table 0 vase.001",
+            "floor_z_m": 0.006999999284744263,
+            "rim_z_m": 0.20000004768371582,
+            "center_cavity_depth_m": 0.19300004839897156,
+            "wall_rays": [
+              {
+                "angle_rad": 0,
+                "wall_distance_m": 0.06100006029009819,
+                "hit": true
+              },
+              {
+                "angle_rad": 1.5707963267948966,
+                "wall_distance_m": 0.06100006029009819,
+                "hit": true
+              },
+              {
+                "angle_rad": 3.141592653589793,
+                "wall_distance_m": 0.06100006029009819,
+                "hit": true
+              },
+              {
+                "angle_rad": 4.71238898038469,
+                "wall_distance_m": 0.06100006029009819,
+                "hit": true
+              }
+            ],
+            "scope": "Vessel mesh only; soil and foliage excluded. No dynamics certification."
+          }
+        ],
+        "visual_review": "passed: agent inspected matched before/after material oblique and clay cavity views; plant vessels also inspected with foliage and substrate hidden",
+        "scope": "Changed vessel/substrate meshes only. Foliage and simulation not certified.",
+        "saved_reopen_passed": true,
+        "visual_review_scope": "Same camera/light/framing before and after. All nine collections reviewed; original material appearance, placement envelope and whole-plant arrangement retained.",
+        "limits": [
+          "No rigid-body or fluid simulation was run.",
+          "Unchanged plant foliage is not certified manifold or collision-free.",
+          "Wall and base dimensions are authored approximations, not source measurements."
+        ],
+        "job_id": "46324895",
+        "comparison_sheets": [
+          "runs/_tools/asset_quality_tabletop_20260913/refined/vessels_comparison.jpg",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plant_containers_comparison.jpg",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plants_whole_comparison.jpg"
+        ],
+        "source_report": "runs/_tools/asset_quality_tabletop_20260913/refined/report.json"
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "passed",
+        "date": "2026-09-14",
+        "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+        "evidence": [
+          "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-45-v1/additional-45-tall-porcelain-vase/before_oblique.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-45-v1/additional-45-tall-porcelain-vase/before_cavity.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-45-v1/additional-45-tall-porcelain-vase/after_oblique.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-45-v1/additional-45-tall-porcelain-vase/after_cavity.png"
+        ]
+      },
+      "preview": "assets/quality_previews/additional-444547-45-v1__additional-45-tall-porcelain-vase.png",
+      "physics": "Passed the bounded exterior-contact drop test; no cavity-insertion test."
+    },
+    {
+      "asset_id": "additional-444547-45-v1/additional-45-small-porcelain-vase",
+      "library_id": "additional-444547-45-v1",
+      "datablock": "Additional 45 | Small porcelain vase",
+      "status": "upgraded",
+      "changes": [
+        "Rebuilt capped solid porcelain cylinder as a sealed hollow vessel with 128 radial segments.",
+        "Retained measured rounded outer silhouette and ceramic material; authored 3 mm radial wall and 7 mm base."
+      ],
+      "reason": "Corrected verified vessel geometry or topology defect.",
+      "validation": {
+        "max_bounds_delta_m": 0.0,
+        "changed_meshes": [
+          {
+            "name": "EXPORT_PART_45_10__Dining vase 0.001",
+            "bounds_min_m": [
+              -0.039999961853027344,
+              -0.039999961853027344,
+              0.0
+            ],
+            "bounds_max_m": [
+              0.039999961853027344,
+              0.039999961853027344,
+              0.12000000476837158
+            ],
+            "materials": [
+              "RK | Porcelain"
+            ],
+            "vertices": 7810,
+            "edges": 15744,
+            "faces": 7936,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "signed_volume_m3": 0.00011409896734879928
+          }
+        ],
+        "cavity_checks": [
+          {
+            "object": "EXPORT_PART_45_10__Dining vase 0.001",
+            "floor_z_m": 0.006999999284744263,
+            "rim_z_m": 0.12000000476837158,
+            "center_cavity_depth_m": 0.11300000548362732,
+            "wall_rays": [
+              {
+                "angle_rad": 0,
+                "wall_distance_m": 0.036999963223934174,
+                "hit": true
+              },
+              {
+                "angle_rad": 1.5707963267948966,
+                "wall_distance_m": 0.036999963223934174,
+                "hit": true
+              },
+              {
+                "angle_rad": 3.141592653589793,
+                "wall_distance_m": 0.036999963223934174,
+                "hit": true
+              },
+              {
+                "angle_rad": 4.71238898038469,
+                "wall_distance_m": 0.036999963223934174,
+                "hit": true
+              }
+            ],
+            "scope": "Vessel mesh only; soil and foliage excluded. No dynamics certification."
+          }
+        ],
+        "visual_review": "passed: agent inspected matched before/after material oblique and clay cavity views; plant vessels also inspected with foliage and substrate hidden",
+        "scope": "Changed vessel/substrate meshes only. Foliage and simulation not certified.",
+        "saved_reopen_passed": true,
+        "visual_review_scope": "Same camera/light/framing before and after. All nine collections reviewed; original material appearance, placement envelope and whole-plant arrangement retained.",
+        "limits": [
+          "No rigid-body or fluid simulation was run.",
+          "Unchanged plant foliage is not certified manifold or collision-free.",
+          "Wall and base dimensions are authored approximations, not source measurements."
+        ],
+        "job_id": "46324895",
+        "comparison_sheets": [
+          "runs/_tools/asset_quality_tabletop_20260913/refined/vessels_comparison.jpg",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plant_containers_comparison.jpg",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plants_whole_comparison.jpg"
+        ],
+        "source_report": "runs/_tools/asset_quality_tabletop_20260913/refined/report.json"
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "passed",
+        "date": "2026-09-14",
+        "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+        "evidence": [
+          "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-45-v1/additional-45-small-porcelain-vase/before_oblique.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-45-v1/additional-45-small-porcelain-vase/before_cavity.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-45-v1/additional-45-small-porcelain-vase/after_oblique.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-45-v1/additional-45-small-porcelain-vase/after_cavity.png"
+        ]
+      },
+      "preview": "assets/quality_previews/additional-444547-45-v1__additional-45-small-porcelain-vase.png",
+      "physics": "Passed the bounded exterior-contact drop test; no cavity-insertion test."
+    },
+    {
+      "asset_id": "ceramic-vase-v1/vase-rounded-ceramic",
+      "library_id": "ceramic-vase-v1",
+      "datablock": "RK Vase - Rounded Ceramic",
+      "status": "upgraded",
+      "changes": [
+        "Smoothed the original exterior landmarks without radius overshoot; extended shallow inner neck into a full-depth cavity.",
+        "Closed missing underside and joined inner/outer shells with a rounded lip and 14 mm base."
+      ],
+      "reason": "Corrected verified vessel geometry or topology defect.",
+      "validation": {
+        "max_bounds_delta_m": 0.0,
+        "changed_meshes": [
+          {
+            "name": "Coffee table ceramic vase.001",
+            "bounds_min_m": [
+              -0.17117714881896973,
+              -0.17117738723754883,
+              0.0
+            ],
+            "bounds_max_m": [
+              0.17117714881896973,
+              0.17117714881896973,
+              0.4383333921432495
+            ],
+            "materials": [
+              "RK | Glazed cream ceramic"
+            ],
+            "vertices": 14210,
+            "edges": 28544,
+            "faces": 14336,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "signed_volume_m3": 0.002817809879045243
+          }
+        ],
+        "cavity_checks": [
+          {
+            "object": "Coffee table ceramic vase.001",
+            "floor_z_m": 0.013999968767166138,
+            "rim_z_m": 0.4383333921432495,
+            "center_cavity_depth_m": 0.4243334233760834,
+            "wall_rays": [
+              {
+                "angle_rad": 0,
+                "wall_distance_m": 0.16199083626270294,
+                "hit": true
+              },
+              {
+                "angle_rad": 1.5707963267948966,
+                "wall_distance_m": 0.1619909703731537,
+                "hit": true
+              },
+              {
+                "angle_rad": 3.141592653589793,
+                "wall_distance_m": 0.16199085116386414,
+                "hit": true
+              },
+              {
+                "angle_rad": 4.71238898038469,
+                "wall_distance_m": 0.1619909703731537,
+                "hit": true
+              }
+            ],
+            "scope": "Vessel mesh only; soil and foliage excluded. No dynamics certification."
+          }
+        ],
+        "visual_review": "passed: agent inspected matched before/after material oblique and clay cavity views; plant vessels also inspected with foliage and substrate hidden",
+        "scope": "Changed vessel/substrate meshes only. Foliage and simulation not certified.",
+        "saved_reopen_passed": true,
+        "visual_review_scope": "Same camera/light/framing before and after. All nine collections reviewed; original material appearance, placement envelope and whole-plant arrangement retained.",
+        "limits": [
+          "No rigid-body or fluid simulation was run.",
+          "Unchanged plant foliage is not certified manifold or collision-free.",
+          "Wall and base dimensions are authored approximations, not source measurements."
+        ],
+        "job_id": "46324895",
+        "comparison_sheets": [
+          "runs/_tools/asset_quality_tabletop_20260913/refined/vessels_comparison.jpg",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plant_containers_comparison.jpg",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plants_whole_comparison.jpg"
+        ],
+        "source_report": "runs/_tools/asset_quality_tabletop_20260913/refined/report.json"
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "passed",
+        "date": "2026-09-14",
+        "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+        "evidence": [
+          "runs/_tools/asset_quality_tabletop_20260913/refined/ceramic-vase-v1/rk-vase-rounded-ceramic/before_oblique.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/ceramic-vase-v1/rk-vase-rounded-ceramic/before_cavity.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/ceramic-vase-v1/rk-vase-rounded-ceramic/after_oblique.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/ceramic-vase-v1/rk-vase-rounded-ceramic/after_cavity.png"
+        ]
+      },
+      "preview": "assets/quality_previews/ceramic-vase-v1__vase-rounded-ceramic.png",
+      "physics": "Passed the bounded exterior-contact drop test; no cavity-insertion test."
+    },
+    {
+      "asset_id": "plants-v1/plant-broadleaf-ceramic",
+      "library_id": "plants-v1",
+      "datablock": "RK Plant - Broadleaf Ceramic",
+      "status": "upgraded",
+      "changes": [
+        "Retained foliage, substrate and pot position; smoothed the original pot profile through its measured landmarks.",
+        "Refined 48-sided pot to 128-sided sealed vessel with a full interior and explicit 8 mm radial wall and 16 mm base."
+      ],
+      "reason": "Corrected verified vessel geometry or topology defect.",
+      "validation": {
+        "max_bounds_delta_m": 0.0,
+        "changed_meshes": [
+          {
+            "name": "Broadleaf ceramic pot.001",
+            "bounds_min_m": [
+              -0.17600005865097046,
+              -0.17599987983703613,
+              0.0
+            ],
+            "bounds_max_m": [
+              0.1759999394416809,
+              0.17600011825561523,
+              0.24150002002716064
+            ],
+            "materials": [
+              "RK | Charcoal ceramic bowl.001"
+            ],
+            "vertices": 5378,
+            "edges": 10880,
+            "faces": 5504,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "signed_volume_m3": 0.002434567513201692
+          }
+        ],
+        "cavity_checks": [
+          {
+            "object": "Broadleaf ceramic pot.001",
+            "floor_z_m": 0.016000017523765564,
+            "rim_z_m": 0.24150002002716064,
+            "center_cavity_depth_m": 0.22550000250339508,
+            "wall_rays": [
+              {
+                "angle_rad": 0,
+                "wall_distance_m": 0.16131429374217987,
+                "hit": true
+              },
+              {
+                "angle_rad": 1.5707963267948966,
+                "wall_distance_m": 0.16131429374217987,
+                "hit": true
+              },
+              {
+                "angle_rad": 3.141592653589793,
+                "wall_distance_m": 0.16131429374217987,
+                "hit": true
+              },
+              {
+                "angle_rad": 4.71238898038469,
+                "wall_distance_m": 0.16131429374217987,
+                "hit": true
+              }
+            ],
+            "scope": "Vessel mesh only; soil and foliage excluded. No dynamics certification."
+          }
+        ],
+        "visual_review": "passed: agent inspected matched before/after material oblique and clay cavity views; plant vessels also inspected with foliage and substrate hidden",
+        "scope": "Changed vessel/substrate meshes only. Foliage and simulation not certified.",
+        "saved_reopen_passed": true,
+        "visual_review_scope": "Same camera/light/framing before and after. All nine collections reviewed; original material appearance, placement envelope and whole-plant arrangement retained.",
+        "limits": [
+          "No rigid-body or fluid simulation was run.",
+          "Unchanged plant foliage is not certified manifold or collision-free.",
+          "Wall and base dimensions are authored approximations, not source measurements."
+        ],
+        "job_id": "46324895",
+        "comparison_sheets": [
+          "runs/_tools/asset_quality_tabletop_20260913/refined/vessels_comparison.jpg",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plant_containers_comparison.jpg",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plants_whole_comparison.jpg"
+        ],
+        "source_report": "runs/_tools/asset_quality_tabletop_20260913/refined/report.json"
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "passed",
+        "date": "2026-09-14",
+        "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+        "evidence": [
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v1/rk-plant-broadleaf-ceramic/before_oblique.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v1/rk-plant-broadleaf-ceramic/before_cavity.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v1/rk-plant-broadleaf-ceramic/before_container_oblique.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v1/rk-plant-broadleaf-ceramic/before_container_cavity.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v1/rk-plant-broadleaf-ceramic/after_oblique.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v1/rk-plant-broadleaf-ceramic/after_cavity.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v1/rk-plant-broadleaf-ceramic/after_container_oblique.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v1/rk-plant-broadleaf-ceramic/after_container_cavity.png"
+        ]
+      },
+      "preview": "assets/quality_previews/plants-v1__plant-broadleaf-ceramic.png"
+    },
+    {
+      "asset_id": "plants-v2/plant-peace-lily-natural",
+      "library_id": "plants-v2",
+      "datablock": "RK Plant - Peace Lily Natural",
+      "status": "upgraded",
+      "changes": [
+        "Retained foliage, substrate and pot position; smoothed the original pot profile through its measured landmarks.",
+        "Refined 48-sided pot to 128-sided sealed vessel with a full interior and explicit 8 mm radial wall and 16 mm base."
+      ],
+      "reason": "Corrected verified vessel geometry or topology defect.",
+      "validation": {
+        "max_bounds_delta_m": 0.0,
+        "changed_meshes": [
+          {
+            "name": "Natural plant pot.001",
+            "bounds_min_m": [
+              -0.16238071024417877,
+              -0.1660522222518921,
+              0.0
+            ],
+            "bounds_max_m": [
+              0.1896192878484726,
+              0.18594777584075928,
+              0.24150002002716064
+            ],
+            "materials": [
+              "RK | Charcoal ceramic bowl.002"
+            ],
+            "vertices": 5378,
+            "edges": 10880,
+            "faces": 5504,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "signed_volume_m3": 0.0024345674922266044
+          }
+        ],
+        "cavity_checks": [
+          {
+            "object": "Natural plant pot.001",
+            "floor_z_m": 0.016000017523765564,
+            "rim_z_m": 0.24150002002716064,
+            "center_cavity_depth_m": 0.22550000250339508,
+            "wall_rays": [
+              {
+                "angle_rad": 0,
+                "wall_distance_m": 0.16131429374217987,
+                "hit": true
+              },
+              {
+                "angle_rad": 1.5707963267948966,
+                "wall_distance_m": 0.16131427884101868,
+                "hit": true
+              },
+              {
+                "angle_rad": 3.141592653589793,
+                "wall_distance_m": 0.16131427884101868,
+                "hit": true
+              },
+              {
+                "angle_rad": 4.71238898038469,
+                "wall_distance_m": 0.16131429374217987,
+                "hit": true
+              }
+            ],
+            "scope": "Vessel mesh only; soil and foliage excluded. No dynamics certification."
+          }
+        ],
+        "visual_review": "passed: agent inspected matched before/after material oblique and clay cavity views; plant vessels also inspected with foliage and substrate hidden",
+        "scope": "Changed vessel/substrate meshes only. Foliage and simulation not certified.",
+        "saved_reopen_passed": true,
+        "visual_review_scope": "Same camera/light/framing before and after. All nine collections reviewed; original material appearance, placement envelope and whole-plant arrangement retained.",
+        "limits": [
+          "No rigid-body or fluid simulation was run.",
+          "Unchanged plant foliage is not certified manifold or collision-free.",
+          "Wall and base dimensions are authored approximations, not source measurements."
+        ],
+        "job_id": "46324895",
+        "comparison_sheets": [
+          "runs/_tools/asset_quality_tabletop_20260913/refined/vessels_comparison.jpg",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plant_containers_comparison.jpg",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plants_whole_comparison.jpg"
+        ],
+        "source_report": "runs/_tools/asset_quality_tabletop_20260913/refined/report.json"
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "passed",
+        "date": "2026-09-14",
+        "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+        "evidence": [
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v2/rk-plant-peace-lily-natural/before_oblique.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v2/rk-plant-peace-lily-natural/before_cavity.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v2/rk-plant-peace-lily-natural/before_container_oblique.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v2/rk-plant-peace-lily-natural/before_container_cavity.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v2/rk-plant-peace-lily-natural/after_oblique.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v2/rk-plant-peace-lily-natural/after_cavity.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v2/rk-plant-peace-lily-natural/after_container_oblique.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plants-v2/rk-plant-peace-lily-natural/after_container_cavity.png"
+        ]
+      },
+      "preview": "assets/quality_previews/plants-v2__plant-peace-lily-natural.png"
+    },
+    {
+      "asset_id": "tabletop-plants-v1/plant-compact-fern",
+      "library_id": "tabletop-plants-v1",
+      "datablock": "RK Plant - Compact Fern",
+      "status": "upgraded",
+      "changes": [
+        "Welded duplicated axis poles in vessel and substrate meshes, closing false boundary loops and restoring valid solid topology.",
+        "Preserved authored ribbed bowl/pot shape, all foliage, materials and geometry positions."
+      ],
+      "reason": "Corrected verified vessel geometry or topology defect.",
+      "validation": {
+        "max_bounds_delta_m": 0.0,
+        "changed_meshes": [
+          {
+            "name": "Fern charcoal ribbed pot.001",
+            "bounds_min_m": [
+              -0.06665000319480896,
+              -0.06665000319480896,
+              0.0
+            ],
+            "bounds_max_m": [
+              0.06665000319480896,
+              0.06665000319480896,
+              0.11599999666213989
+            ],
+            "materials": [
+              "RK | Ribbed charcoal stoneware"
+            ],
+            "vertices": 674,
+            "edges": 1440,
+            "faces": 768,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "signed_volume_m3": 0.00031552839753493263
+          },
+          {
+            "name": "Fern visible potting soil.001",
+            "bounds_min_m": [
+              -0.05700000002980232,
+              -0.05700000002980232,
+              0.10199999809265137
+            ],
+            "bounds_max_m": [
+              0.05700000002980232,
+              0.05700000002980232,
+              0.10599999874830246
+            ],
+            "materials": [
+              "RK | Dark potting substrate"
+            ],
+            "vertices": 194,
+            "edges": 480,
+            "faces": 288,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "signed_volume_m3": 4.0799001291431494e-05
+          }
+        ],
+        "cavity_checks": [
+          {
+            "object": "Fern charcoal ribbed pot.001",
+            "floor_z_m": 0.020000003278255463,
+            "rim_z_m": 0.11599999666213989,
+            "center_cavity_depth_m": 0.09599999338388443,
+            "wall_rays": [
+              {
+                "angle_rad": 0,
+                "wall_distance_m": 0.057171739637851715,
+                "hit": true
+              },
+              {
+                "angle_rad": 1.5707963267948966,
+                "wall_distance_m": 0.057171739637851715,
+                "hit": true
+              },
+              {
+                "angle_rad": 3.141592653589793,
+                "wall_distance_m": 0.057171739637851715,
+                "hit": true
+              },
+              {
+                "angle_rad": 4.71238898038469,
+                "wall_distance_m": 0.057171739637851715,
+                "hit": true
+              }
+            ],
+            "scope": "Vessel mesh only; soil and foliage excluded. No dynamics certification."
+          }
+        ],
+        "visual_review": "passed: agent inspected matched before/after material oblique and clay cavity views; plant vessels also inspected with foliage and substrate hidden",
+        "scope": "Changed vessel/substrate meshes only. Foliage and simulation not certified.",
+        "saved_reopen_passed": true,
+        "visual_review_scope": "Same camera/light/framing before and after. All nine collections reviewed; original material appearance, placement envelope and whole-plant arrangement retained.",
+        "limits": [
+          "No rigid-body or fluid simulation was run.",
+          "Unchanged plant foliage is not certified manifold or collision-free.",
+          "Wall and base dimensions are authored approximations, not source measurements."
+        ],
+        "job_id": "46324895",
+        "comparison_sheets": [
+          "runs/_tools/asset_quality_tabletop_20260913/refined/vessels_comparison.jpg",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plant_containers_comparison.jpg",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plants_whole_comparison.jpg"
+        ],
+        "source_report": "runs/_tools/asset_quality_tabletop_20260913/refined/report.json"
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "passed",
+        "date": "2026-09-14",
+        "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+        "evidence": [
+          "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-plant-compact-fern/before_oblique.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-plant-compact-fern/before_cavity.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-plant-compact-fern/before_container_oblique.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-plant-compact-fern/before_container_cavity.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-plant-compact-fern/after_oblique.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-plant-compact-fern/after_cavity.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-plant-compact-fern/after_container_oblique.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-plant-compact-fern/after_container_cavity.png"
+        ]
+      },
+      "preview": "assets/quality_previews/tabletop-plants-v1__plant-compact-fern.png"
+    },
+    {
+      "asset_id": "tabletop-plants-v1/flowers-pink-hydrangea-bowl",
+      "library_id": "tabletop-plants-v1",
+      "datablock": "RK Flowers - Pink Hydrangea Bowl",
+      "status": "upgraded",
+      "changes": [
+        "Welded duplicated axis poles in vessel and substrate meshes, closing false boundary loops and restoring valid solid topology.",
+        "Preserved authored ribbed bowl/pot shape, all foliage, materials and geometry positions."
+      ],
+      "reason": "Corrected verified vessel geometry or topology defect.",
+      "validation": {
+        "max_bounds_delta_m": 0.0,
+        "changed_meshes": [
+          {
+            "name": "Hydrangea arrangement substrate.001",
+            "bounds_min_m": [
+              -0.07699999958276749,
+              -0.07699999958276749,
+              0.07999999821186066
+            ],
+            "bounds_max_m": [
+              0.07699999958276749,
+              0.07699999958276749,
+              0.08699999749660492
+            ],
+            "materials": [
+              "RK | Dark potting substrate"
+            ],
+            "vertices": 194,
+            "edges": 480,
+            "faces": 288,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "signed_volume_m3": 0.00013029243723839738
+          },
+          {
+            "name": "Hydrangea low ivory bowl.001",
+            "bounds_min_m": [
+              -0.09064999967813492,
+              -0.09064999967813492,
+              0.0
+            ],
+            "bounds_max_m": [
+              0.09064999967813492,
+              0.09064999967813492,
+              0.10300000011920929
+            ],
+            "materials": [
+              "RK | Fluted ivory ceramic bowl"
+            ],
+            "vertices": 770,
+            "edges": 1632,
+            "faces": 864,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "signed_volume_m3": 0.000597920860781697
+          }
+        ],
+        "cavity_checks": [
+          {
+            "object": "Hydrangea low ivory bowl.001",
+            "floor_z_m": 0.012000009417533875,
+            "rim_z_m": 0.10300000011920929,
+            "center_cavity_depth_m": 0.09099999070167542,
+            "wall_rays": [
+              {
+                "angle_rad": 0,
+                "wall_distance_m": 0.07862618565559387,
+                "hit": true
+              },
+              {
+                "angle_rad": 1.5707963267948966,
+                "wall_distance_m": 0.07862619310617447,
+                "hit": true
+              },
+              {
+                "angle_rad": 3.141592653589793,
+                "wall_distance_m": 0.07862619310617447,
+                "hit": true
+              },
+              {
+                "angle_rad": 4.71238898038469,
+                "wall_distance_m": 0.07862619310617447,
+                "hit": true
+              }
+            ],
+            "scope": "Vessel mesh only; soil and foliage excluded. No dynamics certification."
+          }
+        ],
+        "visual_review": "passed: agent inspected matched before/after material oblique and clay cavity views; plant vessels also inspected with foliage and substrate hidden",
+        "scope": "Changed vessel/substrate meshes only. Foliage and simulation not certified.",
+        "saved_reopen_passed": true,
+        "visual_review_scope": "Same camera/light/framing before and after. All nine collections reviewed; original material appearance, placement envelope and whole-plant arrangement retained.",
+        "limits": [
+          "No rigid-body or fluid simulation was run.",
+          "Unchanged plant foliage is not certified manifold or collision-free.",
+          "Wall and base dimensions are authored approximations, not source measurements."
+        ],
+        "job_id": "46324895",
+        "comparison_sheets": [
+          "runs/_tools/asset_quality_tabletop_20260913/refined/vessels_comparison.jpg",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plant_containers_comparison.jpg",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/plants_whole_comparison.jpg"
+        ],
+        "source_report": "runs/_tools/asset_quality_tabletop_20260913/refined/report.json"
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "passed",
+        "date": "2026-09-14",
+        "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+        "evidence": [
+          "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-flowers-pink-hydrangea-bowl/before_oblique.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-flowers-pink-hydrangea-bowl/before_cavity.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-flowers-pink-hydrangea-bowl/before_container_oblique.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-flowers-pink-hydrangea-bowl/before_container_cavity.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-flowers-pink-hydrangea-bowl/after_oblique.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-flowers-pink-hydrangea-bowl/after_cavity.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-flowers-pink-hydrangea-bowl/after_container_oblique.png",
+          "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-flowers-pink-hydrangea-bowl/after_container_cavity.png"
+        ]
+      },
+      "preview": "assets/quality_previews/tabletop-plants-v1__flowers-pink-hydrangea-bowl.png"
+    },
+    {
+      "asset_id": "roomkit-v1/chair-walnut-lounge",
+      "library_id": "roomkit-v1",
+      "datablock": "RK Chair - Walnut Lounge",
+      "status": "upgraded",
+      "changes": [
+        "Added two walnut rear support slats within the original envelope.",
+        "Lowered lumbar pillow and its piping by 18 mm for supported seat contact.",
+        "Corrected inward-facing normals on closed mesh parts: Lounge chair A lumbar pillow.001; vertex positions, UVs and material graphs preserved."
+      ],
+      "reason": "Targeted correction of observed proxy geometry.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [
+          "Lounge chair A lumbar pillow.001"
+        ],
+        "finite_meshes": 15,
+        "missing_materials": 0,
+        "save_reopen": true,
+        "linked_libraries": 0,
+        "max_bounds_error_m": 0.0,
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Three clay views and material view; source silhouette, cavity/support detail and retained dimensions inspected.",
+          "limitations": "Stylized authored asset quality; no photorealism, structural-load, cloth or rigid-body stability certification."
+        },
+        "closed_mesh_topology": "All modified collection mesh parts have zero boundary/nonmanifold edges and positive signed volume.",
+        "source_report": "runs/_tools/asset_quality_upgrade_models_20260914/deltas.json"
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "passed",
+        "date": "2026-09-14",
+        "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+        "evidence": [
+          "runs/_tools/asset_quality_upgrade_models_20260914/roomkit-v1__chair-walnut-lounge_front_before.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/roomkit-v1__chair-walnut-lounge_back_before.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/roomkit-v1__chair-walnut-lounge_top_before.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/roomkit-v1__chair-walnut-lounge_front_after.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/roomkit-v1__chair-walnut-lounge_back_after.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/roomkit-v1__chair-walnut-lounge_top_after.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/roomkit-v1__chair-walnut-lounge_material_after.png"
+        ]
+      },
+      "preview": "assets/quality_previews/roomkit-v1__chair-walnut-lounge.png"
+    },
+    {
+      "asset_id": "roomkit-v1/sofa-linen-three-seat",
+      "library_id": "roomkit-v1",
+      "datablock": "RK Sofa - Linen Three Seat",
+      "status": "upgraded",
+      "changes": [
+        "Corrected inward-facing normals on closed mesh parts: Sofa A | below tall windows loose pillow 0.001, Sofa A | below tall windows loose pillow 1.001, Sofa A | below tall windows loose pillow 2.001, Sofa A | below tall windows loose pillow 3.001; vertex positions, UVs and material graphs preserved."
+      ],
+      "reason": "Targeted correction of observed proxy geometry.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [
+          "Sofa A | below tall windows loose pillow 0.001",
+          "Sofa A | below tall windows loose pillow 1.001",
+          "Sofa A | below tall windows loose pillow 2.001",
+          "Sofa A | below tall windows loose pillow 3.001"
+        ],
+        "finite_meshes": 28,
+        "missing_materials": 0,
+        "save_reopen": true,
+        "linked_libraries": 0,
+        "max_bounds_error_m": 0.0,
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Three clay views and material view; source silhouette, cavity/support detail and retained dimensions inspected.",
+          "limitations": "Stylized authored asset quality; no photorealism, structural-load, cloth or rigid-body stability certification."
+        },
+        "closed_mesh_topology": "All modified collection mesh parts have zero boundary/nonmanifold edges and positive signed volume.",
+        "source_report": "runs/_tools/asset_quality_upgrade_models_20260914/deltas.json"
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "passed",
+        "date": "2026-09-14",
+        "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+        "evidence": [
+          "runs/_tools/asset_quality_upgrade_models_20260914/roomkit-v1__sofa-linen-three-seat_front_before.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/roomkit-v1__sofa-linen-three-seat_back_before.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/roomkit-v1__sofa-linen-three-seat_top_before.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/roomkit-v1__sofa-linen-three-seat_front_after.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/roomkit-v1__sofa-linen-three-seat_back_after.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/roomkit-v1__sofa-linen-three-seat_top_after.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/roomkit-v1__sofa-linen-three-seat_material_after.png"
+        ]
+      },
+      "preview": "assets/quality_previews/roomkit-v1__sofa-linen-three-seat.png"
+    },
+    {
+      "asset_id": "roomkit-v1/stool-upholstered-counter",
+      "library_id": "roomkit-v1",
+      "datablock": "RK Stool - Upholstered Counter",
+      "status": "retained",
+      "changes": [],
+      "reason": "Separate upholstery and supported frame already present; no unambiguous structural defect identified in the mesh audit.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 15,
+        "missing_materials": 0,
+        "independent_controls": [],
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Front oblique clay overview and mesh/component audit; retained source-specific design."
+        }
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "retained after audit",
+        "evidence": "runs/_tools/asset_quality_upgrade_models_20260914/retained_contact_sheet.png"
+      }
+    },
+    {
+      "asset_id": "cabinets-v1/cabinet-mixed-storage",
+      "library_id": "cabinets-v1",
+      "datablock": "RK Cabinet - Mixed Storage",
+      "status": "retained",
+      "changes": [],
+      "reason": "Native independent door and drawer controls retained; hollow carcass and authored joints already present.",
+      "validation": {
+        "drivers_before": 4,
+        "drivers_after": 4,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 28,
+        "missing_materials": 0,
+        "independent_controls": [
+          {
+            "name": "Cabinet mixed | c0s0 Door left.001",
+            "own_transform_change": 2.5531527400016785,
+            "other_control_transform_change": 0.0
+          },
+          {
+            "name": "Cabinet mixed | c1s0 drawer 0.001",
+            "own_transform_change": 0.3051750361919403,
+            "other_control_transform_change": 0.0
+          },
+          {
+            "name": "Cabinet mixed | c1s0 drawer 1.001",
+            "own_transform_change": 0.3051750361919403,
+            "other_control_transform_change": 0.0
+          },
+          {
+            "name": "Cabinet mixed | c1s0 drawer 2.001",
+            "own_transform_change": 0.3051750361919403,
+            "other_control_transform_change": 0.0
+          }
+        ],
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Front oblique clay overview and mesh/component audit; retained source-specific design."
+        }
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "retained after audit",
+        "evidence": "runs/_tools/asset_quality_upgrade_models_20260914/retained_contact_sheet.png"
+      }
+    },
+    {
+      "asset_id": "dining-chair-v1/chair-open-frame-dining",
+      "library_id": "dining-chair-v1",
+      "datablock": "RK Chair - Open Frame Dining",
+      "status": "retained",
+      "changes": [],
+      "reason": "Separate upholstery and supported frame already present; no unambiguous structural defect identified in the mesh audit.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 23,
+        "missing_materials": 0,
+        "independent_controls": [],
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Front oblique clay overview and mesh/component audit; retained source-specific design."
+        }
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "retained after audit",
+        "evidence": "runs/_tools/asset_quality_upgrade_models_20260914/retained_contact_sheet.png"
+      }
+    },
+    {
+      "asset_id": "faucet-simple-v1/faucet-simple-gooseneck",
+      "library_id": "faucet-simple-v1",
+      "datablock": "RK Faucet - Simple Gooseneck",
+      "status": "upgraded",
+      "changes": [
+        "Added a 1.2 mm inward wall and annular end rims to the existing open single-surface tube; outlet and mounting end remain open.",
+        "Assigned brushed stainless steel instead of the extraction clay; retained original centerline and mount origin.",
+        "No valve, internal flow or plumbing simulation model."
+      ],
+      "reason": "Targeted correction of observed proxy geometry.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 1,
+        "missing_materials": 0,
+        "save_reopen": true,
+        "linked_libraries": 0,
+        "max_bounds_error_m": 0.0,
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Three clay views and material view; source silhouette, cavity/support detail and retained dimensions inspected.",
+          "limitations": "Stylized authored asset quality; no photorealism, structural-load, cloth or rigid-body stability certification."
+        },
+        "closed_mesh_topology": "All modified collection mesh parts have zero boundary/nonmanifold edges and positive signed volume.",
+        "source_report": "runs/_tools/asset_quality_upgrade_models_20260914/deltas.json"
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "passed",
+        "date": "2026-09-14",
+        "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+        "evidence": [
+          "runs/_tools/asset_quality_upgrade_models_20260914/faucet-simple-v1__faucet-simple-gooseneck_front_before.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/faucet-simple-v1__faucet-simple-gooseneck_back_before.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/faucet-simple-v1__faucet-simple-gooseneck_top_before.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/faucet-simple-v1__faucet-simple-gooseneck_front_after.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/faucet-simple-v1__faucet-simple-gooseneck_back_after.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/faucet-simple-v1__faucet-simple-gooseneck_top_after.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/faucet-simple-v1__faucet-simple-gooseneck_material_after.png"
+        ]
+      },
+      "preview": "assets/quality_previews/faucet-simple-v1__faucet-simple-gooseneck.png"
+    },
+    {
+      "asset_id": "seating-refined-v1/chair-accent-supported",
+      "library_id": "seating-refined-v1",
+      "datablock": "RK Chair - Accent Supported",
+      "status": "retained",
+      "changes": [],
+      "reason": "Separate upholstery and supported frame already present; no unambiguous structural defect identified in the mesh audit.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 6,
+        "missing_materials": 0,
+        "independent_controls": [],
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Front oblique clay overview and mesh/component audit; retained source-specific design."
+        }
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "retained after audit",
+        "evidence": "runs/_tools/asset_quality_upgrade_models_20260914/retained_contact_sheet.png"
+      }
+    },
+    {
+      "asset_id": "seating-refined-v1/chair-walnut-lounge-supported",
+      "library_id": "seating-refined-v1",
+      "datablock": "RK Chair - Walnut Lounge Supported",
+      "status": "upgraded",
+      "changes": [
+        "Corrected inward-facing normals on closed mesh parts: Lounge chair A lumbar pillow.001; vertex positions, UVs and material graphs preserved."
+      ],
+      "reason": "Targeted correction of observed proxy geometry.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [
+          "Lounge chair A lumbar pillow.001"
+        ],
+        "finite_meshes": 17,
+        "missing_materials": 0,
+        "save_reopen": true,
+        "linked_libraries": 0,
+        "max_bounds_error_m": 0.0,
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Three clay views and material view; source silhouette, cavity/support detail and retained dimensions inspected.",
+          "limitations": "Stylized authored asset quality; no photorealism, structural-load, cloth or rigid-body stability certification."
+        },
+        "closed_mesh_topology": "All modified collection mesh parts have zero boundary/nonmanifold edges and positive signed volume.",
+        "source_report": "runs/_tools/asset_quality_upgrade_models_20260914/deltas.json"
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "passed",
+        "date": "2026-09-14",
+        "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+        "evidence": [
+          "runs/_tools/asset_quality_upgrade_models_20260914/seating-refined-v1__chair-walnut-lounge-supported_front_before.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/seating-refined-v1__chair-walnut-lounge-supported_back_before.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/seating-refined-v1__chair-walnut-lounge-supported_top_before.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/seating-refined-v1__chair-walnut-lounge-supported_front_after.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/seating-refined-v1__chair-walnut-lounge-supported_back_after.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/seating-refined-v1__chair-walnut-lounge-supported_top_after.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/seating-refined-v1__chair-walnut-lounge-supported_material_after.png"
+        ]
+      },
+      "preview": "assets/quality_previews/seating-refined-v1__chair-walnut-lounge-supported.png"
+    },
+    {
+      "asset_id": "additional-444547-44-v1/additional-44-classical-vase-wall-panel",
+      "library_id": "additional-444547-44-v1",
+      "datablock": "Additional 44 | Classical vase wall panel",
+      "status": "retained",
+      "changes": [],
+      "reason": "Authored relief/frame geometry is intact; its simple artwork is an intentional source-specific abstraction.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 3,
+        "missing_materials": 0,
+        "independent_controls": [],
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Front oblique clay overview and mesh/component audit; retained source-specific design."
+        }
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "retained after audit",
+        "evidence": "runs/_tools/asset_quality_upgrade_models_20260914/retained_contact_sheet.png"
+      }
+    },
+    {
+      "asset_id": "additional-444547-44-v1/additional-44-clear-polycarbonate-dining-chair",
+      "library_id": "additional-444547-44-v1",
+      "datablock": "Additional 44 | Clear polycarbonate dining chair",
+      "status": "retained",
+      "changes": [],
+      "reason": "Separate upholstery and supported frame already present; no unambiguous structural defect identified in the mesh audit.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 6,
+        "missing_materials": 0,
+        "independent_controls": [],
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Front oblique clay overview and mesh/component audit; retained source-specific design."
+        }
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "retained after audit",
+        "evidence": "runs/_tools/asset_quality_upgrade_models_20260914/retained_contact_sheet.png"
+      }
+    },
+    {
+      "asset_id": "additional-444547-44-v1/additional-44-double-ring-chandelier",
+      "library_id": "additional-444547-44-v1",
+      "datablock": "Additional 44 | Double ring chandelier",
+      "status": "retained",
+      "changes": [],
+      "reason": "Existing component geometry, material graphs and source-specific design retained after item-level inspection.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 22,
+        "missing_materials": 0,
+        "independent_controls": [],
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Front oblique clay overview and mesh/component audit; retained source-specific design."
+        }
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "retained after audit",
+        "evidence": "runs/_tools/asset_quality_upgrade_models_20260914/retained_contact_sheet.png"
+      }
+    },
+    {
+      "asset_id": "additional-444547-44-v1/additional-44-formal-dining-table",
+      "library_id": "additional-444547-44-v1",
+      "datablock": "Additional 44 | Formal dining table",
+      "status": "retained",
+      "changes": [],
+      "reason": "Separate tabletop and support geometry already present; authored proportions and support contact retained.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 5,
+        "missing_materials": 0,
+        "independent_controls": [],
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Front oblique clay overview and mesh/component audit; retained source-specific design."
+        }
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "retained after audit",
+        "evidence": "runs/_tools/asset_quality_upgrade_models_20260914/retained_contact_sheet.png"
+      }
+    },
+    {
+      "asset_id": "additional-444547-44-v1/additional-44-six-drawer-mahogany-sideboard",
+      "library_id": "additional-444547-44-v1",
+      "datablock": "Additional 44 | Six drawer mahogany sideboard",
+      "status": "retained",
+      "changes": [],
+      "reason": "Static facade/handles retained; conversion into operative storage requires a separate articulated design.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 18,
+        "missing_materials": 0,
+        "independent_controls": [],
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Front oblique clay overview and mesh/component audit; retained source-specific design."
+        }
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "retained after audit",
+        "evidence": "runs/_tools/asset_quality_upgrade_models_20260914/retained_contact_sheet.png"
+      }
+    },
+    {
+      "asset_id": "additional-444547-44-v1/additional-44-upholstered-open-frame-chair",
+      "library_id": "additional-444547-44-v1",
+      "datablock": "Additional 44 | Upholstered open frame chair",
+      "status": "retained",
+      "changes": [],
+      "reason": "Separate upholstery and supported frame already present; no unambiguous structural defect identified in the mesh audit.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 11,
+        "missing_materials": 0,
+        "independent_controls": [],
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Front oblique clay overview and mesh/component audit; retained source-specific design."
+        }
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "retained after audit",
+        "evidence": "runs/_tools/asset_quality_upgrade_models_20260914/retained_contact_sheet.png"
+      }
+    },
+    {
+      "asset_id": "additional-444547-44-v1/additional-44-wall-sconce",
+      "library_id": "additional-444547-44-v1",
+      "datablock": "Additional 44 | Wall sconce",
+      "status": "upgraded",
+      "changes": [
+        "Replaced solid shade block with a 2 mm rectangular shade shell open above and below.",
+        "Added internal mounting support, socket and frosted bulb while preserving the wall plate, mount origin and outer envelope."
+      ],
+      "reason": "Targeted correction of observed proxy geometry.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 2,
+        "missing_materials": 0,
+        "save_reopen": true,
+        "linked_libraries": 0,
+        "max_bounds_error_m": 0.0,
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Three clay views and material view; source silhouette, cavity/support detail and retained dimensions inspected.",
+          "limitations": "Stylized authored asset quality; no photorealism, structural-load, cloth or rigid-body stability certification."
+        },
+        "closed_mesh_topology": "All modified collection mesh parts have zero boundary/nonmanifold edges and positive signed volume.",
+        "source_report": "runs/_tools/asset_quality_upgrade_models_20260914/deltas.json"
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "passed",
+        "date": "2026-09-14",
+        "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+        "evidence": [
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-44-v1__additional-44-wall-sconce_front_before.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-44-v1__additional-44-wall-sconce_back_before.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-44-v1__additional-44-wall-sconce_top_before.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-44-v1__additional-44-wall-sconce_front_after.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-44-v1__additional-44-wall-sconce_back_after.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-44-v1__additional-44-wall-sconce_top_after.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-44-v1__additional-44-wall-sconce_material_after.png"
+        ]
+      },
+      "preview": "assets/quality_previews/additional-444547-44-v1__additional-44-wall-sconce.png"
+    },
+    {
+      "asset_id": "additional-444547-45-v1/additional-45-abstract-wall-panel",
+      "library_id": "additional-444547-45-v1",
+      "datablock": "Additional 45 | Abstract wall panel",
+      "status": "retained",
+      "changes": [],
+      "reason": "Authored relief/frame geometry is intact; its simple artwork is an intentional source-specific abstraction.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 5,
+        "missing_materials": 0,
+        "independent_controls": [],
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Front oblique clay overview and mesh/component audit; retained source-specific design."
+        }
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "retained after audit",
+        "evidence": "runs/_tools/asset_quality_upgrade_models_20260914/retained_contact_sheet.png"
+      }
+    },
+    {
+      "asset_id": "additional-444547-45-v1/additional-45-central-island-sofa",
+      "library_id": "additional-444547-45-v1",
+      "datablock": "Additional 45 | Central island sofa",
+      "status": "retained",
+      "changes": [],
+      "reason": "Separate upholstery and supported frame already present; no unambiguous structural defect identified in the mesh audit.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 17,
+        "missing_materials": 0,
+        "independent_controls": [],
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Front oblique clay overview and mesh/component audit; retained source-specific design."
+        }
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "retained after audit",
+        "evidence": "runs/_tools/asset_quality_upgrade_models_20260914/retained_contact_sheet.png"
+      }
+    },
+    {
+      "asset_id": "additional-444547-45-v1/additional-45-folded-linen-napkin",
+      "library_id": "additional-444547-45-v1",
+      "datablock": "Additional 45 | Folded linen napkin",
+      "status": "upgraded",
+      "changes": [
+        "Replaced one thick box with four fitted linen layers, rolled edges and subtle surface undulation; preserved tabletop footprint and support plane.",
+        "Static folded textile geometry; no cloth solver or cloth simulation claim."
+      ],
+      "reason": "Targeted correction of observed proxy geometry.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 1,
+        "missing_materials": 0,
+        "save_reopen": true,
+        "linked_libraries": 0,
+        "max_bounds_error_m": 0.0,
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Three clay views and material view; source silhouette, cavity/support detail and retained dimensions inspected.",
+          "limitations": "Stylized authored asset quality; no photorealism, structural-load, cloth or rigid-body stability certification."
+        },
+        "closed_mesh_topology": "All modified collection mesh parts have zero boundary/nonmanifold edges and positive signed volume.",
+        "source_report": "runs/_tools/asset_quality_upgrade_models_20260914/deltas.json"
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "passed",
+        "date": "2026-09-14",
+        "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+        "evidence": [
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-folded-linen-napkin_front_before.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-folded-linen-napkin_back_before.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-folded-linen-napkin_top_before.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-folded-linen-napkin_front_after.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-folded-linen-napkin_back_after.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-folded-linen-napkin_top_after.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-folded-linen-napkin_material_after.png"
+        ]
+      },
+      "preview": "assets/quality_previews/additional-444547-45-v1__additional-45-folded-linen-napkin.png"
+    },
+    {
+      "asset_id": "additional-444547-45-v1/additional-45-lounge-rear-sofa",
+      "library_id": "additional-444547-45-v1",
+      "datablock": "Additional 45 | Lounge rear sofa",
+      "status": "retained",
+      "changes": [],
+      "reason": "Separate upholstery and supported frame already present; no unambiguous structural defect identified in the mesh audit.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 14,
+        "missing_materials": 0,
+        "independent_controls": [],
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Front oblique clay overview and mesh/component audit; retained source-specific design."
+        }
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "retained after audit",
+        "evidence": "runs/_tools/asset_quality_upgrade_models_20260914/retained_contact_sheet.png"
+      }
+    },
+    {
+      "asset_id": "additional-444547-45-v1/additional-45-lounge-window-frame",
+      "library_id": "additional-444547-45-v1",
+      "datablock": "Additional 45 | Lounge window frame",
+      "status": "retained",
+      "changes": [],
+      "reason": "Separate trim members and opening preserved; adding glazing or outdoor scenery would change the declared asset.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 3,
+        "missing_materials": 0,
+        "independent_controls": [],
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Front oblique clay overview and mesh/component audit; retained source-specific design."
+        }
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "retained after audit",
+        "evidence": "runs/_tools/asset_quality_upgrade_models_20260914/retained_contact_sheet.png"
+      }
+    },
+    {
+      "asset_id": "additional-444547-45-v1/additional-45-main-right-return",
+      "library_id": "additional-444547-45-v1",
+      "datablock": "Additional 45 | Main right return",
+      "status": "retained",
+      "changes": [],
+      "reason": "Separate upholstery and supported frame already present; no unambiguous structural defect identified in the mesh audit.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 9,
+        "missing_materials": 0,
+        "independent_controls": [],
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Front oblique clay overview and mesh/component audit; retained source-specific design."
+        }
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "retained after audit",
+        "evidence": "runs/_tools/asset_quality_upgrade_models_20260914/retained_contact_sheet.png"
+      }
+    },
+    {
+      "asset_id": "additional-444547-45-v1/additional-45-main-right-sofa",
+      "library_id": "additional-444547-45-v1",
+      "datablock": "Additional 45 | Main right sofa",
+      "status": "retained",
+      "changes": [],
+      "reason": "Separate upholstery and supported frame already present; no unambiguous structural defect identified in the mesh audit.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 12,
+        "missing_materials": 0,
+        "independent_controls": [],
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Front oblique clay overview and mesh/component audit; retained source-specific design."
+        }
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "retained after audit",
+        "evidence": "runs/_tools/asset_quality_upgrade_models_20260914/retained_contact_sheet.png"
+      }
+    },
+    {
+      "asset_id": "additional-444547-45-v1/additional-45-occupied-walnut-lounge-chair",
+      "library_id": "additional-444547-45-v1",
+      "datablock": "Additional 45 | Occupied walnut lounge chair",
+      "status": "upgraded",
+      "changes": [
+        "Added two walnut rear support slats within the original envelope."
+      ],
+      "reason": "Targeted correction of observed proxy geometry.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 13,
+        "missing_materials": 0,
+        "save_reopen": true,
+        "linked_libraries": 0,
+        "max_bounds_error_m": 0.0,
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Three clay views and material view; source silhouette, cavity/support detail and retained dimensions inspected.",
+          "limitations": "Stylized authored asset quality; no photorealism, structural-load, cloth or rigid-body stability certification."
+        },
+        "closed_mesh_topology": "All modified collection mesh parts have zero boundary/nonmanifold edges and positive signed volume.",
+        "source_report": "runs/_tools/asset_quality_upgrade_models_20260914/deltas.json"
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "passed",
+        "date": "2026-09-14",
+        "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+        "evidence": [
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-occupied-walnut-lounge-chair_front_before.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-occupied-walnut-lounge-chair_back_before.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-occupied-walnut-lounge-chair_top_before.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-occupied-walnut-lounge-chair_front_after.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-occupied-walnut-lounge-chair_back_after.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-occupied-walnut-lounge-chair_top_after.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-occupied-walnut-lounge-chair_material_after.png"
+        ]
+      },
+      "preview": "assets/quality_previews/additional-444547-45-v1__additional-45-occupied-walnut-lounge-chair.png"
+    },
+    {
+      "asset_id": "additional-444547-45-v1/additional-45-right-sectional-assembly",
+      "library_id": "additional-444547-45-v1",
+      "datablock": "Additional 45 | Right sectional assembly",
+      "status": "retained",
+      "changes": [],
+      "reason": "Separate upholstery and supported frame already present; no unambiguous structural defect identified in the mesh audit.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 21,
+        "missing_materials": 0,
+        "independent_controls": [],
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Front oblique clay overview and mesh/component audit; retained source-specific design."
+        }
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "retained after audit",
+        "evidence": "runs/_tools/asset_quality_upgrade_models_20260914/retained_contact_sheet.png"
+      }
+    },
+    {
+      "asset_id": "additional-444547-45-v1/additional-45-round-brass-side-table",
+      "library_id": "additional-444547-45-v1",
+      "datablock": "Additional 45 | Round brass side table",
+      "status": "retained",
+      "changes": [],
+      "reason": "Separate tabletop and support geometry already present; authored proportions and support contact retained.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 2,
+        "missing_materials": 0,
+        "independent_controls": [],
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Front oblique clay overview and mesh/component audit; retained source-specific design."
+        }
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "retained after audit",
+        "evidence": "runs/_tools/asset_quality_upgrade_models_20260914/retained_contact_sheet.png"
+      }
+    },
+    {
+      "asset_id": "additional-444547-45-v1/additional-45-six-candle-group",
+      "library_id": "additional-444547-45-v1",
+      "datablock": "Additional 45 | Six candle group",
+      "status": "upgraded",
+      "changes": [
+        "Replaced solid block candles with round wax bodies, dished wax tops and six cotton wicks.",
+        "Grounded all six candle bases at the group support plane; preserved each original candle height and overall group envelope.",
+        "Assigned wax and wick materials instead of linen upholstery."
+      ],
+      "reason": "Targeted correction of observed proxy geometry.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 6,
+        "missing_materials": 0,
+        "save_reopen": true,
+        "linked_libraries": 0,
+        "max_bounds_error_m": 0.0,
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Three clay views and material view; source silhouette, cavity/support detail and retained dimensions inspected.",
+          "limitations": "Stylized authored asset quality; no photorealism, structural-load, cloth or rigid-body stability certification."
+        },
+        "closed_mesh_topology": "All modified collection mesh parts have zero boundary/nonmanifold edges and positive signed volume.",
+        "source_report": "runs/_tools/asset_quality_upgrade_models_20260914/deltas.json"
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "passed",
+        "date": "2026-09-14",
+        "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+        "evidence": [
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-six-candle-group_front_before.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-six-candle-group_back_before.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-six-candle-group_top_before.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-six-candle-group_front_after.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-six-candle-group_back_after.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-six-candle-group_top_after.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-six-candle-group_material_after.png"
+        ]
+      },
+      "preview": "assets/quality_previews/additional-444547-45-v1__additional-45-six-candle-group.png"
+    },
+    {
+      "asset_id": "additional-444547-45-v1/additional-45-square-dining-table",
+      "library_id": "additional-444547-45-v1",
+      "datablock": "Additional 45 | Square dining table",
+      "status": "retained",
+      "changes": [],
+      "reason": "Separate tabletop and support geometry already present; authored proportions and support contact retained.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 5,
+        "missing_materials": 0,
+        "independent_controls": [],
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Front oblique clay overview and mesh/component audit; retained source-specific design."
+        }
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "retained after audit",
+        "evidence": "runs/_tools/asset_quality_upgrade_models_20260914/retained_contact_sheet.png"
+      }
+    },
+    {
+      "asset_id": "additional-444547-45-v1/additional-45-square-dining-table-wide-support",
+      "library_id": "additional-444547-45-v1",
+      "datablock": "Additional 45 | Square dining table wide support",
+      "status": "retained",
+      "changes": [],
+      "reason": "Separate tabletop and support geometry already present; authored proportions and support contact retained.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 5,
+        "missing_materials": 0,
+        "independent_controls": [],
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Front oblique clay overview and mesh/component audit; retained source-specific design."
+        }
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "retained after audit",
+        "evidence": "runs/_tools/asset_quality_upgrade_models_20260914/retained_contact_sheet.png"
+      }
+    },
+    {
+      "asset_id": "additional-444547-45-v1/additional-45-staff-counter-block",
+      "library_id": "additional-444547-45-v1",
+      "datablock": "Additional 45 | Staff counter block",
+      "status": "retained",
+      "changes": [],
+      "reason": "Static facade/handles retained; conversion into operative storage requires a separate articulated design.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 1,
+        "missing_materials": 0,
+        "independent_controls": [],
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Front oblique clay overview and mesh/component audit; retained source-specific design."
+        }
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "retained after audit",
+        "evidence": "runs/_tools/asset_quality_upgrade_models_20260914/retained_contact_sheet.png"
+      }
+    },
+    {
+      "asset_id": "additional-444547-47-v1/additional-47-banded-linen-curtain-pair",
+      "library_id": "additional-444547-47-v1",
+      "datablock": "Additional 47 | Banded linen curtain pair",
+      "status": "upgraded",
+      "changes": [
+        "Replaced two 100 mm solid slabs with thin pleated linen sheets and native mesh thickness.",
+        "Integrated the four taupe bands per curtain as material regions on the cloth; removed detached band boxes.",
+        "Gathered cloth into the rod contact at the top; retained mount origin, rod and lower hem height.",
+        "Static authored folds; no cloth simulation validation."
+      ],
+      "reason": "Targeted correction of observed proxy geometry.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 11,
+        "missing_materials": 0,
+        "save_reopen": true,
+        "linked_libraries": 0,
+        "max_bounds_error_m": 0.0,
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Three clay views and material view; source silhouette, cavity/support detail and retained dimensions inspected.",
+          "limitations": "Stylized authored asset quality; no photorealism, structural-load, cloth or rigid-body stability certification."
+        },
+        "closed_mesh_topology": "All modified collection mesh parts have zero boundary/nonmanifold edges and positive signed volume.",
+        "source_report": "runs/_tools/asset_quality_upgrade_models_20260914/deltas.json"
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "passed",
+        "date": "2026-09-14",
+        "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+        "evidence": [
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-47-v1__additional-47-banded-linen-curtain-pair_front_before.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-47-v1__additional-47-banded-linen-curtain-pair_back_before.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-47-v1__additional-47-banded-linen-curtain-pair_top_before.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-47-v1__additional-47-banded-linen-curtain-pair_front_after.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-47-v1__additional-47-banded-linen-curtain-pair_back_after.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-47-v1__additional-47-banded-linen-curtain-pair_top_after.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-47-v1__additional-47-banded-linen-curtain-pair_material_after.png"
+        ]
+      },
+      "preview": "assets/quality_previews/additional-444547-47-v1__additional-47-banded-linen-curtain-pair.png"
+    },
+    {
+      "asset_id": "additional-444547-47-v1/additional-47-bedroom-window-casing",
+      "library_id": "additional-444547-47-v1",
+      "datablock": "Additional 47 | Bedroom window casing",
+      "status": "retained",
+      "changes": [],
+      "reason": "Separate trim members and opening preserved; adding glazing or outdoor scenery would change the declared asset.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 10,
+        "missing_materials": 0,
+        "independent_controls": [],
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Front oblique clay overview and mesh/component audit; retained source-specific design."
+        }
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "retained after audit",
+        "evidence": "runs/_tools/asset_quality_upgrade_models_20260914/retained_contact_sheet.png"
+      }
+    },
+    {
+      "asset_id": "additional-444547-47-v1/additional-47-brass-linen-table-lamp",
+      "library_id": "additional-444547-47-v1",
+      "datablock": "Additional 47 | Brass linen table lamp",
+      "status": "upgraded",
+      "changes": [
+        "Rebuilt lampshade as a 1.6 mm open tapered shell with visible inner wall and edge rings.",
+        "Added three internal brass supports and a frosted bulb, preserving lamp height, base, stem and material appearance.",
+        "No photometric lighting calibration."
+      ],
+      "reason": "Targeted correction of observed proxy geometry.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 3,
+        "missing_materials": 0,
+        "save_reopen": true,
+        "linked_libraries": 0,
+        "max_bounds_error_m": 0.0,
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Three clay views and material view; source silhouette, cavity/support detail and retained dimensions inspected.",
+          "limitations": "Stylized authored asset quality; no photorealism, structural-load, cloth or rigid-body stability certification."
+        },
+        "closed_mesh_topology": "All modified collection mesh parts have zero boundary/nonmanifold edges and positive signed volume.",
+        "source_report": "runs/_tools/asset_quality_upgrade_models_20260914/deltas.json"
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "passed",
+        "date": "2026-09-14",
+        "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+        "evidence": [
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-47-v1__additional-47-brass-linen-table-lamp_front_before.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-47-v1__additional-47-brass-linen-table-lamp_back_before.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-47-v1__additional-47-brass-linen-table-lamp_top_before.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-47-v1__additional-47-brass-linen-table-lamp_front_after.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-47-v1__additional-47-brass-linen-table-lamp_back_after.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-47-v1__additional-47-brass-linen-table-lamp_top_after.png",
+          "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-47-v1__additional-47-brass-linen-table-lamp_material_after.png"
+        ]
+      },
+      "preview": "assets/quality_previews/additional-444547-47-v1__additional-47-brass-linen-table-lamp.png"
+    },
+    {
+      "asset_id": "additional-444547-47-v1/additional-47-foot-desk",
+      "library_id": "additional-444547-47-v1",
+      "datablock": "Additional 47 | Foot desk",
+      "status": "retained",
+      "changes": [],
+      "reason": "Separate tabletop and support geometry already present; authored proportions and support contact retained.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 10,
+        "missing_materials": 0,
+        "independent_controls": [],
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Front oblique clay overview and mesh/component audit; retained source-specific design."
+        }
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "retained after audit",
+        "evidence": "runs/_tools/asset_quality_upgrade_models_20260914/retained_contact_sheet.png"
+      }
+    },
+    {
+      "asset_id": "additional-444547-47-v1/additional-47-four-poster-bed",
+      "library_id": "additional-444547-47-v1",
+      "datablock": "Additional 47 | Four poster bed",
+      "status": "retained",
+      "changes": [],
+      "reason": "Existing component geometry, material graphs and source-specific design retained after item-level inspection.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 33,
+        "missing_materials": 0,
+        "independent_controls": [],
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Front oblique clay overview and mesh/component audit; retained source-specific design."
+        }
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "retained after audit",
+        "evidence": "runs/_tools/asset_quality_upgrade_models_20260914/retained_contact_sheet.png"
+      }
+    },
+    {
+      "asset_id": "additional-444547-47-v1/additional-47-framed-portrait-panel",
+      "library_id": "additional-444547-47-v1",
+      "datablock": "Additional 47 | Framed portrait panel",
+      "status": "retained",
+      "changes": [],
+      "reason": "Authored relief/frame geometry is intact; its simple artwork is an intentional source-specific abstraction.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 3,
+        "missing_materials": 0,
+        "independent_controls": [],
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Front oblique clay overview and mesh/component audit; retained source-specific design."
+        }
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "retained after audit",
+        "evidence": "runs/_tools/asset_quality_upgrade_models_20260914/retained_contact_sheet.png"
+      }
+    },
+    {
+      "asset_id": "additional-444547-47-v1/additional-47-landscape-wall-panel",
+      "library_id": "additional-444547-47-v1",
+      "datablock": "Additional 47 | Landscape wall panel",
+      "status": "retained",
+      "changes": [],
+      "reason": "Authored relief/frame geometry is intact; its simple artwork is an intentional source-specific abstraction.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 3,
+        "missing_materials": 0,
+        "independent_controls": [],
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Front oblique clay overview and mesh/component audit; retained source-specific design."
+        }
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "retained after audit",
+        "evidence": "runs/_tools/asset_quality_upgrade_models_20260914/retained_contact_sheet.png"
+      }
+    },
+    {
+      "asset_id": "additional-444547-47-v1/additional-47-low-back-chaise",
+      "library_id": "additional-444547-47-v1",
+      "datablock": "Additional 47 | Low back chaise",
+      "status": "retained",
+      "changes": [],
+      "reason": "Separate upholstery and supported frame already present; no unambiguous structural defect identified in the mesh audit.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 7,
+        "missing_materials": 0,
+        "independent_controls": [],
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Front oblique clay overview and mesh/component audit; retained source-specific design."
+        }
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "retained after audit",
+        "evidence": "runs/_tools/asset_quality_upgrade_models_20260914/retained_contact_sheet.png"
+      }
+    },
+    {
+      "asset_id": "additional-444547-47-v1/additional-47-six-drawer-dresser",
+      "library_id": "additional-444547-47-v1",
+      "datablock": "Additional 47 | Six drawer dresser",
+      "status": "retained",
+      "changes": [],
+      "reason": "Static facade/handles retained; conversion into operative storage requires a separate articulated design.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 24,
+        "missing_materials": 0,
+        "independent_controls": [],
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Front oblique clay overview and mesh/component audit; retained source-specific design."
+        }
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "retained after audit",
+        "evidence": "runs/_tools/asset_quality_upgrade_models_20260914/retained_contact_sheet.png"
+      }
+    },
+    {
+      "asset_id": "additional-444547-47-v1/additional-47-small-gallery-panel",
+      "library_id": "additional-444547-47-v1",
+      "datablock": "Additional 47 | Small gallery panel",
+      "status": "retained",
+      "changes": [],
+      "reason": "Authored relief/frame geometry is intact; its simple artwork is an intentional source-specific abstraction.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 3,
+        "missing_materials": 0,
+        "independent_controls": [],
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Front oblique clay overview and mesh/component audit; retained source-specific design."
+        }
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "retained after audit",
+        "evidence": "runs/_tools/asset_quality_upgrade_models_20260914/retained_contact_sheet.png"
+      }
+    },
+    {
+      "asset_id": "additional-444547-47-v1/additional-47-walnut-bedside-table",
+      "library_id": "additional-444547-47-v1",
+      "datablock": "Additional 47 | Walnut bedside table",
+      "status": "retained",
+      "changes": [],
+      "reason": "Separate tabletop and support geometry already present; authored proportions and support contact retained.",
+      "validation": {
+        "drivers_before": 0,
+        "drivers_after": 0,
+        "physics": "Not simulation certified; material/density/collision preparation still required.",
+        "inward_meshes_repaired": [],
+        "finite_meshes": 5,
+        "missing_materials": 0,
+        "independent_controls": [],
+        "visual_review": {
+          "status": "reviewed",
+          "scope": "Front oblique clay overview and mesh/component audit; retained source-specific design."
+        }
+      },
+      "visual_review": {
+        "by": "asset-quality-parent-20260914",
+        "status": "retained after audit",
+        "evidence": "runs/_tools/asset_quality_upgrade_models_20260914/retained_contact_sheet.png"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "id": "roomkit-v1/aged-brass-handles",
+      "name": "RK | Aged brass handles",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "roomkit-v1/aged-bronze-table-drums",
+      "name": "RK | Aged bronze table drums",
+      "nodes": 7,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_NOISE",
+        "VALTORGB",
+        "VECT_MATH"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "roomkit-v1/aged-oak-mantel",
+      "name": "RK | Aged oak mantel",
+      "nodes": 7,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_NOISE",
+        "VALTORGB",
+        "VECT_MATH"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "roomkit-v1/book-pages-and-artwork",
+      "name": "RK | Book pages and artwork",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "roomkit-v1/brushed-stainless-steel",
+      "name": "RK | Brushed stainless steel",
+      "nodes": 6,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "roomkit-v1/charcoal-ceramic-bowl",
+      "name": "RK | Charcoal ceramic bowl",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "roomkit-v1/charcoal-woven-upholstery",
+      "name": "RK | Charcoal woven upholstery",
+      "nodes": 6,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "roomkit-v1/cream-linen-cushions",
+      "name": "RK | Cream linen cushions",
+      "nodes": 6,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "roomkit-v1/dark-television-glass",
+      "name": "RK | Dark television glass",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "roomkit-v1/deep-green-orchid-leaves",
+      "name": "RK | Deep green orchid leaves",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "roomkit-v1/espresso-stained-island-cabinetry",
+      "name": "RK | Espresso-stained island cabinetry",
+      "nodes": 7,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_NOISE",
+        "VALTORGB",
+        "VECT_MATH"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "roomkit-v1/glazed-cream-ceramic",
+      "name": "RK | Glazed cream ceramic",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "roomkit-v1/green-pears",
+      "name": "RK | Green pears",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "roomkit-v1/honed-ivory-stone-countertop",
+      "name": "RK | Honed ivory stone countertop",
+      "nodes": 7,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VALTORGB",
+        "VECT_MATH"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "roomkit-v1/honey-oak-beams",
+      "name": "RK | Honey oak beams",
+      "nodes": 7,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_NOISE",
+        "VALTORGB",
+        "VECT_MATH"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "roomkit-v1/ivory-linen-sofa",
+      "name": "RK | Ivory linen sofa",
+      "nodes": 6,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "roomkit-v1/ivory-orchid-petals",
+      "name": "RK | Ivory orchid petals",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "roomkit-v1/ivory-woven-rug-with-charcoal-border",
+      "name": "RK | Ivory woven rug with charcoal border",
+      "nodes": 16,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MATH",
+        "MIX_RGB",
+        "OUTPUT_MATERIAL",
+        "SEPXYZ",
+        "TEX_COORD",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "roomkit-v1/lampshade-ivory-linen",
+      "name": "RK | Lampshade ivory linen",
+      "nodes": 6,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "roomkit-v1/natural-oak-floorboards",
+      "name": "RK | Natural oak floorboards",
+      "nodes": 11,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_BRICK",
+        "TEX_NOISE",
+        "VALTORGB",
+        "VECT_MATH"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "roomkit-v1/olive-brown-accent-cushions",
+      "name": "RK | Olive brown accent cushions",
+      "nodes": 6,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "roomkit-v1/pale-cut-firewood",
+      "name": "RK | Pale cut firewood",
+      "nodes": 7,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_NOISE",
+        "VALTORGB",
+        "VECT_MATH"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "roomkit-v1/satin-blackened-iron",
+      "name": "RK | Satin blackened iron",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "roomkit-v1/soot-dark-refractory-brick",
+      "name": "RK | Soot-dark refractory brick",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "roomkit-v1/taupe-woven-cushions",
+      "name": "RK | Taupe woven cushions",
+      "nodes": 6,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "roomkit-v1/walnut-furniture-frames",
+      "name": "RK | Walnut furniture frames",
+      "nodes": 7,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_NOISE",
+        "VALTORGB",
+        "VECT_MATH"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "roomkit-v1/warm-grey-drapery",
+      "name": "RK | Warm grey drapery",
+      "nodes": 6,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "roomkit-v1/warm-ivory-lime-plaster",
+      "name": "RK | Warm ivory lime plaster",
+      "nodes": 6,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "roomkit-v1/warm-limestone",
+      "name": "RK | Warm limestone",
+      "nodes": 7,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VALTORGB",
+        "VECT_MATH"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "roomkit-v1/warm-practical-bulbs",
+      "name": "RK | Warm practical bulbs",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "roomkit-v1/warm-white-painted-joinery",
+      "name": "RK | Warm white painted joinery",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "additional-444547-44-v1/brass",
+      "name": "RK | Brass",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "additional-444547-44-v1/brown-floor",
+      "name": "RK | Brown floor",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "additional-444547-44-v1/charcoal-upholstery",
+      "name": "RK | Charcoal upholstery",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "additional-444547-44-v1/clear-polycarbonate",
+      "name": "RK | Clear polycarbonate",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "additional-444547-44-v1/dark-stone",
+      "name": "RK | Dark stone",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "additional-444547-44-v1/glass-approximation",
+      "name": "RK | Glass approximation",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "additional-444547-44-v1/mahogany-sideboard",
+      "name": "RK | Mahogany sideboard",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "additional-444547-44-v1/picture-ink",
+      "name": "RK | Picture ink",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "additional-444547-44-v1/silver-platter",
+      "name": "RK | Silver platter",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "additional-444547-44-v1/warm-grey-wall-paint",
+      "name": "RK | Warm grey wall paint",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "additional-444547-44-v1/warm-white",
+      "name": "RK | Warm white",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "additional-444547-45-v1/aged-brass",
+      "name": "RK | Aged brass",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "additional-444547-45-v1/artwork-pigment-0",
+      "name": "RK | Artwork pigment 0",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "additional-444547-45-v1/artwork-pigment-1",
+      "name": "RK | Artwork pigment 1",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "additional-444547-45-v1/artwork-pigment-2",
+      "name": "RK | Artwork pigment 2",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "additional-444547-45-v1/dark-bronze",
+      "name": "RK | Dark bronze",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "additional-444547-45-v1/honed-limestone",
+      "name": "RK | Honed limestone",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "additional-444547-45-v1/navy-upholstery",
+      "name": "RK | Navy upholstery",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "additional-444547-45-v1/pale-woven-linen",
+      "name": "RK | Pale woven linen",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "additional-444547-45-v1/porcelain",
+      "name": "RK | Porcelain",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "additional-444547-45-v1/walnut",
+      "name": "RK | Walnut",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "additional-444547-45-v1/warm-pale-concrete",
+      "name": "RK | Warm pale concrete",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "additional-444547-47-v1/aged-brass",
+      "name": "RK | Aged brass",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "additional-444547-47-v1/ivory-linen",
+      "name": "RK | Ivory linen",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "additional-444547-47-v1/ivory-trim",
+      "name": "RK | Ivory trim",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "additional-444547-47-v1/muted-landscape-artwork",
+      "name": "RK | Muted landscape artwork",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "additional-444547-47-v1/pale-wool-carpet",
+      "name": "RK | Pale wool carpet",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    },
+    {
+      "id": "additional-444547-47-v1/soft-blue-window-view",
+      "name": "RK | Soft blue window view",
+      "nodes": 2,
+      "types": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "missing_images": [],
+      "status": "kept",
+      "reason": "Editable material graph retained; appearance is source-specific."
+    }
+  ],
+  "integration": {
+    "status": "passed",
+    "models_imported_twice": 49,
+    "independent_placements": 98,
+    "static_model_replacement_and_reopen": "passed",
+    "cabinet_actual_geometry_motion_and_independent_controls": "passed",
+    "uv_and_effective_material_bindings_through_merge_reopen": "passed",
+    "source_refresh_fixture": "Two original slots refreshed; same-topology locally edited cup protected.",
+    "report": "runs/_tools/asset_quality_integration_20260914/registered/report.json"
+  },
+  "everyday_rigid_body": {
+    "status": "passed",
+    "drop_cases": 5,
+    "stack_cases": 1,
+    "scope": "Five vessels dropped 0.25 m with 5 degree initial tilt; two-platter exterior stacking. No cavity insertion, liquid, fracture or arbitrary interaction certification.",
+    "collision_shape": "CONVEX_HULL",
+    "report": "runs/_tools/asset_quality_integration_20260914/physics/report.json",
+    "max_settled_drift_m": 7.839006138965487e-05,
+    "platter_support_gap_m": 0.0009964704513549805
+  },
+  "comparisons": [
+    "assets/quality_previews/vessels_comparison.jpg",
+    "assets/quality_previews/plant_containers_comparison.jpg",
+    "assets/quality_previews/plants_whole_comparison.jpg",
+    "assets/quality_previews/models_comparison.png",
+    "assets/quality_previews/models_retained.png"
+  ]
+}

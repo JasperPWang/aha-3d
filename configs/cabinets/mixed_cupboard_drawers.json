@@ -1,0 +1,6 @@
+{
+  "columns": [
+    {"width": 2, "sections": [{"front": "door_left", "shelves": [0.35, 0.7]}]},
+    {"width": 1, "sections": [{"front": "drawers", "drawer_heights": [2, 1, 1]}]}
+  ]
+}

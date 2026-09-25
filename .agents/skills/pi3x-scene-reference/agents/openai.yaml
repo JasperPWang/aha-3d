@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pi3X Scene Reference"
+  short_description: "Measure rooms from Pi3X geometry and camera references"
+  default_prompt: "Use $pi3x-scene-reference to create plain dimensioned room views and source-linked measurements, preserving camera timestamps and scale provenance."

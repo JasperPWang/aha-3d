@@ -1,0 +1,1221 @@
+{
+  "version": 1,
+  "blender_version": "5.2.1 LTS",
+  "library": "roomkit_furniture_materials.blend",
+  "furniture": [
+    {
+      "name": "Additional 45 | Lounge rear sofa",
+      "source_root": "EXPORT_ROOT_45_0",
+      "parts": 14,
+      "vertices": 1344,
+      "dimensions_m": [
+        2.8000004291534424,
+        0.9500007629394531,
+        0.8799999952316284
+      ],
+      "description": "Separate editable plinth, platform, upholstery and pillows; source-specific approximate dimensions. Approximate source-derived static asset; no real-person data. See provenance.json.",
+      "catalog_id": "c99c4e97-70df-5cc5-834f-128d412c08bc",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "seating",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Separate editable plinth, platform, upholstery and pillows; source-specific approximate dimensions."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "seating",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Separate editable plinth, platform, upholstery and pillows; source-specific approximate dimensions."
+      },
+      "bounds_min_m": [
+        -1.4000002145767212,
+        -0.47500038146972656,
+        0.0
+      ],
+      "bounds_max_m": [
+        1.4000002145767212,
+        0.47500038146972656,
+        0.8799999952316284
+      ],
+      "origin_normalization": "rotated geometry bounds floor center"
+    },
+    {
+      "name": "Additional 45 | Main right sofa",
+      "source_root": "EXPORT_ROOT_45_1",
+      "parts": 12,
+      "vertices": 1152,
+      "dimensions_m": [
+        2.299999713897705,
+        0.9500002861022949,
+        0.8799999952316284
+      ],
+      "description": "Separate editable plinth, platform, upholstery and pillows; source-specific approximate dimensions. Approximate source-derived static asset; no real-person data. See provenance.json.",
+      "catalog_id": "c99c4e97-70df-5cc5-834f-128d412c08bc",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "seating",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Separate editable plinth, platform, upholstery and pillows; source-specific approximate dimensions."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "seating",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Separate editable plinth, platform, upholstery and pillows; source-specific approximate dimensions."
+      },
+      "bounds_min_m": [
+        -1.149999976158142,
+        -0.47500014305114746,
+        0.0
+      ],
+      "bounds_max_m": [
+        1.1499998569488525,
+        0.47500014305114746,
+        0.8799999952316284
+      ],
+      "origin_normalization": "rotated geometry bounds floor center"
+    },
+    {
+      "name": "Additional 45 | Main right return",
+      "source_root": "EXPORT_ROOT_45_2",
+      "parts": 9,
+      "vertices": 864,
+      "dimensions_m": [
+        1.6500003337860107,
+        0.9500002861022949,
+        0.8799999952316284
+      ],
+      "description": "Separate editable plinth, platform, upholstery and pillows; source-specific approximate dimensions. Approximate source-derived static asset; no real-person data. See provenance.json.",
+      "catalog_id": "c99c4e97-70df-5cc5-834f-128d412c08bc",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "seating",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Separate editable plinth, platform, upholstery and pillows; source-specific approximate dimensions."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "seating",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Separate editable plinth, platform, upholstery and pillows; source-specific approximate dimensions."
+      },
+      "bounds_min_m": [
+        -0.8250001668930054,
+        -0.47500014305114746,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.8250001668930054,
+        0.47500014305114746,
+        0.8799999952316284
+      ],
+      "origin_normalization": "rotated geometry bounds floor center"
+    },
+    {
+      "name": "Additional 45 | Central island sofa",
+      "source_root": "EXPORT_ROOT_45_3",
+      "parts": 17,
+      "vertices": 1632,
+      "dimensions_m": [
+        3.25,
+        0.950000524520874,
+        0.8799999952316284
+      ],
+      "description": "Separate editable plinth, platform, upholstery and pillows; source-specific approximate dimensions. Approximate source-derived static asset; no real-person data. See provenance.json.",
+      "catalog_id": "c99c4e97-70df-5cc5-834f-128d412c08bc",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "seating",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Separate editable plinth, platform, upholstery and pillows; source-specific approximate dimensions."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "seating",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Separate editable plinth, platform, upholstery and pillows; source-specific approximate dimensions."
+      },
+      "bounds_min_m": [
+        -1.6250001192092896,
+        -0.475000262260437,
+        0.0
+      ],
+      "bounds_max_m": [
+        1.625,
+        0.475000262260437,
+        0.8799999952316284
+      ],
+      "origin_normalization": "rotated geometry bounds floor center"
+    },
+    {
+      "name": "Additional 45 | Right sectional assembly",
+      "source_root": "EXPORT_ROOT_45_4",
+      "parts": 21,
+      "vertices": 2016,
+      "dimensions_m": [
+        2.1500003337860107,
+        3.265000343322754,
+        0.8799999952316284
+      ],
+      "description": "Detachable modular L sofa pair built from source45 main and return sofas. Modules preserve separate platform, plinth, seats, backs, pillows and arms; exterior backs and15mm junction clearance replace source corner overlap. This portable arrangement is an authored adaptation, not a continuous upholstered corner. Approximate source dimensions; no calibrated scale claim.",
+      "catalog_id": "c99c4e97-70df-5cc5-834f-128d412c08bc",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "seating",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Combined source L arrangement; module meeting corner must be reviewed. Separate module exports remain available. Portable-copy correction and reviewed isolated previews; see refinements.json."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "seating",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Combined source L arrangement; module meeting corner must be reviewed. Separate module exports remain available."
+      },
+      "bounds_min_m": [
+        -1.0750001668930054,
+        -1.632500171661377,
+        0.0
+      ],
+      "bounds_max_m": [
+        1.0750001668930054,
+        1.632500171661377,
+        0.8799999952316284
+      ],
+      "origin_normalization": "rotated geometry bounds floor center",
+      "asset_copy_refinement": "Portable modular L pair: rotated main module180deg so back faces exterior and translated return(-.25,+.64,0)m in local assembly axes. Complete detachable modules retain their parts, with15mm junction clearance instead of source corner intersections. This is a modular pair, not a continuous upholstered corner seat."
+    },
+    {
+      "name": "Additional 45 | Round brass side table",
+      "source_root": "EXPORT_ROOT_45_5",
+      "parts": 2,
+      "vertices": 768,
+      "dimensions_m": [
+        0.7799999713897705,
+        0.7799997329711914,
+        0.4975000023841858
+      ],
+      "description": "One of five repeated side tables; vase exported separately. Approximate source-derived static asset; no real-person data. See provenance.json. Portable-copy refinement: Extended pedestal top5mm into tabletop, correcting2.5mm source support gap.",
+      "catalog_id": "235f0303-dfe6-5c3e-b934-be51f20da6bf",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": null,
+        "up_axis": "Z",
+        "symmetry": "continuous_z",
+        "origin": "floor_center",
+        "semantic_front": "none",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. One of five repeated side tables; vase exported separately. Portable-copy correction and reviewed isolated previews; see refinements.json."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": null,
+        "up_axis": "Z",
+        "symmetry": "continuous_z",
+        "origin": "floor_center",
+        "semantic_front": "none",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. One of five repeated side tables; vase exported separately."
+      },
+      "bounds_min_m": [
+        -0.38999998569488525,
+        -0.3899998664855957,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.38999998569488525,
+        0.3899998664855957,
+        0.4975000023841858
+      ],
+      "origin_normalization": "rotated geometry bounds floor center",
+      "asset_copy_refinement": "Extended pedestal top5mm into tabletop, correcting2.5mm source support gap."
+    },
+    {
+      "name": "Additional 45 | Square dining table",
+      "source_root": "EXPORT_ROOT_45_6",
+      "parts": 5,
+      "vertices": 480,
+      "dimensions_m": [
+        1.0799999237060547,
+        1.080000400543213,
+        0.5625
+      ],
+      "description": "Default square tabletop; one of six repeated unadapted table placements. Approximate source-derived static asset; no real-person data. See provenance.json.",
+      "catalog_id": "235f0303-dfe6-5c3e-b934-be51f20da6bf",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Default square tabletop; one of six repeated unadapted table placements."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Default square tabletop; one of six repeated unadapted table placements."
+      },
+      "bounds_min_m": [
+        -0.5399999618530273,
+        -0.5400002002716064,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.5399999618530273,
+        0.5400002002716064,
+        0.5625
+      ],
+      "origin_normalization": "rotated geometry bounds floor center"
+    },
+    {
+      "name": "Additional 45 | Square dining table wide support",
+      "source_root": "EXPORT_ROOT_45_7",
+      "parts": 5,
+      "vertices": 480,
+      "dimensions_m": [
+        1.0799999237060547,
+        1.0800002813339233,
+        0.5625
+      ],
+      "description": "Wide-support variant has source final leg offsets +/-0.46 m. Approximate source-derived static asset; no real-person data. See provenance.json.",
+      "catalog_id": "235f0303-dfe6-5c3e-b934-be51f20da6bf",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Wide-support variant has source final leg offsets +/-0.46 m."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Wide-support variant has source final leg offsets +/-0.46 m."
+      },
+      "bounds_min_m": [
+        -0.5399999618530273,
+        -0.5400001406669617,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.5399999618530273,
+        0.5400001406669617,
+        0.5625
+      ],
+      "origin_normalization": "rotated geometry bounds floor center"
+    },
+    {
+      "name": "Additional 45 | Occupied walnut lounge chair",
+      "source_root": "EXPORT_ROOT_45_8",
+      "parts": 15,
+      "vertices": 2128,
+      "dimensions_m": [
+        0.6024850606918335,
+        0.5518004298210144,
+        0.6692023277282715
+      ],
+      "description": "Adapted roomkit-v1/chair-walnut-lounge: width x1.15 on uniform .62 scale, cushion +.012 m, lumbar pillow removed. Scale baked into editable mesh. Approximate source-derived static asset; no real-person data. See provenance.json. Quality refinement: Added two walnut rear support slats within the original envelope.",
+      "catalog_id": "3c09d4fd-1f21-58d5-a927-9a53215a843a",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "seating",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Adapted roomkit-v1/chair-walnut-lounge: width x1.15 on uniform .62 scale, cushion +.012 m, lumbar pillow removed. Scale baked into editable mesh."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "seating",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Adapted roomkit-v1/chair-walnut-lounge: width x1.15 on uniform .62 scale, cushion +.012 m, lumbar pillow removed. Scale baked into editable mesh."
+      },
+      "bounds_min_m": [
+        -0.30124253034591675,
+        -0.2758999764919281,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.30124253034591675,
+        0.2759004533290863,
+        0.6692023277282715
+      ],
+      "origin_normalization": "rotated geometry bounds floor center",
+      "preview": "assets/quality_previews/additional-444547-45-v1__additional-45-occupied-walnut-lounge-chair.png",
+      "quality_review": {
+        "date": "2026-09-14",
+        "status": "upgraded",
+        "changes": [
+          "Added two walnut rear support slats within the original envelope."
+        ],
+        "validation": {
+          "drivers_before": 0,
+          "drivers_after": 0,
+          "physics": "Not simulation certified; material/density/collision preparation still required.",
+          "inward_meshes_repaired": [],
+          "finite_meshes": 13,
+          "missing_materials": 0,
+          "save_reopen": true,
+          "linked_libraries": 0,
+          "max_bounds_error_m": 0.0,
+          "visual_review": {
+            "status": "reviewed",
+            "scope": "Three clay views and material view; source silhouette, cavity/support detail and retained dimensions inspected.",
+            "limitations": "Stylized authored asset quality; no photorealism, structural-load, cloth or rigid-body stability certification."
+          },
+          "closed_mesh_topology": "All modified collection mesh parts have zero boundary/nonmanifold edges and positive signed volume.",
+          "source_report": "runs/_tools/asset_quality_upgrade_models_20260914/deltas.json"
+        },
+        "visual_review": {
+          "by": "asset-quality-parent-20260914",
+          "status": "passed",
+          "date": "2026-09-14",
+          "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+          "evidence": [
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-occupied-walnut-lounge-chair_front_before.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-occupied-walnut-lounge-chair_back_before.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-occupied-walnut-lounge-chair_top_before.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-occupied-walnut-lounge-chair_front_after.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-occupied-walnut-lounge-chair_back_after.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-occupied-walnut-lounge-chair_top_after.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-occupied-walnut-lounge-chair_material_after.png"
+          ]
+        },
+        "physics": "Not dynamically tested",
+        "source_geometry": {
+          "parts": 13,
+          "vertices": 1936
+        },
+        "source_signature": "231ece10e410e6573bcc8589bdb3a3c8afd93496af4981e153abca815b9547d5"
+      }
+    },
+    {
+      "name": "Additional 45 | Tall porcelain vase",
+      "source_root": "EXPORT_ROOT_45_9",
+      "parts": 1,
+      "vertices": 7810,
+      "dimensions_m": [
+        0.13000011444091797,
+        0.13000011444091797,
+        0.20000004768371582
+      ],
+      "description": "Rebuilt capped solid porcelain cylinder as a sealed hollow vessel with 128 radial segments. Retained measured rounded outer silhouette and ceramic material; authored 4 mm radial wall and 7 mm base. Source-derived or authored approximation; no physics certification.",
+      "catalog_id": "6bb6b2cb-e8fe-5478-8413-6e1dff70a79d",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": null,
+        "up_axis": "Z",
+        "symmetry": "continuous_z",
+        "origin": "floor_center",
+        "semantic_front": "none",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Solid cylinder vase approximation, no hollow interior; repeated side-table prop."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": null,
+        "up_axis": "Z",
+        "symmetry": "continuous_z",
+        "origin": "floor_center",
+        "semantic_front": "none",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Solid cylinder vase approximation, no hollow interior; repeated side-table prop."
+      },
+      "bounds_min_m": [
+        -0.06500005722045898,
+        -0.06500005722045898,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.06500005722045898,
+        0.06500005722045898,
+        0.20000004768371582
+      ],
+      "origin_normalization": "rotated geometry bounds floor center",
+      "asset_quality_refinement": {
+        "generator": "tools/asset_quality_upgrade/tabletop.py",
+        "revision": 1,
+        "changes": [
+          "Rebuilt capped solid porcelain cylinder as a sealed hollow vessel with 128 radial segments.",
+          "Retained measured rounded outer silhouette and ceramic material; authored 4 mm radial wall and 7 mm base."
+        ]
+      },
+      "preview": "assets/quality_previews/additional-444547-45-v1__additional-45-tall-porcelain-vase.png",
+      "quality_review": {
+        "date": "2026-09-14",
+        "status": "upgraded",
+        "changes": [
+          "Rebuilt capped solid porcelain cylinder as a sealed hollow vessel with 128 radial segments.",
+          "Retained measured rounded outer silhouette and ceramic material; authored 4 mm radial wall and 7 mm base."
+        ],
+        "validation": {
+          "max_bounds_delta_m": 5.960464477539063e-08,
+          "changed_meshes": [
+            {
+              "name": "EXPORT_PART_45_9__Table 0 vase.001",
+              "bounds_min_m": [
+                -0.06500005722045898,
+                -0.06500005722045898,
+                0.0
+              ],
+              "bounds_max_m": [
+                0.06500005722045898,
+                0.06500005722045898,
+                0.20000004768371582
+              ],
+              "materials": [
+                "RK | Porcelain"
+              ],
+              "vertices": 7810,
+              "edges": 15744,
+              "faces": 7936,
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "degenerate_faces": 0,
+              "signed_volume_m3": 0.00039334806253322807
+            }
+          ],
+          "cavity_checks": [
+            {
+              "object": "EXPORT_PART_45_9__Table 0 vase.001",
+              "floor_z_m": 0.006999999284744263,
+              "rim_z_m": 0.20000004768371582,
+              "center_cavity_depth_m": 0.19300004839897156,
+              "wall_rays": [
+                {
+                  "angle_rad": 0,
+                  "wall_distance_m": 0.06100006029009819,
+                  "hit": true
+                },
+                {
+                  "angle_rad": 1.5707963267948966,
+                  "wall_distance_m": 0.06100006029009819,
+                  "hit": true
+                },
+                {
+                  "angle_rad": 3.141592653589793,
+                  "wall_distance_m": 0.06100006029009819,
+                  "hit": true
+                },
+                {
+                  "angle_rad": 4.71238898038469,
+                  "wall_distance_m": 0.06100006029009819,
+                  "hit": true
+                }
+              ],
+              "scope": "Vessel mesh only; soil and foliage excluded. No dynamics certification."
+            }
+          ],
+          "visual_review": "passed: agent inspected matched before/after material oblique and clay cavity views; plant vessels also inspected with foliage and substrate hidden",
+          "scope": "Changed vessel/substrate meshes only. Foliage and simulation not certified.",
+          "saved_reopen_passed": true,
+          "visual_review_scope": "Same camera/light/framing before and after. All nine collections reviewed; original material appearance, placement envelope and whole-plant arrangement retained.",
+          "limits": [
+            "No rigid-body or fluid simulation was run.",
+            "Unchanged plant foliage is not certified manifold or collision-free.",
+            "Wall and base dimensions are authored approximations, not source measurements."
+          ],
+          "job_id": "46324895",
+          "comparison_sheets": [
+            "runs/_tools/asset_quality_tabletop_20260913/refined/vessels_comparison.jpg",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plant_containers_comparison.jpg",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plants_whole_comparison.jpg"
+          ],
+          "source_report": "runs/_tools/asset_quality_tabletop_20260913/refined/report.json"
+        },
+        "visual_review": {
+          "by": "asset-quality-parent-20260914",
+          "status": "passed",
+          "date": "2026-09-14",
+          "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+          "evidence": [
+            "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-45-v1/additional-45-tall-porcelain-vase/before_oblique.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-45-v1/additional-45-tall-porcelain-vase/before_cavity.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-45-v1/additional-45-tall-porcelain-vase/after_oblique.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-45-v1/additional-45-tall-porcelain-vase/after_cavity.png"
+          ]
+        },
+        "physics": "Passed bounded convex-hull drop test; see assets/quality_review.json",
+        "source_geometry": {
+          "parts": 1,
+          "vertices": 384
+        },
+        "source_signature": "6b264acd55a4d8c0081dcc6612b933d9b906f92377cd9797c629e90efaa44918"
+      }
+    },
+    {
+      "name": "Additional 45 | Small porcelain vase",
+      "source_root": "EXPORT_ROOT_45_10",
+      "parts": 1,
+      "vertices": 7810,
+      "dimensions_m": [
+        0.07999992370605469,
+        0.07999992370605469,
+        0.12000000476837158
+      ],
+      "description": "Rebuilt capped solid porcelain cylinder as a sealed hollow vessel with 128 radial segments. Retained measured rounded outer silhouette and ceramic material; authored 3 mm radial wall and 7 mm base. Source-derived or authored approximation; no physics certification.",
+      "catalog_id": "6bb6b2cb-e8fe-5478-8413-6e1dff70a79d",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": null,
+        "up_axis": "Z",
+        "symmetry": "continuous_z",
+        "origin": "floor_center",
+        "semantic_front": "none",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Small solid cylinder vase approximation, no hollow interior; repeated dining prop."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": null,
+        "up_axis": "Z",
+        "symmetry": "continuous_z",
+        "origin": "floor_center",
+        "semantic_front": "none",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Small solid cylinder vase approximation, no hollow interior; repeated dining prop."
+      },
+      "bounds_min_m": [
+        -0.039999961853027344,
+        -0.039999961853027344,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.039999961853027344,
+        0.039999961853027344,
+        0.12000000476837158
+      ],
+      "origin_normalization": "rotated geometry bounds floor center",
+      "asset_quality_refinement": {
+        "generator": "tools/asset_quality_upgrade/tabletop.py",
+        "revision": 1,
+        "changes": [
+          "Rebuilt capped solid porcelain cylinder as a sealed hollow vessel with 128 radial segments.",
+          "Retained measured rounded outer silhouette and ceramic material; authored 3 mm radial wall and 7 mm base."
+        ]
+      },
+      "preview": "assets/quality_previews/additional-444547-45-v1__additional-45-small-porcelain-vase.png",
+      "quality_review": {
+        "date": "2026-09-14",
+        "status": "upgraded",
+        "changes": [
+          "Rebuilt capped solid porcelain cylinder as a sealed hollow vessel with 128 radial segments.",
+          "Retained measured rounded outer silhouette and ceramic material; authored 3 mm radial wall and 7 mm base."
+        ],
+        "validation": {
+          "max_bounds_delta_m": 0.0,
+          "changed_meshes": [
+            {
+              "name": "EXPORT_PART_45_10__Dining vase 0.001",
+              "bounds_min_m": [
+                -0.039999961853027344,
+                -0.039999961853027344,
+                0.0
+              ],
+              "bounds_max_m": [
+                0.039999961853027344,
+                0.039999961853027344,
+                0.12000000476837158
+              ],
+              "materials": [
+                "RK | Porcelain"
+              ],
+              "vertices": 7810,
+              "edges": 15744,
+              "faces": 7936,
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "degenerate_faces": 0,
+              "signed_volume_m3": 0.00011409896734879928
+            }
+          ],
+          "cavity_checks": [
+            {
+              "object": "EXPORT_PART_45_10__Dining vase 0.001",
+              "floor_z_m": 0.006999999284744263,
+              "rim_z_m": 0.12000000476837158,
+              "center_cavity_depth_m": 0.11300000548362732,
+              "wall_rays": [
+                {
+                  "angle_rad": 0,
+                  "wall_distance_m": 0.036999963223934174,
+                  "hit": true
+                },
+                {
+                  "angle_rad": 1.5707963267948966,
+                  "wall_distance_m": 0.036999963223934174,
+                  "hit": true
+                },
+                {
+                  "angle_rad": 3.141592653589793,
+                  "wall_distance_m": 0.036999963223934174,
+                  "hit": true
+                },
+                {
+                  "angle_rad": 4.71238898038469,
+                  "wall_distance_m": 0.036999963223934174,
+                  "hit": true
+                }
+              ],
+              "scope": "Vessel mesh only; soil and foliage excluded. No dynamics certification."
+            }
+          ],
+          "visual_review": "passed: agent inspected matched before/after material oblique and clay cavity views; plant vessels also inspected with foliage and substrate hidden",
+          "scope": "Changed vessel/substrate meshes only. Foliage and simulation not certified.",
+          "saved_reopen_passed": true,
+          "visual_review_scope": "Same camera/light/framing before and after. All nine collections reviewed; original material appearance, placement envelope and whole-plant arrangement retained.",
+          "limits": [
+            "No rigid-body or fluid simulation was run.",
+            "Unchanged plant foliage is not certified manifold or collision-free.",
+            "Wall and base dimensions are authored approximations, not source measurements."
+          ],
+          "job_id": "46324895",
+          "comparison_sheets": [
+            "runs/_tools/asset_quality_tabletop_20260913/refined/vessels_comparison.jpg",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plant_containers_comparison.jpg",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plants_whole_comparison.jpg"
+          ],
+          "source_report": "runs/_tools/asset_quality_tabletop_20260913/refined/report.json"
+        },
+        "visual_review": {
+          "by": "asset-quality-parent-20260914",
+          "status": "passed",
+          "date": "2026-09-14",
+          "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+          "evidence": [
+            "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-45-v1/additional-45-small-porcelain-vase/before_oblique.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-45-v1/additional-45-small-porcelain-vase/before_cavity.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-45-v1/additional-45-small-porcelain-vase/after_oblique.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/additional-444547-45-v1/additional-45-small-porcelain-vase/after_cavity.png"
+          ]
+        },
+        "physics": "Passed bounded convex-hull drop test; see assets/quality_review.json",
+        "source_geometry": {
+          "parts": 1,
+          "vertices": 384
+        },
+        "source_signature": "ea6072d111fd711094c62a6ccc4de896baeb05a74eba6aae41e86f9425708e91"
+      }
+    },
+    {
+      "name": "Additional 45 | Folded linen napkin",
+      "source_root": "EXPORT_ROOT_45_11",
+      "parts": 4,
+      "vertices": 6888,
+      "dimensions_m": [
+        0.18999958038330078,
+        0.09999990463256836,
+        0.024887599050998688
+      ],
+      "description": "Replaced one thick box with four fitted linen layers, rolled edges and subtle surface undulation; preserved tabletop footprint and support plane. Static folded textile geometry; no cloth solver or cloth simulation claim.",
+      "catalog_id": "37a5f065-226d-51d8-ac2e-d3690ef45912",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Beveled rectangular folded napkin approximation; repeated placements share design."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Beveled rectangular folded napkin approximation; repeated placements share design."
+      },
+      "bounds_min_m": [
+        -0.09499979019165039,
+        -0.04999995231628418,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.09499979019165039,
+        0.04999995231628418,
+        0.024887599050998688
+      ],
+      "origin_normalization": "rotated geometry bounds floor center",
+      "preview": "assets/quality_previews/additional-444547-45-v1__additional-45-folded-linen-napkin.png",
+      "quality_review": {
+        "date": "2026-09-14",
+        "status": "upgraded",
+        "changes": [
+          "Replaced one thick box with four fitted linen layers, rolled edges and subtle surface undulation; preserved tabletop footprint and support plane.",
+          "Static folded textile geometry; no cloth solver or cloth simulation claim."
+        ],
+        "validation": {
+          "drivers_before": 0,
+          "drivers_after": 0,
+          "physics": "Not simulation certified; material/density/collision preparation still required.",
+          "inward_meshes_repaired": [],
+          "finite_meshes": 1,
+          "missing_materials": 0,
+          "save_reopen": true,
+          "linked_libraries": 0,
+          "max_bounds_error_m": 0.0,
+          "visual_review": {
+            "status": "reviewed",
+            "scope": "Three clay views and material view; source silhouette, cavity/support detail and retained dimensions inspected.",
+            "limitations": "Stylized authored asset quality; no photorealism, structural-load, cloth or rigid-body stability certification."
+          },
+          "closed_mesh_topology": "All modified collection mesh parts have zero boundary/nonmanifold edges and positive signed volume.",
+          "source_report": "runs/_tools/asset_quality_upgrade_models_20260914/deltas.json"
+        },
+        "visual_review": {
+          "by": "asset-quality-parent-20260914",
+          "status": "passed",
+          "date": "2026-09-14",
+          "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+          "evidence": [
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-folded-linen-napkin_front_before.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-folded-linen-napkin_back_before.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-folded-linen-napkin_top_before.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-folded-linen-napkin_front_after.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-folded-linen-napkin_back_after.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-folded-linen-napkin_top_after.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-folded-linen-napkin_material_after.png"
+          ]
+        },
+        "physics": "Not dynamically tested",
+        "source_geometry": {
+          "parts": 1,
+          "vertices": 96
+        },
+        "source_signature": "2c1b6e14edc17b3e983c57afeab6c04431d5616231fceb93e079c06ca055d110"
+      }
+    },
+    {
+      "name": "Additional 45 | Abstract wall panel",
+      "source_root": "EXPORT_ROOT_45_12",
+      "parts": 5,
+      "vertices": 480,
+      "dimensions_m": [
+        2.450000286102295,
+        0.09000015258789062,
+        0.9500000476837158
+      ],
+      "description": "Editable shallow geometric pigment panels; no reference image texture. Approximate source-derived static asset; no real-person data. See provenance.json.",
+      "catalog_id": "266919da-b691-5207-9ef9-3ec1e1b148f2",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "mount_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Editable shallow geometric pigment panels; no reference image texture."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "mount_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Editable shallow geometric pigment panels; no reference image texture."
+      },
+      "bounds_min_m": [
+        -1.2250001430511475,
+        -0.09000015258789062,
+        -0.4750000238418579
+      ],
+      "bounds_max_m": [
+        1.2250001430511475,
+        0.0,
+        0.4750000238418579
+      ],
+      "origin_normalization": "declared root retained"
+    },
+    {
+      "name": "Additional 45 | Six candle group",
+      "source_root": "EXPORT_ROOT_45_13",
+      "parts": 12,
+      "vertices": 3660,
+      "dimensions_m": [
+        0.8649992942810059,
+        0.06499958038330078,
+        0.4800795614719391
+      ],
+      "description": "Replaced solid block candles with round wax bodies, dished wax tops and six cotton wicks. Grounded all six candle bases at the group support plane; preserved each original candle height and overall group envelope. Assigned wax and wick materials instead of linen upholstery.",
+      "catalog_id": "139882be-a397-5c39-ae0a-ff4abc566605",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Six varying-height solid candle proxies; no wick, flame or simulation."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Six varying-height solid candle proxies; no wick, flame or simulation."
+      },
+      "bounds_min_m": [
+        -0.43249940872192383,
+        -0.03249979019165039,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.43249988555908203,
+        0.03249979019165039,
+        0.4800795614719391
+      ],
+      "origin_normalization": "rotated geometry bounds floor center",
+      "preview": "assets/quality_previews/additional-444547-45-v1__additional-45-six-candle-group.png",
+      "quality_review": {
+        "date": "2026-09-14",
+        "status": "upgraded",
+        "changes": [
+          "Replaced solid block candles with round wax bodies, dished wax tops and six cotton wicks.",
+          "Grounded all six candle bases at the group support plane; preserved each original candle height and overall group envelope.",
+          "Assigned wax and wick materials instead of linen upholstery."
+        ],
+        "validation": {
+          "drivers_before": 0,
+          "drivers_after": 0,
+          "physics": "Not simulation certified; material/density/collision preparation still required.",
+          "inward_meshes_repaired": [],
+          "finite_meshes": 6,
+          "missing_materials": 0,
+          "save_reopen": true,
+          "linked_libraries": 0,
+          "max_bounds_error_m": 0.0,
+          "visual_review": {
+            "status": "reviewed",
+            "scope": "Three clay views and material view; source silhouette, cavity/support detail and retained dimensions inspected.",
+            "limitations": "Stylized authored asset quality; no photorealism, structural-load, cloth or rigid-body stability certification."
+          },
+          "closed_mesh_topology": "All modified collection mesh parts have zero boundary/nonmanifold edges and positive signed volume.",
+          "source_report": "runs/_tools/asset_quality_upgrade_models_20260914/deltas.json"
+        },
+        "visual_review": {
+          "by": "asset-quality-parent-20260914",
+          "status": "passed",
+          "date": "2026-09-14",
+          "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+          "evidence": [
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-six-candle-group_front_before.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-six-candle-group_back_before.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-six-candle-group_top_before.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-six-candle-group_front_after.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-six-candle-group_back_after.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-six-candle-group_top_after.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/additional-444547-45-v1__additional-45-six-candle-group_material_after.png"
+          ]
+        },
+        "physics": "Not dynamically tested",
+        "source_geometry": {
+          "parts": 6,
+          "vertices": 576
+        },
+        "source_signature": "c86054e02c4745bec0ea17ef92e3e6682b55f9bcad4d594226fbc69604e1776c"
+      }
+    },
+    {
+      "name": "Additional 45 | Staff counter block",
+      "source_root": "EXPORT_ROOT_45_14",
+      "parts": 1,
+      "vertices": 96,
+      "dimensions_m": [
+        4.5,
+        0.7000007629394531,
+        1.0199999809265137
+      ],
+      "description": "Minimal freestanding counter block proxy; no hidden service fittings or operative cabinet doors. Approximate source-derived static asset; no real-person data. See provenance.json.",
+      "catalog_id": "3e0878f6-b919-578a-91fc-733f7034a4b1",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "door",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Minimal freestanding counter block proxy; no hidden service fittings or operative cabinet doors."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "floor_center",
+        "semantic_front": "door",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Minimal freestanding counter block proxy; no hidden service fittings or operative cabinet doors."
+      },
+      "bounds_min_m": [
+        -2.25,
+        -0.35000038146972656,
+        0.0
+      ],
+      "bounds_max_m": [
+        2.250000238418579,
+        0.35000038146972656,
+        1.0199999809265137
+      ],
+      "origin_normalization": "rotated geometry bounds floor center"
+    },
+    {
+      "name": "Additional 45 | Lounge window frame",
+      "source_root": "EXPORT_ROOT_45_15",
+      "parts": 3,
+      "vertices": 288,
+      "dimensions_m": [
+        2.4000003337860107,
+        0.25,
+        2.629999876022339
+      ],
+      "description": "Source standalone opening trim assembly; no glass, hinges, wall or outdoor scenery. Mount origin at bounding center. Approximate source-derived static asset; no real-person data. See provenance.json.",
+      "catalog_id": "ac8cb6a8-efbd-52f0-b20a-b952fff628b0",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "mount_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Source standalone opening trim assembly; no glass, hinges, wall or outdoor scenery. Mount origin at bounding center."
+      },
+      "source_orientation": {
+        "schema_version": 1,
+        "front_axis": "-Y",
+        "up_axis": "Z",
+        "symmetry": "none",
+        "origin": "mount_center",
+        "semantic_front": "generic",
+        "status": "authored",
+        "evidence": "Source construction axes and source-root rigid basis; see provenance.json and extraction validation previews. Source standalone opening trim assembly; no glass, hinges, wall or outdoor scenery. Mount origin at bounding center."
+      },
+      "bounds_min_m": [
+        -1.200000286102295,
+        -0.25,
+        -1.3149999380111694
+      ],
+      "bounds_max_m": [
+        1.2000000476837158,
+        0.0,
+        1.3149999380111694
+      ],
+      "origin_normalization": "declared root retained"
+    }
+  ],
+  "materials": [
+    {
+      "name": "RK | Aged brass",
+      "source_name": "PAL45 | Aged brass",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false,
+      "classification": "scene-authored Principled parameter palette variant; not a new procedural shader design"
+    },
+    {
+      "name": "RK | Artwork pigment 0",
+      "source_name": "PAL45 | Artwork pigment 0",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false,
+      "classification": "scene-authored Principled parameter palette variant; not a new procedural shader design"
+    },
+    {
+      "name": "RK | Artwork pigment 1",
+      "source_name": "PAL45 | Artwork pigment 1",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false,
+      "classification": "scene-authored Principled parameter palette variant; not a new procedural shader design"
+    },
+    {
+      "name": "RK | Artwork pigment 2",
+      "source_name": "PAL45 | Artwork pigment 2",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false,
+      "classification": "scene-authored Principled parameter palette variant; not a new procedural shader design"
+    },
+    {
+      "name": "RK | Dark bronze",
+      "source_name": "PAL45 | Dark bronze",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false,
+      "classification": "scene-authored Principled parameter palette variant; not a new procedural shader design"
+    },
+    {
+      "name": "RK | Honed limestone",
+      "source_name": "PAL45 | Honed limestone",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false,
+      "classification": "scene-authored Principled parameter palette variant; not a new procedural shader design"
+    },
+    {
+      "name": "RK | Navy upholstery",
+      "source_name": "PAL45 | Navy upholstery",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false,
+      "classification": "scene-authored Principled parameter palette variant; not a new procedural shader design"
+    },
+    {
+      "name": "RK | Pale woven linen",
+      "source_name": "PAL45 | Pale woven linen",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false,
+      "classification": "scene-authored Principled parameter palette variant; not a new procedural shader design"
+    },
+    {
+      "name": "RK | Porcelain",
+      "source_name": "PAL45 | Porcelain",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false,
+      "classification": "scene-authored Principled parameter palette variant; not a new procedural shader design"
+    },
+    {
+      "name": "RK | Walnut",
+      "source_name": "PAL45 | Walnut",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false,
+      "classification": "scene-authored Principled parameter palette variant; not a new procedural shader design"
+    },
+    {
+      "name": "RK | Warm pale concrete",
+      "source_name": "PAL45 | Warm pale concrete",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false,
+      "classification": "scene-authored Principled parameter palette variant; not a new procedural shader design"
+    }
+  ],
+  "origin": "per_asset",
+  "forward": null,
+  "units": "metres",
+  "geometry": "Separate editable mesh parts; modifiers baked; no room animation/drivers retained.",
+  "material_dependencies": [
+    {
+      "name": "RK | Walnut furniture frames.002",
+      "source_name": "DEP45 | Walnut furniture frames.002",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Charcoal woven upholstery.002",
+      "source_name": "DEP45 | Charcoal woven upholstery.002",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    }
+  ],
+  "provenance": "provenance.json",
+  "approximation": "Reference-informed editable blockout geometry; dimensions uncalibrated; see per-item limitations.",
+  "current_quality_update": {
+    "date": "2026-09-14",
+    "policy": "Replace current payload after review; keep stable IDs",
+    "changed_collections": [
+      "Additional 45 | Folded linen napkin",
+      "Additional 45 | Occupied walnut lounge chair",
+      "Additional 45 | Six candle group",
+      "Additional 45 | Small porcelain vase",
+      "Additional 45 | Tall porcelain vase"
+    ],
+    "geometry_and_reopen_checked": true,
+    "physics_validation": "not performed"
+  }
+}

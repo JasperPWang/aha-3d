@@ -1,0 +1,657 @@
+[
+  {
+    "document": ".agents/skills/blender-roomkit/SKILL.md",
+    "label": "asset index",
+    "original_target": "../../../assets/INDEX.md"
+  },
+  {
+    "document": ".agents/skills/blender-roomkit/references/assets.md",
+    "label": "faucet selection",
+    "original_target": "../../../../runs/asset_orientation_validation/20260910/faucet_selection.json"
+  },
+  {
+    "document": ".agents/skills/kimodo-body-motion/SKILL.md",
+    "label": "model card",
+    "original_target": "../../../kimodo_blender/checkpoints/Kimodo-SMPLX-RP-v1/README.md"
+  },
+  {
+    "document": ".agents/skills/pi3x-scene-reference/references/furniture.md",
+    "label": "32 segmentation input",
+    "original_target": "../../../../tasks/furniture-measure-api-20260910/segment.json"
+  },
+  {
+    "document": ".agents/skills/pi3x-scene-reference/references/furniture.md",
+    "label": "interface comparison",
+    "original_target": "../../../../tasks/furniture-measure-api-20260910/REPORT.md"
+  },
+  {
+    "document": ".agents/skills/sam3d-motion-reference/SKILL.md",
+    "label": "same-shot g0070 pilot",
+    "original_target": "../../../runs/minimal_living_g0070/sam3d_pilot_20260908/README.md"
+  },
+  {
+    "document": ".agents/skills/sam3d-motion-reference/SKILL.md",
+    "label": "integration handoff",
+    "original_target": "../../../tasks/sam3d-integration-20260908/HANDOFF.md"
+  },
+  {
+    "document": "README.md",
+    "label": "asset catalog",
+    "original_target": "assets/INDEX.md"
+  },
+  {
+    "document": "assets/README.md",
+    "label": "the generated catalog",
+    "original_target": "INDEX.md"
+  },
+  {
+    "document": "docs/ASSET_ORIENTATION.md",
+    "label": "task handoff",
+    "original_target": "../tasks/orientation-contract-20260910/HANDOFF.md"
+  },
+  {
+    "document": "docs/ASSET_ORIENTATION.md",
+    "label": "configuration",
+    "original_target": "../configs/orientation_audit.json"
+  },
+  {
+    "document": "docs/ASSET_ORIENTATION.md",
+    "label": "eight-item review",
+    "original_target": "../runs/asset_orientation_audit/20260910/REVIEW.md"
+  },
+  {
+    "document": "docs/ASSET_ORIENTATION.md",
+    "label": "extracted fixture provenance",
+    "original_target": "../assets/fixtures/v1/simple_faucet/provenance.json"
+  },
+  {
+    "document": "docs/ASSET_ORIENTATION.md",
+    "label": "delivery handoff",
+    "original_target": "../tasks/orientation-contract-20260910/HANDOFF.md"
+  },
+  {
+    "document": "docs/ASSET_QUALITY.md",
+    "label": "integration handoff",
+    "original_target": "../tasks/asset-quality-20260910/HANDOFF.md"
+  },
+  {
+    "document": "docs/ASSET_QUALITY.md",
+    "label": "source plant audit",
+    "original_target": "../runs/plant_quality/20260910/source_audit.json"
+  },
+  {
+    "document": "docs/ASSET_QUALITY.md",
+    "label": "seating handoff",
+    "original_target": "../tasks/seating-quality-20260910/HANDOFF.md"
+  },
+  {
+    "document": "docs/ASSET_QUALITY.md",
+    "label": "lounge comparison",
+    "original_target": "../runs/seating_quality/20260910/candidates_v1/chair-walnut-lounge-supported/comparison.json"
+  },
+  {
+    "document": "docs/ASSET_QUALITY.md",
+    "label": "lounge rear",
+    "original_target": "../runs/seating_quality/20260910/candidates_v1/chair-walnut-lounge-supported/rear_material.png"
+  },
+  {
+    "document": "docs/ASSET_QUALITY.md",
+    "label": "accent comparison",
+    "original_target": "../runs/seating_quality/20260910/candidates_v1/chair-accent-supported/comparison.json"
+  },
+  {
+    "document": "docs/ASSET_QUALITY.md",
+    "label": "accent side",
+    "original_target": "../runs/seating_quality/20260910/candidates_v1/chair-accent-supported/side_clay.png"
+  },
+  {
+    "document": "docs/ASSET_QUALITY.md",
+    "label": "Whole candidate",
+    "original_target": "../runs/plant_quality/20260910/candidate/whole_material.png"
+  },
+  {
+    "document": "docs/ASSET_QUALITY.md",
+    "label": "leaf closeup",
+    "original_target": "../runs/plant_quality/20260910/candidate/leaf_closeup_material.png"
+  },
+  {
+    "document": "docs/ASSET_QUALITY.md",
+    "label": "build measurements",
+    "original_target": "../runs/plant_quality/20260910/build_report.json"
+  },
+  {
+    "document": "docs/ASSET_QUALITY.md",
+    "label": "registered demonstration",
+    "original_target": "../runs/asset_quality_validation/20260910/demo_v1/quality_demo.blend"
+  },
+  {
+    "document": "docs/ASSET_QUALITY.md",
+    "label": "material",
+    "original_target": "../runs/asset_quality_validation/20260910/demo_v1/quality_overview.png"
+  },
+  {
+    "document": "docs/ASSET_QUALITY.md",
+    "label": "clay",
+    "original_target": "../runs/asset_quality_validation/20260910/demo_v1/quality_clay.png"
+  },
+  {
+    "document": "docs/ASSET_QUALITY.md",
+    "label": "validation report",
+    "original_target": "../runs/asset_quality_validation/20260910/demo_v1/validation.json"
+  },
+  {
+    "document": "docs/ASSET_QUALITY.md",
+    "label": "model handoff",
+    "original_target": "../tasks/plant-realism-model-20260911/HANDOFF.md"
+  },
+  {
+    "document": "docs/ASSET_QUALITY.md",
+    "label": "matched comparison",
+    "original_target": "../runs/plant_realism_validation/20260911/comparison_v1/comparison.json"
+  },
+  {
+    "document": "docs/ASSET_QUALITY.md",
+    "label": "front",
+    "original_target": "../runs/plant_realism_validation/20260911/comparison_v1/front_comparison.png"
+  },
+  {
+    "document": "docs/ASSET_QUALITY.md",
+    "label": "side",
+    "original_target": "../runs/plant_realism_validation/20260911/comparison_v1/side_comparison.png"
+  },
+  {
+    "document": "docs/ASSET_QUALITY.md",
+    "label": "backlit",
+    "original_target": "../runs/plant_realism_validation/20260911/comparison_v1/backlit_comparison.png"
+  },
+  {
+    "document": "docs/ASSET_QUALITY.md",
+    "label": "editable comparison scene",
+    "original_target": "../runs/plant_realism_validation/20260911/comparison_v1/after/comparison.blend"
+  },
+  {
+    "document": "docs/ASSET_QUALITY.md",
+    "label": "registered reuse demo",
+    "original_target": "../runs/plant_realism_validation/20260911/demo_v1/quality_demo.blend"
+  },
+  {
+    "document": "docs/MOTION_CONTROLS.md",
+    "label": "native right-hand experiment",
+    "original_target": "../runs/minimal_living_g0070/native_ee_20260908/README.md"
+  },
+  {
+    "document": "docs/MOTION_CONTROLS.md",
+    "label": "g0070 redo",
+    "original_target": "../runs/minimal_living_g0070/motion_redo_20260909/README.md"
+  },
+  {
+    "document": "docs/OBJECT_GENERATION.md",
+    "label": "measured comparison",
+    "original_target": "../runs/living_room_piano_g0064/object_tools_20260909/comparison/REPORT.md"
+  },
+  {
+    "document": "docs/OBJECT_GENERATION.md",
+    "label": "pilot handoff",
+    "original_target": "../tasks/object-tools-pilot-20260909/HANDOFF.md"
+  },
+  {
+    "document": "docs/OBJECT_GENERATION.md",
+    "label": "source frames and optional selection boxes",
+    "original_target": "../tasks/object-tools-pilot-20260909/source_selection_sam3.json"
+  },
+  {
+    "document": "docs/OBJECT_GENERATION.md",
+    "label": "explicit selections",
+    "original_target": "../tasks/object-tools-pilot-20260909/input_selection.json"
+  },
+  {
+    "document": "docs/OBJECT_GENERATION.md",
+    "label": "text prompts",
+    "original_target": "../tasks/object-tools-pilot-20260909/segmentation_prompts.json"
+  },
+  {
+    "document": "docs/OBJECT_GENERATION.md",
+    "label": "pointmap adapter",
+    "original_target": "../tasks/object-tools-pilot-20260909/prepare_pointmaps.py"
+  },
+  {
+    "document": "docs/OBJECT_GENERATION.md",
+    "label": "comparison report",
+    "original_target": "../runs/living_room_piano_g0064/object_tools_20260909/comparison/REPORT.md"
+  },
+  {
+    "document": "docs/PIPELINE.md",
+    "label": "refactor handoff",
+    "original_target": "../tasks/pipeline-refactor-20260908/HANDOFF.md"
+  },
+  {
+    "document": "docs/PREFERENCES.md",
+    "label": "Pi3X pilot proposal",
+    "original_target": "proposals/pi3x-pilot.md"
+  },
+  {
+    "document": "docs/SCENE_REQUESTS.md",
+    "label": "Implementation handoff",
+    "original_target": "../tasks/workflow-intake-20260910/HANDOFF.md"
+  },
+  {
+    "document": "docs/SCENE_REQUESTS.md",
+    "label": "validation record",
+    "original_target": "../runs/workflow_intake_validation/20260910/validation.json"
+  },
+  {
+    "document": "docs/SCENE_REQUESTS.md",
+    "label": "whitebox brief",
+    "original_target": "../runs/workflow_intake_validation/20260910/whitebox/BRIEF.md"
+  },
+  {
+    "document": "docs/SCENE_REQUESTS.md",
+    "label": "source-camera/actions brief",
+    "original_target": "../runs/workflow_intake_validation/20260910/camera_actions/BRIEF.md"
+  },
+  {
+    "document": "docs/SCENE_VARIANTS.md",
+    "label": "integration handoff",
+    "original_target": "../tasks/semantic-assets-20260910/HANDOFF.md"
+  },
+  {
+    "document": "docs/SCENE_VARIANTS.md",
+    "label": "asset index",
+    "original_target": "../assets/INDEX.md"
+  },
+  {
+    "document": "docs/SCENE_VARIANTS.md",
+    "label": "demo scene state",
+    "original_target": "../scenes/roomkit_variants_demo/STATE.md"
+  },
+  {
+    "document": "docs/SCENE_WORKFLOW.md",
+    "label": "piano storyboard",
+    "original_target": "../scenes/living_room_piano_g0064/workflow/storyboard.json"
+  },
+  {
+    "document": "docs/SCENE_WORKFLOW.md",
+    "label": "Camera configuration",
+    "original_target": "../scenes/living_room_piano_g0064/workflow/camera.json"
+  },
+  {
+    "document": "docs/SCENE_WORKFLOW.md",
+    "label": "Static region configuration",
+    "original_target": "../scenes/living_room_piano_g0064/workflow/static_regions.json"
+  },
+  {
+    "document": "docs/SCENE_WORKFLOW.md",
+    "label": "Ensemble configuration",
+    "original_target": "../scenes/living_room_piano_g0064/workflow/ensemble.json"
+  },
+  {
+    "document": "docs/decisions/0001-shared-documentation.md",
+    "label": "setup task",
+    "original_target": "../../tasks/shared-docs-20260908/HANDOFF.md"
+  },
+  {
+    "document": "docs/decisions/0001-shared-documentation.md",
+    "label": "handoff snapshot",
+    "original_target": "../history/2026-09-08-pi3x-handoff.md"
+  },
+  {
+    "document": "docs/decisions/0002-shared-pipeline.md",
+    "label": "task handoff",
+    "original_target": "../../tasks/pipeline-refactor-20260908/HANDOFF.md"
+  },
+  {
+    "document": "docs/decisions/0003-scene-layout.md",
+    "label": "migration report",
+    "original_target": "../history/scene-layout-migration.json"
+  },
+  {
+    "document": "docs/decisions/0003-scene-layout.md",
+    "label": "task handoff",
+    "original_target": "../../tasks/organize-scenes-20260908/HANDOFF.md"
+  },
+  {
+    "document": "docs/lessons/colored-reference-leg-guidance.md",
+    "label": "task handoff",
+    "original_target": "../../tasks/metric-legs-20260909/HANDOFF.md"
+  },
+  {
+    "document": "docs/lessons/colored-reference-leg-guidance.md",
+    "label": "Colored sheets",
+    "original_target": "../../runs/living_room_piano_g0064/metric_legs_20260909/metric_rgb/MEASUREMENTS.md"
+  },
+  {
+    "document": "docs/lessons/colored-reference-leg-guidance.md",
+    "label": "invariance validation",
+    "original_target": "../../runs/living_room_piano_g0064/metric_legs_20260909/metric_invariance.json"
+  },
+  {
+    "document": "docs/lessons/colored-reference-leg-guidance.md",
+    "label": "Child crops",
+    "original_target": "../../runs/living_room_piano_g0064/metric_legs_20260909/child_detail_review/crops_02.jpg"
+  },
+  {
+    "document": "docs/lessons/colored-reference-leg-guidance.md",
+    "label": "Three-key metrics",
+    "original_target": "../../runs/living_room_piano_g0064/metric_legs_20260909/leg_comparison_metrics.json"
+  },
+  {
+    "document": "docs/lessons/colored-reference-leg-guidance.md",
+    "label": "actual mesh video",
+    "original_target": "../../runs/living_room_piano_g0064/metric_legs_20260909/leg_comparison.mp4"
+  },
+  {
+    "document": "docs/lessons/colored-reference-leg-guidance.md",
+    "label": "video decode report",
+    "original_target": "../../runs/living_room_piano_g0064/metric_legs_20260909/leg_comparison.json"
+  },
+  {
+    "document": "docs/lessons/colored-reference-leg-guidance.md",
+    "label": "Swing-only metrics",
+    "original_target": "../../runs/living_room_piano_g0064/metric_legs_20260909/swing_comparison_metrics.json"
+  },
+  {
+    "document": "docs/lessons/colored-reference-leg-guidance.md",
+    "label": "actual mesh video",
+    "original_target": "../../runs/living_room_piano_g0064/metric_legs_20260909/swing_comparison.mp4"
+  },
+  {
+    "document": "docs/lessons/colored-reference-leg-guidance.md",
+    "label": "video decode report",
+    "original_target": "../../runs/living_room_piano_g0064/metric_legs_20260909/swing_comparison.json"
+  },
+  {
+    "document": "docs/lessons/piano-workflow-efficiency.md",
+    "label": "piano state",
+    "original_target": "../../scenes/living_room_piano_g0064/STATE.md"
+  },
+  {
+    "document": "docs/lessons/piano-workflow-efficiency.md",
+    "label": "original task history",
+    "original_target": "../../tasks/piano-g0064-full-20260909/HISTORY.md"
+  },
+  {
+    "document": "docs/lessons/piano-workflow-efficiency.md",
+    "label": "Real-data benchmark",
+    "original_target": "../../runs/living_room_piano_g0064/workflow_20260909/benchmark.json"
+  },
+  {
+    "document": "docs/lessons/piano-workflow-efficiency.md",
+    "label": "Blender projection test",
+    "original_target": "../../runs/living_room_piano_g0064/workflow_20260909/blender_projection_test.json"
+  },
+  {
+    "document": "docs/lessons/piano-workflow-efficiency.md",
+    "label": "Motion-only validation",
+    "original_target": "../../runs/living_room_piano_g0064/workflow_20260909/motion_only_validation.json"
+  },
+  {
+    "document": "docs/lessons/piano-workflow-efficiency.md",
+    "label": "Room output",
+    "original_target": "../../runs/living_room_piano_g0064/workflow_20260909/room/room.json"
+  },
+  {
+    "document": "docs/lessons/piano-workflow-efficiency.md",
+    "label": "assembly",
+    "original_target": "../../runs/living_room_piano_g0064/workflow_20260909/ensemble/assembly.json"
+  },
+  {
+    "document": "docs/lessons/piano-workflow-efficiency.md",
+    "label": "all-person reopened checks",
+    "original_target": "../../runs/living_room_piano_g0064/workflow_20260909/final_verify/verify.json"
+  },
+  {
+    "document": "docs/lessons/piano-workflow-efficiency.md",
+    "label": "standard replay run",
+    "original_target": "../../runs/living_room_piano_g0064/workflow_replay_20260909/run.json"
+  },
+  {
+    "document": "docs/lessons/piano-workflow-efficiency.md",
+    "label": "Comparison validation",
+    "original_target": "../../runs/living_room_piano_g0064/workflow_20260909/comparison/validation.json"
+  },
+  {
+    "document": "docs/lessons/piano-workflow-efficiency.md",
+    "label": "actual visual review",
+    "original_target": "../../runs/living_room_piano_g0064/workflow_20260909/visual_review.json"
+  },
+  {
+    "document": "docs/lessons/piano-workflow-efficiency.md",
+    "label": "optimization handoff",
+    "original_target": "../../tasks/scene-workflow-20260909/HANDOFF.md"
+  },
+  {
+    "document": "docs/lessons/reconstruction-batch-3235.md",
+    "label": "Delivery index",
+    "original_target": "../../tasks/reconstruct-35-batch-20260909/DELIVERY.md"
+  },
+  {
+    "document": "docs/lessons/reconstruction-batch-3235.md",
+    "label": "task handoff",
+    "original_target": "../../tasks/workflow-retrospective-3235-20260909/HANDOFF.md"
+  },
+  {
+    "document": "docs/lessons/reconstruction-batch-3235.md",
+    "label": "33 handoff",
+    "original_target": "../../tasks/reconstruct-33-20260909/HANDOFF.md"
+  },
+  {
+    "document": "docs/lessons/reconstruction-batch-3235.md",
+    "label": "32 handoff",
+    "original_target": "../../tasks/reconstruct-32-20260909/HANDOFF.md"
+  },
+  {
+    "document": "docs/lessons/reconstruction-batch-3235.md",
+    "label": "maintenance diagnosis",
+    "original_target": "../../runs/workflow_regression/batch3235_20260909/camera_diagnosis.json"
+  },
+  {
+    "document": "docs/lessons/reconstruction-batch-3235.md",
+    "label": "Final snapshot",
+    "original_target": "../../runs/open_plan_group_walk_g0055/final_v3/snapshot/recipe.json"
+  },
+  {
+    "document": "docs/lessons/reconstruction-batch-3235.md",
+    "label": "35 handoff",
+    "original_target": "../../tasks/reconstruct-35-batch-20260909/HANDOFF.md"
+  },
+  {
+    "document": "docs/lessons/reconstruction-batch-3235.md",
+    "label": "35 motion report",
+    "original_target": "../../runs/bedroom_walkthrough_g0052/review_v1/motion_summary.json"
+  },
+  {
+    "document": "docs/lessons/reconstruction-batch-3235.md",
+    "label": "33",
+    "original_target": "../../tasks/reconstruct-33-20260909/HANDOFF.md"
+  },
+  {
+    "document": "docs/lessons/reconstruction-batch-3235.md",
+    "label": "32",
+    "original_target": "../../tasks/reconstruct-32-20260909/HANDOFF.md"
+  },
+  {
+    "document": "docs/lessons/reconstruction-batch-3235.md",
+    "label": "model card",
+    "original_target": "../../kimodo_blender/checkpoints/Kimodo-SMPLX-RP-v1/README.md"
+  },
+  {
+    "document": "docs/lessons/reconstruction-batch-3235.md",
+    "label": "Selected preview",
+    "original_target": "../../runs/bedroom_walkthrough_g0052/ensemble_v3/previews/frame_000045.png"
+  },
+  {
+    "document": "docs/lessons/reconstruction-batch-3235.md",
+    "label": "35 placement",
+    "original_target": "../../runs/bedroom_walkthrough_g0052/constant_height_v2/placement.json"
+  },
+  {
+    "document": "docs/lessons/reconstruction-batch-3235.md",
+    "label": "33 placement",
+    "original_target": "../../runs/living_room_walk_seated_g0059/reconstruction_20260909/constant_placement/placement.json"
+  },
+  {
+    "document": "docs/lessons/reconstruction-batch-3235.md",
+    "label": "34 handoff",
+    "original_target": "../../tasks/reconstruct-34-20260909/HANDOFF.md"
+  },
+  {
+    "document": "docs/lessons/reconstruction-batch-3235.md",
+    "label": "35",
+    "original_target": "../../tasks/reconstruct-35-batch-20260909/HANDOFF.md"
+  },
+  {
+    "document": "docs/lessons/reconstruction-batch-3235.md",
+    "label": "Batch handoff",
+    "original_target": "../../tasks/reconstruct-35-batch-20260909/HANDOFF.md"
+  },
+  {
+    "document": "docs/lessons/reconstruction-batch-3235.md",
+    "label": "Original scoped report",
+    "original_target": "../../tasks/reconstruct-35-batch-20260909/authored_docs_check.json"
+  },
+  {
+    "document": "docs/lessons/reconstruction-batch-3235.md",
+    "label": "Correction and regression evidence",
+    "original_target": "../../tasks/kimodo-duration-guard-20260909/HANDOFF.md"
+  },
+  {
+    "document": "docs/lessons/reconstruction-batch-3235.md",
+    "label": "Detailed reports and qualifications",
+    "original_target": "../../tasks/workflow-retrospective-3235-20260909/HANDOFF.md"
+  },
+  {
+    "document": "docs/lessons/reconstruction-batch-3235.md",
+    "label": "correction handoff",
+    "original_target": "../../tasks/redo-32-room-correction-20260910/HANDOFF.md"
+  },
+  {
+    "document": "docs/lessons/reconstruction-batch-3235.md",
+    "label": "all-person check",
+    "original_target": "../../runs/open_plan_group_walk_g0055/redo_room_corrected_20260910/all_people_v4/verify.json"
+  },
+  {
+    "document": "docs/lessons/sam3d-temporal-guidance.md",
+    "label": "g0070 pilot",
+    "original_target": "../../runs/minimal_living_g0070/sam3d_pilot_20260908/README.md"
+  },
+  {
+    "document": "docs/lessons/sam3d-temporal-guidance.md",
+    "label": "Task evidence",
+    "original_target": "../../tasks/sam3d-temporal-20260908/HANDOFF.md"
+  },
+  {
+    "document": "docs/lessons/smooth-motion.md",
+    "label": "native target experiment",
+    "original_target": "../../runs/minimal_living_g0070/native_ee_20260908/README.md"
+  },
+  {
+    "document": "docs/lessons/smooth-motion.md",
+    "label": "historical handoff",
+    "original_target": "../history/2026-09-08-pi3x-handoff.md"
+  },
+  {
+    "document": "docs/lessons/smooth-motion.md",
+    "label": "candidate README",
+    "original_target": "../../scenes/minimal_living_g0070/blender/smooth_motion_v4/README.md"
+  },
+  {
+    "document": "docs/lessons/smooth-motion.md",
+    "label": "motion-quality report",
+    "original_target": "../../scenes/minimal_living_g0070/blender/smooth_motion_v4/motion_quality.json"
+  },
+  {
+    "document": "docs/lessons/smooth-motion.md",
+    "label": "scene report",
+    "original_target": "../../scenes/minimal_living_g0070/blender/smooth_motion_v4/scene_validation.json"
+  },
+  {
+    "document": "docs/lessons/smooth-motion.md",
+    "label": "scene state",
+    "original_target": "../../scenes/minimal_living_g0070/STATE.md"
+  },
+  {
+    "document": "docs/lessons/smooth-motion.md",
+    "label": "render report",
+    "original_target": "../../scenes/minimal_living_g0070/blender/render_validation.json"
+  },
+  {
+    "document": "docs/lessons/smooth-motion.md",
+    "label": "multi-prompt code",
+    "original_target": "../../kimodo_blender/upstream/kimodo/model/kimodo_model.py"
+  },
+  {
+    "document": "docs/lessons/smooth-motion.md",
+    "label": "v5 recipe",
+    "original_target": "../../scenes/minimal_living_g0070/blender/gesture_motion_v5/generate.sh"
+  },
+  {
+    "document": "docs/lessons/smooth-motion.md",
+    "label": "ending comparison",
+    "original_target": "../../scenes/minimal_living_g0070/blender/gesture_motion_v5/ending_comparison.json"
+  },
+  {
+    "document": "docs/lessons/smooth-motion.md",
+    "label": "seam diagnosis",
+    "original_target": "../../scenes/minimal_living_g0070/blender/gesture_motion_v5/seam_5s_diagnosis.json"
+  },
+  {
+    "document": "docs/lessons/smooth-motion.md",
+    "label": "v6",
+    "original_target": "../../scenes/minimal_living_g0070/blender/motion_only_10plus5_v6/README.md"
+  },
+  {
+    "document": "docs/lessons/smooth-motion.md",
+    "label": "metrics",
+    "original_target": "../../scenes/minimal_living_g0070/blender/motion_only_10plus5_v6/motion_metrics.json"
+  },
+  {
+    "document": "docs/lessons/smooth-motion.md",
+    "label": "generation report",
+    "original_target": "../../scenes/minimal_living_g0070/blender/motion_only_10plus5_v6/generation_report.json"
+  },
+  {
+    "document": "docs/lessons/smooth-motion.md",
+    "label": "video report",
+    "original_target": "../../scenes/minimal_living_g0070/blender/motion_only_10plus5_v6/video_validation.json"
+  },
+  {
+    "document": "tools/blender_mcp/README.md",
+    "label": "Codex configuration",
+    "original_target": "../../.codex/config.toml"
+  },
+  {
+    "document": "tools/blender_mcp/README.md",
+    "label": "installation handoff",
+    "original_target": "../../tasks/blender-mcp-install/HANDOFF.md"
+  },
+  {
+    "document": "tools/object_pilot/sam_objects/README.md",
+    "label": "task handoff",
+    "original_target": "../../../tasks/samobjects-pilot-20260909/HANDOFF.md"
+  },
+  {
+    "document": "tools/object_pilot/sam_objects/README.md",
+    "label": "completed comparison",
+    "original_target": "../../../runs/living_room_piano_g0064/object_tools_20260909/comparison/REPORT.md"
+  },
+  {
+    "document": "tools/object_pilot/trellis2/README.md",
+    "label": "the task handoff",
+    "original_target": "../../../tasks/trellis-pilot-20260909/HANDOFF.md"
+  },
+  {
+    "document": "tools/object_pilot/trellis2/README.md",
+    "label": "completed comparison",
+    "original_target": "../../../runs/living_room_piano_g0064/object_tools_20260909/comparison/REPORT.md"
+  },
+  {
+    "document": "docs/RENDER_EXECUTION.md",
+    "label": "reference-28 audit",
+    "original_target": "../tasks/dining28-usage-audit-20260912/TOKEN_AUDIT.md"
+  },
+  {
+    "document": "docs/SCENE_WORKFLOW.md",
+    "label": "workflow-gate validation report",
+    "original_target": "../tasks/workflow-gates-20260911/REPORT.md"
+  }
+]

@@ -1,0 +1,440 @@
+{
+  "schema_version": 1,
+  "library": "assets/additional-444547/v1/scene45/roomkit_furniture_materials.blend",
+  "sha256": "1e27a7ddf15800acf6515f1b5d1fc615547738ae202a7a94f6fefa5185bd6d9c",
+  "date": "2026-09-14",
+  "save_reopen": "passed",
+  "registered_import": "passed",
+  "collections": {
+    "Additional 45 | Lounge rear sofa": {
+      "parts": 14,
+      "vertices": 1344,
+      "dimensions_m": [
+        2.8000004291534424,
+        0.9500007629394531,
+        0.8799999952316284
+      ],
+      "bounds_min_m": [
+        -1.4000002145767212,
+        -0.47500038146972656,
+        0.0
+      ],
+      "bounds_max_m": [
+        1.4000002145767212,
+        0.47500038146972656,
+        0.8799999952316284
+      ],
+      "objects": 15,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "22b1646cb49bc199597ccc10c1e87c99dee69de8810d80d58ee7daac65b7c96e"
+    },
+    "Additional 45 | Main right sofa": {
+      "parts": 12,
+      "vertices": 1152,
+      "dimensions_m": [
+        2.2999998331069946,
+        0.9500002861022949,
+        0.8799999952316284
+      ],
+      "bounds_min_m": [
+        -1.149999976158142,
+        -0.47500014305114746,
+        0.0
+      ],
+      "bounds_max_m": [
+        1.1499998569488525,
+        0.47500014305114746,
+        0.8799999952316284
+      ],
+      "objects": 13,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "90e326d15e1381c866f5e75e45a53dab15a330b20721dcef1f1fe2577317289e"
+    },
+    "Additional 45 | Main right return": {
+      "parts": 9,
+      "vertices": 864,
+      "dimensions_m": [
+        1.6500003337860107,
+        0.9500002861022949,
+        0.8799999952316284
+      ],
+      "bounds_min_m": [
+        -0.8250001668930054,
+        -0.47500014305114746,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.8250001668930054,
+        0.47500014305114746,
+        0.8799999952316284
+      ],
+      "objects": 10,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "88ff2f733750260a4804541157160bab413005afbfb1a76ffc0c628ba38e811f"
+    },
+    "Additional 45 | Central island sofa": {
+      "parts": 17,
+      "vertices": 1632,
+      "dimensions_m": [
+        3.2500001192092896,
+        0.950000524520874,
+        0.8799999952316284
+      ],
+      "bounds_min_m": [
+        -1.6250001192092896,
+        -0.475000262260437,
+        0.0
+      ],
+      "bounds_max_m": [
+        1.625,
+        0.475000262260437,
+        0.8799999952316284
+      ],
+      "objects": 18,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "c0bef1fafe1455120a5cce866f313cbf1e8a0d5ae8c9cb5573f27aba4ba31877"
+    },
+    "Additional 45 | Right sectional assembly": {
+      "parts": 21,
+      "vertices": 2016,
+      "dimensions_m": [
+        2.1500003337860107,
+        3.265000343322754,
+        0.8799999952316284
+      ],
+      "bounds_min_m": [
+        -1.0750001668930054,
+        -1.632500171661377,
+        0.0
+      ],
+      "bounds_max_m": [
+        1.0750001668930054,
+        1.632500171661377,
+        0.8799999952316284
+      ],
+      "objects": 22,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "9ad4e2814bc1f96bfbd75773fc400990ccbc902229a9a7d2bba3a853b3512b94"
+    },
+    "Additional 45 | Round brass side table": {
+      "parts": 2,
+      "vertices": 768,
+      "dimensions_m": [
+        0.7799999713897705,
+        0.7799997329711914,
+        0.4975000023841858
+      ],
+      "bounds_min_m": [
+        -0.38999998569488525,
+        -0.3899998664855957,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.38999998569488525,
+        0.3899998664855957,
+        0.4975000023841858
+      ],
+      "objects": 3,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "22381912f6cdf193e4148e9857bd9e41e980865f075fdd8a36d148ba8a73d166"
+    },
+    "Additional 45 | Square dining table": {
+      "parts": 5,
+      "vertices": 480,
+      "dimensions_m": [
+        1.0799999237060547,
+        1.080000400543213,
+        0.5625
+      ],
+      "bounds_min_m": [
+        -0.5399999618530273,
+        -0.5400002002716064,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.5399999618530273,
+        0.5400002002716064,
+        0.5625
+      ],
+      "objects": 6,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "37537758e71972b27de2227ee4134d0f5315135416f647c0ebf508e51c445b7e"
+    },
+    "Additional 45 | Square dining table wide support": {
+      "parts": 5,
+      "vertices": 480,
+      "dimensions_m": [
+        1.0799999237060547,
+        1.0800002813339233,
+        0.5625
+      ],
+      "bounds_min_m": [
+        -0.5399999618530273,
+        -0.5400001406669617,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.5399999618530273,
+        0.5400001406669617,
+        0.5625
+      ],
+      "objects": 6,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "c7f847cf439d84d25a07e023ea42b52fe58139865710d9637890f10b31a5ec6b"
+    },
+    "Additional 45 | Abstract wall panel": {
+      "parts": 5,
+      "vertices": 480,
+      "dimensions_m": [
+        2.450000286102295,
+        0.09000015258789062,
+        0.9500000476837158
+      ],
+      "bounds_min_m": [
+        -1.2250001430511475,
+        -0.09000015258789062,
+        -0.4750000238418579
+      ],
+      "bounds_max_m": [
+        1.2250001430511475,
+        0.0,
+        0.4750000238418579
+      ],
+      "objects": 6,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "6884992220d4256cec92b5878473458c95feb17ced78afb938c1cead2c81b22c"
+    },
+    "Additional 45 | Staff counter block": {
+      "parts": 1,
+      "vertices": 96,
+      "dimensions_m": [
+        4.500000238418579,
+        0.7000007629394531,
+        1.0199999809265137
+      ],
+      "bounds_min_m": [
+        -2.25,
+        -0.35000038146972656,
+        0.0
+      ],
+      "bounds_max_m": [
+        2.250000238418579,
+        0.35000038146972656,
+        1.0199999809265137
+      ],
+      "objects": 2,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "9f6ba2b717cce081c81e379e88fac1a072e04c75308dbe35705f5a567674af10"
+    },
+    "Additional 45 | Lounge window frame": {
+      "parts": 3,
+      "vertices": 288,
+      "dimensions_m": [
+        2.4000003337860107,
+        0.25,
+        2.629999876022339
+      ],
+      "bounds_min_m": [
+        -1.200000286102295,
+        -0.25,
+        -1.3149999380111694
+      ],
+      "bounds_max_m": [
+        1.2000000476837158,
+        0.0,
+        1.3149999380111694
+      ],
+      "objects": 4,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "588a92a951be24f5a11e1b7ae599f7a23d3e2af619cb21c1b1b35af44d62b2ae"
+    },
+    "Additional 45 | Occupied walnut lounge chair": {
+      "parts": 15,
+      "vertices": 2128,
+      "dimensions_m": [
+        0.6024850606918335,
+        0.5518004298210144,
+        0.6692023277282715
+      ],
+      "bounds_min_m": [
+        -0.30124253034591675,
+        -0.2758999764919281,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.30124253034591675,
+        0.2759004533290863,
+        0.6692023277282715
+      ],
+      "objects": 16,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "c22320ffe4eaf349fa3c6658e932f9bd07ed610e01550ef9a81194cc9f7f45c9"
+    },
+    "Additional 45 | Folded linen napkin": {
+      "parts": 4,
+      "vertices": 6888,
+      "dimensions_m": [
+        0.18999958038330078,
+        0.09999990463256836,
+        0.024887599050998688
+      ],
+      "bounds_min_m": [
+        -0.09499979019165039,
+        -0.04999995231628418,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.09499979019165039,
+        0.04999995231628418,
+        0.024887599050998688
+      ],
+      "objects": 5,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "87ca55fcfb8772d5ffb68ecd63d09eb55df5e9969f44f399f45277a34f441c1c"
+    },
+    "Additional 45 | Six candle group": {
+      "parts": 12,
+      "vertices": 3660,
+      "dimensions_m": [
+        0.8649992942810059,
+        0.06499958038330078,
+        0.4800795614719391
+      ],
+      "bounds_min_m": [
+        -0.43249940872192383,
+        -0.03249979019165039,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.43249988555908203,
+        0.03249979019165039,
+        0.4800795614719391
+      ],
+      "objects": 13,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "f3c8386d066ffd4a26eed48d48f75eab0df8d583c2cc755aa32d370d0ede7652"
+    },
+    "Additional 45 | Tall porcelain vase": {
+      "parts": 1,
+      "vertices": 7810,
+      "dimensions_m": [
+        0.13000011444091797,
+        0.13000011444091797,
+        0.20000004768371582
+      ],
+      "bounds_min_m": [
+        -0.06500005722045898,
+        -0.06500005722045898,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.06500005722045898,
+        0.06500005722045898,
+        0.20000004768371582
+      ],
+      "objects": 2,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "3161148bbd65ccb370961dd1fe82621400383f1c09692167af6844a4d8aec7c8"
+    },
+    "Additional 45 | Small porcelain vase": {
+      "parts": 1,
+      "vertices": 7810,
+      "dimensions_m": [
+        0.07999992370605469,
+        0.07999992370605469,
+        0.12000000476837158
+      ],
+      "bounds_min_m": [
+        -0.039999961853027344,
+        -0.039999961853027344,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.039999961853027344,
+        0.039999961853027344,
+        0.12000000476837158
+      ],
+      "objects": 2,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "b6e7840b5687b970d07322551948e13a4d7a030631881b33e464506703b6c3d6"
+    }
+  },
+  "registered_materials": [
+    "RK | Aged brass",
+    "RK | Artwork pigment 0",
+    "RK | Artwork pigment 1",
+    "RK | Artwork pigment 2",
+    "RK | Dark bronze",
+    "RK | Honed limestone",
+    "RK | Navy upholstery",
+    "RK | Pale woven linen",
+    "RK | Porcelain",
+    "RK | Walnut",
+    "RK | Warm pale concrete"
+  ],
+  "validation_scope": "Current merged bytes, geometry/UV/shader binding preservation, registered import and reopen. Physics only the five listed vessels and platter stack."
+}

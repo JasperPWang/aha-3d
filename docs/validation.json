@@ -1,0 +1,62 @@
+{
+  "checks": [
+    {
+      "name": "skill-blender-roomkit",
+      "exit_code": 0
+    },
+    {
+      "name": "skill-indoor-scene-workflow",
+      "exit_code": 0
+    },
+    {
+      "name": "skill-kimodo-body-motion",
+      "exit_code": 0
+    },
+    {
+      "name": "skill-pi3x-scene-reference",
+      "exit_code": 0
+    },
+    {
+      "name": "skill-sam3d-motion-reference",
+      "exit_code": 0
+    },
+    {
+      "name": "catalog",
+      "exit_code": 0
+    },
+    {
+      "name": "cli",
+      "exit_code": 0
+    },
+    {
+      "name": "configure-help",
+      "exit_code": 0
+    },
+    {
+      "name": "configure-runtime",
+      "exit_code": 0
+    },
+    {
+      "name": "example-plan",
+      "exit_code": 0
+    },
+    {
+      "name": "relocated-tests",
+      "exit_code": 0
+    },
+    {
+      "name": "blender-assets",
+      "exit_code": 0
+    }
+  ],
+  "errors": [],
+  "scope": "Relocated source, skills, catalog and Blender library loading; no model inference or render",
+  "private_path_files": [],
+  "secret_signature_files": [],
+  "broken_links": [],
+  "unit_tests": 143,
+  "asset_libraries_loaded": 8,
+  "asset_collections_loaded": 11,
+  "registered_materials_loaded": 31,
+  "passed": true
+}

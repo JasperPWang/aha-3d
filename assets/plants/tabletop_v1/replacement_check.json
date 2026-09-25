@@ -1,0 +1,135 @@
+{
+  "compatible_registered_replacement": true,
+  "source_asset": "tabletop-plants-v1/plant-compact-fern",
+  "target_asset": "tabletop-plants-v1/flowers-pink-hydrangea-bowl",
+  "placement_preserved": true,
+  "origin": "mount_center",
+  "report": {
+    "schema_version": 1,
+    "status": "applied",
+    "recipe": {
+      "schema_version": 1,
+      "models": [
+        {
+          "selector": {
+            "instance_ids": [
+              "replacement test"
+            ]
+          },
+          "asset_id": "tabletop-plants-v1/flowers-pink-hydrangea-bowl",
+          "fit": "native"
+        }
+      ]
+    },
+    "recipe_sha256": "ff14344f64a674fcdee6e479e9e82b0417d58d5898021f5581a29fc695f25d38",
+    "seed": 0,
+    "assets": [
+      {
+        "id": "tabletop-plants-v1/flowers-pink-hydrangea-bowl",
+        "library_id": "tabletop-plants-v1",
+        "library": "assets/plants/tabletop_v1/roomkit_furniture_materials.blend",
+        "library_sha256": "199fcb7e7b6972b2fbf3efb171f67a4f861f48a42ffad584f199580c3591d63f",
+        "manifest_sha256": "8744679b673608dfe2e1c694d1058137574567eaa2e008e836c0e5039435bc7e",
+        "datablock": "RK Flowers - Pink Hydrangea Bowl",
+        "orientation": {
+          "evidence": "Generator authors upright ornamental foliage with presentation toward -Y; pot mounting center at XY0, bottomZ0.",
+          "front_axis": "-Y",
+          "origin": "mount_center",
+          "schema_version": 1,
+          "semantic_front": "generic",
+          "status": "authored",
+          "symmetry": "none",
+          "up_axis": "Z"
+        }
+      }
+    ],
+    "models": [
+      {
+        "instance_id": "replacement test",
+        "asset_id": "tabletop-plants-v1/flowers-pink-hydrangea-bowl",
+        "fit": "native",
+        "uniform_scale": 1.0,
+        "before_bounds_local": [
+          [
+            -0.1844787746667862,
+            -0.18237167596817017,
+            0.0
+          ],
+          [
+            0.1689651906490326,
+            0.1727260798215866,
+            0.275668740272522
+          ]
+        ],
+        "matrix_world_preserved": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.20000000298023224
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.30000001192092896
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8999999761581421
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "after_bounds_local": [
+          [
+            -0.12448184937238693,
+            -0.11760430037975311,
+            0.0
+          ],
+          [
+            0.12371747940778732,
+            0.11411649733781815,
+            0.2937328815460205
+          ]
+        ],
+        "support_check": null,
+        "facing_check": {
+          "instance_id": "replacement test",
+          "orientation": {
+            "evidence": "Generator authors upright ornamental foliage with presentation toward -Y; pot mounting center at XY0, bottomZ0.",
+            "front_axis": "-Y",
+            "origin": "mount_center",
+            "schema_version": 1,
+            "semantic_front": "generic",
+            "status": "authored",
+            "symmetry": "none",
+            "up_axis": "Z"
+          },
+          "status": "no_target",
+          "reason": "Frame known; no scene facing intent declared",
+          "front_world": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        }
+      }
+    ],
+    "materials": [],
+    "affected_dependents": [],
+    "clear_material_override": false,
+    "limitations": [
+      "Support checks use local horizontal planes and bounds; no collision or occlusion test.",
+      "Color and roughness parameters explicitly replace the corresponding shader input, including links.",
+      "Texture scale and direction are preserved from each asset; generic parameter remapping is unsupported."
+    ],
+    "dependent_support_checks": []
+  }
+}

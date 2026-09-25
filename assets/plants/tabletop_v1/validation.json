@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "library": "assets/plants/tabletop_v1/roomkit_furniture_materials.blend",
+  "sha256": "18f0a490d086954de3348160edb434b086f083eed86ce646985c9ef405c8f39a",
+  "status": "passed",
+  "current_quality_validation": "assets/plants/tabletop_v1/quality_validation.json",
+  "scope": "Supersedes the original extraction payload validation; see current quality checks."
+}

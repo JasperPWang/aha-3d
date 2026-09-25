@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>aha3d · Scene Results</title>
+<style>
+:root{color-scheme:light;--ink:#1c302b;--muted:#67756e;--line:#dbe2db;--green:#17634c;--paper:#f4f6f1}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.55 system-ui,sans-serif}header,main,footer{max-width:1500px;margin:auto;padding:28px 34px}header{padding-top:48px;padding-bottom:16px}.eyebrow{letter-spacing:.15em;font-size:12px;font-weight:700;color:var(--green)}h1{font-size:38px;letter-spacing:-.04em;margin:8px 0}p{margin:6px 0;color:var(--muted)}.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:24px}input,select,button{font:inherit;padding:10px 13px;border:1px solid var(--line);border-radius:8px;background:white;color:var(--ink)}input{flex:1;min-width:220px}button{cursor:pointer}button:hover,a:hover{border-color:var(--green);color:var(--green)}#count{margin-top:14px;font-size:13px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(315px,1fr));gap:22px}.card{background:white;border:1px solid var(--line);border-radius:13px;overflow:hidden;min-width:0}.visual{aspect-ratio:16/9;background:linear-gradient(135deg,#dce8de,#e8e5d9);display:flex;align-items:center;justify-content:center;color:#61786d;font-size:13px;position:relative}.visual img,.visual video{width:100%;height:100%;object-fit:contain;position:absolute}.content{padding:19px}.card h2{font-size:18px;line-height:1.3;margin:0 0 6px}.id{font:11px ui-monospace,monospace;overflow-wrap:anywhere;color:var(--muted)}.badges{display:flex;gap:6px;flex-wrap:wrap;margin:13px 0}.badge{font-size:11px;padding:3px 8px;border-radius:5px;background:#edf1ec;color:#49624f}.selected{background:#dceee3;color:#145b3e}.issue{background:#fff0d7;color:#855c14}.links{display:flex;flex-wrap:wrap;gap:7px;margin-top:14px}.links a,.links button{font-size:12px;border:1px solid var(--line);border-radius:6px;padding:6px 9px;background:white;text-decoration:none;color:var(--ink)}.desc{font-size:12px;max-height:3.2em;overflow:hidden}.note{font-size:12px;margin-top:10px}details{border-top:1px solid var(--line);margin-top:16px;padding-top:12px;font-size:12px}summary{cursor:pointer;color:var(--muted)}.candidate{display:block;padding:7px 0;border-bottom:1px solid #edf0eb;overflow-wrap:anywhere}.candidate a{color:var(--green)}.candidate small{display:block;color:var(--muted)}.history{max-height:280px;overflow:auto;margin-top:9px}.empty{padding:50px;text-align:center;color:var(--muted)}footer{font-size:12px;color:var(--muted)}a{color:var(--green)}[hidden]{display:none!important}@media(max-width:600px){header,main,footer{padding:20px}h1{font-size:30px}.grid{grid-template-columns:1fr}}
+</style>
+<header><div class="eyebrow">AHA3D / RESULTS</div><h1>All scenes in one place.</h1><p>Browse current deliveries, compare source footage, and open interactive demos. Expand a scene to explore its history.</p>
+<div class="toolbar"><input id="search" placeholder="Search scenes, IDs, or descriptions" aria-label="Search scenes"><select id="selection" aria-label="Delivery status"><option value="all">All scenes</option><option value="selected">Delivery selected</option><option value="unselected">No delivery selected</option><option value="attention">Needs attention</option></select><select id="media" aria-label="Result type"><option value="all">All result types</option><option value="scene">Blender</option><option value="video">Rendered video</option><option value="demo">Interactive demo</option><option value="missing-demo">Missing current demo</option></select></div><p id="count"></p></header>
+<main><div id="grid" class="grid"></div><div id="empty" class="empty" hidden>No scenes match these filters.</div></main><footer id="footer"></footer>
+<script id="results" type="application/json">__RESULTS_JSON__</script>
+<script>
+'use strict';
+const data=JSON.parse(document.getElementById('results').textContent);
+const labels={scene:'Blender',whitebox:'Whitebox video',material:'Material video',render:'Rendered video',comparison:'Source comparison',demo:'Open demo',demo_offline:'Download offline demo',reference:'Source video',generated_video:'Generated video',thumbnail:'Thumbnail'};
+const selections={selected:'Delivery selected',unselected:'No delivery selected',needs_verification:'Delivery needs verification',broken_selection:'Invalid delivery record'};
+const demos={current:'Demo up to date',selected:'Selected demo',missing:'Demo not generated',stale:'Demo needs updating',unverified:'Demo available · unregistered',failed:'Demo export failed',running:'Demo running (last recorded)'};
+function el(tag,text,cls){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n}
+function link(text,href){const a=el('a',text);a.href=href;a.target='_blank';a.rel='noopener';return a}
+function artifacts(row){return [...row.artifacts.filter(a=>!row.derived_demo||!['demo','demo_offline','demo_resource'].includes(a.role)),...(row.derived_demo?.artifacts||[])]}
+function video(a){return /\.(mp4|webm|mov)$/i.test(a.path||'')}
+function available(a){return !['missing','unavailable','changed','needs_verification'].includes(a.availability)}
+function card(row){
+ const card=el('article',undefined,'card');card.dataset.scene=row.id;const visual=el('div','No preview available','visual');
+ const thumbs=artifacts(row).filter(a=>a.role==='thumbnail'&&available(a));const poster=row.poster||(thumbs[0]?.href);
+ if(poster){visual.textContent='';const img=el('img');img.src=poster;img.alt=row.title;img.loading='lazy';visual.append(img)}
+ card.append(visual);const body=el('div',undefined,'content');body.append(el('h2',row.title),el('div',row.id,'id'));
+ const badges=el('div',undefined,'badges');badges.append(el('span',selections[row.selection_status]||row.selection_status,'badge '+(row.selection_status==='selected'?'selected':'issue')),el('span',demos[row.demo_status],'badge'));body.append(badges);
+ if(row.preview_label)body.append(el('p',row.preview_label,'note'));
+ if(row.description)body.append(el('p',row.description,'desc'));
+ const actions=el('div',undefined,'links'),playbackNote=el('p',undefined,'note');
+ for(const item of artifacts(row).filter(a=>!['thumbnail','demo_resource'].includes(a.role))){
+  const name=(labels[item.role]||item.role)+(item.variant&&item.variant!=='default'?' · '+item.variant:'');
+  if(!available(item)){actions.append(el('span',name+' · '+item.availability,'badge issue'));continue}
+  if(video(item)){const b=el('button',name);b.onclick=()=>{visual.replaceChildren();const v=el('video');let fallback=!!item.preview&&!v.canPlayType('video/mp4');const showNote=()=>{playbackNote.replaceChildren(fallback?'Browsing preview · ':'',link('Open original video',item.href))};v.src=fallback?item.preview.href:item.href;v.controls=true;v.preload='metadata';v.playsInline=true;v.onerror=()=>{if(item.preview&&!fallback){fallback=true;v.src=item.preview.href;showNote();v.play().catch(()=>{})}else{playbackNote.replaceChildren('This browser cannot play this format · ',link('Open original video',item.href))}};visual.append(v);showNote();v.play().catch(()=>{})};actions.append(b)}
+  else {const offline=artifacts(row).find(a=>a.role==='demo_offline'&&available(a));const href=item.role==='demo'&&location.protocol==='file:'&&offline?offline.href:item.href;const a=link(name,href);if(item.role==='demo_offline')a.download='demo.html';actions.append(a);}
+ }
+ if(row.reference&&available(row.reference))actions.append(link('Source video',row.reference.href));
+ body.append(actions,playbackNote);
+ if(row.selection_status==='unselected')body.append(el('p',row.selection_note||'No current delivery is registered. Browse available artifacts below.','note'));
+ const details=el('details');details.append(el('summary','Evidence and history · '+row.candidates.length));
+ if(row.state)details.append(link('View scene notes',row.state));
+ if(row.review?.note)details.append(el('p',row.review.note,'note'));
+ if(row.validation_scope)details.append(el('p',row.validation_scope,'note'));
+ for(const warning of row.warnings)details.append(el('p',warning,'note'));
+ for(const item of row.evidence){const p=el('div',undefined,'candidate');if(item.href)p.append(link(item.label||item.path,item.href));details.append(p)}
+ for(const ver of row.versions)details.append(link('Delivery record '+ver.id+' · '+ver.status,ver.href));
+ for(const attempt of row.demo_attempts||[]){const p=el('div',undefined,'candidate');p.append(link('Demo '+attempt.run_id+' · '+attempt.status,attempt.href));if(attempt.diagnostic)p.append(el('small',attempt.diagnostic));details.append(p)}
+ const history=el('div',undefined,'history');for(const item of row.candidates){const p=el('div',undefined,'candidate');if(item.href)p.append(link(item.path,item.href));else p.append(el('span',item.path));p.append(el('small','Candidate / historical artifact · '+item.availability));history.append(p)}details.append(history);body.append(details);card.append(body);return card;
+}
+function render(){const q=document.getElementById('search').value.toLowerCase(),s=document.getElementById('selection').value,m=document.getElementById('media').value;
+ const rows=data.scenes.filter(r=>{if(![r.id,r.title,r.description||''].join(' ').toLowerCase().includes(q))return false;
+ if(s==='attention'&&!['needs_verification','broken_selection'].includes(r.selection_status))return false;if(s!=='all'&&s!=='attention'&&r.selection_status!==s)return false;
+ const aa=artifacts(r).filter(available);if(m==='video'&&!aa.some(video))return false;if(m==='scene'&&!aa.some(a=>a.role==='scene'))return false;if(m==='demo'&&!aa.some(a=>a.role==='demo')&&!r.candidates.some(a=>a.role==='demo'&&available(a)))return false;if(m==='missing-demo'&&['current','selected'].includes(r.demo_status))return false;return true});
+ document.getElementById('grid').replaceChildren(...rows.map(card));document.getElementById('count').textContent=`Showing ${rows.length} of ${data.scenes.length} scenes · ${data.counts.selected} selected deliveries`;
+ document.getElementById('empty').hidden=rows.length!==0;
+}
+for(const id of ['search','selection','media'])document.getElementById(id).addEventListener('input',render);
+document.getElementById('footer').textContent='Index generated: '+data.generated_at+' · See the evidence for each scene’s validation scope.';render();
+</script></html>

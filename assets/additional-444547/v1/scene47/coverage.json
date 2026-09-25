@@ -1,0 +1,2000 @@
+[
+  {
+    "name": "Room shell",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Room shell",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Window_-1.49",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Window_-1.49",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Window_0.68",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Window_0.68",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Four poster bed",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Foot desk",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Foot desk",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Accent Supported geometry",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Accent Supported slot",
+    "asset_id": "seating-refined-v1/chair-accent-supported",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Accent Supported | placement root.001",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Accent Supported slot",
+    "asset_id": "seating-refined-v1/chair-accent-supported",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Accent chair leg.001",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Accent Supported slot",
+    "asset_id": "seating-refined-v1/chair-accent-supported",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Accent chair leg.002",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Accent Supported slot",
+    "asset_id": "seating-refined-v1/chair-accent-supported",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Accent chair leg.003",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Accent Supported slot",
+    "asset_id": "seating-refined-v1/chair-accent-supported",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Accent chair leg.008",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Accent Supported slot",
+    "asset_id": "seating-refined-v1/chair-accent-supported",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Small accent chair back.002",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Accent Supported slot",
+    "asset_id": "seating-refined-v1/chair-accent-supported",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "Small accent chair seat.002",
+    "status": "existing_registered_asset_reference",
+    "source_root": "RK Chair - Accent Supported slot",
+    "asset_id": "seating-refined-v1/chair-accent-supported",
+    "reuse_note": "Existing registered collection design; source placement/scale does not create a new portable design."
+  },
+  {
+    "name": "RK Chair - Accent Supported slot",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Accent Supported slot",
+    "asset_id": "seating-refined-v1/chair-accent-supported",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Desk task lamp",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Desk task lamp",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Bedside table 0",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Bedside table 0",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Bedside lamp 0",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Bedside lamp 0",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Bedside table 1",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Bedside table 1",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Bedside lamp 1",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Bedside lamp 1",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Dark wood dresser",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Dark wood dresser",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Dresser lamp",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Dresser lamp",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Dresser mirror",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Dresser mirror",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Gallery picture 0",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Gallery picture 0",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Gallery picture 1",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Gallery picture 1",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Gallery picture 2",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Gallery picture 2",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Gallery picture 3",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Gallery picture 3",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Gallery picture 4",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Gallery picture 4",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Gallery picture 5",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Gallery picture 5",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Gallery picture 6",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Gallery picture 6",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Bed landscape art",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Bed landscape art",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Foreground chaise",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Foreground chaise",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Workflow reference camera",
+    "status": "scene_camera_or_light_excluded",
+    "source_root": "Workflow reference camera",
+    "asset_id": null
+  },
+  {
+    "name": "Workflow reference camera.001",
+    "status": "scene_camera_or_light_excluded",
+    "source_root": "Workflow reference camera.001",
+    "asset_id": null
+  },
+  {
+    "name": "Continuous wool floor",
+    "status": "room_recipe_excluded",
+    "source_root": "Room shell",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Rear plaster left",
+    "status": "room_recipe_excluded",
+    "source_root": "Room shell",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Rear plaster center",
+    "status": "room_recipe_excluded",
+    "source_root": "Room shell",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Rear plaster right",
+    "status": "room_recipe_excluded",
+    "source_root": "Room shell",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Window sill wall",
+    "status": "room_recipe_excluded",
+    "source_root": "Room shell",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Window lintel",
+    "status": "room_recipe_excluded",
+    "source_root": "Room shell",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Blue daylight view",
+    "status": "room_recipe_excluded",
+    "source_root": "Window_-1.49",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Window vertical casing",
+    "status": "exported_geometry",
+    "source_root": "Window_-1.49",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-bedroom-window-casing"
+    ]
+  },
+  {
+    "name": "Window vertical casing.001",
+    "status": "exported_geometry",
+    "source_root": "Window_-1.49",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-bedroom-window-casing"
+    ]
+  },
+  {
+    "name": "Window horizontal casing",
+    "status": "exported_geometry",
+    "source_root": "Window_-1.49",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-bedroom-window-casing"
+    ]
+  },
+  {
+    "name": "Window horizontal casing.001",
+    "status": "exported_geometry",
+    "source_root": "Window_-1.49",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-bedroom-window-casing"
+    ]
+  },
+  {
+    "name": "Window vertical muntin",
+    "status": "exported_geometry",
+    "source_root": "Window_-1.49",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-bedroom-window-casing"
+    ]
+  },
+  {
+    "name": "Window vertical muntin.001",
+    "status": "exported_geometry",
+    "source_root": "Window_-1.49",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-bedroom-window-casing"
+    ]
+  },
+  {
+    "name": "Window vertical muntin.002",
+    "status": "exported_geometry",
+    "source_root": "Window_-1.49",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-bedroom-window-casing"
+    ]
+  },
+  {
+    "name": "Window horizontal muntin",
+    "status": "exported_geometry",
+    "source_root": "Window_-1.49",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-bedroom-window-casing"
+    ]
+  },
+  {
+    "name": "Window horizontal muntin.001",
+    "status": "exported_geometry",
+    "source_root": "Window_-1.49",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-bedroom-window-casing"
+    ]
+  },
+  {
+    "name": "Window horizontal muntin.002",
+    "status": "exported_geometry",
+    "source_root": "Window_-1.49",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-bedroom-window-casing"
+    ]
+  },
+  {
+    "name": "Linen curtain panel",
+    "status": "exported_geometry",
+    "source_root": "Window_-1.49",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-banded-linen-curtain-pair"
+    ]
+  },
+  {
+    "name": "Curtain taupe band",
+    "status": "exported_geometry",
+    "source_root": "Window_-1.49",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-banded-linen-curtain-pair"
+    ]
+  },
+  {
+    "name": "Curtain taupe band.001",
+    "status": "exported_geometry",
+    "source_root": "Window_-1.49",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-banded-linen-curtain-pair"
+    ]
+  },
+  {
+    "name": "Curtain taupe band.002",
+    "status": "exported_geometry",
+    "source_root": "Window_-1.49",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-banded-linen-curtain-pair"
+    ]
+  },
+  {
+    "name": "Curtain taupe band.003",
+    "status": "exported_geometry",
+    "source_root": "Window_-1.49",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-banded-linen-curtain-pair"
+    ]
+  },
+  {
+    "name": "Linen curtain panel.001",
+    "status": "exported_geometry",
+    "source_root": "Window_-1.49",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-banded-linen-curtain-pair"
+    ]
+  },
+  {
+    "name": "Curtain taupe band.004",
+    "status": "exported_geometry",
+    "source_root": "Window_-1.49",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-banded-linen-curtain-pair"
+    ]
+  },
+  {
+    "name": "Curtain taupe band.005",
+    "status": "exported_geometry",
+    "source_root": "Window_-1.49",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-banded-linen-curtain-pair"
+    ]
+  },
+  {
+    "name": "Curtain taupe band.006",
+    "status": "exported_geometry",
+    "source_root": "Window_-1.49",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-banded-linen-curtain-pair"
+    ]
+  },
+  {
+    "name": "Curtain taupe band.007",
+    "status": "exported_geometry",
+    "source_root": "Window_-1.49",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-banded-linen-curtain-pair"
+    ]
+  },
+  {
+    "name": "Curtain rod",
+    "status": "exported_geometry",
+    "source_root": "Window_-1.49",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-banded-linen-curtain-pair"
+    ]
+  },
+  {
+    "name": "Window sill wall.001",
+    "status": "room_recipe_excluded",
+    "source_root": "Room shell",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Window lintel.001",
+    "status": "room_recipe_excluded",
+    "source_root": "Room shell",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Blue daylight view.001",
+    "status": "room_recipe_excluded",
+    "source_root": "Window_0.68",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Window vertical casing.002",
+    "status": "repeated_instance_reference",
+    "source_root": "Window_0.68",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-bedroom-window-casing"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Window vertical casing.003",
+    "status": "repeated_instance_reference",
+    "source_root": "Window_0.68",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-bedroom-window-casing"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Window horizontal casing.002",
+    "status": "repeated_instance_reference",
+    "source_root": "Window_0.68",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-bedroom-window-casing"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Window horizontal casing.003",
+    "status": "repeated_instance_reference",
+    "source_root": "Window_0.68",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-bedroom-window-casing"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Window vertical muntin.003",
+    "status": "repeated_instance_reference",
+    "source_root": "Window_0.68",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-bedroom-window-casing"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Window vertical muntin.004",
+    "status": "repeated_instance_reference",
+    "source_root": "Window_0.68",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-bedroom-window-casing"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Window vertical muntin.005",
+    "status": "repeated_instance_reference",
+    "source_root": "Window_0.68",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-bedroom-window-casing"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Window horizontal muntin.003",
+    "status": "repeated_instance_reference",
+    "source_root": "Window_0.68",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-bedroom-window-casing"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Window horizontal muntin.004",
+    "status": "repeated_instance_reference",
+    "source_root": "Window_0.68",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-bedroom-window-casing"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Window horizontal muntin.005",
+    "status": "repeated_instance_reference",
+    "source_root": "Window_0.68",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-bedroom-window-casing"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Linen curtain panel.002",
+    "status": "repeated_instance_reference",
+    "source_root": "Window_0.68",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-banded-linen-curtain-pair"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Curtain taupe band.008",
+    "status": "repeated_instance_reference",
+    "source_root": "Window_0.68",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-banded-linen-curtain-pair"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Curtain taupe band.009",
+    "status": "repeated_instance_reference",
+    "source_root": "Window_0.68",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-banded-linen-curtain-pair"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Curtain taupe band.010",
+    "status": "repeated_instance_reference",
+    "source_root": "Window_0.68",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-banded-linen-curtain-pair"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Curtain taupe band.011",
+    "status": "repeated_instance_reference",
+    "source_root": "Window_0.68",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-banded-linen-curtain-pair"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Linen curtain panel.003",
+    "status": "repeated_instance_reference",
+    "source_root": "Window_0.68",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-banded-linen-curtain-pair"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Curtain taupe band.012",
+    "status": "repeated_instance_reference",
+    "source_root": "Window_0.68",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-banded-linen-curtain-pair"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Curtain taupe band.013",
+    "status": "repeated_instance_reference",
+    "source_root": "Window_0.68",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-banded-linen-curtain-pair"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Curtain taupe band.014",
+    "status": "repeated_instance_reference",
+    "source_root": "Window_0.68",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-banded-linen-curtain-pair"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Curtain taupe band.015",
+    "status": "repeated_instance_reference",
+    "source_root": "Window_0.68",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-banded-linen-curtain-pair"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Curtain rod.001",
+    "status": "repeated_instance_reference",
+    "source_root": "Window_0.68",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-banded-linen-curtain-pair"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Left gallery wall",
+    "status": "room_recipe_excluded",
+    "source_root": "Room shell",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Right wall",
+    "status": "room_recipe_excluded",
+    "source_root": "Room shell",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Ceiling",
+    "status": "room_recipe_excluded",
+    "source_root": "Room shell",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Rear trim",
+    "status": "room_recipe_excluded",
+    "source_root": "Room shell",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Left trim",
+    "status": "room_recipe_excluded",
+    "source_root": "Room shell",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Rear trim.001",
+    "status": "room_recipe_excluded",
+    "source_root": "Room shell",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Left trim.001",
+    "status": "room_recipe_excluded",
+    "source_root": "Room shell",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Bed base",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Mattress",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Draped cover",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Turned bedpost",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Post collar",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Post collar.001",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Post collar.002",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Post collar.003",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Post finial",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Turned bedpost.001",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Post collar.004",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Post collar.005",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Post collar.006",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Post collar.007",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Post finial.001",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Turned bedpost.002",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Post collar.008",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Post collar.009",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Post collar.010",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Post collar.011",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Post finial.002",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Turned bedpost.003",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Post collar.012",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Post collar.013",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Post collar.014",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Post collar.015",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Post finial.003",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Upholstered headboard",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Large ivory pillow",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Sage accent pillow",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Large ivory pillow.001",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Sage accent pillow.001",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Middle accent pillow",
+    "status": "exported_geometry",
+    "source_root": "Four poster bed",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-four-poster-bed"
+    ]
+  },
+  {
+    "name": "Desk top",
+    "status": "exported_geometry",
+    "source_root": "Foot desk",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-foot-desk"
+    ]
+  },
+  {
+    "name": "Desk apron",
+    "status": "exported_geometry",
+    "source_root": "Foot desk",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-foot-desk"
+    ]
+  },
+  {
+    "name": "Desk leg",
+    "status": "exported_geometry",
+    "source_root": "Foot desk",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-foot-desk"
+    ]
+  },
+  {
+    "name": "Desk foot",
+    "status": "exported_geometry",
+    "source_root": "Foot desk",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-foot-desk"
+    ]
+  },
+  {
+    "name": "Desk leg.001",
+    "status": "exported_geometry",
+    "source_root": "Foot desk",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-foot-desk"
+    ]
+  },
+  {
+    "name": "Desk foot.001",
+    "status": "exported_geometry",
+    "source_root": "Foot desk",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-foot-desk"
+    ]
+  },
+  {
+    "name": "Desk leg.002",
+    "status": "exported_geometry",
+    "source_root": "Foot desk",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-foot-desk"
+    ]
+  },
+  {
+    "name": "Desk foot.002",
+    "status": "exported_geometry",
+    "source_root": "Foot desk",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-foot-desk"
+    ]
+  },
+  {
+    "name": "Desk leg.003",
+    "status": "exported_geometry",
+    "source_root": "Foot desk",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-foot-desk"
+    ]
+  },
+  {
+    "name": "Desk foot.003",
+    "status": "exported_geometry",
+    "source_root": "Foot desk",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-foot-desk"
+    ]
+  },
+  {
+    "name": "Lamp base",
+    "status": "source_generator_variant_reference",
+    "source_root": "Desk task lamp",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-brass-linen-table-lamp"
+    ],
+    "note": "Uniform geometry size variant; source size / prototype size = 0.6990291262135921",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Lamp stem",
+    "status": "source_generator_variant_reference",
+    "source_root": "Desk task lamp",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-brass-linen-table-lamp"
+    ],
+    "note": "Uniform geometry size variant; source size / prototype size = 0.6990291262135921",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Cone",
+    "status": "source_generator_variant_reference",
+    "source_root": "Desk task lamp",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-brass-linen-table-lamp"
+    ],
+    "note": "Uniform geometry size variant; source size / prototype size = 0.6990291262135921",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Nightstand top",
+    "status": "exported_geometry",
+    "source_root": "Bedside table 0",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-walnut-bedside-table"
+    ]
+  },
+  {
+    "name": "Nightstand leg",
+    "status": "exported_geometry",
+    "source_root": "Bedside table 0",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-walnut-bedside-table"
+    ]
+  },
+  {
+    "name": "Nightstand leg.001",
+    "status": "exported_geometry",
+    "source_root": "Bedside table 0",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-walnut-bedside-table"
+    ]
+  },
+  {
+    "name": "Nightstand leg.002",
+    "status": "exported_geometry",
+    "source_root": "Bedside table 0",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-walnut-bedside-table"
+    ]
+  },
+  {
+    "name": "Nightstand leg.003",
+    "status": "exported_geometry",
+    "source_root": "Bedside table 0",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-walnut-bedside-table"
+    ]
+  },
+  {
+    "name": "Lamp base.001",
+    "status": "source_generator_variant_reference",
+    "source_root": "Bedside lamp 0",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-brass-linen-table-lamp"
+    ],
+    "note": "Uniform geometry size variant; source size / prototype size = 0.9126213592233009",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Lamp stem.001",
+    "status": "source_generator_variant_reference",
+    "source_root": "Bedside lamp 0",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-brass-linen-table-lamp"
+    ],
+    "note": "Uniform geometry size variant; source size / prototype size = 0.9126213592233009",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Cone.001",
+    "status": "source_generator_variant_reference",
+    "source_root": "Bedside lamp 0",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-brass-linen-table-lamp"
+    ],
+    "note": "Uniform geometry size variant; source size / prototype size = 0.9126213592233009",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Nightstand top.001",
+    "status": "repeated_instance_reference",
+    "source_root": "Bedside table 1",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-walnut-bedside-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Nightstand leg.004",
+    "status": "repeated_instance_reference",
+    "source_root": "Bedside table 1",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-walnut-bedside-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Nightstand leg.005",
+    "status": "repeated_instance_reference",
+    "source_root": "Bedside table 1",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-walnut-bedside-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Nightstand leg.006",
+    "status": "repeated_instance_reference",
+    "source_root": "Bedside table 1",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-walnut-bedside-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Nightstand leg.007",
+    "status": "repeated_instance_reference",
+    "source_root": "Bedside table 1",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-walnut-bedside-table"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Lamp base.002",
+    "status": "source_generator_variant_reference",
+    "source_root": "Bedside lamp 1",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-brass-linen-table-lamp"
+    ],
+    "note": "Uniform geometry size variant; source size / prototype size = 0.9126213592233009",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Lamp stem.002",
+    "status": "source_generator_variant_reference",
+    "source_root": "Bedside lamp 1",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-brass-linen-table-lamp"
+    ],
+    "note": "Uniform geometry size variant; source size / prototype size = 0.9126213592233009",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Cone.002",
+    "status": "source_generator_variant_reference",
+    "source_root": "Bedside lamp 1",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-brass-linen-table-lamp"
+    ],
+    "note": "Uniform geometry size variant; source size / prototype size = 0.9126213592233009",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Dresser carcass",
+    "status": "exported_geometry",
+    "source_root": "Dark wood dresser",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-six-drawer-dresser"
+    ]
+  },
+  {
+    "name": "Dresser top",
+    "status": "exported_geometry",
+    "source_root": "Dark wood dresser",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-six-drawer-dresser"
+    ]
+  },
+  {
+    "name": "Dresser grounded foot",
+    "status": "exported_geometry",
+    "source_root": "Dark wood dresser",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-six-drawer-dresser"
+    ]
+  },
+  {
+    "name": "Dresser grounded foot.001",
+    "status": "exported_geometry",
+    "source_root": "Dark wood dresser",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-six-drawer-dresser"
+    ]
+  },
+  {
+    "name": "Dresser grounded foot.002",
+    "status": "exported_geometry",
+    "source_root": "Dark wood dresser",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-six-drawer-dresser"
+    ]
+  },
+  {
+    "name": "Dresser grounded foot.003",
+    "status": "exported_geometry",
+    "source_root": "Dark wood dresser",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-six-drawer-dresser"
+    ]
+  },
+  {
+    "name": "Drawer front",
+    "status": "exported_geometry",
+    "source_root": "Dark wood dresser",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-six-drawer-dresser"
+    ]
+  },
+  {
+    "name": "Brass drawer knob",
+    "status": "exported_geometry",
+    "source_root": "Dark wood dresser",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-six-drawer-dresser"
+    ]
+  },
+  {
+    "name": "Brass drawer knob.001",
+    "status": "exported_geometry",
+    "source_root": "Dark wood dresser",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-six-drawer-dresser"
+    ]
+  },
+  {
+    "name": "Drawer front.001",
+    "status": "exported_geometry",
+    "source_root": "Dark wood dresser",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-six-drawer-dresser"
+    ]
+  },
+  {
+    "name": "Brass drawer knob.002",
+    "status": "exported_geometry",
+    "source_root": "Dark wood dresser",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-six-drawer-dresser"
+    ]
+  },
+  {
+    "name": "Brass drawer knob.003",
+    "status": "exported_geometry",
+    "source_root": "Dark wood dresser",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-six-drawer-dresser"
+    ]
+  },
+  {
+    "name": "Drawer front.002",
+    "status": "exported_geometry",
+    "source_root": "Dark wood dresser",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-six-drawer-dresser"
+    ]
+  },
+  {
+    "name": "Brass drawer knob.004",
+    "status": "exported_geometry",
+    "source_root": "Dark wood dresser",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-six-drawer-dresser"
+    ]
+  },
+  {
+    "name": "Brass drawer knob.005",
+    "status": "exported_geometry",
+    "source_root": "Dark wood dresser",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-six-drawer-dresser"
+    ]
+  },
+  {
+    "name": "Drawer front.003",
+    "status": "exported_geometry",
+    "source_root": "Dark wood dresser",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-six-drawer-dresser"
+    ]
+  },
+  {
+    "name": "Brass drawer knob.006",
+    "status": "exported_geometry",
+    "source_root": "Dark wood dresser",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-six-drawer-dresser"
+    ]
+  },
+  {
+    "name": "Brass drawer knob.007",
+    "status": "exported_geometry",
+    "source_root": "Dark wood dresser",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-six-drawer-dresser"
+    ]
+  },
+  {
+    "name": "Drawer front.004",
+    "status": "exported_geometry",
+    "source_root": "Dark wood dresser",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-six-drawer-dresser"
+    ]
+  },
+  {
+    "name": "Brass drawer knob.008",
+    "status": "exported_geometry",
+    "source_root": "Dark wood dresser",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-six-drawer-dresser"
+    ]
+  },
+  {
+    "name": "Brass drawer knob.009",
+    "status": "exported_geometry",
+    "source_root": "Dark wood dresser",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-six-drawer-dresser"
+    ]
+  },
+  {
+    "name": "Drawer front.005",
+    "status": "exported_geometry",
+    "source_root": "Dark wood dresser",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-six-drawer-dresser"
+    ]
+  },
+  {
+    "name": "Brass drawer knob.010",
+    "status": "exported_geometry",
+    "source_root": "Dark wood dresser",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-six-drawer-dresser"
+    ]
+  },
+  {
+    "name": "Brass drawer knob.011",
+    "status": "exported_geometry",
+    "source_root": "Dark wood dresser",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-six-drawer-dresser"
+    ]
+  },
+  {
+    "name": "Lamp base.003",
+    "status": "exported_geometry",
+    "source_root": "Dresser lamp",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-brass-linen-table-lamp"
+    ]
+  },
+  {
+    "name": "Lamp stem.003",
+    "status": "exported_geometry",
+    "source_root": "Dresser lamp",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-brass-linen-table-lamp"
+    ]
+  },
+  {
+    "name": "Cone.003",
+    "status": "exported_geometry",
+    "source_root": "Dresser lamp",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-brass-linen-table-lamp"
+    ]
+  },
+  {
+    "name": "Picture frame",
+    "status": "exported_geometry",
+    "source_root": "Dresser mirror",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-framed-portrait-panel"
+    ]
+  },
+  {
+    "name": "Picture mat",
+    "status": "exported_geometry",
+    "source_root": "Dresser mirror",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-framed-portrait-panel"
+    ]
+  },
+  {
+    "name": "Picture inset",
+    "status": "exported_geometry",
+    "source_root": "Dresser mirror",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-framed-portrait-panel"
+    ]
+  },
+  {
+    "name": "Picture frame.001",
+    "status": "exported_geometry",
+    "source_root": "Gallery picture 0",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-small-gallery-panel"
+    ]
+  },
+  {
+    "name": "Picture mat.001",
+    "status": "exported_geometry",
+    "source_root": "Gallery picture 0",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-small-gallery-panel"
+    ]
+  },
+  {
+    "name": "Picture inset.001",
+    "status": "exported_geometry",
+    "source_root": "Gallery picture 0",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-small-gallery-panel"
+    ]
+  },
+  {
+    "name": "Picture frame.002",
+    "status": "source_generator_variant_reference",
+    "source_root": "Gallery picture 1",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-small-gallery-panel"
+    ],
+    "note": "Same three-layer source generator; width/height and frame margins differ. Recreate exact dimensions with source picture() recipe, not naive nonuniform scaling.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Picture mat.002",
+    "status": "source_generator_variant_reference",
+    "source_root": "Gallery picture 1",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-small-gallery-panel"
+    ],
+    "note": "Same three-layer source generator; width/height and frame margins differ. Recreate exact dimensions with source picture() recipe, not naive nonuniform scaling.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Picture inset.002",
+    "status": "source_generator_variant_reference",
+    "source_root": "Gallery picture 1",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-small-gallery-panel"
+    ],
+    "note": "Same three-layer source generator; width/height and frame margins differ. Recreate exact dimensions with source picture() recipe, not naive nonuniform scaling.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Picture frame.003",
+    "status": "source_generator_variant_reference",
+    "source_root": "Gallery picture 2",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-small-gallery-panel"
+    ],
+    "note": "Same three-layer source generator; width/height and frame margins differ. Recreate exact dimensions with source picture() recipe, not naive nonuniform scaling.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Picture mat.003",
+    "status": "source_generator_variant_reference",
+    "source_root": "Gallery picture 2",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-small-gallery-panel"
+    ],
+    "note": "Same three-layer source generator; width/height and frame margins differ. Recreate exact dimensions with source picture() recipe, not naive nonuniform scaling.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Picture inset.003",
+    "status": "source_generator_variant_reference",
+    "source_root": "Gallery picture 2",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-small-gallery-panel"
+    ],
+    "note": "Same three-layer source generator; width/height and frame margins differ. Recreate exact dimensions with source picture() recipe, not naive nonuniform scaling.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Picture frame.004",
+    "status": "source_generator_variant_reference",
+    "source_root": "Gallery picture 3",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-small-gallery-panel"
+    ],
+    "note": "Same three-layer source generator; width/height and frame margins differ. Recreate exact dimensions with source picture() recipe, not naive nonuniform scaling.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Picture mat.004",
+    "status": "source_generator_variant_reference",
+    "source_root": "Gallery picture 3",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-small-gallery-panel"
+    ],
+    "note": "Same three-layer source generator; width/height and frame margins differ. Recreate exact dimensions with source picture() recipe, not naive nonuniform scaling.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Picture inset.004",
+    "status": "source_generator_variant_reference",
+    "source_root": "Gallery picture 3",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-small-gallery-panel"
+    ],
+    "note": "Same three-layer source generator; width/height and frame margins differ. Recreate exact dimensions with source picture() recipe, not naive nonuniform scaling.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Picture frame.005",
+    "status": "source_generator_variant_reference",
+    "source_root": "Gallery picture 4",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-small-gallery-panel"
+    ],
+    "note": "Same three-layer source generator; width/height and frame margins differ. Recreate exact dimensions with source picture() recipe, not naive nonuniform scaling.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Picture mat.005",
+    "status": "source_generator_variant_reference",
+    "source_root": "Gallery picture 4",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-small-gallery-panel"
+    ],
+    "note": "Same three-layer source generator; width/height and frame margins differ. Recreate exact dimensions with source picture() recipe, not naive nonuniform scaling.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Picture inset.005",
+    "status": "source_generator_variant_reference",
+    "source_root": "Gallery picture 4",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-small-gallery-panel"
+    ],
+    "note": "Same three-layer source generator; width/height and frame margins differ. Recreate exact dimensions with source picture() recipe, not naive nonuniform scaling.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Picture frame.006",
+    "status": "source_generator_variant_reference",
+    "source_root": "Gallery picture 5",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-small-gallery-panel"
+    ],
+    "note": "Same three-layer source generator; width/height and frame margins differ. Recreate exact dimensions with source picture() recipe, not naive nonuniform scaling.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Picture mat.006",
+    "status": "source_generator_variant_reference",
+    "source_root": "Gallery picture 5",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-small-gallery-panel"
+    ],
+    "note": "Same three-layer source generator; width/height and frame margins differ. Recreate exact dimensions with source picture() recipe, not naive nonuniform scaling.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Picture inset.006",
+    "status": "source_generator_variant_reference",
+    "source_root": "Gallery picture 5",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-small-gallery-panel"
+    ],
+    "note": "Same three-layer source generator; width/height and frame margins differ. Recreate exact dimensions with source picture() recipe, not naive nonuniform scaling.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Picture frame.007",
+    "status": "source_generator_variant_reference",
+    "source_root": "Gallery picture 6",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-small-gallery-panel"
+    ],
+    "note": "Same three-layer source generator; width/height and frame margins differ. Recreate exact dimensions with source picture() recipe, not naive nonuniform scaling.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Picture mat.007",
+    "status": "source_generator_variant_reference",
+    "source_root": "Gallery picture 6",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-small-gallery-panel"
+    ],
+    "note": "Same three-layer source generator; width/height and frame margins differ. Recreate exact dimensions with source picture() recipe, not naive nonuniform scaling.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Picture inset.007",
+    "status": "source_generator_variant_reference",
+    "source_root": "Gallery picture 6",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-small-gallery-panel"
+    ],
+    "note": "Same three-layer source generator; width/height and frame margins differ. Recreate exact dimensions with source picture() recipe, not naive nonuniform scaling.",
+    "recipe": "scenes/four_poster_bedroom_g0063/blender/build_room.py"
+  },
+  {
+    "name": "Picture frame.008",
+    "status": "exported_geometry",
+    "source_root": "Bed landscape art",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-landscape-wall-panel"
+    ]
+  },
+  {
+    "name": "Picture mat.008",
+    "status": "exported_geometry",
+    "source_root": "Bed landscape art",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-landscape-wall-panel"
+    ]
+  },
+  {
+    "name": "Picture inset.008",
+    "status": "exported_geometry",
+    "source_root": "Bed landscape art",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-landscape-wall-panel"
+    ]
+  },
+  {
+    "name": "Chaise base",
+    "status": "exported_geometry",
+    "source_root": "Foreground chaise",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-low-back-chaise"
+    ]
+  },
+  {
+    "name": "Chaise cushion",
+    "status": "exported_geometry",
+    "source_root": "Foreground chaise",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-low-back-chaise"
+    ]
+  },
+  {
+    "name": "Chaise low back",
+    "status": "exported_geometry",
+    "source_root": "Foreground chaise",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-low-back-chaise"
+    ]
+  },
+  {
+    "name": "Chaise grounded foot",
+    "status": "exported_geometry",
+    "source_root": "Foreground chaise",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-low-back-chaise"
+    ]
+  },
+  {
+    "name": "Chaise grounded foot.001",
+    "status": "exported_geometry",
+    "source_root": "Foreground chaise",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-low-back-chaise"
+    ]
+  },
+  {
+    "name": "Chaise grounded foot.002",
+    "status": "exported_geometry",
+    "source_root": "Foreground chaise",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-low-back-chaise"
+    ]
+  },
+  {
+    "name": "Chaise grounded foot.003",
+    "status": "exported_geometry",
+    "source_root": "Foreground chaise",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-47-v1/additional-47-low-back-chaise"
+    ]
+  },
+  {
+    "name": "Window daylight",
+    "status": "scene_camera_or_light_excluded",
+    "source_root": "Window daylight",
+    "asset_id": null
+  },
+  {
+    "name": "Camera fill",
+    "status": "scene_camera_or_light_excluded",
+    "source_root": "Camera fill",
+    "asset_id": null
+  },
+  {
+    "name": "Ceiling diffuse",
+    "status": "scene_camera_or_light_excluded",
+    "source_root": "Ceiling diffuse",
+    "asset_id": null
+  },
+  {
+    "name": "Person_001_Placement",
+    "status": "generated_human_excluded",
+    "source_root": "Person_001_Placement",
+    "asset_id": null
+  },
+  {
+    "name": "Person_001_Body",
+    "status": "generated_human_excluded",
+    "source_root": "Person_001_Placement",
+    "asset_id": null
+  },
+  {
+    "name": "Person_002_Placement",
+    "status": "generated_human_excluded",
+    "source_root": "Person_002_Placement",
+    "asset_id": null
+  },
+  {
+    "name": "Person_002_Body",
+    "status": "generated_human_excluded",
+    "source_root": "Person_002_Placement",
+    "asset_id": null
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "source_frame": 1,
+  "material_prefix": "M",
+  "furniture": [
+    {"root": "Sofa A | below tall windows", "name": "RK Sofa - Linen Three Seat", "catalog": "Sofas", "description": "Three-seat linen sofa with separate seat, back and accent cushions. Floor-centred placement; front is local -Y."},
+    {"root": "Lounge chair A", "name": "RK Chair - Walnut Lounge", "catalog": "Chairs", "description": "Walnut lounge chair with upholstered seat and back. Separate editable mesh parts; front is local -Y."},
+    {"root": "Island stool 01", "name": "RK Stool - Upholstered Counter", "catalog": "Chairs", "description": "Upholstered kitchen counter stool with walnut frame and footrest. Neutral static pose; front is local -Y."}
+  ],
+  "material_catalogs": {
+    "M01":"Paint and Plaster", "M02":"Paint and Plaster",
+    "M03":"Wood", "M04":"Wood", "M05":"Wood", "M06":"Wood", "M07":"Wood",
+    "M08":"Fabric", "M09":"Fabric", "M10":"Fabric", "M11":"Fabric", "M12":"Fabric", "M13":"Fabric", "M14":"Fabric",
+    "M15":"Metal", "M16":"Metal", "M17":"Metal", "M18":"Metal",
+    "M19":"Stone", "M20":"Stone", "M21":"Ceramic", "M22":"Ceramic",
+    "M25":"Stone", "M26":"Wood", "M29":"Fabric"
+  }
+}

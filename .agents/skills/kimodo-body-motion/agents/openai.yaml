@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kimodo Body Motion"
+  short_description: "Generate body motion and synthetic tracks for Blender"
+  default_prompt: "Use $kimodo-body-motion to generate the requested body action and path for the room, then export a Blender animation and matching synthetic tracks."

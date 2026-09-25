@@ -1,0 +1,164 @@
+{
+  "version": 1,
+  "blender_version": "5.2.1 LTS",
+  "library": "roomkit_furniture_materials.blend",
+  "furniture": [
+    {
+      "name": "RK Vase - Rounded Ceramic",
+      "source_root": "Coffee table ceramic vase",
+      "parts": 1,
+      "vertices": 14210,
+      "dimensions_m": [
+        0.34235429763793945,
+        0.34235453605651855,
+        0.4383333921432495
+      ],
+      "description": "Smoothed the original exterior landmarks without radius overshoot; extended shallow inner neck into a full-depth cavity. Closed missing underside and joined inner/outer shells with a rounded lip and 14 mm base. Source-derived or authored approximation; no physics certification.",
+      "catalog_id": "5e073d5b-1acb-5acf-8c0b-073a2acad628",
+      "articulation": false,
+      "import_mode": "collection",
+      "bounds_min_m": [
+        -0.17117714881896973,
+        -0.17117738723754883,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.17117714881896973,
+        0.17117714881896973,
+        0.4383333921432495
+      ],
+      "asset_quality_refinement": {
+        "generator": "tools/asset_quality_upgrade/tabletop.py",
+        "revision": 1,
+        "changes": [
+          "Smoothed the original exterior landmarks without radius overshoot; extended shallow inner neck into a full-depth cavity.",
+          "Closed missing underside and joined inner/outer shells with a rounded lip and 14 mm base."
+        ]
+      },
+      "preview": "assets/quality_previews/ceramic-vase-v1__vase-rounded-ceramic.png",
+      "quality_review": {
+        "date": "2026-09-14",
+        "status": "upgraded",
+        "changes": [
+          "Smoothed the original exterior landmarks without radius overshoot; extended shallow inner neck into a full-depth cavity.",
+          "Closed missing underside and joined inner/outer shells with a rounded lip and 14 mm base."
+        ],
+        "validation": {
+          "max_bounds_delta_m": 0.0,
+          "changed_meshes": [
+            {
+              "name": "Coffee table ceramic vase.001",
+              "bounds_min_m": [
+                -0.17117714881896973,
+                -0.17117738723754883,
+                0.0
+              ],
+              "bounds_max_m": [
+                0.17117714881896973,
+                0.17117714881896973,
+                0.4383333921432495
+              ],
+              "materials": [
+                "RK | Glazed cream ceramic"
+              ],
+              "vertices": 14210,
+              "edges": 28544,
+              "faces": 14336,
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "degenerate_faces": 0,
+              "signed_volume_m3": 0.002817809879045243
+            }
+          ],
+          "cavity_checks": [
+            {
+              "object": "Coffee table ceramic vase.001",
+              "floor_z_m": 0.013999968767166138,
+              "rim_z_m": 0.4383333921432495,
+              "center_cavity_depth_m": 0.4243334233760834,
+              "wall_rays": [
+                {
+                  "angle_rad": 0,
+                  "wall_distance_m": 0.16199083626270294,
+                  "hit": true
+                },
+                {
+                  "angle_rad": 1.5707963267948966,
+                  "wall_distance_m": 0.1619909703731537,
+                  "hit": true
+                },
+                {
+                  "angle_rad": 3.141592653589793,
+                  "wall_distance_m": 0.16199085116386414,
+                  "hit": true
+                },
+                {
+                  "angle_rad": 4.71238898038469,
+                  "wall_distance_m": 0.1619909703731537,
+                  "hit": true
+                }
+              ],
+              "scope": "Vessel mesh only; soil and foliage excluded. No dynamics certification."
+            }
+          ],
+          "visual_review": "passed: agent inspected matched before/after material oblique and clay cavity views; plant vessels also inspected with foliage and substrate hidden",
+          "scope": "Changed vessel/substrate meshes only. Foliage and simulation not certified.",
+          "saved_reopen_passed": true,
+          "visual_review_scope": "Same camera/light/framing before and after. All nine collections reviewed; original material appearance, placement envelope and whole-plant arrangement retained.",
+          "limits": [
+            "No rigid-body or fluid simulation was run.",
+            "Unchanged plant foliage is not certified manifold or collision-free.",
+            "Wall and base dimensions are authored approximations, not source measurements."
+          ],
+          "job_id": "46324895",
+          "comparison_sheets": [
+            "runs/_tools/asset_quality_tabletop_20260913/refined/vessels_comparison.jpg",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plant_containers_comparison.jpg",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plants_whole_comparison.jpg"
+          ],
+          "source_report": "runs/_tools/asset_quality_tabletop_20260913/refined/report.json"
+        },
+        "visual_review": {
+          "by": "asset-quality-parent-20260914",
+          "status": "passed",
+          "date": "2026-09-14",
+          "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+          "evidence": [
+            "runs/_tools/asset_quality_tabletop_20260913/refined/ceramic-vase-v1/rk-vase-rounded-ceramic/before_oblique.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/ceramic-vase-v1/rk-vase-rounded-ceramic/before_cavity.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/ceramic-vase-v1/rk-vase-rounded-ceramic/after_oblique.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/ceramic-vase-v1/rk-vase-rounded-ceramic/after_cavity.png"
+          ]
+        },
+        "physics": "Passed bounded convex-hull drop test; see assets/quality_review.json",
+        "source_geometry": {
+          "parts": 1,
+          "vertices": 1440
+        },
+        "source_signature": "e920c302344cc5399e3f223da44630b16fef4319a2b29187d052a1a545e2e8f0"
+      }
+    }
+  ],
+  "materials": [],
+  "origin": "floor center",
+  "forward": "-Y",
+  "units": "metres",
+  "geometry": "Separate editable mesh parts; modifiers baked; no room animation/drivers retained.",
+  "material_dependencies": [
+    {
+      "name": "RK | Glazed cream ceramic",
+      "source_name": "M21 | Glazed cream ceramic",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    }
+  ],
+  "current_quality_update": {
+    "date": "2026-09-14",
+    "policy": "Replace current payload after review; keep stable IDs",
+    "changed_collections": [
+      "RK Vase - Rounded Ceramic"
+    ],
+    "geometry_and_reopen_checked": true,
+    "physics_validation": "not performed"
+  }
+}

@@ -1,0 +1,4 @@
+# Blender Asset Catalog Definition File
+VERSION 1
+
+55b07d27-71bf-560a-bd76-1fde383886fa:RoomKit/Furniture/Cabinets:Cabinets

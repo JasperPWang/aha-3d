@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "library": "assets/scene-extracted/v1/vase/roomkit_furniture_materials.blend",
+  "sha256": "13ef2102f21af1e9c6b7b5fb2c882c04544a2d2de9f52a4b6005f12472051547",
+  "date": "2026-09-14",
+  "save_reopen": "passed",
+  "registered_import": "passed",
+  "collections": {
+    "RK Vase - Rounded Ceramic": {
+      "parts": 1,
+      "vertices": 14210,
+      "dimensions_m": [
+        0.34235429763793945,
+        0.34235453605651855,
+        0.4383333921432495
+      ],
+      "bounds_min_m": [
+        -0.17117714881896973,
+        -0.17117738723754883,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.17117714881896973,
+        0.17117714881896973,
+        0.4383333921432495
+      ],
+      "objects": 2,
+      "collection_instance_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "d5ec32e3b7cc4b0936a77153d0a4ba4815dacae79ac2ac19208ba489752d4e64"
+    }
+  },
+  "registered_materials": [],
+  "validation_scope": "Current merged bytes, geometry/UV/shader binding preservation, registered import and reopen. Physics only the five listed vessels and platter stack."
+}

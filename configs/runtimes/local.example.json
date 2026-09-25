@@ -1,0 +1,11 @@
+{
+  "schema_version": 2,
+  "python": "${KIMODO_ENV}/bin/python",
+  "blender": "${BLENDER_BIN}",
+  "skin_blender": "${SKIN_BLENDER_BIN}",
+  "env_script": "kimodo_blender/env.sh",
+  "upstream": "${KIMODO_UPSTREAM}",
+  "checkpoint": "${KIMODO_CHECKPOINT}",
+  "threads": null,
+  "gpu": 0
+}

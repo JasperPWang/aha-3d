@@ -1,0 +1,368 @@
+{
+  "version": 1,
+  "blender_version": "5.2.1 LTS",
+  "library": "roomkit_furniture_materials.blend",
+  "furniture": [
+    {
+      "name": "RK Sofa - Linen Three Seat",
+      "source_root": "Sofa A | below tall windows",
+      "parts": 28,
+      "vertices": 18392,
+      "dimensions_m": [
+        2.809999942779541,
+        0.9950003325939178,
+        1.142317771911621
+      ],
+      "description": "Three-seat linen sofa with separate seat, back and accent cushions. Floor-centred placement; front is local -Y. Quality refinement: Corrected inward-facing normals on closed mesh parts: Sofa A | below tall windows loose pillow 0.001, Sofa A | below tall windows loose pillow 1.001, Sofa A | below tall windows loose pillow 2.001, Sofa A | below tall windows loose pillow 3.001; vertex positions, UVs and material graphs preserved.",
+      "bounds_min_m": [
+        -1.4049999713897705,
+        -0.4975001811981201,
+        0.0
+      ],
+      "bounds_max_m": [
+        1.4049999713897705,
+        0.49750015139579773,
+        1.142317771911621
+      ],
+      "preview": "assets/quality_previews/roomkit-v1__sofa-linen-three-seat.png",
+      "quality_review": {
+        "date": "2026-09-14",
+        "status": "upgraded",
+        "changes": [
+          "Corrected inward-facing normals on closed mesh parts: Sofa A | below tall windows loose pillow 0.001, Sofa A | below tall windows loose pillow 1.001, Sofa A | below tall windows loose pillow 2.001, Sofa A | below tall windows loose pillow 3.001; vertex positions, UVs and material graphs preserved."
+        ],
+        "validation": {
+          "drivers_before": 0,
+          "drivers_after": 0,
+          "physics": "Not simulation certified; material/density/collision preparation still required.",
+          "inward_meshes_repaired": [
+            "Sofa A | below tall windows loose pillow 0.001",
+            "Sofa A | below tall windows loose pillow 1.001",
+            "Sofa A | below tall windows loose pillow 2.001",
+            "Sofa A | below tall windows loose pillow 3.001"
+          ],
+          "finite_meshes": 28,
+          "missing_materials": 0,
+          "save_reopen": true,
+          "linked_libraries": 0,
+          "max_bounds_error_m": 0.0,
+          "visual_review": {
+            "status": "reviewed",
+            "scope": "Three clay views and material view; source silhouette, cavity/support detail and retained dimensions inspected.",
+            "limitations": "Stylized authored asset quality; no photorealism, structural-load, cloth or rigid-body stability certification."
+          },
+          "closed_mesh_topology": "All modified collection mesh parts have zero boundary/nonmanifold edges and positive signed volume.",
+          "source_report": "runs/_tools/asset_quality_upgrade_models_20260914/deltas.json"
+        },
+        "visual_review": {
+          "by": "asset-quality-parent-20260914",
+          "status": "passed",
+          "date": "2026-09-14",
+          "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+          "evidence": [
+            "runs/_tools/asset_quality_upgrade_models_20260914/roomkit-v1__sofa-linen-three-seat_front_before.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/roomkit-v1__sofa-linen-three-seat_back_before.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/roomkit-v1__sofa-linen-three-seat_top_before.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/roomkit-v1__sofa-linen-three-seat_front_after.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/roomkit-v1__sofa-linen-three-seat_back_after.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/roomkit-v1__sofa-linen-three-seat_top_after.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/roomkit-v1__sofa-linen-three-seat_material_after.png"
+          ]
+        },
+        "physics": "Not dynamically tested",
+        "source_geometry": {
+          "parts": 28,
+          "vertices": 18392
+        },
+        "source_signature": "11122b6f220892d0861616415d82549befb843829f3ebd58e4b43e19ec3e0517"
+      }
+    },
+    {
+      "name": "RK Chair - Walnut Lounge",
+      "source_root": "Lounge chair A",
+      "parts": 17,
+      "vertices": 5730,
+      "dimensions_m": [
+        0.8449999690055847,
+        0.8899999856948853,
+        1.0938341823639348
+      ],
+      "description": "Walnut lounge chair with upholstered seat and back. Separate editable mesh parts; front is local -Y. Quality refinement: Added two walnut rear support slats within the original envelope. Lowered lumbar pillow and its piping by 18 mm for supported seat contact. Corrected inward-facing normals on closed mesh parts: Lounge chair A lumbar pillow.001; vertex positions, UVs and material graphs preserved.",
+      "bounds_min_m": [
+        -0.42249998450279236,
+        -0.4449999928474426,
+        -0.0003375021042302251
+      ],
+      "bounds_max_m": [
+        0.42249998450279236,
+        0.4449999928474426,
+        1.0934966802597046
+      ],
+      "preview": "assets/quality_previews/roomkit-v1__chair-walnut-lounge.png",
+      "quality_review": {
+        "date": "2026-09-14",
+        "status": "upgraded",
+        "changes": [
+          "Added two walnut rear support slats within the original envelope.",
+          "Lowered lumbar pillow and its piping by 18 mm for supported seat contact.",
+          "Corrected inward-facing normals on closed mesh parts: Lounge chair A lumbar pillow.001; vertex positions, UVs and material graphs preserved."
+        ],
+        "validation": {
+          "drivers_before": 0,
+          "drivers_after": 0,
+          "physics": "Not simulation certified; material/density/collision preparation still required.",
+          "inward_meshes_repaired": [
+            "Lounge chair A lumbar pillow.001"
+          ],
+          "finite_meshes": 15,
+          "missing_materials": 0,
+          "save_reopen": true,
+          "linked_libraries": 0,
+          "max_bounds_error_m": 0.0,
+          "visual_review": {
+            "status": "reviewed",
+            "scope": "Three clay views and material view; source silhouette, cavity/support detail and retained dimensions inspected.",
+            "limitations": "Stylized authored asset quality; no photorealism, structural-load, cloth or rigid-body stability certification."
+          },
+          "closed_mesh_topology": "All modified collection mesh parts have zero boundary/nonmanifold edges and positive signed volume.",
+          "source_report": "runs/_tools/asset_quality_upgrade_models_20260914/deltas.json"
+        },
+        "visual_review": {
+          "by": "asset-quality-parent-20260914",
+          "status": "passed",
+          "date": "2026-09-14",
+          "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+          "evidence": [
+            "runs/_tools/asset_quality_upgrade_models_20260914/roomkit-v1__chair-walnut-lounge_front_before.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/roomkit-v1__chair-walnut-lounge_back_before.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/roomkit-v1__chair-walnut-lounge_top_before.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/roomkit-v1__chair-walnut-lounge_front_after.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/roomkit-v1__chair-walnut-lounge_back_after.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/roomkit-v1__chair-walnut-lounge_top_after.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/roomkit-v1__chair-walnut-lounge_material_after.png"
+          ]
+        },
+        "physics": "Not dynamically tested",
+        "source_geometry": {
+          "parts": 15,
+          "vertices": 5538
+        },
+        "source_signature": "c12dd4dd81ab098f5a1fe55c1372edd9c9ac3e9edc005bddbcda6dd0d05b7c04"
+      }
+    },
+    {
+      "name": "RK Stool - Upholstered Counter",
+      "source_root": "Island stool 01",
+      "parts": 15,
+      "vertices": 1784,
+      "dimensions_m": [
+        0.49799981713294983,
+        0.6057906150817871,
+        1.1556346416473389
+      ],
+      "description": "Upholstered kitchen counter stool with walnut frame and footrest. Neutral static pose; front is local -Y."
+    }
+  ],
+  "materials": [
+    {
+      "name": "RK | Warm ivory lime plaster",
+      "source_name": "M01 | Warm ivory lime plaster",
+      "catalog_id": "c75dec4b-da63-55c2-a155-b90b37a85fd0",
+      "world_coordinates": true
+    },
+    {
+      "name": "RK | Warm white painted joinery",
+      "source_name": "M02 | Warm white painted joinery",
+      "catalog_id": "c75dec4b-da63-55c2-a155-b90b37a85fd0",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Honey oak beams",
+      "source_name": "M03 | Honey oak beams",
+      "catalog_id": "ede00472-3ddc-51a4-8adc-c47b2e9d3069",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Walnut furniture frames",
+      "source_name": "M04 | Walnut furniture frames",
+      "catalog_id": "ede00472-3ddc-51a4-8adc-c47b2e9d3069",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Espresso-stained island cabinetry",
+      "source_name": "M05 | Espresso-stained island cabinetry",
+      "catalog_id": "ede00472-3ddc-51a4-8adc-c47b2e9d3069",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Aged oak mantel",
+      "source_name": "M06 | Aged oak mantel",
+      "catalog_id": "ede00472-3ddc-51a4-8adc-c47b2e9d3069",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Natural oak floorboards",
+      "source_name": "M07 | Natural oak floorboards",
+      "catalog_id": "ede00472-3ddc-51a4-8adc-c47b2e9d3069",
+      "world_coordinates": true
+    },
+    {
+      "name": "RK | Ivory linen sofa",
+      "source_name": "M08 | Ivory linen sofa",
+      "catalog_id": "5f3f6a79-9d77-542f-b239-137c6695f8d1",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Cream linen cushions",
+      "source_name": "M09 | Cream linen cushions",
+      "catalog_id": "5f3f6a79-9d77-542f-b239-137c6695f8d1",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Taupe woven cushions",
+      "source_name": "M10 | Taupe woven cushions",
+      "catalog_id": "5f3f6a79-9d77-542f-b239-137c6695f8d1",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Olive brown accent cushions",
+      "source_name": "M11 | Olive brown accent cushions",
+      "catalog_id": "5f3f6a79-9d77-542f-b239-137c6695f8d1",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Charcoal woven upholstery",
+      "source_name": "M12 | Charcoal woven upholstery",
+      "catalog_id": "5f3f6a79-9d77-542f-b239-137c6695f8d1",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Warm grey drapery",
+      "source_name": "M13 | Warm grey drapery",
+      "catalog_id": "5f3f6a79-9d77-542f-b239-137c6695f8d1",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Ivory woven rug with charcoal border",
+      "source_name": "M14 | Ivory woven rug with charcoal border",
+      "catalog_id": "5f3f6a79-9d77-542f-b239-137c6695f8d1",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Aged bronze table drums",
+      "source_name": "M15 | Aged bronze table drums",
+      "catalog_id": "d6654147-cf88-52c1-a172-fd8ef84ec418",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Satin blackened iron",
+      "source_name": "M16 | Satin blackened iron",
+      "catalog_id": "d6654147-cf88-52c1-a172-fd8ef84ec418",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Aged brass handles",
+      "source_name": "M17 | Aged brass handles",
+      "catalog_id": "d6654147-cf88-52c1-a172-fd8ef84ec418",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Brushed stainless steel",
+      "source_name": "M18 | Brushed stainless steel",
+      "catalog_id": "d6654147-cf88-52c1-a172-fd8ef84ec418",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Warm limestone",
+      "source_name": "M19 | Warm limestone",
+      "catalog_id": "3cfdc40d-19b0-5194-b8f1-5f56387e89d2",
+      "world_coordinates": true
+    },
+    {
+      "name": "RK | Honed ivory stone countertop",
+      "source_name": "M20 | Honed ivory stone countertop",
+      "catalog_id": "3cfdc40d-19b0-5194-b8f1-5f56387e89d2",
+      "world_coordinates": true
+    },
+    {
+      "name": "RK | Glazed cream ceramic",
+      "source_name": "M21 | Glazed cream ceramic",
+      "catalog_id": "a73683c5-653c-5940-981f-7b21454e4568",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Charcoal ceramic bowl",
+      "source_name": "M22 | Charcoal ceramic bowl",
+      "catalog_id": "a73683c5-653c-5940-981f-7b21454e4568",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Deep green orchid leaves",
+      "source_name": "M23 | Deep green orchid leaves",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Ivory orchid petals",
+      "source_name": "M24 | Ivory orchid petals",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Soot-dark refractory brick",
+      "source_name": "M25 | Soot-dark refractory brick",
+      "catalog_id": "3cfdc40d-19b0-5194-b8f1-5f56387e89d2",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Pale cut firewood",
+      "source_name": "M26 | Pale cut firewood",
+      "catalog_id": "ede00472-3ddc-51a4-8adc-c47b2e9d3069",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Dark television glass",
+      "source_name": "M27 | Dark television glass",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Green pears",
+      "source_name": "M28 | Green pears",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Lampshade ivory linen",
+      "source_name": "M29 | Lampshade ivory linen",
+      "catalog_id": "5f3f6a79-9d77-542f-b239-137c6695f8d1",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Warm practical bulbs",
+      "source_name": "M30 | Warm practical bulbs",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Book pages and artwork",
+      "source_name": "M31 | Book pages and artwork",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    }
+  ],
+  "origin": "floor center",
+  "forward": "-Y",
+  "units": "metres",
+  "geometry": "Separate editable mesh parts; modifiers baked; no room animation/drivers retained.",
+  "current_quality_update": {
+    "date": "2026-09-14",
+    "policy": "Replace current payload after review; keep stable IDs",
+    "changed_collections": [
+      "RK Chair - Walnut Lounge",
+      "RK Sofa - Linen Three Seat"
+    ],
+    "geometry_and_reopen_checked": true,
+    "physics_validation": "not performed"
+  }
+}

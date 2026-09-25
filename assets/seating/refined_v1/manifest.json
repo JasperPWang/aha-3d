@@ -1,0 +1,271 @@
+{
+  "version": 1,
+  "blender_version": "5.2.1 LTS",
+  "library": "roomkit_furniture_materials.blend",
+  "furniture": [
+    {
+      "name": "RK Chair - Walnut Lounge Supported",
+      "source_root": "RK Chair - Walnut Lounge Supported | source root",
+      "parts": 17,
+      "vertices": 5730,
+      "dimensions_m": [
+        0.8449999690055847,
+        0.8899999856948853,
+        1.0938341823639348
+      ],
+      "description": "Original back has arm support. Add direct rear rail-to-cushion support; close the measured 6.59132 mm lumbar-to-seat gap. Quality refinement: Corrected inward-facing normals on closed mesh parts: Lounge chair A lumbar pillow.001; vertex positions, UVs and material graphs preserved.",
+      "catalog_id": "005836a4-628c-5e68-b0d7-7414c3b972eb",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "evidence": "runs/asset_orientation_audit/20260910/review_v2/roomkit-v1__chair-walnut-lounge/audit.json; source geometry and oblique render inspected by orientation-root-20260910 on 2026-09-10; job 45902369",
+        "front_axis": "-Y",
+        "origin": "floor_center",
+        "schema_version": 1,
+        "semantic_front": "seating",
+        "status": "reviewed",
+        "symmetry": "none",
+        "up_axis": "Z"
+      },
+      "source_orientation": {
+        "evidence": "runs/asset_orientation_audit/20260910/review_v2/roomkit-v1__chair-walnut-lounge/audit.json; source geometry and oblique render inspected by orientation-root-20260910 on 2026-09-10; job 45902369",
+        "front_axis": "-Y",
+        "origin": "floor_center",
+        "schema_version": 1,
+        "semantic_front": "seating",
+        "status": "reviewed",
+        "symmetry": "none",
+        "up_axis": "Z"
+      },
+      "bounds_min_m": [
+        -0.42249998450279236,
+        -0.4449999928474426,
+        -0.0003375021042302251
+      ],
+      "bounds_max_m": [
+        0.42249998450279236,
+        0.4449999928474426,
+        1.0934966802597046
+      ],
+      "origin_normalization": "rotated geometry bounds floor center",
+      "semantic_class": "furniture/seating/chairs",
+      "provenance": {
+        "asset_id": "roomkit-v1/chair-walnut-lounge",
+        "library": "${INDOOR_PROJECT_ROOT}/assets/roomkit/v1/roomkit_furniture_materials.blend",
+        "library_sha256": "0d138603da58de2ca0511526c3fbc5b11a58d82edc4f248e08ed08cce7f90acc",
+        "datablock": "RK Chair - Walnut Lounge",
+        "orientation": {
+          "schema_version": 1,
+          "front_axis": "-Y",
+          "up_axis": "Z",
+          "symmetry": "none",
+          "origin": "floor_center",
+          "semantic_front": "seating",
+          "status": "reviewed",
+          "evidence": "runs/asset_orientation_audit/20260910/review_v2/roomkit-v1__chair-walnut-lounge/audit.json; source geometry and oblique render inspected by orientation-root-20260910 on 2026-09-10; job 45902369"
+        }
+      },
+      "refinement": {
+        "classification": "support-quality refinement",
+        "added_parts": [
+          "Lounge rear support slat left",
+          "Lounge rear support slat right"
+        ],
+        "lumbar_translation_m": [
+          0,
+          0,
+          -0.018
+        ],
+        "moved_parts": [
+          "Lounge chair A lumbar pillow.002",
+          "Pillow tailored perimeter | Lounge chair A lumbar pillow.002"
+        ],
+        "rationale": "Original back has arm support. Add direct rear rail-to-cushion support; close the measured 6.59132 mm lumbar-to-seat gap."
+      },
+      "candidate_sha256": "fb63f34aefb76687ced0c21a2e319559fc594da0b7a4f9269af6979d9ade83ec",
+      "preview": "assets/quality_previews/seating-refined-v1__chair-walnut-lounge-supported.png",
+      "quality_review": {
+        "date": "2026-09-14",
+        "status": "upgraded",
+        "changes": [
+          "Corrected inward-facing normals on closed mesh parts: Lounge chair A lumbar pillow.001; vertex positions, UVs and material graphs preserved."
+        ],
+        "validation": {
+          "drivers_before": 0,
+          "drivers_after": 0,
+          "physics": "Not simulation certified; material/density/collision preparation still required.",
+          "inward_meshes_repaired": [
+            "Lounge chair A lumbar pillow.001"
+          ],
+          "finite_meshes": 17,
+          "missing_materials": 0,
+          "save_reopen": true,
+          "linked_libraries": 0,
+          "max_bounds_error_m": 0.0,
+          "visual_review": {
+            "status": "reviewed",
+            "scope": "Three clay views and material view; source silhouette, cavity/support detail and retained dimensions inspected.",
+            "limitations": "Stylized authored asset quality; no photorealism, structural-load, cloth or rigid-body stability certification."
+          },
+          "closed_mesh_topology": "All modified collection mesh parts have zero boundary/nonmanifold edges and positive signed volume.",
+          "source_report": "runs/_tools/asset_quality_upgrade_models_20260914/deltas.json"
+        },
+        "visual_review": {
+          "by": "asset-quality-parent-20260914",
+          "status": "passed",
+          "date": "2026-09-14",
+          "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+          "evidence": [
+            "runs/_tools/asset_quality_upgrade_models_20260914/seating-refined-v1__chair-walnut-lounge-supported_front_before.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/seating-refined-v1__chair-walnut-lounge-supported_back_before.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/seating-refined-v1__chair-walnut-lounge-supported_top_before.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/seating-refined-v1__chair-walnut-lounge-supported_front_after.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/seating-refined-v1__chair-walnut-lounge-supported_back_after.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/seating-refined-v1__chair-walnut-lounge-supported_top_after.png",
+            "runs/_tools/asset_quality_upgrade_models_20260914/seating-refined-v1__chair-walnut-lounge-supported_material_after.png"
+          ]
+        },
+        "physics": "Not dynamically tested",
+        "source_geometry": {
+          "parts": 17,
+          "vertices": 5730
+        },
+        "source_signature": "5da3b24a6f702832403b5f9b49fddc81209775eadfee4fd945021870bc4c557e"
+      }
+    },
+    {
+      "name": "RK Chair - Accent Supported",
+      "source_root": "RK Chair - Accent Supported | source root",
+      "parts": 6,
+      "vertices": 320,
+      "dimensions_m": [
+        0.47999998927116394,
+        0.4599999785423279,
+        0.8399999737739563
+      ],
+      "description": "Original beveled back and seat only tangent; retain top and footprint while adding overlap and continuous internal rear posts.",
+      "catalog_id": "005836a4-628c-5e68-b0d7-7414c3b972eb",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "evidence": "Saved g0064 accent parts; source builder places back at seat +Y; structural audit in runs/seating_quality/20260910.",
+        "front_axis": "-Y",
+        "origin": "floor_center",
+        "schema_version": 1,
+        "semantic_front": "seating",
+        "status": "reviewed",
+        "symmetry": "none",
+        "up_axis": "Z"
+      },
+      "source_orientation": {
+        "evidence": "Saved g0064 accent parts; source builder places back at seat +Y; structural audit in runs/seating_quality/20260910.",
+        "front_axis": "-Y",
+        "origin": "floor_center",
+        "schema_version": 1,
+        "semantic_front": "seating",
+        "status": "reviewed",
+        "symmetry": "none",
+        "up_axis": "Z"
+      },
+      "bounds_min_m": [
+        -0.23999999463558197,
+        -0.22999998927116394,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.23999999463558197,
+        0.22999998927116394,
+        0.8399999737739563
+      ],
+      "origin_normalization": "rotated geometry bounds floor center",
+      "semantic_class": "furniture/seating/chairs",
+      "provenance": {
+        "asset_id": "scene/g0064/accent-chair",
+        "source_scene": "${INDOOR_PROJECT_ROOT}/runs/living_room_piano_g0064/full_20260909/delivery/piano_room_animated.blend",
+        "source_sha256": "a5e07589efc70c44121d6de186a768cd6e440a553620d1eba109767eb0bc285a",
+        "parts": [
+          "Small accent chair seat",
+          "Small accent chair back",
+          "Accent chair leg",
+          "Accent chair leg.001",
+          "Accent chair leg.002",
+          "Accent chair leg.003"
+        ],
+        "original_floor_center": [
+          1.1200000047683716,
+          -0.875,
+          0.03999999165534973
+        ],
+        "orientation": {
+          "schema_version": 1,
+          "front_axis": "-Y",
+          "up_axis": "Z",
+          "symmetry": "none",
+          "origin": "floor_center",
+          "semantic_front": "seating",
+          "status": "reviewed",
+          "evidence": "Saved g0064 accent parts; source builder places back at seat +Y; structural audit in runs/seating_quality/20260910."
+        },
+        "source_builder": "scenes/living_room_piano_g0064/blender/build_room.py:101-104"
+      },
+      "refinement": {
+        "classification": "tangent-joint reinforcement",
+        "back_bottom_extension_m": 0.012,
+        "rear_posts_extended_to_m": 0.72,
+        "extended_parts": [
+          "Accent chair leg.001",
+          "Accent chair leg.003"
+        ],
+        "rationale": "Original beveled back and seat only tangent; retain top and footprint while adding overlap and continuous internal rear posts."
+      },
+      "candidate_sha256": "5c23065da7da4cdb8efdcdc03ee81fc7f64b84ba87297128216ec48f7a538180"
+    }
+  ],
+  "materials": [],
+  "origin": "floor_center",
+  "forward": "-Y",
+  "units": "metres",
+  "geometry": "Separate editable mesh parts; modifiers baked; no room animation/drivers retained.",
+  "material_dependencies": [
+    {
+      "name": "RK | Walnut furniture frames.001",
+      "source_name": "RK | Walnut furniture frames",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Charcoal woven upholstery.001",
+      "source_name": "RK | Charcoal woven upholstery",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Preserved wood",
+      "source_name": "Preserved wood",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Preserved piano and glazing frames",
+      "source_name": "Preserved piano and glazing frames",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    }
+  ],
+  "library_id": "seating-refined-v1",
+  "library_sha256": "658bbaaa034450d87587575dcbb713000dd2ab2f92f653755602fd10779701a1",
+  "validation_scope": "Geometric contact paths, preserved outer dimensions/materials/orientation; no engineering strength certification.",
+  "builder": {
+    "path": "tools/refine_seating_assets.py",
+    "sha256": "1e67458edbeed005ad6a7ce38d22d70e5105432cce2d0ea2ae822f5501254e9d"
+  },
+  "current_quality_update": {
+    "date": "2026-09-14",
+    "policy": "Replace current payload after review; keep stable IDs",
+    "changed_collections": [
+      "RK Chair - Walnut Lounge Supported"
+    ],
+    "geometry_and_reopen_checked": true,
+    "physics_validation": "not performed"
+  }
+}

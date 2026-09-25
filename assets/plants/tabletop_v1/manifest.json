@@ -1,0 +1,482 @@
+{
+  "version": 1,
+  "blender_version": "5.2.1 LTS",
+  "library": "roomkit_furniture_materials.blend",
+  "furniture": [
+    {
+      "name": "RK Plant - Compact Fern",
+      "source_root": "RK Plant - Compact Fern",
+      "parts": 44,
+      "vertices": 51268,
+      "dimensions_m": [
+        0.3534439653158188,
+        0.3550977557897568,
+        0.275668740272522
+      ],
+      "description": "Welded duplicated axis poles in vessel and substrate meshes, closing false boundary loops and restoring valid solid topology. Preserved authored ribbed bowl/pot shape, all foliage, materials and geometry positions. Source-derived or authored approximation; no physics certification.",
+      "catalog_id": "ddbf93ef-7114-5d33-8c51-34e29f0faf56",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "evidence": "Generator authors upright ornamental foliage with presentation toward -Y; pot mounting center at XY0, bottomZ0.",
+        "front_axis": "-Y",
+        "origin": "mount_center",
+        "schema_version": 1,
+        "semantic_front": "generic",
+        "status": "authored",
+        "symmetry": "none",
+        "up_axis": "Z"
+      },
+      "source_orientation": {
+        "evidence": "Generator authors upright ornamental foliage with presentation toward -Y; pot mounting center at XY0, bottomZ0.",
+        "front_axis": "-Y",
+        "origin": "mount_center",
+        "schema_version": 1,
+        "semantic_front": "generic",
+        "status": "authored",
+        "symmetry": "none",
+        "up_axis": "Z"
+      },
+      "bounds_min_m": [
+        -0.1844787746667862,
+        -0.18237167596817017,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.1689651906490326,
+        0.1727260798215866,
+        0.275668740272522
+      ],
+      "origin_normalization": "declared root retained",
+      "semantic_class": "decor/plants",
+      "category": "decor/plants",
+      "generator": {
+        "script": "tools/build_tabletop_plant_assets.py",
+        "seed": 20260912
+      },
+      "provenance": "provenance.json",
+      "asset_quality_refinement": {
+        "generator": "tools/asset_quality_upgrade/tabletop.py",
+        "revision": 1,
+        "changes": [
+          "Welded duplicated axis poles in vessel and substrate meshes, closing false boundary loops and restoring valid solid topology.",
+          "Preserved authored ribbed bowl/pot shape, all foliage, materials and geometry positions."
+        ]
+      },
+      "preview": "assets/quality_previews/tabletop-plants-v1__plant-compact-fern.png",
+      "quality_review": {
+        "date": "2026-09-14",
+        "status": "upgraded",
+        "changes": [
+          "Welded duplicated axis poles in vessel and substrate meshes, closing false boundary loops and restoring valid solid topology.",
+          "Preserved authored ribbed bowl/pot shape, all foliage, materials and geometry positions."
+        ],
+        "validation": {
+          "max_bounds_delta_m": 0.0,
+          "changed_meshes": [
+            {
+              "name": "Fern charcoal ribbed pot.001",
+              "bounds_min_m": [
+                -0.06665000319480896,
+                -0.06665000319480896,
+                0.0
+              ],
+              "bounds_max_m": [
+                0.06665000319480896,
+                0.06665000319480896,
+                0.11599999666213989
+              ],
+              "materials": [
+                "RK | Ribbed charcoal stoneware"
+              ],
+              "vertices": 674,
+              "edges": 1440,
+              "faces": 768,
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "degenerate_faces": 0,
+              "signed_volume_m3": 0.00031552839753493263
+            },
+            {
+              "name": "Fern visible potting soil.001",
+              "bounds_min_m": [
+                -0.05700000002980232,
+                -0.05700000002980232,
+                0.10199999809265137
+              ],
+              "bounds_max_m": [
+                0.05700000002980232,
+                0.05700000002980232,
+                0.10599999874830246
+              ],
+              "materials": [
+                "RK | Dark potting substrate"
+              ],
+              "vertices": 194,
+              "edges": 480,
+              "faces": 288,
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "degenerate_faces": 0,
+              "signed_volume_m3": 4.0799001291431494e-05
+            }
+          ],
+          "cavity_checks": [
+            {
+              "object": "Fern charcoal ribbed pot.001",
+              "floor_z_m": 0.020000003278255463,
+              "rim_z_m": 0.11599999666213989,
+              "center_cavity_depth_m": 0.09599999338388443,
+              "wall_rays": [
+                {
+                  "angle_rad": 0,
+                  "wall_distance_m": 0.057171739637851715,
+                  "hit": true
+                },
+                {
+                  "angle_rad": 1.5707963267948966,
+                  "wall_distance_m": 0.057171739637851715,
+                  "hit": true
+                },
+                {
+                  "angle_rad": 3.141592653589793,
+                  "wall_distance_m": 0.057171739637851715,
+                  "hit": true
+                },
+                {
+                  "angle_rad": 4.71238898038469,
+                  "wall_distance_m": 0.057171739637851715,
+                  "hit": true
+                }
+              ],
+              "scope": "Vessel mesh only; soil and foliage excluded. No dynamics certification."
+            }
+          ],
+          "visual_review": "passed: agent inspected matched before/after material oblique and clay cavity views; plant vessels also inspected with foliage and substrate hidden",
+          "scope": "Changed vessel/substrate meshes only. Foliage and simulation not certified.",
+          "saved_reopen_passed": true,
+          "visual_review_scope": "Same camera/light/framing before and after. All nine collections reviewed; original material appearance, placement envelope and whole-plant arrangement retained.",
+          "limits": [
+            "No rigid-body or fluid simulation was run.",
+            "Unchanged plant foliage is not certified manifold or collision-free.",
+            "Wall and base dimensions are authored approximations, not source measurements."
+          ],
+          "job_id": "46324895",
+          "comparison_sheets": [
+            "runs/_tools/asset_quality_tabletop_20260913/refined/vessels_comparison.jpg",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plant_containers_comparison.jpg",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plants_whole_comparison.jpg"
+          ],
+          "source_report": "runs/_tools/asset_quality_tabletop_20260913/refined/report.json"
+        },
+        "visual_review": {
+          "by": "asset-quality-parent-20260914",
+          "status": "passed",
+          "date": "2026-09-14",
+          "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+          "evidence": [
+            "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-plant-compact-fern/before_oblique.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-plant-compact-fern/before_cavity.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-plant-compact-fern/before_container_oblique.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-plant-compact-fern/before_container_cavity.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-plant-compact-fern/after_oblique.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-plant-compact-fern/after_cavity.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-plant-compact-fern/after_container_oblique.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-plant-compact-fern/after_container_cavity.png"
+          ]
+        },
+        "physics": "Not dynamically tested",
+        "source_geometry": {
+          "parts": 44,
+          "vertices": 51648
+        },
+        "source_signature": "80eae3b45b28f53315c2efd6cddceba3d73064027ba342a77ffafae817102340"
+      }
+    },
+    {
+      "name": "RK Flowers - Pink Hydrangea Bowl",
+      "source_root": "RK Flowers - Pink Hydrangea Bowl",
+      "parts": 33,
+      "vertices": 145078,
+      "dimensions_m": [
+        0.24819932878017426,
+        0.23172079771757126,
+        0.2937328815460205
+      ],
+      "description": "Welded duplicated axis poles in vessel and substrate meshes, closing false boundary loops and restoring valid solid topology. Preserved authored ribbed bowl/pot shape, all foliage, materials and geometry positions. Source-derived or authored approximation; no physics certification.",
+      "catalog_id": "ddbf93ef-7114-5d33-8c51-34e29f0faf56",
+      "articulation": false,
+      "import_mode": "collection",
+      "orientation": {
+        "evidence": "Generator authors upright ornamental foliage with presentation toward -Y; pot mounting center at XY0, bottomZ0.",
+        "front_axis": "-Y",
+        "origin": "mount_center",
+        "schema_version": 1,
+        "semantic_front": "generic",
+        "status": "authored",
+        "symmetry": "none",
+        "up_axis": "Z"
+      },
+      "source_orientation": {
+        "evidence": "Generator authors upright ornamental foliage with presentation toward -Y; pot mounting center at XY0, bottomZ0.",
+        "front_axis": "-Y",
+        "origin": "mount_center",
+        "schema_version": 1,
+        "semantic_front": "generic",
+        "status": "authored",
+        "symmetry": "none",
+        "up_axis": "Z"
+      },
+      "bounds_min_m": [
+        -0.12448184937238693,
+        -0.11760430037975311,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.12371747940778732,
+        0.11411649733781815,
+        0.2937328815460205
+      ],
+      "origin_normalization": "declared root retained",
+      "semantic_class": "decor/plants",
+      "category": "decor/plants",
+      "generator": {
+        "script": "tools/build_tabletop_plant_assets.py",
+        "seed": 20260912
+      },
+      "provenance": "provenance.json",
+      "asset_quality_refinement": {
+        "generator": "tools/asset_quality_upgrade/tabletop.py",
+        "revision": 1,
+        "changes": [
+          "Welded duplicated axis poles in vessel and substrate meshes, closing false boundary loops and restoring valid solid topology.",
+          "Preserved authored ribbed bowl/pot shape, all foliage, materials and geometry positions."
+        ]
+      },
+      "preview": "assets/quality_previews/tabletop-plants-v1__flowers-pink-hydrangea-bowl.png",
+      "quality_review": {
+        "date": "2026-09-14",
+        "status": "upgraded",
+        "changes": [
+          "Welded duplicated axis poles in vessel and substrate meshes, closing false boundary loops and restoring valid solid topology.",
+          "Preserved authored ribbed bowl/pot shape, all foliage, materials and geometry positions."
+        ],
+        "validation": {
+          "max_bounds_delta_m": 0.0,
+          "changed_meshes": [
+            {
+              "name": "Hydrangea arrangement substrate.001",
+              "bounds_min_m": [
+                -0.07699999958276749,
+                -0.07699999958276749,
+                0.07999999821186066
+              ],
+              "bounds_max_m": [
+                0.07699999958276749,
+                0.07699999958276749,
+                0.08699999749660492
+              ],
+              "materials": [
+                "RK | Dark potting substrate"
+              ],
+              "vertices": 194,
+              "edges": 480,
+              "faces": 288,
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "degenerate_faces": 0,
+              "signed_volume_m3": 0.00013029243723839738
+            },
+            {
+              "name": "Hydrangea low ivory bowl.001",
+              "bounds_min_m": [
+                -0.09064999967813492,
+                -0.09064999967813492,
+                0.0
+              ],
+              "bounds_max_m": [
+                0.09064999967813492,
+                0.09064999967813492,
+                0.10300000011920929
+              ],
+              "materials": [
+                "RK | Fluted ivory ceramic bowl"
+              ],
+              "vertices": 770,
+              "edges": 1632,
+              "faces": 864,
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "degenerate_faces": 0,
+              "signed_volume_m3": 0.000597920860781697
+            }
+          ],
+          "cavity_checks": [
+            {
+              "object": "Hydrangea low ivory bowl.001",
+              "floor_z_m": 0.012000009417533875,
+              "rim_z_m": 0.10300000011920929,
+              "center_cavity_depth_m": 0.09099999070167542,
+              "wall_rays": [
+                {
+                  "angle_rad": 0,
+                  "wall_distance_m": 0.07862618565559387,
+                  "hit": true
+                },
+                {
+                  "angle_rad": 1.5707963267948966,
+                  "wall_distance_m": 0.07862619310617447,
+                  "hit": true
+                },
+                {
+                  "angle_rad": 3.141592653589793,
+                  "wall_distance_m": 0.07862619310617447,
+                  "hit": true
+                },
+                {
+                  "angle_rad": 4.71238898038469,
+                  "wall_distance_m": 0.07862619310617447,
+                  "hit": true
+                }
+              ],
+              "scope": "Vessel mesh only; soil and foliage excluded. No dynamics certification."
+            }
+          ],
+          "visual_review": "passed: agent inspected matched before/after material oblique and clay cavity views; plant vessels also inspected with foliage and substrate hidden",
+          "scope": "Changed vessel/substrate meshes only. Foliage and simulation not certified.",
+          "saved_reopen_passed": true,
+          "visual_review_scope": "Same camera/light/framing before and after. All nine collections reviewed; original material appearance, placement envelope and whole-plant arrangement retained.",
+          "limits": [
+            "No rigid-body or fluid simulation was run.",
+            "Unchanged plant foliage is not certified manifold or collision-free.",
+            "Wall and base dimensions are authored approximations, not source measurements."
+          ],
+          "job_id": "46324895",
+          "comparison_sheets": [
+            "runs/_tools/asset_quality_tabletop_20260913/refined/vessels_comparison.jpg",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plant_containers_comparison.jpg",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/plants_whole_comparison.jpg"
+          ],
+          "source_report": "runs/_tools/asset_quality_tabletop_20260913/refined/report.json"
+        },
+        "visual_review": {
+          "by": "asset-quality-parent-20260914",
+          "status": "passed",
+          "date": "2026-09-14",
+          "scope": "Compared before/after material and cavity or orthographic views; source proportions and role retained.",
+          "evidence": [
+            "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-flowers-pink-hydrangea-bowl/before_oblique.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-flowers-pink-hydrangea-bowl/before_cavity.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-flowers-pink-hydrangea-bowl/before_container_oblique.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-flowers-pink-hydrangea-bowl/before_container_cavity.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-flowers-pink-hydrangea-bowl/after_oblique.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-flowers-pink-hydrangea-bowl/after_cavity.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-flowers-pink-hydrangea-bowl/after_container_oblique.png",
+            "runs/_tools/asset_quality_tabletop_20260913/refined/tabletop-plants-v1/rk-flowers-pink-hydrangea-bowl/after_container_cavity.png"
+          ]
+        },
+        "physics": "Not dynamically tested",
+        "source_geometry": {
+          "parts": 33,
+          "vertices": 145458
+        },
+        "source_signature": "339a994404534c0e198680ee1c97a24738b5e4f5191650dde2129654ea684348"
+      }
+    }
+  ],
+  "materials": [],
+  "origin": "mount_center",
+  "forward": "-Y",
+  "units": "metres",
+  "geometry": "Separate editable mesh parts; modifiers baked; no room animation/drivers retained.",
+  "material_dependencies": [
+    {
+      "name": "RK | Ribbed charcoal stoneware",
+      "source_name": "Ribbed charcoal stoneware",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Tabletop green petioles",
+      "source_name": "Tabletop green petioles",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Tabletop foliage 0",
+      "source_name": "Tabletop foliage 0",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Tabletop foliage 1",
+      "source_name": "Tabletop foliage 1",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Tabletop foliage 2",
+      "source_name": "Tabletop foliage 2",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Tabletop foliage 3",
+      "source_name": "Tabletop foliage 3",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Dark potting substrate",
+      "source_name": "Dark potting substrate",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Hydrangea petal tone 0",
+      "source_name": "Hydrangea petal tone 0",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Hydrangea petal tone 1",
+      "source_name": "Hydrangea petal tone 1",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Hydrangea petal tone 2",
+      "source_name": "Hydrangea petal tone 2",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Hydrangea petal tone 3",
+      "source_name": "Hydrangea petal tone 3",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Hydrangea petal tone 4",
+      "source_name": "Hydrangea petal tone 4",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    },
+    {
+      "name": "RK | Fluted ivory ceramic bowl",
+      "source_name": "Fluted ivory ceramic bowl",
+      "catalog_id": "0cd907c6-a3f5-560d-8d09-0f1ec422fc96",
+      "world_coordinates": false
+    }
+  ],
+  "current_quality_update": {
+    "date": "2026-09-14",
+    "policy": "Replace current payload after review; keep stable IDs",
+    "changed_collections": [
+      "RK Flowers - Pink Hydrangea Bowl",
+      "RK Plant - Compact Fern"
+    ],
+    "geometry_and_reopen_checked": true,
+    "physics_validation": "not performed"
+  }
+}

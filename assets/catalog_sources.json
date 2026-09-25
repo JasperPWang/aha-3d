@@ -1,0 +1,1057 @@
+{
+  "schema_version": 1,
+  "coverage": "Registered reusable libraries and shared helpers only; historical scene candidates are excluded.",
+  "query_aliases": {
+    "\u6c99\u53d1": [
+      "sofa"
+    ],
+    "\u6905\u5b50": [
+      "chair"
+    ],
+    "\u4f11\u95f2\u6905": [
+      "lounge chair"
+    ],
+    "\u5427\u53f0\u51f3": [
+      "stool"
+    ],
+    "\u51f3\u5b50": [
+      "stool"
+    ],
+    "\u679c\u76d8": [
+      "fruit bowl"
+    ],
+    "\u6c34\u679c": [
+      "fruit"
+    ],
+    "\u82b1\u74f6": [
+      "vase"
+    ],
+    "\u82b1\u76c6": [
+      "planter",
+      "orchid"
+    ],
+    "\u76c6\u683d": [
+      "plant",
+      "orchid"
+    ],
+    "\u6c34\u676f": [
+      "cup",
+      "mug",
+      "tumbler"
+    ],
+    "\u676f\u5b50": [
+      "glass",
+      "stemware",
+      "cup",
+      "mug"
+    ],
+    "\u9ad8\u811a\u676f": [
+      "stemware",
+      "wine glass"
+    ],
+    "\u94a2\u7434": [
+      "piano"
+    ],
+    "\u67dc\u5b50": [
+      "cabinet"
+    ],
+    "\u8336\u51e0": [
+      "coffee table"
+    ],
+    "\u53f0\u706f": [
+      "lamp"
+    ],
+    "\u540a\u706f": [
+      "chandelier"
+    ],
+    "\u6750\u8d28": [
+      "material"
+    ],
+    "\u6728\u6750": [
+      "wood",
+      "walnut",
+      "oak"
+    ],
+    "\u6c99\u53d1\u57ab": [
+      "cushion",
+      "pillow"
+    ],
+    "couch": [
+      "sofa"
+    ],
+    "settee": [
+      "sofa"
+    ],
+    "plant": [
+      "plant",
+      "orchid"
+    ],
+    "cup": [
+      "cup",
+      "mug",
+      "tumbler"
+    ],
+    "glass": [
+      "glass",
+      "stemware"
+    ],
+    "potted": [
+      "planter",
+      "orchid"
+    ],
+    "wood": [
+      "wood",
+      "walnut",
+      "oak"
+    ],
+    "pillow": [
+      "pillow",
+      "cushion"
+    ],
+    "cushion": [
+      "cushion",
+      "pillow"
+    ],
+    "\u6c34\u9f99\u5934": [
+      "faucet",
+      "tap"
+    ],
+    "\u6258\u76d8": [
+      "platter",
+      "tray"
+    ],
+    "\u56db\u67f1\u5e8a": [
+      "four poster bed"
+    ],
+    "\u7a97\u5e18": [
+      "curtain"
+    ],
+    "\u9910\u8fb9\u67dc": [
+      "sideboard"
+    ]
+  },
+  "library_annotations": {
+    "roomkit-v1/sofa-linen-three-seat": {
+      "category": "furniture/seating/sofas",
+      "family_id": "sofa/linen-three-seat",
+      "aliases": [
+        "couch",
+        "straight sofa",
+        "three seater"
+      ],
+      "limitations": "Three-seat linen sofa with separate seat, back and accent cushions. Floor-centred placement; front is local -Y. Quality refinement: Corrected inward-facing normals on closed mesh parts: Sofa A | below tall windows loose pillow 0.001, Sofa A | below tall windows loose pillow 1.001, Sofa A | below tall windows loose pillow 2.001, Sofa A | below tall windows loose pillow 3.001; vertex positions, UVs and material graphs preserved. Authored approximate dimensions; see assets/quality_review.json for tested scope."
+    },
+    "roomkit-v1/chair-walnut-lounge": {
+      "seating_type": "lounge",
+      "category": "furniture/seating/chairs",
+      "family_id": "chair/walnut-lounge",
+      "aliases": [
+        "armchair",
+        "lounge chair"
+      ],
+      "limitations": "Walnut lounge chair with upholstered seat and back. Separate editable mesh parts; front is local -Y. Quality refinement: Added two walnut rear support slats within the original envelope. Lowered lumbar pillow and its piping by 18 mm for supported seat contact. Corrected inward-facing normals on closed mesh parts: Lounge chair A lumbar pillow.001; vertex positions, UVs and material graphs preserved. Authored approximate dimensions; see assets/quality_review.json for tested scope."
+    },
+    "roomkit-v1/stool-upholstered-counter": {
+      "category": "furniture/seating/stools",
+      "family_id": "stool/upholstered-counter",
+      "aliases": [
+        "bar stool",
+        "counter stool"
+      ]
+    },
+    "cabinets-v1/cabinet-mixed-storage": {
+      "category": "furniture/storage/cabinets",
+      "family_id": "cabinet/modular-mixed",
+      "aliases": [
+        "cupboard",
+        "drawers",
+        "modular cabinet"
+      ],
+      "limitations": "Rectangular mixed cupboard and three-drawer asset. Independent native controls; inspect opening clearance in each scene."
+    },
+    "dining-chair-v1/chair-open-frame-dining": {
+      "seating_type": "dining",
+      "category": "furniture/seating/chairs",
+      "family_id": "chair/open-frame-dining",
+      "aliases": [
+        "dining chair",
+        "cane chair",
+        "slatted chair"
+      ],
+      "limitations": "Source-specific approximate open-frame dining chair; simplified weave, normalized origin, no physical measurement."
+    },
+    "ceramic-vase-v1/vase-rounded-ceramic": {
+      "category": "decor/tabletop/vases",
+      "family_id": "vase/ceramic",
+      "aliases": [
+        "vase",
+        "vessel",
+        "tabletop prop"
+      ],
+      "limitations": "Smoothed the original exterior landmarks without radius overshoot; extended shallow inner neck into a full-depth cavity. Closed missing underside and joined inner/outer shells with a rounded lip and 14 mm base. Source-derived or authored approximation; no physics certification. Authored approximate dimensions; see assets/quality_review.json for tested scope."
+    },
+    "faucet-simple-v1/faucet-simple-gooseneck": {
+      "category": "fixtures/plumbing/faucets",
+      "family_id": "faucet/simple-gooseneck",
+      "aliases": [
+        "faucet",
+        "tap",
+        "gooseneck spout"
+      ],
+      "limitations": "Added a 1.2 mm inward wall and annular end rims to the existing open single-surface tube; outlet and mounting end remain open. Assigned brushed stainless steel instead of the extraction clay; retained original centerline and mount origin. No valve, internal flow or plumbing simulation model. Authored approximate dimensions; see assets/quality_review.json for tested scope."
+    },
+    "seating-refined-v1/chair-walnut-lounge-supported": {
+      "seating_type": "lounge",
+      "category": "furniture/seating/chairs",
+      "family_id": "chair/walnut-lounge",
+      "aliases": [
+        "armchair",
+        "lounge chair",
+        "supported backrest",
+        "refined chair",
+        "\u4f11\u95f2\u6905",
+        "\u9760\u80cc\u652f\u6491"
+      ],
+      "limitations": "Original back has arm support. Add direct rear rail-to-cushion support; close the measured 6.59132 mm lumbar-to-seat gap. Quality refinement: Corrected inward-facing normals on closed mesh parts: Lounge chair A lumbar pillow.001; vertex positions, UVs and material graphs preserved. Authored approximate dimensions; see assets/quality_review.json for tested scope."
+    },
+    "seating-refined-v1/chair-accent-supported": {
+      "seating_type": "accent",
+      "category": "furniture/seating/chairs",
+      "family_id": "chair/accent",
+      "aliases": [
+        "small accent chair",
+        "supported backrest",
+        "refined chair",
+        "\u5c0f\u6905\u5b50",
+        "\u9760\u80cc\u652f\u6491"
+      ],
+      "limitations": "Adapted g0064 small accent chair with constructive back-to-seat overlap and continuous rear supports. Approximate scene-derived shape and dimensions, not a physical measurement. See docs/ASSET_QUALITY.md."
+    },
+    "plants-v1/plant-broadleaf-ceramic": {
+      "category": "decor/plants",
+      "family_id": "plant/broadleaf-ceramic",
+      "aliases": [
+        "potted plant",
+        "broadleaf plant",
+        "houseplant",
+        "foliage",
+        "leaf",
+        "leaves",
+        "\u76c6\u683d",
+        "\u7eff\u690d",
+        "\u53f6\u5b50"
+      ],
+      "limitations": "Retained foliage, substrate and pot position; smoothed the original pot profile through its measured landmarks. Refined 48-sided pot to 128-sided sealed vessel with a full interior and explicit 8 mm radial wall and 16 mm base. Source-derived or authored approximation; no physics certification. Authored approximate dimensions; see assets/quality_review.json for tested scope."
+    },
+    "plants-v2/plant-peace-lily-natural": {
+      "category": "decor/plants",
+      "family_id": "plant/peace-lily-natural",
+      "aliases": [
+        "peace lily",
+        "natural plant",
+        "realistic plant",
+        "potted plant",
+        "foliage",
+        "leaves",
+        "\u767d\u638c",
+        "\u81ea\u7136\u76c6\u683d",
+        "\u5199\u5b9e\u76c6\u683d"
+      ],
+      "limitations": "Retained foliage, substrate and pot position; smoothed the original pot profile through its measured landmarks. Refined 48-sided pot to 128-sided sealed vessel with a full interior and explicit 8 mm radial wall and 16 mm base. Source-derived or authored approximation; no physics certification. Authored approximate dimensions; see assets/quality_review.json for tested scope."
+    },
+    "additional-444547-44-v1/additional-44-silver-serving-platter": {
+      "category": "decor/tableware",
+      "family_id": "additional-44/silver-serving-platter",
+      "aliases": [
+        "silver serving platter",
+        "additional 44",
+        "source 44"
+      ],
+      "limitations": "Replaced overlapping thick disk and torus with one continuous serving surface, recessed well, rolled rim and support foot. Preserved 308 mm outer diameter, 18 mm overall height and silver material. Source-derived or authored approximation; no physics certification. Authored approximate dimensions; see assets/quality_review.json for tested scope."
+    },
+    "additional-444547-44-v1/additional-44-clear-polycarbonate-dining-chair": {
+      "seating_type": "dining",
+      "category": "furniture/seating/chairs",
+      "family_id": "additional-44/clear-polycarbonate-dining-chair",
+      "aliases": [
+        "clear polycarbonate dining chair",
+        "additional 44",
+        "source 44",
+        "chair",
+        "seat"
+      ],
+      "limitations": "Source-authored transmission material and six separate parts. Portable support junctions reviewed independently. Approximate source-derived static asset; no real-person data. See provenance.json. Portable-copy refinement: Extended lower back panel to overlap seat by10mm; eliminated source17.5mm unsupported gap, preserving top height and transmission material. Dimensions use scene-authored approximate metres; source metric scale was not independently calibrated."
+    },
+    "additional-444547-44-v1/additional-44-upholstered-open-frame-chair": {
+      "seating_type": "dining",
+      "category": "furniture/seating/chairs",
+      "family_id": "additional-44/upholstered-open-frame-chair",
+      "aliases": [
+        "upholstered open frame chair",
+        "additional 44",
+        "source 44",
+        "chair",
+        "seat"
+      ],
+      "limitations": "Static upholstered open-frame dining chair adapted from dining-chair-v1/chair-open-frame-dining. Cane infill and slats replaced by a charcoal cushion fitted within the native supporting back-frame envelope; 2mm contact overlap. Source unrotated floating overlay replaced only in this portable asset copy. Original source scene remains unchanged. Separate editable mesh parts; source scale uncalibrated. Dimensions use scene-authored approximate metres; source metric scale was not independently calibrated."
+    },
+    "additional-444547-44-v1/additional-44-formal-dining-table": {
+      "category": "furniture/tables",
+      "family_id": "additional-44/formal-dining-table",
+      "aliases": [
+        "formal dining table",
+        "additional 44",
+        "source 44"
+      ],
+      "limitations": "Source-specific tabletop and four legs; no tableware. Approximate source-derived static asset; no real-person data. See provenance.json. Portable-copy refinement: Extended leg tops to overlap tabletop underside5mm; corrected2.5mm source support gap. Dimensions use scene-authored approximate metres; source metric scale was not independently calibrated."
+    },
+    "additional-444547-44-v1/additional-44-six-drawer-mahogany-sideboard": {
+      "category": "furniture/storage",
+      "family_id": "additional-44/six-drawer-mahogany-sideboard",
+      "aliases": [
+        "six drawer mahogany sideboard",
+        "additional 44",
+        "source 44"
+      ],
+      "limitations": "Static six-drawer facade and handles; no operative drawers or hidden cabinet internals. Approximate source-derived static asset; no real-person data. See provenance.json. Static solid facade, no opening drawers, doors or hidden interior mechanism. Dimensions use scene-authored approximate metres; source metric scale was not independently calibrated."
+    },
+    "additional-444547-44-v1/additional-44-stylized-stemmed-vessel": {
+      "category": "decor/tableware",
+      "family_id": "additional-44/stylized-stemmed-vessel",
+      "aliases": [
+        "stylized stemmed vessel",
+        "additional 44",
+        "source 44"
+      ],
+      "limitations": "Replaced three intersecting 24-sided solid proxies with one continuous 128-sided vessel shell. Authored open cup, 2.4 mm straight wall, sealed floor, softened rim and continuous stem/base junction. Source-derived or authored approximation; no physics certification. Authored approximate dimensions; see assets/quality_review.json for tested scope."
+    },
+    "additional-444547-44-v1/additional-44-wall-sconce": {
+      "category": "lighting/fixtures",
+      "family_id": "additional-44/wall-sconce",
+      "aliases": [
+        "wall sconce",
+        "additional 44",
+        "source 44"
+      ],
+      "limitations": "Replaced solid shade block with a 2 mm rectangular shade shell open above and below. Added internal mounting support, socket and frosted bulb while preserving the wall plate, mount origin and outer envelope. Authored approximate dimensions; see assets/quality_review.json for tested scope."
+    },
+    "additional-444547-44-v1/additional-44-double-ring-chandelier": {
+      "category": "lighting/fixtures",
+      "family_id": "additional-44/double-ring-chandelier",
+      "aliases": [
+        "double ring chandelier",
+        "additional 44",
+        "source 44"
+      ],
+      "limitations": "Editable two-ring brass chandelier proxy with six source outer uprights, authored diagonal suspension links and radial spokes joining both rings to a central stem and ceiling canopy. Origin is canopy mounting surface center. Added support is portable-copy completion, not observed source detail or structural certification. No photometric light source. Dimensions use scene-authored approximate metres; source metric scale was not independently calibrated."
+    },
+    "additional-444547-44-v1/additional-44-classical-vase-wall-panel": {
+      "category": "decor/wall_art",
+      "family_id": "additional-44/classical-vase-wall-panel",
+      "aliases": [
+        "classical vase wall panel",
+        "additional 44",
+        "source 44"
+      ],
+      "limitations": "One of two repeated shallow relief panels; artwork is editable geometry, not the source image. Approximate source-derived static asset; no real-person data. See provenance.json. Blank/abstract authored geometry, not recovered source imagery; no reflective mirror surface. Dimensions use scene-authored approximate metres; source metric scale was not independently calibrated."
+    },
+    "additional-444547-44-v1/brass": {
+      "category": "materials/scene_palette_variants",
+      "family_id": "material/scene-44-brass",
+      "aliases": [
+        "brass",
+        "additional 44",
+        "pbr parameter palette"
+      ],
+      "limitations": "Editable Principled color/roughness/metallic/transmission parameter variant, not an independent new shader design. Appearance labels approximate intended material; no measured material calibration. Shell-only colors retained as well as furniture materials. Existing RoomKit graphs are bundled dependencies, not these entries."
+    },
+    "additional-444547-44-v1/brown-floor": {
+      "category": "materials/scene_palette_variants",
+      "family_id": "material/scene-44-brown-floor",
+      "aliases": [
+        "brown floor",
+        "additional 44",
+        "pbr parameter palette"
+      ],
+      "limitations": "Editable Principled color/roughness/metallic/transmission parameter variant, not an independent new shader design. Appearance labels approximate intended material; no measured material calibration. Shell-only colors retained as well as furniture materials. Existing RoomKit graphs are bundled dependencies, not these entries."
+    },
+    "additional-444547-44-v1/charcoal-upholstery": {
+      "category": "materials/scene_palette_variants",
+      "family_id": "material/scene-44-charcoal-upholstery",
+      "aliases": [
+        "charcoal upholstery",
+        "additional 44",
+        "pbr parameter palette"
+      ],
+      "limitations": "Editable Principled color/roughness/metallic/transmission parameter variant, not an independent new shader design. Appearance labels approximate intended material; no measured material calibration. Shell-only colors retained as well as furniture materials. Existing RoomKit graphs are bundled dependencies, not these entries."
+    },
+    "additional-444547-44-v1/clear-polycarbonate": {
+      "category": "materials/scene_palette_variants",
+      "family_id": "material/scene-44-clear-polycarbonate",
+      "aliases": [
+        "clear polycarbonate",
+        "additional 44",
+        "pbr parameter palette"
+      ],
+      "limitations": "Editable Principled color/roughness/metallic/transmission parameter variant, not an independent new shader design. Appearance labels approximate intended material; no measured material calibration. Shell-only colors retained as well as furniture materials. Existing RoomKit graphs are bundled dependencies, not these entries."
+    },
+    "additional-444547-44-v1/dark-stone": {
+      "category": "materials/scene_palette_variants",
+      "family_id": "material/scene-44-dark-stone",
+      "aliases": [
+        "dark stone",
+        "additional 44",
+        "pbr parameter palette"
+      ],
+      "limitations": "Editable Principled color/roughness/metallic/transmission parameter variant, not an independent new shader design. Appearance labels approximate intended material; no measured material calibration. Shell-only colors retained as well as furniture materials. Existing RoomKit graphs are bundled dependencies, not these entries."
+    },
+    "additional-444547-44-v1/glass-approximation": {
+      "category": "materials/scene_palette_variants",
+      "family_id": "material/scene-44-glass-approximation",
+      "aliases": [
+        "glass approximation",
+        "additional 44",
+        "pbr parameter palette"
+      ],
+      "limitations": "Editable Principled color/roughness/metallic/transmission parameter variant, not an independent new shader design. Appearance labels approximate intended material; no measured material calibration. Shell-only colors retained as well as furniture materials. Existing RoomKit graphs are bundled dependencies, not these entries."
+    },
+    "additional-444547-44-v1/mahogany-sideboard": {
+      "category": "materials/scene_palette_variants",
+      "family_id": "material/scene-44-mahogany-sideboard",
+      "aliases": [
+        "mahogany sideboard",
+        "additional 44",
+        "pbr parameter palette"
+      ],
+      "limitations": "Editable Principled color/roughness/metallic/transmission parameter variant, not an independent new shader design. Appearance labels approximate intended material; no measured material calibration. Shell-only colors retained as well as furniture materials. Existing RoomKit graphs are bundled dependencies, not these entries."
+    },
+    "additional-444547-44-v1/picture-ink": {
+      "category": "materials/scene_palette_variants",
+      "family_id": "material/scene-44-picture-ink",
+      "aliases": [
+        "picture ink",
+        "additional 44",
+        "pbr parameter palette"
+      ],
+      "limitations": "Editable Principled color/roughness/metallic/transmission parameter variant, not an independent new shader design. Appearance labels approximate intended material; no measured material calibration. Shell-only colors retained as well as furniture materials. Existing RoomKit graphs are bundled dependencies, not these entries."
+    },
+    "additional-444547-44-v1/silver-platter": {
+      "category": "materials/scene_palette_variants",
+      "family_id": "material/scene-44-silver-platter",
+      "aliases": [
+        "silver platter",
+        "additional 44",
+        "pbr parameter palette"
+      ],
+      "limitations": "Editable Principled color/roughness/metallic/transmission parameter variant, not an independent new shader design. Appearance labels approximate intended material; no measured material calibration. Shell-only colors retained as well as furniture materials. Existing RoomKit graphs are bundled dependencies, not these entries."
+    },
+    "additional-444547-44-v1/warm-grey-wall-paint": {
+      "category": "materials/scene_palette_variants",
+      "family_id": "material/scene-44-warm-grey-wall-paint",
+      "aliases": [
+        "warm grey wall paint",
+        "additional 44",
+        "pbr parameter palette"
+      ],
+      "limitations": "Editable Principled color/roughness/metallic/transmission parameter variant, not an independent new shader design. Appearance labels approximate intended material; no measured material calibration. Shell-only colors retained as well as furniture materials. Existing RoomKit graphs are bundled dependencies, not these entries."
+    },
+    "additional-444547-44-v1/warm-white": {
+      "category": "materials/scene_palette_variants",
+      "family_id": "material/scene-44-warm-white",
+      "aliases": [
+        "warm white",
+        "additional 44",
+        "pbr parameter palette"
+      ],
+      "limitations": "Editable Principled color/roughness/metallic/transmission parameter variant, not an independent new shader design. Appearance labels approximate intended material; no measured material calibration. Shell-only colors retained as well as furniture materials. Existing RoomKit graphs are bundled dependencies, not these entries."
+    },
+    "additional-444547-45-v1/additional-45-lounge-rear-sofa": {
+      "category": "furniture/seating/sofas",
+      "family_id": "additional-45/lounge-rear-sofa",
+      "aliases": [
+        "lounge rear sofa",
+        "additional 45",
+        "source 45"
+      ],
+      "limitations": "Separate editable plinth, platform, upholstery and pillows; source-specific approximate dimensions. Approximate source-derived static asset; no real-person data. See provenance.json. Dimensions use scene-authored approximate metres; source metric scale was not independently calibrated."
+    },
+    "additional-444547-45-v1/additional-45-main-right-sofa": {
+      "category": "furniture/seating/sofas",
+      "family_id": "additional-45/main-right-sofa",
+      "aliases": [
+        "main right sofa",
+        "additional 45",
+        "source 45"
+      ],
+      "limitations": "Separate editable plinth, platform, upholstery and pillows; source-specific approximate dimensions. Approximate source-derived static asset; no real-person data. See provenance.json. Dimensions use scene-authored approximate metres; source metric scale was not independently calibrated."
+    },
+    "additional-444547-45-v1/additional-45-main-right-return": {
+      "category": "furniture/seating/sofas",
+      "family_id": "additional-45/main-right-return",
+      "aliases": [
+        "main right return",
+        "additional 45",
+        "source 45"
+      ],
+      "limitations": "Separate editable plinth, platform, upholstery and pillows; source-specific approximate dimensions. Approximate source-derived static asset; no real-person data. See provenance.json. Dimensions use scene-authored approximate metres; source metric scale was not independently calibrated."
+    },
+    "additional-444547-45-v1/additional-45-central-island-sofa": {
+      "category": "furniture/seating/sofas",
+      "family_id": "additional-45/central-island-sofa",
+      "aliases": [
+        "central island sofa",
+        "additional 45",
+        "source 45"
+      ],
+      "limitations": "Separate editable plinth, platform, upholstery and pillows; source-specific approximate dimensions. Approximate source-derived static asset; no real-person data. See provenance.json. Dimensions use scene-authored approximate metres; source metric scale was not independently calibrated."
+    },
+    "additional-444547-45-v1/additional-45-right-sectional-assembly": {
+      "category": "furniture/seating/sofas",
+      "family_id": "additional-45/right-sectional-assembly",
+      "aliases": [
+        "right sectional assembly",
+        "additional 45",
+        "source 45",
+        "modular l sofa pair",
+        "sectional sofa"
+      ],
+      "limitations": "Detachable modular L sofa pair built from source45 main and return sofas. Modules preserve separate platform, plinth, seats, backs, pillows and arms; exterior backs and15mm junction clearance replace source corner overlap. This portable arrangement is an authored adaptation, not a continuous upholstered corner. Approximate source dimensions; no calibrated scale claim. Dimensions use scene-authored approximate metres; source metric scale was not independently calibrated. Two detachable modules with junction clearance; no continuous upholstered corner."
+    },
+    "additional-444547-45-v1/additional-45-round-brass-side-table": {
+      "category": "furniture/tables",
+      "family_id": "additional-45/round-brass-side-table",
+      "aliases": [
+        "round brass side table",
+        "additional 45",
+        "source 45"
+      ],
+      "limitations": "One of five repeated side tables; vase exported separately. Approximate source-derived static asset; no real-person data. See provenance.json. Portable-copy refinement: Extended pedestal top5mm into tabletop, correcting2.5mm source support gap. Low source-authored support height; inspect actual dimensions before using as a human-scale dining surface. Dimensions use scene-authored approximate metres; source metric scale was not independently calibrated."
+    },
+    "additional-444547-45-v1/additional-45-square-dining-table": {
+      "category": "furniture/tables",
+      "family_id": "additional-45/square-dining-table",
+      "aliases": [
+        "square dining table",
+        "additional 45",
+        "source 45"
+      ],
+      "limitations": "Default square tabletop; one of six repeated unadapted table placements. Approximate source-derived static asset; no real-person data. See provenance.json. Low source-authored support height; inspect actual dimensions before using as a human-scale dining surface. Dimensions use scene-authored approximate metres; source metric scale was not independently calibrated."
+    },
+    "additional-444547-45-v1/additional-45-square-dining-table-wide-support": {
+      "category": "furniture/tables",
+      "family_id": "additional-45/square-dining-table-wide-support",
+      "aliases": [
+        "square dining table wide support",
+        "additional 45",
+        "source 45"
+      ],
+      "limitations": "Wide-support variant has source final leg offsets +/-0.46 m. Approximate source-derived static asset; no real-person data. See provenance.json. Low source-authored support height; inspect actual dimensions before using as a human-scale dining surface. Dimensions use scene-authored approximate metres; source metric scale was not independently calibrated."
+    },
+    "additional-444547-45-v1/additional-45-occupied-walnut-lounge-chair": {
+      "seating_type": "lounge",
+      "category": "furniture/seating/chairs",
+      "family_id": "additional-45/occupied-walnut-lounge-chair",
+      "aliases": [
+        "occupied walnut lounge chair",
+        "additional 45",
+        "source 45",
+        "chair",
+        "seat"
+      ],
+      "limitations": "Adapted roomkit-v1/chair-walnut-lounge: width x1.15 on uniform .62 scale, cushion +.012 m, lumbar pillow removed. Scale baked into editable mesh. Approximate source-derived static asset; no real-person data. See provenance.json. Quality refinement: Added two walnut rear support slats within the original envelope. Authored approximate dimensions; see assets/quality_review.json for tested scope."
+    },
+    "additional-444547-45-v1/additional-45-tall-porcelain-vase": {
+      "category": "decor/vases",
+      "family_id": "additional-45/tall-porcelain-vase",
+      "aliases": [
+        "tall porcelain vase",
+        "additional 45",
+        "source 45"
+      ],
+      "limitations": "Rebuilt capped solid porcelain cylinder as a sealed hollow vessel with 128 radial segments. Retained measured rounded outer silhouette and ceramic material; authored 4 mm radial wall and 7 mm base. Source-derived or authored approximation; no physics certification. Authored approximate dimensions; see assets/quality_review.json for tested scope."
+    },
+    "additional-444547-45-v1/additional-45-small-porcelain-vase": {
+      "category": "decor/vases",
+      "family_id": "additional-45/small-porcelain-vase",
+      "aliases": [
+        "small porcelain vase",
+        "additional 45",
+        "source 45"
+      ],
+      "limitations": "Rebuilt capped solid porcelain cylinder as a sealed hollow vessel with 128 radial segments. Retained measured rounded outer silhouette and ceramic material; authored 3 mm radial wall and 7 mm base. Source-derived or authored approximation; no physics certification. Authored approximate dimensions; see assets/quality_review.json for tested scope."
+    },
+    "additional-444547-45-v1/additional-45-folded-linen-napkin": {
+      "category": "decor/tableware",
+      "family_id": "additional-45/folded-linen-napkin",
+      "aliases": [
+        "folded linen napkin",
+        "additional 45",
+        "source 45"
+      ],
+      "limitations": "Replaced one thick box with four fitted linen layers, rolled edges and subtle surface undulation; preserved tabletop footprint and support plane. Static folded textile geometry; no cloth solver or cloth simulation claim. Authored approximate dimensions; see assets/quality_review.json for tested scope."
+    },
+    "additional-444547-45-v1/additional-45-abstract-wall-panel": {
+      "category": "decor/wall_art",
+      "family_id": "additional-45/abstract-wall-panel",
+      "aliases": [
+        "abstract wall panel",
+        "additional 45",
+        "source 45"
+      ],
+      "limitations": "Editable shallow geometric pigment panels; no reference image texture. Approximate source-derived static asset; no real-person data. See provenance.json. Blank/abstract authored geometry, not recovered source imagery; no reflective mirror surface. Dimensions use scene-authored approximate metres; source metric scale was not independently calibrated."
+    },
+    "additional-444547-45-v1/additional-45-six-candle-group": {
+      "category": "decor/candles",
+      "family_id": "additional-45/six-candle-group",
+      "aliases": [
+        "six candle group",
+        "additional 45",
+        "source 45"
+      ],
+      "limitations": "Replaced solid block candles with round wax bodies, dished wax tops and six cotton wicks. Grounded all six candle bases at the group support plane; preserved each original candle height and overall group envelope. Assigned wax and wick materials instead of linen upholstery. Authored approximate dimensions; see assets/quality_review.json for tested scope."
+    },
+    "additional-444547-45-v1/additional-45-staff-counter-block": {
+      "category": "furniture/storage",
+      "family_id": "additional-45/staff-counter-block",
+      "aliases": [
+        "staff counter block",
+        "additional 45",
+        "source 45"
+      ],
+      "limitations": "Minimal freestanding counter block proxy; no hidden service fittings or operative cabinet doors. Approximate source-derived static asset; no real-person data. See provenance.json. Static solid facade, no opening drawers, doors or hidden interior mechanism. Dimensions use scene-authored approximate metres; source metric scale was not independently calibrated."
+    },
+    "additional-444547-45-v1/additional-45-lounge-window-frame": {
+      "category": "architecture/windows",
+      "family_id": "additional-45/lounge-window-frame",
+      "aliases": [
+        "lounge window frame",
+        "additional 45",
+        "source 45"
+      ],
+      "limitations": "Source standalone opening trim assembly; no glass, hinges, wall or outdoor scenery. Mount origin at bounding center. Approximate source-derived static asset; no real-person data. See provenance.json. Dimensions use scene-authored approximate metres; source metric scale was not independently calibrated."
+    },
+    "additional-444547-45-v1/aged-brass": {
+      "category": "materials/scene_palette_variants",
+      "family_id": "material/scene-45-aged-brass",
+      "aliases": [
+        "aged brass",
+        "additional 45",
+        "pbr parameter palette"
+      ],
+      "limitations": "Editable Principled color/roughness/metallic/transmission parameter variant, not an independent new shader design. Appearance labels approximate intended material; no measured material calibration. Shell-only colors retained as well as furniture materials. Existing RoomKit graphs are bundled dependencies, not these entries."
+    },
+    "additional-444547-45-v1/artwork-pigment-0": {
+      "category": "materials/scene_palette_variants",
+      "family_id": "material/scene-45-artwork-pigment-0",
+      "aliases": [
+        "artwork pigment 0",
+        "additional 45",
+        "pbr parameter palette"
+      ],
+      "limitations": "Editable Principled color/roughness/metallic/transmission parameter variant, not an independent new shader design. Appearance labels approximate intended material; no measured material calibration. Shell-only colors retained as well as furniture materials. Existing RoomKit graphs are bundled dependencies, not these entries."
+    },
+    "additional-444547-45-v1/artwork-pigment-1": {
+      "category": "materials/scene_palette_variants",
+      "family_id": "material/scene-45-artwork-pigment-1",
+      "aliases": [
+        "artwork pigment 1",
+        "additional 45",
+        "pbr parameter palette"
+      ],
+      "limitations": "Editable Principled color/roughness/metallic/transmission parameter variant, not an independent new shader design. Appearance labels approximate intended material; no measured material calibration. Shell-only colors retained as well as furniture materials. Existing RoomKit graphs are bundled dependencies, not these entries."
+    },
+    "additional-444547-45-v1/artwork-pigment-2": {
+      "category": "materials/scene_palette_variants",
+      "family_id": "material/scene-45-artwork-pigment-2",
+      "aliases": [
+        "artwork pigment 2",
+        "additional 45",
+        "pbr parameter palette"
+      ],
+      "limitations": "Editable Principled color/roughness/metallic/transmission parameter variant, not an independent new shader design. Appearance labels approximate intended material; no measured material calibration. Shell-only colors retained as well as furniture materials. Existing RoomKit graphs are bundled dependencies, not these entries."
+    },
+    "additional-444547-45-v1/dark-bronze": {
+      "category": "materials/scene_palette_variants",
+      "family_id": "material/scene-45-dark-bronze",
+      "aliases": [
+        "dark bronze",
+        "additional 45",
+        "pbr parameter palette"
+      ],
+      "limitations": "Editable Principled color/roughness/metallic/transmission parameter variant, not an independent new shader design. Appearance labels approximate intended material; no measured material calibration. Shell-only colors retained as well as furniture materials. Existing RoomKit graphs are bundled dependencies, not these entries."
+    },
+    "additional-444547-45-v1/honed-limestone": {
+      "category": "materials/scene_palette_variants",
+      "family_id": "material/scene-45-honed-limestone",
+      "aliases": [
+        "honed limestone",
+        "additional 45",
+        "pbr parameter palette"
+      ],
+      "limitations": "Editable Principled color/roughness/metallic/transmission parameter variant, not an independent new shader design. Appearance labels approximate intended material; no measured material calibration. Shell-only colors retained as well as furniture materials. Existing RoomKit graphs are bundled dependencies, not these entries."
+    },
+    "additional-444547-45-v1/navy-upholstery": {
+      "category": "materials/scene_palette_variants",
+      "family_id": "material/scene-45-navy-upholstery",
+      "aliases": [
+        "navy upholstery",
+        "additional 45",
+        "pbr parameter palette"
+      ],
+      "limitations": "Editable Principled color/roughness/metallic/transmission parameter variant, not an independent new shader design. Appearance labels approximate intended material; no measured material calibration. Shell-only colors retained as well as furniture materials. Existing RoomKit graphs are bundled dependencies, not these entries."
+    },
+    "additional-444547-45-v1/pale-woven-linen": {
+      "category": "materials/scene_palette_variants",
+      "family_id": "material/scene-45-pale-woven-linen",
+      "aliases": [
+        "pale woven linen",
+        "additional 45",
+        "pbr parameter palette"
+      ],
+      "limitations": "Editable Principled color/roughness/metallic/transmission parameter variant, not an independent new shader design. Appearance labels approximate intended material; no measured material calibration. Shell-only colors retained as well as furniture materials. Existing RoomKit graphs are bundled dependencies, not these entries."
+    },
+    "additional-444547-45-v1/porcelain": {
+      "category": "materials/scene_palette_variants",
+      "family_id": "material/scene-45-porcelain",
+      "aliases": [
+        "porcelain",
+        "additional 45",
+        "pbr parameter palette"
+      ],
+      "limitations": "Editable Principled color/roughness/metallic/transmission parameter variant, not an independent new shader design. Appearance labels approximate intended material; no measured material calibration. Shell-only colors retained as well as furniture materials. Existing RoomKit graphs are bundled dependencies, not these entries."
+    },
+    "additional-444547-45-v1/walnut": {
+      "category": "materials/scene_palette_variants",
+      "family_id": "material/scene-45-walnut",
+      "aliases": [
+        "walnut",
+        "additional 45",
+        "pbr parameter palette"
+      ],
+      "limitations": "Editable Principled color/roughness/metallic/transmission parameter variant, not an independent new shader design. Appearance labels approximate intended material; no measured material calibration. Shell-only colors retained as well as furniture materials. Existing RoomKit graphs are bundled dependencies, not these entries."
+    },
+    "additional-444547-45-v1/warm-pale-concrete": {
+      "category": "materials/scene_palette_variants",
+      "family_id": "material/scene-45-warm-pale-concrete",
+      "aliases": [
+        "warm pale concrete",
+        "additional 45",
+        "pbr parameter palette"
+      ],
+      "limitations": "Editable Principled color/roughness/metallic/transmission parameter variant, not an independent new shader design. Appearance labels approximate intended material; no measured material calibration. Shell-only colors retained as well as furniture materials. Existing RoomKit graphs are bundled dependencies, not these entries."
+    },
+    "additional-444547-47-v1/additional-47-four-poster-bed": {
+      "category": "furniture/beds",
+      "family_id": "additional-47/four-poster-bed",
+      "aliases": [
+        "four poster bed",
+        "additional 47",
+        "source 47"
+      ],
+      "limitations": "Static source-specific editable approximation; dimensions are authored, not calibrated measurements. Approximate source-derived static asset; no real-person data. See provenance.json. Dimensions use scene-authored approximate metres; source metric scale was not independently calibrated."
+    },
+    "additional-444547-47-v1/additional-47-foot-desk": {
+      "category": "furniture/tables",
+      "family_id": "additional-47/foot-desk",
+      "aliases": [
+        "foot desk",
+        "additional 47",
+        "source 47"
+      ],
+      "limitations": "Static source-specific editable approximation; dimensions are authored, not calibrated measurements. Approximate source-derived static asset; no real-person data. See provenance.json. Dimensions use scene-authored approximate metres; source metric scale was not independently calibrated."
+    },
+    "additional-444547-47-v1/additional-47-six-drawer-dresser": {
+      "category": "furniture/storage",
+      "family_id": "additional-47/six-drawer-dresser",
+      "aliases": [
+        "six drawer dresser",
+        "additional 47",
+        "source 47"
+      ],
+      "limitations": "Static source-specific editable approximation; dimensions are authored, not calibrated measurements. Approximate source-derived static asset; no real-person data. See provenance.json. Static solid facade, no opening drawers, doors or hidden interior mechanism. Dimensions use scene-authored approximate metres; source metric scale was not independently calibrated."
+    },
+    "additional-444547-47-v1/additional-47-low-back-chaise": {
+      "category": "furniture/seating/daybeds",
+      "family_id": "additional-47/low-back-chaise",
+      "aliases": [
+        "low back chaise",
+        "additional 47",
+        "source 47"
+      ],
+      "limitations": "Static source-specific editable approximation; dimensions are authored, not calibrated measurements. Approximate source-derived static asset; no real-person data. See provenance.json. Dimensions use scene-authored approximate metres; source metric scale was not independently calibrated."
+    },
+    "additional-444547-47-v1/additional-47-walnut-bedside-table": {
+      "category": "furniture/tables",
+      "family_id": "additional-47/walnut-bedside-table",
+      "aliases": [
+        "walnut bedside table",
+        "additional 47",
+        "source 47"
+      ],
+      "limitations": "Static source-specific editable approximation; dimensions are authored, not calibrated measurements. Approximate source-derived static asset; no real-person data. See provenance.json. Dimensions use scene-authored approximate metres; source metric scale was not independently calibrated."
+    },
+    "additional-444547-47-v1/additional-47-brass-linen-table-lamp": {
+      "category": "lighting/fixtures",
+      "family_id": "additional-47/brass-linen-table-lamp",
+      "aliases": [
+        "brass linen table lamp",
+        "additional 47",
+        "source 47"
+      ],
+      "limitations": "Rebuilt lampshade as a 1.6 mm open tapered shell with visible inner wall and edge rings. Added three internal brass supports and a frosted bulb, preserving lamp height, base, stem and material appearance. No photometric lighting calibration. Authored approximate dimensions; see assets/quality_review.json for tested scope."
+    },
+    "additional-444547-47-v1/additional-47-framed-portrait-panel": {
+      "category": "decor/wall_art",
+      "family_id": "additional-47/framed-portrait-panel",
+      "aliases": [
+        "framed portrait panel",
+        "additional 47",
+        "source 47"
+      ],
+      "limitations": "Static source-specific editable approximation; dimensions are authored, not calibrated measurements. Source name mirror is only a matte framed panel, no reflective glass. Approximate source-derived static asset; no real-person data. See provenance.json. Blank/abstract authored geometry, not recovered source imagery; no reflective mirror surface. Dimensions use scene-authored approximate metres; source metric scale was not independently calibrated."
+    },
+    "additional-444547-47-v1/additional-47-small-gallery-panel": {
+      "category": "decor/wall_art",
+      "family_id": "additional-47/small-gallery-panel",
+      "aliases": [
+        "small gallery panel",
+        "additional 47",
+        "source 47"
+      ],
+      "limitations": "Static source-specific editable approximation; dimensions are authored, not calibrated measurements. Approximate source-derived static asset; no real-person data. See provenance.json. Blank/abstract authored geometry, not recovered source imagery; no reflective mirror surface. Dimensions use scene-authored approximate metres; source metric scale was not independently calibrated."
+    },
+    "additional-444547-47-v1/additional-47-landscape-wall-panel": {
+      "category": "decor/wall_art",
+      "family_id": "additional-47/landscape-wall-panel",
+      "aliases": [
+        "landscape wall panel",
+        "additional 47",
+        "source 47"
+      ],
+      "limitations": "Static source-specific editable approximation; dimensions are authored, not calibrated measurements. Approximate source-derived static asset; no real-person data. See provenance.json. Blank/abstract authored geometry, not recovered source imagery; no reflective mirror surface. Dimensions use scene-authored approximate metres; source metric scale was not independently calibrated."
+    },
+    "additional-444547-47-v1/additional-47-bedroom-window-casing": {
+      "category": "architecture/windows",
+      "family_id": "additional-47/bedroom-window-casing",
+      "aliases": [
+        "bedroom window casing",
+        "additional 47",
+        "source 47"
+      ],
+      "limitations": "One of two repeated divided window frames; blue view card omitted as scenery. Origin normalized to assembly mount center. Approximate source-derived static asset; no real-person data. See provenance.json. Dimensions use scene-authored approximate metres; source metric scale was not independently calibrated."
+    },
+    "additional-444547-47-v1/additional-47-banded-linen-curtain-pair": {
+      "category": "decor/curtains",
+      "family_id": "additional-47/banded-linen-curtain-pair",
+      "aliases": [
+        "banded linen curtain pair",
+        "additional 47",
+        "source 47"
+      ],
+      "limitations": "Replaced two 100 mm solid slabs with thin pleated linen sheets and native mesh thickness. Integrated the four taupe bands per curtain as material regions on the cloth; removed detached band boxes. Gathered cloth into the rod contact at the top; retained mount origin, rod and lower hem height. Static authored folds; no cloth simulation validation. Authored approximate dimensions; see assets/quality_review.json for tested scope."
+    },
+    "additional-444547-47-v1/aged-brass": {
+      "category": "materials/scene_palette_variants",
+      "family_id": "material/scene-47-aged-brass",
+      "aliases": [
+        "aged brass",
+        "additional 47",
+        "pbr parameter palette"
+      ],
+      "limitations": "Editable Principled color/roughness/metallic/transmission parameter variant, not an independent new shader design. Appearance labels approximate intended material; no measured material calibration. Shell-only colors retained as well as furniture materials. Existing RoomKit graphs are bundled dependencies, not these entries."
+    },
+    "additional-444547-47-v1/ivory-linen": {
+      "category": "materials/scene_palette_variants",
+      "family_id": "material/scene-47-ivory-linen",
+      "aliases": [
+        "ivory linen",
+        "additional 47",
+        "pbr parameter palette"
+      ],
+      "limitations": "Editable Principled color/roughness/metallic/transmission parameter variant, not an independent new shader design. Appearance labels approximate intended material; no measured material calibration. Shell-only colors retained as well as furniture materials. Existing RoomKit graphs are bundled dependencies, not these entries."
+    },
+    "additional-444547-47-v1/ivory-trim": {
+      "category": "materials/scene_palette_variants",
+      "family_id": "material/scene-47-ivory-trim",
+      "aliases": [
+        "ivory trim",
+        "additional 47",
+        "pbr parameter palette"
+      ],
+      "limitations": "Editable Principled color/roughness/metallic/transmission parameter variant, not an independent new shader design. Appearance labels approximate intended material; no measured material calibration. Shell-only colors retained as well as furniture materials. Existing RoomKit graphs are bundled dependencies, not these entries."
+    },
+    "additional-444547-47-v1/muted-landscape-artwork": {
+      "category": "materials/scene_palette_variants",
+      "family_id": "material/scene-47-muted-landscape-artwork",
+      "aliases": [
+        "muted landscape artwork",
+        "additional 47",
+        "pbr parameter palette"
+      ],
+      "limitations": "Editable Principled color/roughness/metallic/transmission parameter variant, not an independent new shader design. Appearance labels approximate intended material; no measured material calibration. Shell-only colors retained as well as furniture materials. Existing RoomKit graphs are bundled dependencies, not these entries."
+    },
+    "additional-444547-47-v1/pale-wool-carpet": {
+      "category": "materials/scene_palette_variants",
+      "family_id": "material/scene-47-pale-wool-carpet",
+      "aliases": [
+        "pale wool carpet",
+        "additional 47",
+        "pbr parameter palette"
+      ],
+      "limitations": "Editable Principled color/roughness/metallic/transmission parameter variant, not an independent new shader design. Appearance labels approximate intended material; no measured material calibration. Shell-only colors retained as well as furniture materials. Existing RoomKit graphs are bundled dependencies, not these entries."
+    },
+    "additional-444547-47-v1/soft-blue-window-view": {
+      "category": "materials/scene_palette_variants",
+      "family_id": "material/scene-47-soft-blue-window-view",
+      "aliases": [
+        "soft blue window view",
+        "additional 47",
+        "pbr parameter palette"
+      ],
+      "limitations": "Editable Principled color/roughness/metallic/transmission parameter variant, not an independent new shader design. Appearance labels approximate intended material; no measured material calibration. Shell-only colors retained as well as furniture materials. Existing RoomKit graphs are bundled dependencies, not these entries."
+    },
+    "tabletop-plants-v1/plant-compact-fern": {
+      "category": "decor/plants",
+      "family_id": "plant/compact-fern",
+      "aliases": [
+        "fern",
+        "tabletop fern",
+        "\u8568\u7c7b",
+        "\u684c\u9762\u76c6\u683d"
+      ],
+      "limitations": "Welded duplicated axis poles in vessel and substrate meshes, closing false boundary loops and restoring valid solid topology. Preserved authored ribbed bowl/pot shape, all foliage, materials and geometry positions. Source-derived or authored approximation; no physics certification. Authored approximate dimensions; see assets/quality_review.json for tested scope."
+    },
+    "tabletop-plants-v1/flowers-pink-hydrangea-bowl": {
+      "category": "decor/plants",
+      "family_id": "flowers/hydrangea-bowl",
+      "aliases": [
+        "hydrangea",
+        "flower arrangement",
+        "\u7ee3\u7403",
+        "\u82b1\u675f"
+      ],
+      "limitations": "Welded duplicated axis poles in vessel and substrate meshes, closing false boundary loops and restoring valid solid topology. Preserved authored ribbed bowl/pot shape, all foliage, materials and geometry positions. Source-derived or authored approximation; no physics certification. Authored approximate dimensions; see assets/quality_review.json for tested scope."
+    }
+  },
+  "source_groups": [
+    {
+      "path": "src/aha3d/blender/roomkit.py",
+      "scope": "Shared Blender helper module; code signatures are indexed without importing bpy.",
+      "entries": [
+        {
+          "id": "generator/roomkit-cabinet",
+          "name": "Configurable operable cabinet",
+          "kind": "generator",
+          "status": "callable",
+          "category": "generators/furniture",
+          "family_id": "cabinet/parametric",
+          "aliases": [
+            "cabinet",
+            "cupboard",
+            "drawers",
+            "modular",
+            "shelves"
+          ],
+          "anchor": "def cabinet(",
+          "description": "Operable cabinet generator: explicit layouts support weighted columns/sections, variable drawer counts/heights, single/double doors, shelves and interior dividers. Omitting layout preserves the original two-door/one-drawer interface.",
+          "reuse": {
+            "method": "python_function",
+            "symbol": "aha3d.blender.roomkit.cabinet",
+            "parameters": [
+              "name",
+              "location",
+              "size",
+              "material",
+              "interior",
+              "layout",
+              "instance_id"
+            ],
+            "limitations": "Blender runtime; metres, local -Y front, floor Z=0. Each size component must be at least 0.2 m. Inspect clearance when animating."
+          }
+        },
+        {
+          "id": "generator/roomkit-box",
+          "name": "Beveled box",
+          "kind": "generator",
+          "status": "callable",
+          "category": "generators/primitives",
+          "family_id": "primitive/box",
+          "aliases": [
+            "cube",
+            "block"
+          ],
+          "anchor": "def box(",
+          "description": "Box generator with explicit dimensions, material, target collection and edge radius.",
+          "reuse": {
+            "method": "python_function",
+            "symbol": "aha3d.blender.roomkit.box",
+            "parameters": [
+              "name",
+              "location",
+              "dimensions",
+              "material",
+              "target",
+              "edge"
+            ],
+            "limitations": "Blender runtime; a primitive helper, not a complete furniture asset."
+          }
+        },
+        {
+          "id": "utility/roomkit-import-collection",
+          "name": "Append and place collection",
+          "kind": "utility",
+          "status": "callable",
+          "category": "utilities/assets",
+          "family_id": "utility/collection-import",
+          "aliases": [
+            "import",
+            "append",
+            "instance"
+          ],
+          "anchor": "def import_collection(",
+          "description": "Append a named collection and place an instance with location, Z rotation and scale.",
+          "reuse": {
+            "method": "python_function",
+            "symbol": "aha3d.blender.roomkit.import_collection",
+            "parameters": [
+              "library",
+              "name",
+              "location",
+              "rotation",
+              "scale"
+            ],
+            "limitations": "Blender runtime. Rotation uses degrees. Repeated instances share mesh data; copy it for unique geometry variants."
+          }
+        },
+        {
+          "id": "utility/roomkit-rig-parts",
+          "name": "Hinge or slide existing parts",
+          "kind": "utility",
+          "status": "callable",
+          "category": "utilities/animation",
+          "family_id": "utility/hinge-slide",
+          "aliases": [
+            "door",
+            "drawer",
+            "pivot"
+          ],
+          "anchor": "def rig_parts(",
+          "description": "Group moving geometry around a physical pivot with an Open-property driver.",
+          "reuse": {
+            "method": "python_function",
+            "symbol": "aha3d.blender.roomkit.rig_parts",
+            "parameters": [
+              "parts",
+              "pivot",
+              "name",
+              "axis",
+              "angle_degrees",
+              "travel_m"
+            ],
+            "limitations": "Blender runtime; requires actual separate moving objects and a correctly chosen pivot."
+          }
+        }
+      ]
+    }
+  ]
+}

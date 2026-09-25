@@ -1,0 +1,1084 @@
+[
+  {
+    "name": "Artwork classical vase silhouette",
+    "status": "exported_geometry",
+    "source_root": "Artwork classical vase silhouette",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-classical-vase-wall-panel"
+    ]
+  },
+  {
+    "name": "Artwork classical vase silhouette.001",
+    "status": "repeated_instance_reference",
+    "source_root": "Artwork classical vase silhouette.001",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-classical-vase-wall-panel"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "RK Chair - Open Frame Dining geometry",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Open Frame Dining slot",
+    "asset_id": "dining-chair-v1/chair-open-frame-dining",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "RK Chair - Open Frame Dining | placement root.001",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Open Frame Dining slot",
+    "asset_id": "dining-chair-v1/chair-open-frame-dining",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Dining near chair 1 arm.001",
+    "status": "exported_geometry",
+    "source_root": "RK Chair - Open Frame Dining slot",
+    "asset_id": "dining-chair-v1/chair-open-frame-dining",
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-upholstered-open-frame-chair"
+    ]
+  },
+  {
+    "name": "Dining near chair 1 arm support.001",
+    "status": "exported_geometry",
+    "source_root": "RK Chair - Open Frame Dining slot",
+    "asset_id": "dining-chair-v1/chair-open-frame-dining",
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-upholstered-open-frame-chair"
+    ]
+  },
+  {
+    "name": "Dining near chair 1 arm support.004",
+    "status": "exported_geometry",
+    "source_root": "RK Chair - Open Frame Dining slot",
+    "asset_id": "dining-chair-v1/chair-open-frame-dining",
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-upholstered-open-frame-chair"
+    ]
+  },
+  {
+    "name": "Dining near chair 1 arm.004",
+    "status": "exported_geometry",
+    "source_root": "RK Chair - Open Frame Dining slot",
+    "asset_id": "dining-chair-v1/chair-open-frame-dining",
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-upholstered-open-frame-chair"
+    ]
+  },
+  {
+    "name": "Dining near chair 1 back frame.002",
+    "status": "exported_geometry",
+    "source_root": "RK Chair - Open Frame Dining slot",
+    "asset_id": "dining-chair-v1/chair-open-frame-dining",
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-upholstered-open-frame-chair"
+    ]
+  },
+  {
+    "name": "Dining near chair 1 cane back panel.002",
+    "status": "source_geometry_replaced_in_asset_copy",
+    "source_root": "RK Chair - Open Frame Dining slot",
+    "asset_id": "dining-chair-v1/chair-open-frame-dining",
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-upholstered-open-frame-chair"
+    ],
+    "note": "Original cane infill/slats replaced by fitted supported upholstery in portable chair; see refinements.json. Original scene is unchanged."
+  },
+  {
+    "name": "Dining near chair 1 cane vertical slat.001",
+    "status": "source_geometry_replaced_in_asset_copy",
+    "source_root": "RK Chair - Open Frame Dining slot",
+    "asset_id": "dining-chair-v1/chair-open-frame-dining",
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-upholstered-open-frame-chair"
+    ],
+    "note": "Original cane infill/slats replaced by fitted supported upholstery in portable chair; see refinements.json. Original scene is unchanged."
+  },
+  {
+    "name": "Dining near chair 1 cane vertical slat.002",
+    "status": "source_geometry_replaced_in_asset_copy",
+    "source_root": "RK Chair - Open Frame Dining slot",
+    "asset_id": "dining-chair-v1/chair-open-frame-dining",
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-upholstered-open-frame-chair"
+    ],
+    "note": "Original cane infill/slats replaced by fitted supported upholstery in portable chair; see refinements.json. Original scene is unchanged."
+  },
+  {
+    "name": "Dining near chair 1 cane vertical slat.003",
+    "status": "source_geometry_replaced_in_asset_copy",
+    "source_root": "RK Chair - Open Frame Dining slot",
+    "asset_id": "dining-chair-v1/chair-open-frame-dining",
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-upholstered-open-frame-chair"
+    ],
+    "note": "Original cane infill/slats replaced by fitted supported upholstery in portable chair; see refinements.json. Original scene is unchanged."
+  },
+  {
+    "name": "Dining near chair 1 cane vertical slat.004",
+    "status": "source_geometry_replaced_in_asset_copy",
+    "source_root": "RK Chair - Open Frame Dining slot",
+    "asset_id": "dining-chair-v1/chair-open-frame-dining",
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-upholstered-open-frame-chair"
+    ],
+    "note": "Original cane infill/slats replaced by fitted supported upholstery in portable chair; see refinements.json. Original scene is unchanged."
+  },
+  {
+    "name": "Dining near chair 1 cane vertical slat.005",
+    "status": "source_geometry_replaced_in_asset_copy",
+    "source_root": "RK Chair - Open Frame Dining slot",
+    "asset_id": "dining-chair-v1/chair-open-frame-dining",
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-upholstered-open-frame-chair"
+    ],
+    "note": "Original cane infill/slats replaced by fitted supported upholstery in portable chair; see refinements.json. Original scene is unchanged."
+  },
+  {
+    "name": "Dining near chair 1 cane vertical slat.006",
+    "status": "source_geometry_replaced_in_asset_copy",
+    "source_root": "RK Chair - Open Frame Dining slot",
+    "asset_id": "dining-chair-v1/chair-open-frame-dining",
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-upholstered-open-frame-chair"
+    ],
+    "note": "Original cane infill/slats replaced by fitted supported upholstery in portable chair; see refinements.json. Original scene is unchanged."
+  },
+  {
+    "name": "Dining near chair 1 cane vertical slat.007",
+    "status": "source_geometry_replaced_in_asset_copy",
+    "source_root": "RK Chair - Open Frame Dining slot",
+    "asset_id": "dining-chair-v1/chair-open-frame-dining",
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-upholstered-open-frame-chair"
+    ],
+    "note": "Original cane infill/slats replaced by fitted supported upholstery in portable chair; see refinements.json. Original scene is unchanged."
+  },
+  {
+    "name": "Dining near chair 1 cane vertical slat.008",
+    "status": "source_geometry_replaced_in_asset_copy",
+    "source_root": "RK Chair - Open Frame Dining slot",
+    "asset_id": "dining-chair-v1/chair-open-frame-dining",
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-upholstered-open-frame-chair"
+    ],
+    "note": "Original cane infill/slats replaced by fitted supported upholstery in portable chair; see refinements.json. Original scene is unchanged."
+  },
+  {
+    "name": "Dining near chair 1 cane vertical slat.009",
+    "status": "source_geometry_replaced_in_asset_copy",
+    "source_root": "RK Chair - Open Frame Dining slot",
+    "asset_id": "dining-chair-v1/chair-open-frame-dining",
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-upholstered-open-frame-chair"
+    ],
+    "note": "Original cane infill/slats replaced by fitted supported upholstery in portable chair; see refinements.json. Original scene is unchanged."
+  },
+  {
+    "name": "Dining near chair 1 cane vertical slat.010",
+    "status": "source_geometry_replaced_in_asset_copy",
+    "source_root": "RK Chair - Open Frame Dining slot",
+    "asset_id": "dining-chair-v1/chair-open-frame-dining",
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-upholstered-open-frame-chair"
+    ],
+    "note": "Original cane infill/slats replaced by fitted supported upholstery in portable chair; see refinements.json. Original scene is unchanged."
+  },
+  {
+    "name": "Dining near chair 1 cane vertical slat.011",
+    "status": "source_geometry_replaced_in_asset_copy",
+    "source_root": "RK Chair - Open Frame Dining slot",
+    "asset_id": "dining-chair-v1/chair-open-frame-dining",
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-upholstered-open-frame-chair"
+    ],
+    "note": "Original cane infill/slats replaced by fitted supported upholstery in portable chair; see refinements.json. Original scene is unchanged."
+  },
+  {
+    "name": "Dining near chair 1 cane vertical slat.024",
+    "status": "source_geometry_replaced_in_asset_copy",
+    "source_root": "RK Chair - Open Frame Dining slot",
+    "asset_id": "dining-chair-v1/chair-open-frame-dining",
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-upholstered-open-frame-chair"
+    ],
+    "note": "Original cane infill/slats replaced by fitted supported upholstery in portable chair; see refinements.json. Original scene is unchanged."
+  },
+  {
+    "name": "Dining near chair 1 leg.001",
+    "status": "exported_geometry",
+    "source_root": "RK Chair - Open Frame Dining slot",
+    "asset_id": "dining-chair-v1/chair-open-frame-dining",
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-upholstered-open-frame-chair"
+    ]
+  },
+  {
+    "name": "Dining near chair 1 leg.002",
+    "status": "exported_geometry",
+    "source_root": "RK Chair - Open Frame Dining slot",
+    "asset_id": "dining-chair-v1/chair-open-frame-dining",
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-upholstered-open-frame-chair"
+    ]
+  },
+  {
+    "name": "Dining near chair 1 leg.003",
+    "status": "exported_geometry",
+    "source_root": "RK Chair - Open Frame Dining slot",
+    "asset_id": "dining-chair-v1/chair-open-frame-dining",
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-upholstered-open-frame-chair"
+    ]
+  },
+  {
+    "name": "Dining near chair 1 leg.008",
+    "status": "exported_geometry",
+    "source_root": "RK Chair - Open Frame Dining slot",
+    "asset_id": "dining-chair-v1/chair-open-frame-dining",
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-upholstered-open-frame-chair"
+    ]
+  },
+  {
+    "name": "Dining near chair 1 seat.002",
+    "status": "exported_geometry",
+    "source_root": "RK Chair - Open Frame Dining slot",
+    "asset_id": "dining-chair-v1/chair-open-frame-dining",
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-upholstered-open-frame-chair"
+    ]
+  },
+  {
+    "name": "RK Chair - Open Frame Dining slot",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "RK Chair - Open Frame Dining slot",
+    "asset_id": "dining-chair-v1/chair-open-frame-dining",
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Front softbox",
+    "status": "scene_camera_or_light_excluded",
+    "source_root": "Front softbox",
+    "asset_id": null
+  },
+  {
+    "name": "Ceiling softbox",
+    "status": "scene_camera_or_light_excluded",
+    "source_root": "Ceiling softbox",
+    "asset_id": null
+  },
+  {
+    "name": "Workflow reference camera",
+    "status": "scene_camera_or_light_excluded",
+    "source_root": "Workflow reference camera",
+    "asset_id": null
+  },
+  {
+    "name": "Workflow reference camera.001",
+    "status": "scene_camera_or_light_excluded",
+    "source_root": "Workflow reference camera.001",
+    "asset_id": null
+  },
+  {
+    "name": "Platter rigid motion",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Platter rigid motion",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Floor",
+    "status": "room_recipe_excluded",
+    "source_root": "Floor",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Paneled rear wall",
+    "status": "room_recipe_excluded",
+    "source_root": "Paneled rear wall",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Continuous wall molding",
+    "status": "room_recipe_excluded",
+    "source_root": "Continuous wall molding",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Continuous wall molding.001",
+    "status": "room_recipe_excluded",
+    "source_root": "Continuous wall molding.001",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Continuous wall molding.002",
+    "status": "room_recipe_excluded",
+    "source_root": "Continuous wall molding.002",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Continuous wall molding.003",
+    "status": "room_recipe_excluded",
+    "source_root": "Continuous wall molding.003",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Panel upright",
+    "status": "room_recipe_excluded",
+    "source_root": "Panel upright",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Panel lower upright",
+    "status": "room_recipe_excluded",
+    "source_root": "Panel lower upright",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Panel upright.001",
+    "status": "room_recipe_excluded",
+    "source_root": "Panel upright.001",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Panel lower upright.001",
+    "status": "room_recipe_excluded",
+    "source_root": "Panel lower upright.001",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Panel upright.002",
+    "status": "room_recipe_excluded",
+    "source_root": "Panel upright.002",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Panel lower upright.002",
+    "status": "room_recipe_excluded",
+    "source_root": "Panel lower upright.002",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Panel upright.003",
+    "status": "room_recipe_excluded",
+    "source_root": "Panel upright.003",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Panel lower upright.003",
+    "status": "room_recipe_excluded",
+    "source_root": "Panel lower upright.003",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Panel upright.004",
+    "status": "room_recipe_excluded",
+    "source_root": "Panel upright.004",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Panel lower upright.004",
+    "status": "room_recipe_excluded",
+    "source_root": "Panel lower upright.004",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Panel upright.005",
+    "status": "room_recipe_excluded",
+    "source_root": "Panel upright.005",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Panel lower upright.005",
+    "status": "room_recipe_excluded",
+    "source_root": "Panel lower upright.005",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Panel upright.006",
+    "status": "room_recipe_excluded",
+    "source_root": "Panel upright.006",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Panel lower upright.006",
+    "status": "room_recipe_excluded",
+    "source_root": "Panel lower upright.006",
+    "asset_id": null,
+    "note": "Scene-sized shell/opening/molding or scenery card, not a self-contained portable furniture/decor assembly. Keep exact source recipe and original scene; standalone useful window/curtain units exported separately where present.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Sideboard carcass",
+    "status": "exported_geometry",
+    "source_root": "Sideboard carcass",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-six-drawer-mahogany-sideboard"
+    ]
+  },
+  {
+    "name": "Sideboard stone top",
+    "status": "exported_geometry",
+    "source_root": "Sideboard stone top",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-six-drawer-mahogany-sideboard"
+    ]
+  },
+  {
+    "name": "Sideboard drawer front",
+    "status": "exported_geometry",
+    "source_root": "Sideboard drawer front",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-six-drawer-mahogany-sideboard"
+    ]
+  },
+  {
+    "name": "Drawer handle",
+    "status": "exported_geometry",
+    "source_root": "Drawer handle",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-six-drawer-mahogany-sideboard"
+    ]
+  },
+  {
+    "name": "Sideboard drawer front.001",
+    "status": "exported_geometry",
+    "source_root": "Sideboard drawer front.001",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-six-drawer-mahogany-sideboard"
+    ]
+  },
+  {
+    "name": "Drawer handle.001",
+    "status": "exported_geometry",
+    "source_root": "Drawer handle.001",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-six-drawer-mahogany-sideboard"
+    ]
+  },
+  {
+    "name": "Sideboard drawer front.002",
+    "status": "exported_geometry",
+    "source_root": "Sideboard drawer front.002",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-six-drawer-mahogany-sideboard"
+    ]
+  },
+  {
+    "name": "Drawer handle.002",
+    "status": "exported_geometry",
+    "source_root": "Drawer handle.002",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-six-drawer-mahogany-sideboard"
+    ]
+  },
+  {
+    "name": "Sideboard drawer front.003",
+    "status": "exported_geometry",
+    "source_root": "Sideboard drawer front.003",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-six-drawer-mahogany-sideboard"
+    ]
+  },
+  {
+    "name": "Drawer handle.003",
+    "status": "exported_geometry",
+    "source_root": "Drawer handle.003",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-six-drawer-mahogany-sideboard"
+    ]
+  },
+  {
+    "name": "Sideboard drawer front.004",
+    "status": "exported_geometry",
+    "source_root": "Sideboard drawer front.004",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-six-drawer-mahogany-sideboard"
+    ]
+  },
+  {
+    "name": "Drawer handle.004",
+    "status": "exported_geometry",
+    "source_root": "Drawer handle.004",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-six-drawer-mahogany-sideboard"
+    ]
+  },
+  {
+    "name": "Sideboard drawer front.005",
+    "status": "exported_geometry",
+    "source_root": "Sideboard drawer front.005",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-six-drawer-mahogany-sideboard"
+    ]
+  },
+  {
+    "name": "Drawer handle.005",
+    "status": "exported_geometry",
+    "source_root": "Drawer handle.005",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-six-drawer-mahogany-sideboard"
+    ]
+  },
+  {
+    "name": "Sideboard foot",
+    "status": "exported_geometry",
+    "source_root": "Sideboard foot",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-six-drawer-mahogany-sideboard"
+    ]
+  },
+  {
+    "name": "Sideboard foot.001",
+    "status": "exported_geometry",
+    "source_root": "Sideboard foot.001",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-six-drawer-mahogany-sideboard"
+    ]
+  },
+  {
+    "name": "Sideboard foot.002",
+    "status": "exported_geometry",
+    "source_root": "Sideboard foot.002",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-six-drawer-mahogany-sideboard"
+    ]
+  },
+  {
+    "name": "Sideboard foot.003",
+    "status": "exported_geometry",
+    "source_root": "Sideboard foot.003",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-six-drawer-mahogany-sideboard"
+    ]
+  },
+  {
+    "name": "Framed artwork backing",
+    "status": "exported_geometry",
+    "source_root": "Framed artwork backing",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-classical-vase-wall-panel"
+    ]
+  },
+  {
+    "name": "Framed artwork dark print",
+    "status": "exported_geometry",
+    "source_root": "Framed artwork dark print",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-classical-vase-wall-panel"
+    ]
+  },
+  {
+    "name": "Framed artwork backing.001",
+    "status": "repeated_instance_reference",
+    "source_root": "Framed artwork backing.001",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-classical-vase-wall-panel"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Framed artwork dark print.001",
+    "status": "repeated_instance_reference",
+    "source_root": "Framed artwork dark print.001",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-classical-vase-wall-panel"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Wall sconce plate",
+    "status": "exported_geometry",
+    "source_root": "Wall sconce plate",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-wall-sconce"
+    ]
+  },
+  {
+    "name": "Wall sconce shade",
+    "status": "exported_geometry",
+    "source_root": "Wall sconce shade",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-wall-sconce"
+    ]
+  },
+  {
+    "name": "Wall sconce plate.001",
+    "status": "repeated_instance_reference",
+    "source_root": "Wall sconce plate.001",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-wall-sconce"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Wall sconce shade.001",
+    "status": "repeated_instance_reference",
+    "source_root": "Wall sconce shade.001",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-wall-sconce"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Upholstered chair back",
+    "status": "exported_geometry",
+    "source_root": "Upholstered chair back",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-upholstered-open-frame-chair"
+    ]
+  },
+  {
+    "name": "Clear chair leg",
+    "status": "exported_geometry",
+    "source_root": "Clear chair leg",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-clear-polycarbonate-dining-chair"
+    ]
+  },
+  {
+    "name": "Clear chair leg.001",
+    "status": "exported_geometry",
+    "source_root": "Clear chair leg.001",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-clear-polycarbonate-dining-chair"
+    ]
+  },
+  {
+    "name": "Clear chair leg.002",
+    "status": "exported_geometry",
+    "source_root": "Clear chair leg.002",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-clear-polycarbonate-dining-chair"
+    ]
+  },
+  {
+    "name": "Clear chair leg.003",
+    "status": "exported_geometry",
+    "source_root": "Clear chair leg.003",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-clear-polycarbonate-dining-chair"
+    ]
+  },
+  {
+    "name": "Clear dining chair seat",
+    "status": "exported_geometry",
+    "source_root": "Clear dining chair seat",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-clear-polycarbonate-dining-chair"
+    ]
+  },
+  {
+    "name": "Clear dining chair back",
+    "status": "exported_geometry",
+    "source_root": "Clear dining chair back",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-clear-polycarbonate-dining-chair"
+    ]
+  },
+  {
+    "name": "Dining table top",
+    "status": "exported_geometry",
+    "source_root": "Dining table top semantic root",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-formal-dining-table"
+    ]
+  },
+  {
+    "name": "Dining table top semantic root",
+    "status": "hierarchy_carrier_no_standalone_geometry",
+    "source_root": "Dining table top semantic root",
+    "asset_id": null,
+    "note": "Semantic/placement wrapper only; geometry descendants carry their own export, reuse or exclusion disposition."
+  },
+  {
+    "name": "Dining table leg",
+    "status": "exported_geometry",
+    "source_root": "Dining table leg",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-formal-dining-table"
+    ]
+  },
+  {
+    "name": "Dining table leg.001",
+    "status": "exported_geometry",
+    "source_root": "Dining table leg.001",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-formal-dining-table"
+    ]
+  },
+  {
+    "name": "Dining table leg.002",
+    "status": "exported_geometry",
+    "source_root": "Dining table leg.002",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-formal-dining-table"
+    ]
+  },
+  {
+    "name": "Dining table leg.003",
+    "status": "exported_geometry",
+    "source_root": "Dining table leg.003",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-formal-dining-table"
+    ]
+  },
+  {
+    "name": "Sideboard vessel stem",
+    "status": "exported_geometry",
+    "source_root": "Sideboard vessel stem",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-stylized-stemmed-vessel"
+    ]
+  },
+  {
+    "name": "Sideboard vessel base",
+    "status": "exported_geometry",
+    "source_root": "Sideboard vessel base",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-stylized-stemmed-vessel"
+    ]
+  },
+  {
+    "name": "Sideboard glass bowl",
+    "status": "exported_geometry",
+    "source_root": "Sideboard glass bowl",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-stylized-stemmed-vessel"
+    ]
+  },
+  {
+    "name": "Sideboard vessel stem.001",
+    "status": "repeated_instance_reference",
+    "source_root": "Sideboard vessel stem.001",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-stylized-stemmed-vessel"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Sideboard vessel base.001",
+    "status": "repeated_instance_reference",
+    "source_root": "Sideboard vessel base.001",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-stylized-stemmed-vessel"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Sideboard glass bowl.001",
+    "status": "repeated_instance_reference",
+    "source_root": "Sideboard glass bowl.001",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-stylized-stemmed-vessel"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Sideboard vessel stem.002",
+    "status": "repeated_instance_reference",
+    "source_root": "Sideboard vessel stem.002",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-stylized-stemmed-vessel"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Sideboard vessel base.002",
+    "status": "repeated_instance_reference",
+    "source_root": "Sideboard vessel base.002",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-stylized-stemmed-vessel"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Sideboard glass bowl.002",
+    "status": "repeated_instance_reference",
+    "source_root": "Sideboard glass bowl.002",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-stylized-stemmed-vessel"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Sideboard vessel stem.003",
+    "status": "repeated_instance_reference",
+    "source_root": "Sideboard vessel stem.003",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-stylized-stemmed-vessel"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Sideboard vessel base.003",
+    "status": "repeated_instance_reference",
+    "source_root": "Sideboard vessel base.003",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-stylized-stemmed-vessel"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Sideboard glass bowl.003",
+    "status": "repeated_instance_reference",
+    "source_root": "Sideboard glass bowl.003",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-stylized-stemmed-vessel"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Sideboard vessel stem.004",
+    "status": "repeated_instance_reference",
+    "source_root": "Sideboard vessel stem.004",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-stylized-stemmed-vessel"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Sideboard vessel base.004",
+    "status": "repeated_instance_reference",
+    "source_root": "Sideboard vessel base.004",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-stylized-stemmed-vessel"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Sideboard glass bowl.004",
+    "status": "repeated_instance_reference",
+    "source_root": "Sideboard glass bowl.004",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-stylized-stemmed-vessel"
+    ],
+    "note": "Repeated instance of exported prototype; source placement retained only in original scene.",
+    "recipe": "scenes/formal_dining_platter_g0065/blender/build_room.py"
+  },
+  {
+    "name": "Brass chandelier ring",
+    "status": "exported_geometry",
+    "source_root": "Brass chandelier ring",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-double-ring-chandelier"
+    ]
+  },
+  {
+    "name": "Brass chandelier ring.001",
+    "status": "exported_geometry",
+    "source_root": "Brass chandelier ring.001",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-double-ring-chandelier"
+    ]
+  },
+  {
+    "name": "Chandelier hanging rod",
+    "status": "exported_geometry",
+    "source_root": "Chandelier hanging rod",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-double-ring-chandelier"
+    ]
+  },
+  {
+    "name": "Chandelier hanging rod.001",
+    "status": "exported_geometry",
+    "source_root": "Chandelier hanging rod.001",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-double-ring-chandelier"
+    ]
+  },
+  {
+    "name": "Chandelier hanging rod.002",
+    "status": "exported_geometry",
+    "source_root": "Chandelier hanging rod.002",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-double-ring-chandelier"
+    ]
+  },
+  {
+    "name": "Chandelier hanging rod.003",
+    "status": "exported_geometry",
+    "source_root": "Chandelier hanging rod.003",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-double-ring-chandelier"
+    ]
+  },
+  {
+    "name": "Chandelier hanging rod.004",
+    "status": "exported_geometry",
+    "source_root": "Chandelier hanging rod.004",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-double-ring-chandelier"
+    ]
+  },
+  {
+    "name": "Chandelier hanging rod.005",
+    "status": "exported_geometry",
+    "source_root": "Chandelier hanging rod.005",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-double-ring-chandelier"
+    ]
+  },
+  {
+    "name": "Silver serving platter",
+    "status": "exported_geometry",
+    "source_root": "Platter rigid motion",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-silver-serving-platter"
+    ]
+  },
+  {
+    "name": "Platter raised rim",
+    "status": "exported_geometry",
+    "source_root": "Platter rigid motion",
+    "asset_id": null,
+    "exported_asset_ids": [
+      "additional-444547-44-v1/additional-44-silver-serving-platter"
+    ]
+  },
+  {
+    "name": "Person_001_Placement",
+    "status": "generated_human_excluded",
+    "source_root": "Person_001_Placement",
+    "asset_id": null
+  },
+  {
+    "name": "Person_001_Body",
+    "status": "generated_human_excluded",
+    "source_root": "Person_001_Placement",
+    "asset_id": null
+  },
+  {
+    "name": "Person_002_Placement",
+    "status": "generated_human_excluded",
+    "source_root": "Person_002_Placement",
+    "asset_id": null
+  },
+  {
+    "name": "Person_002_Body",
+    "status": "generated_human_excluded",
+    "source_root": "Person_002_Placement",
+    "asset_id": null
+  }
+]
