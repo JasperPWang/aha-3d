@@ -1,99 +1,137 @@
 # aha-3d
 
-Reusable Blender assets, seven project skills and a video-to-room pipeline with
-estimated source motion and generated new actions. Reference videos, completed
-scene reconstructions, generated motion, renders and model weights are excluded;
-supply your own footage under `references/`.
+aha-3d turns an ordinary indoor video into an editable 3D scene in Blender. It
+rebuilds the room from reference geometry and a library of reusable furniture and
+materials, estimates the motion of the people in the video, places them in the
+shared room with foot-ground and object contact refinement, and renders the result
+with the original camera and timing. It can also generate new actions for people
+in the scene and export saved scenes as interactive browser demos.
 
-Source-video people default to **GVHMR BEDLAM2 -> room alignment -> Blender import**.
-These are approximate monocular estimates, not ground-truth tracking. Room modeling
-continues through Pi3X references and editable Blender assets/geometry. Kimodo
-handles new or deliberately changed actions, with optional SAM guidance.
-See the [GVHMR installation guide](docs/install/gvhmr.md) and
-[new skill](.agents/skills/gvhmr-body-reconstruction/SKILL.md).
+Human motion comes from monocular estimation, so it is approximate rather than
+ground-truth capture. Reference videos, model weights, generated scenes and renders
+are not included; bring your own footage and obtain model files from their upstream
+projects.
 
-## Included
+## Quick start
 
-| Directory | Contents |
+**Requirements:** one Linux workstation (Ubuntu or WSL2) with an NVIDIA GPU
+(24 GB class recommended), Python 3.11, Blender 5.2 for scene assembly and
+Blender 4.5 for skinning. See the [runtime policy](MACHINE.md) for details.
+
+1. **Clone and install the core environment.**
+
+   ```bash
+   git clone https://github.com/KevinXu02/aha-3d.git && cd aha-3d
+   export KIMODO_ENV="${KIMODO_ENV:-$PWD/.venv}"
+   bash tools/setup_core.sh --plan   # show what will be installed
+   bash tools/setup_core.sh
+   ```
+
+2. **Point the project at your Blender builds and model checkpoints.**
+
+   ```bash
+   source kimodo_blender/env.sh      # run in every new shell
+   python tools/configure_runtime.py --blender /path/to/blender-5.2/blender \
+     --skin-blender /path/to/blender-4.5/blender \
+     --kimodo "$KIMODO_UPSTREAM" --checkpoint "$KIMODO_CHECKPOINT"
+   ```
+
+   The [installation guide](docs/INSTALLATION.md) lists every model and where to
+   get it. Download only what you need.
+
+3. **Check the setup.**
+
+   ```bash
+   python kimodo_blender/check_runtime.py
+   python -m unittest discover -s tests -v
+   ```
+
+4. **Run a first scene.** Start from the bundled example, which generates a
+   five-second walk without needing a room:
+
+   ```bash
+   cp -r examples/new_scene scenes/new_scene
+   bash tools/indoor plan new_scene --recipe walk
+   bash tools/indoor run new_scene --recipe walk --motion-only
+   ```
+
+   For a real reconstruction, put your video under `references/`, describe the
+   request with `bash tools/indoor intake`, and follow the
+   [scene workflow](docs/SCENE_WORKFLOW.md).
+
+If you only want to browse the assets, Python's standard library is enough:
+`python tools/asset_index.py tree`. [Setup](docs/SETUP.md) covers a lightweight
+source-only install and troubleshooting.
+
+## Tools
+
+### Scene pipeline: `tools/indoor`
+
+A single command drives scene work from request to delivery. Runs are resumable,
+and each one gets its own directory under `runs/`.
+
+| Command | What it does |
 | --- | --- |
-| `src/aha3d/` | Pipeline stages, configuration, Blender assembly, camera alignment, approximate motion, reference diagnostics and synthetic tracks |
-| `assets/` | Eight registered libraries: 11 furniture/plant collections and 31 procedural material assets; searchable catalog, orientation metadata |
-| `.agents/skills/` | All seven project skills, their scripts, references and RoomKit asset previews |
-| `tools/` | Asset discovery/export, procedural asset builders, variants, coordination and experimental object-tool adapters |
-| `references/` | Empty location for your own reference videos and annotations (ignored by Git) |
-| `examples/` | Generic configurations and usage examples |
-| `configs/` | Cabinet layouts, request presets and runtime configuration templates |
-| `tests/` | CPU tests and optional Blender integration checks |
-| `docs/` | Component installation guides, workflow contracts, skills guidance and historical technical lessons |
+| `intake` | Turn a scene request into a plan and list any missing decisions |
+| `scenes`, `plan` | List scenes; summarize a recipe's stages and runtime without running anything |
+| `preflight` | Check the recipe, inputs and optional segmentation bounds before a run |
+| `run`, `batch` | Run one recipe in the foreground, or queue several in a background worker |
+| `status` | Show run and worker progress |
+| `preview`, `review-layout`, `accept-preview` | Render a cheap full-length preview and record reviews |
+| `check-placement` | Check saved-room geometry and object stability |
+| `acceptance`, `results` | Track completion criteria and register the selected deliveries |
 
-## Start
+Run `bash tools/indoor --help` for all options, and see [pipeline](docs/PIPELINE.md).
 
-Browse the [generated catalog](docs/catalog/README.md) for assets, skills,
-pipeline stages and demos. Open `docs/catalog/index.html` locally for searchable
-cards and video previews; the page works offline.
+### Capabilities
 
-The pipeline targets one Linux workstation (Ubuntu or WSL2) with one NVIDIA GPU;
-see the [runtime policy](MACHINE.md). End to end:
+| Area | What you get | Guide |
+| --- | --- | --- |
+| Room reconstruction | Reference geometry and cameras from the source video, turned into an editable Blender room | [Real2sim pipeline](docs/REAL2SIM_PIPELINE.md) |
+| People from video | Multi-person tracking, pose and body estimation, alignment into the shared room | [Human pipeline](docs/HUMAN_PIPELINE_GUIDE.md) |
+| Motion refinement | World-space optimization plus foot-ground and object contact refinement, with slip and collision checks | [Contact refinement](docs/CONTACT_REFINEMENT.md) |
+| Generated motion | New or changed actions for people in the scene, including object interaction | [Motion controls](docs/MOTION_CONTROLS.md) |
+| Asset library | Furniture, plants, articulated cabinets and procedural materials with search and orientation metadata | [Asset catalog](assets/INDEX.md) |
+| Scene variants | Swap furniture and materials in a saved scene while keeping IDs and orientation | [Scene variants](docs/SCENE_VARIANTS.md) |
+| Rendering and review | Previews, full renders, video decoding checks and review images | [Rendering](docs/RENDERING.md) |
+| Browser demos | Interactive web viewer with grabbable furniture, cabinet controls and baked animation | [Browser demo](.agents/skills/blender-browser-demo/SKILL.md) |
 
-```bash
-git clone https://github.com/KevinXu02/aha-3d.git && cd aha-3d
-export KIMODO_ENV="${KIMODO_ENV:-$PWD/.venv}"
-bash tools/setup_core.sh --plan
-bash tools/setup_core.sh                 # Kimodo, Pi3X, SAM 3D Body, source tools
-source kimodo_blender/env.sh             # in every shell
-python tools/configure_runtime.py --blender /path/to/blender-5.2/blender \
-  --skin-blender /path/to/blender-4.5/blender \
-  --kimodo "$KIMODO_UPSTREAM" --checkpoint "$KIMODO_CHECKPOINT"
-python kimodo_blender/check_runtime.py
-python -m unittest discover -s tests -v
+### Helper scripts
+
+| Script | Purpose |
+| --- | --- |
+| `tools/asset_index.py` | Search and rebuild the asset index |
+| `tools/build_catalog.py` | Build the browsable catalog in [docs/catalog](docs/catalog/README.md) |
+| `tools/scene_variant.py` | Apply furniture and material replacements to a scene |
+| `tools/export_articulated_asset.py` | Export operable furniture such as cabinets and drawers |
+| `tools/configure_runtime.py` | Write the local runtime profile |
+| `tools/task_claim.py` | Coordinate several agents or people working in one checkout |
+
+The project also ships agent skills in `.agents/skills/` for AI coding agents;
+see [tools and skills](TOOLS_AND_SKILLS.md).
+
+## Project layout
+
+```text
+aha-3d/
+├── src/aha3d/        Core library: pipeline stages, Blender assembly, motion, workflow checks
+├── tools/            Command-line tools and stage scripts
+├── assets/           Reusable furniture, plant and material libraries
+├── configs/          Runtime templates, cabinet layouts and request presets
+├── examples/         Example scene configurations
+├── docs/             Guides, workflow contracts and installation notes
+├── tests/            Unit tests and optional Blender integration checks
+├── .agents/skills/   Agent skills for AI coding agents
+├── references/       Your source videos (contents not tracked)
+├── scenes/           Your scene workspaces (contents not tracked)
+└── runs/             Pipeline outputs (contents not tracked)
 ```
 
-Supply Blender and the model checkpoints yourself; download only the files you
-need using the [installation guide](docs/INSTALLATION.md). GVHMR uses a separate
-compatible environment; `setup_core.sh` does not install it. [Setup](docs/SETUP.md)
-covers each step, including a lightweight source-only installation; asset
-browsing needs only Python's standard library (`python tools/asset_index.py tree`).
+Start from the [documentation index](docs/INDEX.md) for the full set of guides.
 
-For a new task, put your own reference input under `references/`, start a new
-workspace under `scenes/<scene-id>/`, and use `runs/<scene-id>/<run-id>/` for
-outputs. [examples/README.md](examples/README.md) shows a five-second motion
-recipe and an asset-only Blender inspection command.
-
-## Skills and assets
-
-Maintain the human interface from source catalogs and skill metadata:
-
-```bash
-python tools/asset_index.py build
-python tools/build_catalog.py build
-python tools/build_catalog.py check
-```
-
-The generated [catalog](docs/catalog/README.md) links back to the asset registry,
-skill instructions and pipeline code. Edit those sources, then rebuild the page.
-
-Keep the checkout intact: skills use sibling project code and documentation.
-See [the skill index](TOOLS_AND_SKILLS.md) and [asset catalog](assets/INDEX.md).
-Each asset library is a regular local file; the bundle contains no symlinks into
-the original project. Scene-extracted chairs and vases are included as normalized
-reusable libraries, without the full scenes that originally contained them.
-
-Furniture collections are distinct from materials. The count of 31 refers to
-registered RoomKit material assets; other libraries also contain their own
-embedded material dependencies. Historical unextracted scene candidates are
-absent from this catalog.
-
-## Scope and evidence
-
-Use [minimal motion controls](docs/MOTION_CONTROLS.md), preserve exact timing,
-resample rotations before skinning, and inspect contact, clearance and framing.
-Synthetic track `in_frame` flags test the camera frustum, not occlusion.
-
-The portable setup and asset checks are recorded in
-[validation](docs/VALIDATION.md). They do not establish a fresh model installation
-or end-to-end GPU inference run. Historical lessons retain their scope; source
-scene/run evidence is omitted.
+## License
 
 Project-authored code, skills and assets are licensed under the
-[Apache License 2.0](LICENSE); [distribution notes](DISTRIBUTION.md) describe its scope.
-[External dependencies](THIRD_PARTY.md) and licensed model files are acquired separately.
+[Apache License 2.0](LICENSE). See [distribution notes](DISTRIBUTION.md) for scope
+and [third-party dependencies](THIRD_PARTY.md) for models and libraries obtained
+separately.
