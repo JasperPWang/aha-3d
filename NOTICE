@@ -1,0 +1,9 @@
+aha-3d
+Copyright 2026 Congrong Xu
+
+This product includes software developed by the aha-3d contributors,
+licensed under the Apache License, Version 2.0 (see LICENSE).
+
+tools/gvhmr/world_backend/prompt_hmr/utils/rotation_conversions.py contains
+code from PyTorch3D v0.4.0, Copyright (c) Facebook, Inc. and its affiliates,
+licensed under the BSD 3-Clause License reproduced in that file.

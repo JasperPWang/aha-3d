@@ -1,8 +1,9 @@
 # Distribution status
 
-This is the public source release of the indoor real2sim pipeline. No MIT, Apache or other license has been
-selected for project-authored code, skills and asset libraries; this snapshot
-does not add such a grant.
+This is the public source release of the indoor real2sim pipeline. Project-authored
+code, skills and asset libraries are licensed under the
+[Apache License 2.0](LICENSE). Third-party files keep their own licenses, noted
+below and in [external dependencies](THIRD_PARTY.md).
 
 Project integration code, the project skills,
 registered reusable furniture, plants and procedural materials are included.

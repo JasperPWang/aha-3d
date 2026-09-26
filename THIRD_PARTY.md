@@ -27,7 +27,8 @@ Concrete installation steps and verification boundaries are in
 
 PyTorch, NumPy, SciPy, Pillow, FFmpeg, CUDA and other installed dependencies keep
 their own licenses. Reusable asset manifests preserve source
-provenance. No asset or integration code has been relicensed by this export.
+provenance. Project-authored code and assets are Apache-2.0; third-party code
+and assets are not relicensed.
 
 ## Packaged motion helpers
 

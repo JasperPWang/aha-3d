@@ -94,6 +94,6 @@ The portable setup and asset checks are recorded in
 or end-to-end GPU inference run. Historical lessons retain their scope; source
 scene/run evidence is omitted.
 
-[Distribution notes](DISTRIBUTION.md) describe licensing scope.
-No new license has been assigned to project-authored code, skills or assets.
+Project-authored code, skills and assets are licensed under the
+[Apache License 2.0](LICENSE); [distribution notes](DISTRIBUTION.md) describe its scope.
 [External dependencies](THIRD_PARTY.md) and licensed model files are acquired separately.
