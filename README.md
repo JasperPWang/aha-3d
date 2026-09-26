@@ -1,6 +1,8 @@
-# aha-3d
+# AHa-3D: Agentic Tool Use for Real2Sim with GPT-6 Astra
 
-aha-3d turns an ordinary indoor video into an editable 3D scene in Blender. It
+**[Project page](https://kevinxu02.github.io/real2sim-indoor-site/)**
+
+AHa-3D turns an ordinary indoor video into an editable 3D scene in Blender. It
 rebuilds the room from reference geometry and a library of reusable furniture and
 materials, estimates the motion of the people in the video, places them in the
 shared room with foot-ground and object contact refinement, and renders the result
@@ -8,9 +10,19 @@ with the original camera and timing. It can also generate new actions for people
 in the scene and export saved scenes as interactive browser demos.
 
 Human motion comes from monocular estimation, so it is approximate rather than
-ground-truth capture. Reference videos, model weights, generated scenes and renders
-are not included; bring your own footage and obtain model files from their upstream
-projects.
+ground-truth capture. Reference videos, model weights and generated runs are not
+included, apart from one demo scene; bring your own footage and obtain model files
+from their upstream projects.
+
+## Demo
+
+[![Whitebox render of a reconstructed office](docs/media/office48_whitebox.gif)](https://kevinxu02.github.io/real2sim-indoor-site/)
+
+An office room rebuilt from a 10-second video, rendered through the camera recovered
+from that video. The editable scene is in [examples/office48](examples/office48/README.md);
+open it in Blender 5.2 with no other setup. The [project page](https://kevinxu02.github.io/real2sim-indoor-site/)
+compares it with the source video and a reconstruction made without the harness,
+and hosts an interactive scene demo.
 
 ## Quick start
 
@@ -46,8 +58,8 @@ Blender 4.5 for skinning. See the [runtime policy](MACHINE.md) for details.
    python -m unittest discover -s tests -v
    ```
 
-4. **Run a first scene.** Start from the bundled example, which generates a
-   five-second walk without needing a room:
+4. **Run a first scene.** The bundled example is a smoke test: it generates a
+   five-second walk from a text prompt without a room or a source video.
 
    ```bash
    cp -r examples/new_scene scenes/new_scene
@@ -55,7 +67,9 @@ Blender 4.5 for skinning. See the [runtime policy](MACHINE.md) for details.
    bash tools/indoor run new_scene --recipe walk --motion-only
    ```
 
-   For a real reconstruction, put your video under `references/`, describe the
+   To look at a finished reconstruction instead, open the
+   [office demo](examples/office48/README.md) in Blender. For a real
+   reconstruction, put your video under `references/`, describe the
    request with `bash tools/indoor intake`, and follow the
    [scene workflow](docs/SCENE_WORKFLOW.md).
 

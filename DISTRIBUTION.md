@@ -8,7 +8,9 @@ below and in [external dependencies](THIRD_PARTY.md).
 Project integration code, the project skills,
 registered reusable furniture, plants and procedural materials are included.
 Previous scene references in asset metadata describe origin; complete generated
-scenes and pipeline runs are excluded.
+scenes and pipeline runs are excluded, except the untextured
+[office demo scene](examples/office48/README.md). It contains no source-video
+pixels; its textured version and source video are withheld.
 
 No reference footage, previews or clip listings are included. Footage you add
 under `references/` keeps its own license; record its attribution beside it.

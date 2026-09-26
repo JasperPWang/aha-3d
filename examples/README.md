@@ -23,6 +23,12 @@ five seconds at 24 fps (120 output frames). For full assembly, provide your own
 `scenes/new_scene/blender/room.blend`, record its provenance in `STATE.md`, and
 run without `--motion-only` after reviewing placement and camera.
 
+## Office demo scene
+
+[office48](office48/README.md) is a finished room reconstruction with its recovered
+source camera. Open `office48/whitebox.blend` in Blender 5.2; no runtime
+configuration is needed.
+
 ## Inspect reusable Blender libraries
 
 With `BLENDER_BIN` pointing to a compatible Blender executable:
