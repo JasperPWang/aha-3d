@@ -11,11 +11,11 @@ in the scene and export saved scenes as interactive browser demos.
 
 ## Demo
 
-[![Whitebox render of a reconstructed office](docs/media/office48_whitebox.webp)](https://kevinxu02.github.io/real2sim-indoor-site/)
+[![Whitebox render of a reconstructed office; click to play the video](docs/media/office48_whitebox.jpg)](docs/media/office48_whitebox.mp4)
 
 An office rebuilt from a 10-second video and rendered through the recovered source
-camera. Open the editable scene in [examples/office48](examples/office48/README.md)
-with Blender 5.2. The [project page](https://kevinxu02.github.io/real2sim-indoor-site/)
+camera. Click the image to play it. Open the editable scene in
+[examples/office48](examples/office48/README.md) with Blender 5.2. The [project page](https://kevinxu02.github.io/real2sim-indoor-site/)
 shows it next to the source video and hosts an interactive scene.
 
 ## Quick start
