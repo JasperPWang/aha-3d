@@ -1,6 +1,6 @@
 # Office demo scene
 
-[![Whitebox render of the office reconstruction; click to play the video](../../docs/media/office48_whitebox.jpg)](../../docs/media/office48_whitebox.mp4)
+![Whitebox render of the office reconstruction](../../docs/media/office48_whitebox.jpg)
 
 A home office with a vaulted, beamed ceiling, reconstructed by the agentic workflow
 from a 10-second video. It is the office example on the
