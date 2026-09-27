@@ -72,4 +72,4 @@ Scene-local candidates are not reusable registered assets until extraction,
 dependency/orientation/support review, and actual registered import/reopen checks
 are completed. Updating the index alone does not perform those checks.
 
-This is an internal distribution; see [distribution status](../DISTRIBUTION.md).
+Asset libraries are licensed under Apache-2.0; see [distribution](../DISTRIBUTION.md).
