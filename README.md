@@ -9,20 +9,14 @@ shared room with foot-ground and object contact refinement, and renders the resu
 with the original camera and timing. It can also generate new actions for people
 in the scene and export saved scenes as interactive browser demos.
 
-Human motion comes from monocular estimation, so it is approximate rather than
-ground-truth capture. Reference videos, model weights and generated runs are not
-included, apart from one demo scene; bring your own footage and obtain model files
-from their upstream projects.
-
 ## Demo
 
-[![Whitebox render of a reconstructed office](docs/media/office48_whitebox.gif)](https://kevinxu02.github.io/real2sim-indoor-site/)
+[![Whitebox render of a reconstructed office](docs/media/office48_whitebox.webp)](https://kevinxu02.github.io/real2sim-indoor-site/)
 
-An office room rebuilt from a 10-second video, rendered through the camera recovered
-from that video. The editable scene is in [examples/office48](examples/office48/README.md);
-open it in Blender 5.2 with no other setup. The [project page](https://kevinxu02.github.io/real2sim-indoor-site/)
-compares it with the source video and a reconstruction made without the harness,
-and hosts an interactive scene demo.
+An office rebuilt from a 10-second video and rendered through the recovered source
+camera. Open the editable scene in [examples/office48](examples/office48/README.md)
+with Blender 5.2. The [project page](https://kevinxu02.github.io/real2sim-indoor-site/)
+shows it next to the source video and hosts an interactive scene.
 
 ## Quick start
 
@@ -49,7 +43,7 @@ Blender 4.5 for skinning. See the [runtime policy](MACHINE.md) for details.
    ```
 
    The [installation guide](docs/INSTALLATION.md) lists every model and where to
-   get it. Download only what you need.
+   get it.
 
 3. **Check the setup.**
 
@@ -58,8 +52,7 @@ Blender 4.5 for skinning. See the [runtime policy](MACHINE.md) for details.
    python -m unittest discover -s tests -v
    ```
 
-4. **Run a first scene.** The bundled example is a smoke test: it generates a
-   five-second walk from a text prompt without a room or a source video.
+4. **Run a first scene.** Generate a five-second walk from a text prompt:
 
    ```bash
    cp -r examples/new_scene scenes/new_scene
@@ -67,15 +60,12 @@ Blender 4.5 for skinning. See the [runtime policy](MACHINE.md) for details.
    bash tools/indoor run new_scene --recipe walk --motion-only
    ```
 
-   To look at a finished reconstruction instead, open the
-   [office demo](examples/office48/README.md) in Blender. For a real
-   reconstruction, put your video under `references/`, describe the
-   request with `bash tools/indoor intake`, and follow the
+   To reconstruct your own video, put it under `references/`, describe the
+   scene with `bash tools/indoor intake`, and follow the
    [scene workflow](docs/SCENE_WORKFLOW.md).
 
-If you only want to browse the assets, Python's standard library is enough:
-`python tools/asset_index.py tree`. [Setup](docs/SETUP.md) covers a lightweight
-source-only install and troubleshooting.
+Browse the assets with `python tools/asset_index.py tree`. [Setup](docs/SETUP.md)
+covers a source-only install and troubleshooting.
 
 ## Tools
 
@@ -91,7 +81,7 @@ and each one gets its own directory under `runs/`.
 | `preflight` | Check the recipe, inputs and optional segmentation bounds before a run |
 | `run`, `batch` | Run one recipe in the foreground, or queue several in a background worker |
 | `status` | Show run and worker progress |
-| `preview`, `review-layout`, `accept-preview` | Render a cheap full-length preview and record reviews |
+| `preview`, `review-layout`, `accept-preview` | Render a full-length preview and record reviews |
 | `check-placement` | Check saved-room geometry and object stability |
 | `acceptance`, `results` | Track completion criteria and register the selected deliveries |
 

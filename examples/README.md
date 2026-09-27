@@ -1,7 +1,6 @@
-# Generic input examples
+# Examples
 
-These files are hand-authored configuration examples, not a generated room,
-recorded reference or motion result. Configure the runtime first.
+Configure the runtime before running these examples.
 
 Source footage and previews are indexed under [references](../references/README.md).
 
@@ -17,8 +16,8 @@ bash tools/indoor plan new_scene --recipe walk
 bash tools/indoor run new_scene --recipe walk --motion-only
 ```
 
-The motion-only scope generates, resamples and skins without opening a room.
-It still needs the configured Kimodo and SMPL-X dependencies. The recipe requests
+The motion-only scope generates, resamples and skins a body with Kimodo and
+SMPL-X, without opening a room. The recipe requests
 five seconds at 24 fps (120 output frames). For full assembly, provide your own
 `scenes/new_scene/blender/room.blend`, record its provenance in `STATE.md`, and
 run without `--motion-only` after reviewing placement and camera.
