@@ -1,16 +1,19 @@
 # Optional object segmentation (SAM 3)
 
-This component is optional. Prefer the [text asset index](../../assets/README.md)
-and editable Blender geometry for ordinary room work. Successful mask export does
-not establish metric scale, correct placement or completeness.
-See [object segmentation](../OBJECT_GENERATION.md). It is not a
-prerequisite for Pi3X or Kimodo.
+SAM3 object extraction is optional for ordinary room authoring. Prefer the
+[text asset index](../../assets/README.md) and editable Blender geometry.
+Successful mask export does not establish metric scale, correct placement or
+completeness. See [object segmentation](../OBJECT_GENERATION.md).
+Standalone Pi3X inference and Kimodo do not require SAM3. The first new-video
+[Pi3X reference build](../PI3X_GEOMETRY_REFERENCE.md#build-the-reference)
+requires SAM3 semantic inference; later rebuilds can reuse a complete
+source-matched mask cache.
 
 ## Component matrix and source pins
 
 | Component | Purpose | Separate environment and upstream requirements |
 | --- | --- | --- |
-| [SAM 3](https://github.com/facebookresearch/sam3) | Image masks for selected objects | Current upstream documents Python 3.12+, Torch 2.7+, CUDA 12.6+. The inherited Python 3.11 pilot is a local compatibility exception, not the portable default. |
+| [SAM 3](https://github.com/facebookresearch/sam3) | Image masks for objects and first-video room references | The pinned source declares Python 3.11 support; the first-video installer uses a private Python 3.11 venv with Torch 2.7.1/cu128. |
 
 The source deployment retained this revision. Clone it
 from the bundle root, then inspect its pinned installation instructions:
@@ -26,16 +29,19 @@ dependencies into the Kimodo environment.
 
 ## Installation routes
 
-For SAM 3, create a dedicated Python 3.12 environment, install a matched CUDA
-Torch/torchvision pair following its pinned README, and run `python -m pip install
--e external/sam3`. Request access to [facebook/sam3](https://huggingface.co/facebook/sam3)
-with your own account. The bundle's `tools/object_pilot/segmentation/prepare_runtime.py
---runtime .runtime/sam3-segmentation` downloads checkpoint revision
-`3c879f39826c281e95690f02c7821c4de09afae7`, checks image API imports and writes
-`runtime.json`. Before running it, create that runtime directory and record
-`git -C external/sam3 rev-parse HEAD` into its `source_revision.txt`. The inherited
-bootstrap uses a Python 3.11 environment with system-site-packages and deliberately
-pinned overrides; it is the historical pilot setup, not the clean upstream route.
+For a first-video reference, `bash tools/setup.sh --level static` installs SAM3 in a
+standalone environment. For SAM3 code alone, run
+`bash tools/object_pilot/segmentation/bootstrap.sh --standalone --no-checkpoint`.
+The bootstrap checks out the documented source pin and installs the image API
+dependencies. It does not alter the Kimodo environment. The historical
+inherited-environment setup remains available without `--standalone`.
+
+Request access to [facebook/sam3](https://huggingface.co/facebook/sam3) with your
+own account. Run `.runtime/sam3-segmentation/venv/bin/python
+tools/object_pilot/segmentation/prepare_runtime.py --runtime
+.runtime/sam3-segmentation` to download checkpoint revision
+`3c879f39826c281e95690f02c7821c4de09afae7`, check image API imports and
+write `runtime.json`. The installer records `source_revision.txt` first.
 
 ## Adapter registration and smoke prerequisites
 

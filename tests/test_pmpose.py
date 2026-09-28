@@ -22,7 +22,7 @@ class PMPoseTests(unittest.TestCase):
 
     def test_requires_mask_without_silent_fallback(self):
         with patch.object(pmpose.subprocess, 'run') as run:
-            with self.assertRaisesRegex(ValueError, 'requires SAMURAI'):
+            with self.assertRaisesRegex(ValueError, 'requires source-person masks'):
                 pmpose.extract(argparse.Namespace(samurai_masks=None), None, None, None, 3)
             run.assert_not_called()
 
@@ -48,7 +48,9 @@ class PMPoseTests(unittest.TestCase):
                 masks=root/'masks.npz', output=root/'kp.pt', checkpoint=root/'model.pth', frames=3, variant='PMPose-h')
             cwd, oldpath = Path.cwd(), sys.path[:]
             try:
-                with patch.dict(sys.modules, {'mmpretrain': SimpleNamespace(), 'pmpose': SimpleNamespace(PMPose=lambda **kw: model)}), patch('cv2.VideoCapture', return_value=cap):
+                with patch.dict(sys.modules, {'cv2': SimpleNamespace(VideoCapture=lambda _: cap),
+                                              'mmpretrain': SimpleNamespace(),
+                                              'pmpose': SimpleNamespace(PMPose=lambda **kw: model)}):
                     pmpose.worker(a)
             finally:
                 os.chdir(cwd); sys.path[:] = oldpath

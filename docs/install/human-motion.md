@@ -1,5 +1,10 @@
 # Install the complete source-motion stack
 
+For a new Level 2 installation, run `bash tools/setup.sh` and choose Human
+(or pass `--level human` in a script) before following this guide. The selector
+prepares Static and SAM3 video decoding; the GVHMR, PMPose, Blender and model
+steps below complete the Human installation.
+
 Use this with [GVHMR installation](gvhmr.md) and the
 [world pipeline commands](../WORLD_POSTOPT.md). The tracked backend under
 `tools/gvhmr/world_backend/` includes the owner's tracking, dense-camera,
@@ -20,8 +25,9 @@ when building extensions: `12.0` below is Blackwell; use `8.9` for Ada
 (RTX 4090 / RTX 6000 Ada). 24 GB cards are the target but untested.
 This recipe has not been rerun as a clean installation during packaging.
 
-There are two motion environments: GVHMR/SAMURAI/dense Pi3X/v2 and PMPose.
-The separate shared core remains available for room references and Kimodo;
+There are two additional Human environments: GVHMR/dense Pi3X/v2 and PMPose.
+The Static SAM3 environment provides the default tracker after adding PyAV.
+The Robotics core is separate and needed only when generating new motion;
 do not downgrade its PyAV. Existing environments and models can stay where
 installed; pass their paths explicitly or use ignored local configuration.
 Install, build, test and run inference on the local workstation with one GPU,
@@ -37,7 +43,6 @@ export GVHMR_ROOT="$R2S/.runtime/gvhmr-bedlam2"
 export GVHMR_PYTHON="$GVHMR_ROOT/venv/bin/python"
 export BMP_ROOT="$R2S/.runtime/bmp/src"
 export PMPOSE_PYTHON="$R2S/.runtime/bmp/venv/bin/python"
-export SAMURAI_ROOT="$R2S/third_party/samurai"
 export PI3X_UPSTREAM="$R2S/external/Pi3"
 ```
 
@@ -45,25 +50,26 @@ export PI3X_UPSTREAM="$R2S/external/Pi3"
 | --- | --- |
 | GVHMR BEDLAM2 | [upstream](https://github.com/mkocabas/GVHMR_BEDLAM2), `cac2d9dacc6b4b6f145ca02c2e6e616719fff916` |
 | Pi3/Pi3X | [upstream](https://github.com/yyfz/Pi3), `9fa3ddb3f8d53041f8b2738df404f62223bbaa7b` |
-| SAMURAI | [upstream](https://github.com/yangchris11/samurai), installed source copy taken 2026-09-13; original commit not recorded |
-| BBoxMaskPose/PMPose | [upstream](https://github.com/MiraPurkrabek/BBoxMaskPose), installed package 2.0.0 with bundled MMPose 1.3.1, taken 2026-09-17; original commit not recorded |
+| SAMURAI (optional alternative tracker) | [upstream](https://github.com/yangchris11/samurai), installed source copy taken 2026-09-13; original commit not recorded |
+| BBoxMaskPose/PMPose | [upstream](https://github.com/MiraPurkrabek/BBoxMaskPose), installed package 2.0.0 with bundled MMPose 1.3.1, taken 2026-09-17; original commit not recorded; [smoke-tested revision](https://github.com/MiraPurkrabek/BBoxMaskPose/commit/49a070a6f8396147323b1c4959474077dbe2ce8e) `49a070a6f8396147323b1c4959474077dbe2ce8e` |
 
-The two missing commits are a reproducibility limit, not pinned source identities.
-Keep working installations intact. For a new installation, choose explicit
-upstream revisions and record them with your validation; cloning today's default
-branch is not evidence of reproducing the historical environment.
+The original deployed BBoxMaskPose commit is a reproducibility limit. For a new
+installation, the following uses the recorded PMPose smoke-test revision; it
+does not establish that the original deployment used the same source. Keep
+working installations intact and record the revision used in your validation.
 
 ```bash
-# Only in new, unused destinations; set these to reviewed upstream revisions.
-: "${SAMURAI_REVISION:?Set the source revision to install and validate}"
-: "${BMP_REVISION:?Set the source revision to install and validate}"
-git clone https://github.com/yangchris11/samurai "$SAMURAI_ROOT"
-git -C "$SAMURAI_ROOT" checkout --detach "$SAMURAI_REVISION"
+# Only in a new, unused destination.
+export BMP_REVISION="${BMP_REVISION:-49a070a6f8396147323b1c4959474077dbe2ce8e}"
 git clone https://github.com/MiraPurkrabek/BBoxMaskPose "$BMP_ROOT"
 git -C "$BMP_ROOT" checkout --detach "$BMP_REVISION"
 ```
 
-## GVHMR, tracking and dense cameras
+For the explicit `--tracker samurai` route only, choose and record a reviewed
+SAMURAI revision before cloning it into `$R2S/third_party/samurai`. The
+historical source copy's commit was not recorded.
+
+## GVHMR and dense cameras
 
 First install the dedicated environment using [GVHMR's recipe](gvhmr.md),
 including SMPL-X and PyTorch3D. It keeps NumPy 1.26.4 and PyAV 12.3.0.
@@ -75,10 +81,11 @@ Add the small tracking/camera dependencies to that environment:
 "$GVHMR_PYTHON" -m pip install iopath portalocker loguru safetensors
 ```
 
-The tracker imports SAMURAI's own `sam2` from `$SAMURAI_ROOT/sam2` and decodes
-with PyAV. It does not require the upstream Decord/JPEG-folder route, nor the
-old `runs/.../python-dependencies` and `runs/.../samurai/deps` directories.
-`--samurai-deps` remains available for explicitly configured installations.
+The default tracker uses Static's SAM3 runtime with PyAV, as configured below.
+The optional SAMURAI route imports its own `sam2` and decodes with PyAV; it does
+not require the upstream Decord/JPEG-folder route or old
+`runs/.../python-dependencies` and `runs/.../samurai/deps` directories.
+`--samurai-deps` remains available for that explicitly configured route.
 
 Install Pi3 at the revision above following [Pi3X installation](pi3x.md).
 The dense-camera helper runs in the GVHMR environment, adds `--pi3` to its import
@@ -103,7 +110,8 @@ export CC=/usr/bin/gcc-12 CXX=/usr/bin/g++-12
 MAX_JOBS=6 FORCE_CUDA=1 MMCV_WITH_OPS=1 TORCH_CUDA_ARCH_LIST=12.0 \
   "$PMPOSE_PYTHON" -m pip install --no-build-isolation --no-binary=mmcv mmcv==2.2.0
 "$PMPOSE_PYTHON" -m pip install mmdet==3.3.0 mmpretrain==1.2.0 \
-  xtcocotools pycocotools hydra-core einops mat4py importlib_metadata
+  xtcocotools pycocotools hydra-core einops mat4py importlib_metadata \
+  json_tricks munkres sparsemax==0.1.9 transformers==4.35.2 tokenizers==0.15.2
 "$PMPOSE_PYTHON" -m pip install --no-deps -e "$BMP_ROOT"
 ```
 
@@ -133,7 +141,7 @@ verify this in the revision you choose. Do not separately pip-install MMPose
 over that bundled package. The project PMPose worker sets its working directory
 to `$BMP_ROOT/mmpose` for relative metainfo paths, registers `mmpretrain`, permits
 the trusted checkpoint's NumPy data during loading, and exports the first
-17 of PMPose's 23 joints as COCO-17. It requires actual SAMURAI masks.
+17 of PMPose's 23 joints as COCO-17. It requires actual reviewed tracker masks.
 
 If the interpreter inherits an older Conda `libstdc++` and MMCV reports missing
 `GLIBCXX_3.4.32`, configure `PMPOSE_LD_PRELOAD` with a compatible system library
@@ -153,11 +161,11 @@ to Git. The installed names expected by the wrappers are:
 | `.runtime/gvhmr-bedlam2/inputs/checkpoints/body_models/smplx/SMPLX_NEUTRAL.npz` | Authorized [SMPL-X](https://smpl-x.is.tue.mpg.de/) assets |
 | `.runtime/gvhmr-bedlam2/inputs/checkpoints/body_models/smpl/SMPL_NEUTRAL.pkl` | Authorized [SMPL](https://smpl.is.tue.mpg.de/) assets for GVHMR's renderer |
 | `.runtime/pi3x/checkpoint/model.safetensors` | [Pi3X](https://huggingface.co/yyfz233/Pi3X), model revision `bb1deea4d7423de5b30691739cb451a3f57dc1d5` |
-| `.runtime/samurai-checkpoints/sam2.1_hiera_base_plus.pt` | [SAM2.1 checkpoint](https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_base_plus.pt) |
+| `.runtime/samurai-checkpoints/sam2.1_hiera_base_plus.pt` (optional SAMURAI route) | [SAM2.1 checkpoint](https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_base_plus.pt) |
 | `.runtime/bmp/checkpoints/PMPose-h-1.0.0.pth` | [BBoxMaskPose model repository](https://huggingface.co/vrg-prague/BBoxMaskPose/tree/main/PMPose) |
 
 ViTPose weights are needed for the explicit `--pose-detector vitpose` route.
-YOLO and DPVO are not the tracking/camera sources in the SAMURAI/Pi3X route;
+YOLO and DPVO are not the tracking/camera sources in the SAM3/Pi3X default route;
 some GVHMR upstream imports still require installed support packages.
 The body model uses `use_pca=False`, `flat_hand_mean=True`, `num_betas=10`.
 
@@ -167,7 +175,7 @@ On the workstation, from the repository root:
 
 ```bash
 "$GVHMR_PYTHON" -c 'import torch, pytorch3d, smplx, av, iopath, portalocker, loguru, safetensors; print(torch.__version__, torch.cuda.get_device_capability())'
-PYTHONPATH="$SAMURAI_ROOT/sam2:$PI3X_UPSTREAM" "$GVHMR_PYTHON" -c 'from sam2.build_sam import build_sam2_video_predictor; from pi3.models.pi3x import Pi3X'
+PYTHONPATH="$PI3X_UPSTREAM" "$GVHMR_PYTHON" -c 'from pi3.models.pi3x import Pi3X'
 (cd "$BMP_ROOT/mmpose" && PYTHONPATH="$BMP_ROOT" \
   "$PMPOSE_PYTHON" -c 'import mmcv, mmpose, mmpretrain; from pmpose import PMPose; print(mmcv.__version__, mmpose.__version__)')
 "$GVHMR_PYTHON" tools/gvhmr/world_pipeline.py prepare --help
@@ -186,15 +194,30 @@ Reuse the installed SAM3 checkpoint/runtime through `SAM3_ROOT`, `SAM3_PYTHON`
 and `SAM3_CHECKPOINT`. The main graph runs tracking in that interpreter and
 PMPose in `PMPOSE_PYTHON`; installing SAMURAI is needed only for the explicit
 `--tracker samurai` control. The SAM3 frontend runs on the local GPU.
+The [reference installer](../PI3X_GEOMETRY_REFERENCE.md#runtime) checks SAM3's
+image API for `build_reference`; source-person tracking also decodes the full
+video with PyAV. Add it to that same standalone SAM3 runtime before running the
+motion graph:
+
+```bash
+export SAM3_ROOT="$PWD/external/sam3"
+export SAM3_PYTHON="$PWD/.runtime/sam3-segmentation/venv/bin/python"
+export SAM3_CHECKPOINT="$PWD/.runtime/sam3-segmentation/checkpoints/sam3.pt"
+"$SAM3_PYTHON" -m pip install av==12.3.0
+"$SAM3_PYTHON" -c 'import av; from sam3.model_builder import build_sam3_video_model; print("SAM3_TRACKING_IMPORT_OK")'
+```
+
+Install and check PMPose and GVHMR in their separate environments using the
+sections above. Blender and its SMPL-X skinning setup remain required for the
+[final authored scene](blender.md).
 
 The original PMPose smoke test used BBoxMaskPose revision
-`49a070a6f8396147323b1c4959474077dbe2ce8e`, MMCV2.2.0 with actual CUDA NMS,
-and completed 260-frame PMPose-h inference with the original bbox policy and
-SAM3 masks. In the isolated PMPose environment it additionally required
-`json_tricks`, `munkres`, `sparsemax==0.1.9`, `transformers==4.35.2`, and
-`tokenizers==0.15.2` for bundled MMPose/MMPretrain compatibility. Keep these
-pins out of the Kimodo runtime. Add the new environment's bin directory to
-PATH so MMCV finds ninja for parallel compilation.
+`49a070a6f8396147323b1c4959474077dbe2ce8e`, MMCV 2.2.0 with actual CUDA
+NMS, and completed 260-frame PMPose-h inference with the original bbox policy
+and SAM3 masks. The additional packages in the PMPose command above were needed
+for bundled MMPose/MMPretrain compatibility. Keep these pins out of the Kimodo
+runtime. Add the new environment's bin directory to PATH so MMCV finds ninja
+for parallel compilation.
 
 Runtime success is separate from target-pose accuracy: the clip32 pilot still
 showed distractor contamination under heavy occlusion. No 3D acceptance follows

@@ -7,8 +7,19 @@ synchronization.
 
 Keep this full source checkout together and install it in editable mode. The
 Python wheel alone does not contain the Blender libraries, skills or config files.
-[Component installation](INSTALLATION.md) lists every component; download only
-the models required for your stages.
+[Installation levels](INSTALLATION.md#installation-levels) define the selected
+runtime set; download only the models required for your stages.
+
+Run `bash tools/setup.sh` to choose Level 1, 2 or 3 before installation.
+For Level 1 Static, the selector installs Pi3X, SAM3 and Open3D code in separate
+environments. Install
+[Blender](install/blender.md) for the editable room and obtain the Pi3X and SAM3
+checkpoints as in the [geometry guide](PI3X_GEOMETRY_REFERENCE.md#runtime).
+For Level 2 Human, additionally install the separate
+[PMPose and GVHMR environments](install/human-motion.md) and
+[Blender SMPL-X skinning](install/blender.md). Level 3 Robotics extends Static
+with [Kimodo and its native G1/text dependencies](install/kimodo.md). SAM 3D Body remains
+optional for sparse pose guidance.
 
 ## 1. Prerequisites
 
@@ -22,16 +33,35 @@ the models required for your stages.
 
 ```bash
 git clone https://github.com/KevinXu02/aha-3d.git && cd aha-3d
-export KIMODO_ENV="${KIMODO_ENV:-$PWD/.venv}"
-bash tools/setup_core.sh --plan
-bash tools/setup_core.sh
+```
+
+Choose the installation level interactively:
+
+```bash
+bash tools/setup.sh
+```
+
+For noninteractive installation, select a level explicitly. To inspect the
+Robotics plan and then install it:
+
+```bash
+bash tools/setup.sh --level robotics --plan
+bash tools/setup.sh --level robotics
+export KIMODO_ENV="$PWD/.runtime/pi3x-inference/venv"
 source kimodo_blender/env.sh
 ```
 
-[The shared core installer](install/core.md) prepares Kimodo, Pi3X and SAM 3D
-Body in one Python 3.11 environment (a venv by default; `--env PATH` selects a
-dedicated conda or venv prefix). GVHMR and PMPose use separate environments; see
+[The shared core installer](install/core.md), called by the level selector,
+adds Kimodo to Static's Pi3X Python 3.11 environment. Set
+`PI3X_REFERENCE_ENV` before running the selector to use another dedicated
+environment. Use `--with-sam3d` only for optional sparse pose guidance.
+GVHMR and PMPose use separate environments; see
 [GVHMR](install/gvhmr.md) and [human motion](install/human-motion.md).
+
+The shared core installer does not prepare SAM3 segmentation or Open3D. The
+level selector prepares them for a first `build_reference --video` run. Later
+rebuilds of the same Pi3X bundle can reuse a complete source-matched semantic
+mask cache. SAM3 segmentation is distinct from optional SAM 3D Body.
 
 For source tools only (asset search, recipe inspection, unit tests), Python 3.11+,
 NumPy, SciPy, Pillow and imageio-ffmpeg suffice:
@@ -54,28 +84,35 @@ version. SMPL-X skinning uses a separately installed Blender 4.5 extension and
 its authorized locked-head body asset. Neither Blender executable is bundled;
 see [Blender/SMPL-X](install/blender.md).
 
-Follow the [Pi3X](install/pi3x.md), [SAM 3D Body](install/sam3d-body.md) and
-[Kimodo](install/kimodo.md) guides for checkpoints. [THIRD_PARTY.md](../THIRD_PARTY.md)
+Follow the [Pi3X](install/pi3x.md) guide for the Static checkpoint. Level 3
+also needs the [Kimodo G1 and text models](install/kimodo.md). For optional
+sparse pose guidance, follow [SAM 3D Body](install/sam3d-body.md).
+[THIRD_PARTY.md](../THIRD_PARTY.md)
 lists upstream sources. Kimodo upstream is pinned to
-`1aece8c124d73d255ceff5086d983b844c9f4e94`. Acquire its SMPL-X model,
-Llama/LLM2Vec dependencies and the Blender SMPL-X asset through your own
+`1aece8c124d73d255ceff5086d983b844c9f4e94`. Level 3 requires its G1
+model and Llama/LLM2Vec dependencies; generated human motion additionally needs
+the Kimodo SMPL-X model and Blender SMPL-X asset. Acquire these through your own
 authorized access. Authenticate outside source files; do not copy another user's
 token, credential cache or gated body/model assets.
 
 Pi3X takes explicit `--upstream` and `--checkpoint` paths. SAM 3D Body takes an
-upstream, checkpoint and MHR asset. Both use the shared core environment.
+upstream, checkpoint and MHR asset. The optional SAM 3D Body adapter uses the
+Robotics core environment when installed there.
 The optional SAM3 object segmentation runner is described in [object segmentation](OBJECT_GENERATION.md).
 
 ## 5. Configure the runtime
 
-Fill the machine-local profile with actual installed paths:
+For motion recipes, fill the machine-local profile with actual installed paths.
+Static `build_reference` takes its runtimes directly and does not need this
+Kimodo profile. For native G1, point the checkpoint at the G1 directory; the
+`--skin-blender` field may point at the same Blender executable as `--blender`:
 
 ```bash
 python tools/configure_runtime.py \
   --blender /path/to/blender-5.2/blender \
-  --skin-blender /path/to/blender-4.5/blender \
+  --skin-blender /path/to/blender-5.2/blender \
   --kimodo /path/to/kimodo \
-  --checkpoint /path/to/Kimodo-SMPLX-RP-v1 \
+  --checkpoint /path/to/Kimodo-G1-RP-v1 \
   --threads 16 --gpu 0      # optional; defaults: all cores, GPU 0
 ```
 
@@ -94,13 +131,19 @@ inherited by child processes) for provenance.
 
 ## 6. Check, test and run a first scene
 
+For Robotics:
+
 ```bash
-python kimodo_blender/check_runtime.py
+python kimodo_blender/check_runtime.py --model g1
 python -m unittest discover -s tests -v
 ```
 
-`check_runtime.py` checks CUDA execution, Kimodo imports and model access without
-printing tokens. Then follow the [generic examples](../examples/README.md) for a
-first motion-only scene, and the relevant [project skills](../TOOLS_AND_SKILLS.md).
+`check_runtime.py --model g1` checks CUDA execution, Kimodo imports and native G1
+model access without printing tokens. Use `--model smplx` for Kimodo generated
+human motion. Human reconstruction uses its own
+[verification commands](install/human-motion.md#verify-before-a-new-run). Static
+reference verification is in the [geometry guide](PI3X_GEOMETRY_REFERENCE.md#runtime).
+Then follow the [relevant examples](../examples/README.md) and
+[project skills](../TOOLS_AND_SKILLS.md).
 Historical scene IDs and output paths in deeper technical lessons are examples,
 not files supplied by this bundle.

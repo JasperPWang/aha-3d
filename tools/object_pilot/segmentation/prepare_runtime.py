@@ -29,7 +29,7 @@ report = {
     'repo': 'facebook/sam3', 'checkpoint_revision': revision, 'files': files,
     'source_revision': (args.runtime / 'source_revision.txt').read_text().strip(),
     'image_api_import': 'passed', 'download_seconds': download_seconds,
-    'runtime_scope': 'Isolated Python 3.11 venv with read-only Kimodo system packages; base unchanged.',
+    'runtime_scope': 'Dedicated SAM3 Python venv; installed package set is recorded in the environment.',
     'official_readme_python': '>=3.12', 'official_pyproject_python': '>=3.8; includes Python 3.11 classifier',
     'packages': {name: importlib.metadata.version(name) for name in ['sam3', 'numpy', 'timm', 'ftfy', 'iopath']},
 }

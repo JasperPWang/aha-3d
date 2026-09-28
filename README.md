@@ -20,49 +20,43 @@ shows it next to the source video and hosts an interactive scene.
 
 ## Quick start
 
-**Requirements:** one Linux workstation (Ubuntu or WSL2) with an NVIDIA GPU
-(24 GB class recommended), Python 3.11, Blender 5.2 for scene assembly and
-Blender 4.5 for skinning. See the [runtime policy](MACHINE.md) for details.
+**Requirements:** one Linux workstation (Ubuntu or WSL2) with an NVIDIA GPU,
+Python 3.11 and compatible Blender for scene assembly. Human skinning also
+needs Blender 4.5 and its body extension. See the [runtime policy](MACHINE.md)
+and [three installation levels](docs/INSTALLATION.md) for details.
 
-1. **Clone and install the core environment.**
+1. **Clone and choose an installation level.** The installer asks whether to
+   prepare Static, Human reconstruction or Robotics motion generation before
+   it changes an environment.
 
    ```bash
    git clone https://github.com/KevinXu02/aha-3d.git && cd aha-3d
-   export KIMODO_ENV="${KIMODO_ENV:-$PWD/.venv}"
-   bash tools/setup_core.sh --plan   # show what will be installed
-   bash tools/setup_core.sh
+   bash tools/setup.sh
    ```
 
-2. **Point the project at your Blender builds and model checkpoints.**
+   For a noninteractive run, answer with `--level static`, `--level human` or
+   `--level robotics`; no level is chosen by default. `--plan` shows the
+   selected route without installing.
+
+2. **Finish the selected level's model and Blender setup.** Static needs
+   [Pi3X/SAM3 checkpoints and Blender](docs/PI3X_GEOMETRY_REFERENCE.md#runtime).
+   Level 2 also needs [PMPose, GVHMR and body skinning](docs/install/human-motion.md),
+   installed in their separate environments. Level 3 adds
+   [Kimodo, native G1 and text models](docs/install/kimodo.md) to Static.
+   The selector prepares Level 2's Static and SAM3 decoding code, then names
+   its remaining installation steps.
+
+3. **Check the selected route and start a scene.** For native G1 motion:
 
    ```bash
-   source kimodo_blender/env.sh      # run in every new shell
-   python tools/configure_runtime.py --blender /path/to/blender-5.2/blender \
-     --skin-blender /path/to/blender-4.5/blender \
-     --kimodo "$KIMODO_UPSTREAM" --checkpoint "$KIMODO_CHECKPOINT"
-   ```
-
-   The [installation guide](docs/INSTALLATION.md) lists every model and where to
-   get it.
-
-3. **Check the setup.**
-
-   ```bash
-   python kimodo_blender/check_runtime.py
+   python kimodo_blender/check_runtime.py --model g1
    python -m unittest discover -s tests -v
-   ```
-
-4. **Run a first scene.** Generate a five-second walk from a text prompt:
-
-   ```bash
-   cp -r examples/new_scene scenes/new_scene
-   bash tools/indoor plan new_scene --recipe walk
-   bash tools/indoor run new_scene --recipe walk --motion-only
    ```
 
    To reconstruct your own video, put it under `references/`, describe the
    scene with `bash tools/indoor intake`, and follow the
-   [scene workflow](docs/SCENE_WORKFLOW.md).
+   [scene workflow](docs/SCENE_WORKFLOW.md). The [examples](examples/README.md)
+   cover generated motion after its model and runtime are configured.
 
 Browse the assets with `python tools/asset_index.py tree`. [Setup](docs/SETUP.md)
 covers a source-only install and troubleshooting.

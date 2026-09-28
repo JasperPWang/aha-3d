@@ -3,7 +3,14 @@
 Pi3X supplies approximate room geometry and sparse source cameras for the scene
 workflow. Install it when creating new references; cached measurement work does
 not need model inference.
-Start with [Setup](../SETUP.md) and follow [machine rules](../../MACHINE.md).
+Pi3X inference alone does not load SAM3. The first new-video
+`tools.layout_inspection.build_reference` run also creates semantic masks and
+requires a separate SAM3 runtime and checkpoint. A later rebuild of the same
+Pi3X bundle can reuse its complete source-matched mask cache. See
+[reference rendering setup](../layout-inspection/reference-rendering.md#inputs-and-review).
+For that first-run scope, start with the [reference installer](../PI3X_GEOMETRY_REFERENCE.md#runtime),
+which installs Pi3X, Open3D and SAM3 code for the Static level. Follow
+[machine rules](../../MACHINE.md).
 
 ## Supported baseline and validation boundary
 
@@ -26,16 +33,16 @@ existing working environment. This adapter only needs the inference subset below
 Gradio and training dependencies are not required. See the
 [official Pi3 instructions](https://github.com/yyfz/Pi3#-quick-start).
 
-## Use the shared core environment
+## Use the Pi3X inference environment
 
-Install [the shared core](core.md) once. Pi3X uses the same Python as Kimodo and
-SAM 3D Body. Its model/checkpoint directory is separate from its source checkout:
+For first-video references, `bash tools/setup.sh --level static` installs a dedicated
+Pi3X environment at `.runtime/pi3x-inference/venv`. The Robotics level adds
+[Kimodo to that Pi3X environment](core.md) after Static is installed. Select the installed Python
+explicitly; its model/checkpoint directory is separate from its source checkout:
 
 ```bash
 export BUNDLE_ROOT="$PWD"
-export KIMODO_ENV="${KIMODO_ENV:-$BUNDLE_ROOT/.venv}"
-source kimodo_blender/env.sh
-export PI3X_PY="$KIMODO_ENV/bin/python"
+export PI3X_PY="${PI3X_PY:-$BUNDLE_ROOT/.runtime/pi3x-inference/venv/bin/python}"
 export PI3X_ROOT="$BUNDLE_ROOT/.runtime/pi3x"
 export PI3X_UPSTREAM="$BUNDLE_ROOT/external/Pi3"
 export PYTHONDONTWRITEBYTECODE=1
@@ -43,7 +50,7 @@ export XFORMERS_DISABLED=1
 mkdir -p "$PI3X_ROOT"
 ```
 
-The shared installer supplies the pinned Pi3X checkout and inference dependencies.
+The selected installer supplies the pinned Pi3X checkout and inference dependencies.
 Do not apply upstream's old Torch pins on top of it. Use the model/download and
 inference commands below for this component.
 
@@ -77,7 +84,7 @@ weights, or claiming GPU support:
 
 ```bash
 PYTHONPATH="$PI3X_UPSTREAM:$BUNDLE_ROOT/src" "$PI3X_PY" - <<'PY'
-import torch, torchvision, cv2, numpy, safetensors, imageio_ffmpeg
+import torch, torchvision, cv2, numpy, safetensors
 from pi3.models.pi3x import Pi3X
 print("PI3X_IMPORT_OK", torch.__version__, torchvision.__version__)
 PY

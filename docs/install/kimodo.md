@@ -1,17 +1,21 @@
-# Install Kimodo for approximate human motion
+# Install Kimodo for native G1 robotics motion
 
-Kimodo is needed only for generated human motion. It generates approximate actions
-and paths; it does not track the person in a reference video. Keep model files outside the source bundle.
+Level 3 Robotics extends [Level 1 Static](../INSTALLATION.md#installation-levels).
+Kimodo generates native G1 motion with its G1 checkpoint and rigid-link meshes.
+It can also generate approximate human actions with its separate SMPL-X checkpoint.
+GVHMR and PMPose belong to Level 2 Human reconstruction. Keep model files
+outside the source bundle.
 
 ## Shared environment and pinned code
 
-Install [the shared core](core.md) once for Kimodo, Pi3X and SAM 3D Body. From the
-checkout root:
+Choose Level 3 from the checkout root. The selector prepares
+[Static](../PI3X_GEOMETRY_REFERENCE.md#runtime) and adds
+[the shared core](core.md) to its Pi3X inference environment:
 
 ```bash
-bash tools/setup_core.sh --plan
-bash tools/setup_core.sh
-export KIMODO_ENV="${KIMODO_ENV:-$PWD/.venv}"
+bash tools/setup.sh --level robotics --plan
+bash tools/setup.sh --level robotics
+export KIMODO_ENV="$PWD/.runtime/pi3x-inference/venv"
 source kimodo_blender/env.sh
 ```
 
@@ -19,25 +23,27 @@ This uses Python 3.11 / Torch 2.7.1 cu128 and pins Kimodo source to
 `1aece8c124d73d255ceff5086d983b844c9f4e94`. A compatible NVIDIA driver and C++ compiler
 are prerequisites (on Ubuntu, `build-essential` or `gcc-12 g++-12`). The common installer
 handles CMake's native executable and protects the shared Torch/Transformers versions.
-Interactive Viser/SOMA extras are not required by the batch SMPL-X route. See the
+The Robotics core also installs `trimesh` and `fast-simplification` for native
+G1 rigid-link mesh processing. Interactive Viser/SOMA extras are not required by
+the batch routes. See the
 [pinned upstream instructions](https://github.com/nv-tlabs/kimodo/blob/1aece8c124d73d255ceff5086d983b844c9f4e94/docs/source/getting_started/installation_virtual_env.md).
 
-## Authorized weights and body assets
+## Authorized G1 and text weights
 
-Obtain access with your own account to [Kimodo SMPL-X](https://huggingface.co/nvidia/Kimodo-SMPLX-RP-v1)
+Obtain access with your own account to [Kimodo G1](https://huggingface.co/nvidia/Kimodo-G1-RP-v1)
 and [Llama 3 8B Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct).
 Authenticate interactively with `hf auth login`; keep its token outside the
 checkout and logs. Acquisition and use remain subject to each upstream's terms.
 Then, in the environment above:
 
 ```bash
-python kimodo_blender/download_models.py
-test -f "$KIMODO_CHECKPOINT/config.yaml"
+python kimodo_blender/download_models.py --model g1
+test -f "$CHECKPOINT_DIR/Kimodo-G1-RP-v1/config.yaml"
 ```
 
 The download helper uses `KIMODO_ROOT` and `HF_HUB_CACHE` from
-`kimodo_blender/env.sh`. It places the Kimodo snapshot
-at `kimodo_blender/checkpoints/Kimodo-SMPLX-RP-v1` and downloads these text assets
+`kimodo_blender/env.sh`. It places the native G1 snapshot
+at `kimodo_blender/checkpoints/Kimodo-G1-RP-v1` and downloads these text assets
 to the configured Hugging Face cache:
 
 | Model | Source-deployment snapshot revision |
@@ -51,13 +57,18 @@ pins. Record the resulting snapshot revisions and checkpoint file paths in your 
 installation report before treating a deployment as reproduced. A failed model
 access/download is not resolved by a successful Python import.
 
-The normal mesh export uses the separately authorized Blender locked-head body
-asset: follow [Blender setup](blender.md). The alternative raw-NPZ exporter and
-upstream visualizer require `SMPLX_NEUTRAL.npz` from your own [SMPL-X account](https://smpl-x.is.tue.mpg.de/).
+To add generated human motion, also download
+[Kimodo SMPL-X](https://huggingface.co/nvidia/Kimodo-SMPLX-RP-v1) with
+`python kimodo_blender/download_models.py --model smplx`, or use `--model both`
+for both checkpoints. Human mesh export additionally uses the separately
+authorized Blender locked-head body asset: follow [Blender setup](blender.md).
+The alternative raw-NPZ exporter and upstream visualizer require
+`SMPLX_NEUTRAL.npz` from your own [SMPL-X account](https://smpl-x.is.tue.mpg.de/).
 For the upstream visualizer, place the removed-head-bun NPZ at
 `$KIMODO_UPSTREAM/kimodo/assets/skeletons/smplx22/SMPLX_NEUTRAL.npz`, following
 [upstream SMPL-X setup](https://github.com/nv-tlabs/kimodo/blob/1aece8c124d73d255ceff5086d983b844c9f4e94/docs/source/getting_started/installation_smpl.md).
-This NPZ is not a substitute for the Blender extension's body data.
+This NPZ is not a substitute for the Blender extension's body data. Native G1
+generation does not use these SMPL-X assets.
 
 ## Smoke check and register
 
@@ -74,13 +85,26 @@ print(torch.__version__, torch.cuda.get_device_name(0), 'KIMODO_IMPORT_CUDA_OK')
 PY
 ```
 
-After installing both Blender executables, write a machine-local profile:
+For native G1, run the selected-model check:
+
+```bash
+python kimodo_blender/check_runtime.py --model g1
+```
+
+It checks CUDA execution, imports and access to the G1 and Llama configuration
+files. It does not load model weights or generate motion. For generated human
+motion, run `python kimodo_blender/check_runtime.py --model smplx`; use
+`--model both` when both checkpoints are required.
+
+After installing the Blender executables needed by your chosen route, write a
+machine-local profile. Native G1 can use the same installed Blender executable
+for scene rendering and the skinning field; generated SMPL-X motion needs the
+Blender 4.5 skinning executable and body extension described above:
 
 ```bash
 python tools/configure_runtime.py --python "$KIMODO_ENV/bin/python" \
   --blender "$RENDER_BLENDER" --skin-blender "$SKIN_BLENDER" \
-  --kimodo "$KIMODO_UPSTREAM" --checkpoint "$KIMODO_CHECKPOINT"
-python kimodo_blender/check_runtime.py
+  --kimodo "$KIMODO_UPSTREAM" --checkpoint "$CHECKPOINT_DIR/Kimodo-G1-RP-v1"
 ```
 
 This creates `configs/runtimes/local.json`; recipes select `"runtime": "local"`.
@@ -89,7 +113,8 @@ all cores, GPU 0). Set the same `KIMODO_ENV` and source `kimodo_blender/env.sh`
 in every shell. The helper validates paths, not model inference or skinning.
 Kimodo's Llama 3 8B text encoder is the largest memory consumer; it was validated
 on a 96 GB card and is untested on 24 GB. Follow the
-[generic scene example](../../examples/README.md) for a new output directory and
-validate the full result. Five seconds at 24 fps means 120 output frames; resample
-rotations before skinning. Keep source-deployment claims separate from your new
-machine's smoke and full-pipeline results.
+[relevant scene example](../../examples/README.md) for a new output directory and
+validate the full result. For generated SMPL-X human motion, five seconds at
+24 fps means 120 output frames; resample rotations before skinning. Keep
+source-deployment claims separate from your new machine's smoke and
+full-pipeline results.

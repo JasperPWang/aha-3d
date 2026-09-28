@@ -1,29 +1,44 @@
 # One shared core environment
 
-Kimodo, Pi3X, SAM 3D Body and the source/preview tools share one Python environment.
-Their source checkouts and model directories remain separate so model identity is
-clear; a separate directory does not mean a separate Python installation.
+Kimodo, Pi3X and the source/preview tools share one Python environment. The
+optional SAM 3D Body reference adapter can use that same environment when
+explicitly requested. Their source checkouts and model directories remain
+separate so model identity is clear.
 
 The common baseline is Python 3.11, Torch 2.7.1/cu128, torchvision 0.22.1 and
-Transformers 5.1.0. The SAM deployment already inherited Kimodo's packages; the
-consolidated recipe makes that common stack explicit. The package constraints are
-in [constraints-core.txt](../../constraints-core.txt), and adapter additions are
-in [requirements-core.txt](../../requirements-core.txt).
+Transformers 5.1.0. The optional SAM installation adds its adapter-only packages
+to that stack. Package constraints are in [constraints-core.txt](../../constraints-core.txt),
+and default dependencies are in [requirements-core.txt](../../requirements-core.txt).
 
-## Install once
+## Add Robotics to Static
 
-From the checkout root:
+Choose Level 3 with the installation selector from the checkout root:
 
 ```bash
-export KIMODO_ENV="${KIMODO_ENV:-$PWD/.venv}"
-bash tools/setup_core.sh --plan
-bash tools/setup_core.sh
+bash tools/setup.sh --level robotics --plan
+bash tools/setup.sh --level robotics
+export KIMODO_ENV="$PWD/.runtime/pi3x-inference/venv"
 source kimodo_blender/env.sh
 ```
 
-The default is `.venv` (or the supplied `KIMODO_ENV`). Use `--env /your/path` to
-select another dedicated project environment. The script installs into that
-chosen environment, obtains clean pinned checkouts, preserves the Torch/Transformers
+The selector installs Static and then adds Kimodo to Pi3X. Omit `--level` for an
+interactive question, or pass the explicit level for scripts. To add sparse
+video-pose guidance, run `bash tools/setup.sh --level robotics --with-sam3d`
+in the same environment before following
+the [SAM 3D Body guide](sam3d-body.md). The flag installs pinned SAM/DINOv3 source
+checkouts and adapter-only packages; it does not download weights.
+
+The low-level [`setup_reference.sh`](../PI3X_GEOMETRY_REFERENCE.md#runtime) installs Pi3X
+without Kimodo and adds separate SAM3 and Open3D runtimes. The command above
+reuses Static's Pi3X environment while preserving those separate runtimes. If
+Static used `PI3X_REFERENCE_ENV`, the selector reuses that path. SAM 3D Body
+remains opt-in.
+
+The low-level core script requires the selected level from `tools/setup.sh`
+before it can install packages. The selector passes Static's Pi3X environment
+as `--env`; set `PI3X_REFERENCE_ENV` before invoking it to choose a different
+dedicated project path. The script installs into that environment, obtains
+clean pinned checkouts, preserves the Torch/Transformers
 constraints, installs the batch integration and runs CPU imports. It downloads no
 model weights. Existing source checkouts at another
 revision or with edits cause a clear error instead of a reset.
@@ -42,9 +57,9 @@ All adapters use the same `KIMODO_ENV/bin/python`:
 
 | Component | Source checkout | Model setup |
 | --- | --- | --- |
-| Kimodo | `kimodo_blender/upstream` | [Motion/text weights](kimodo.md#authorized-weights-and-body-assets) |
+| Kimodo | `kimodo_blender/upstream` | [G1/text weights](kimodo.md#authorized-g1-and-text-weights) |
 | Pi3X | `external/Pi3` | [Reference checkpoint](pi3x.md#download-authorized-weights) |
-| SAM 3D Body | `external/sam-3d-body` and `external/dinov3` | [SAM checkpoint and MHR](sam3d-body.md#authorized-checkpoint-and-mhr-download) |
+| SAM 3D Body (optional) | `external/sam-3d-body` and `external/dinov3` via `--with-sam3d` | [SAM checkpoint and MHR](sam3d-body.md#authorized-checkpoint-and-mhr-download) |
 
 Acquire authorized model files only for stages you will use. Keep them outside
 Git. The install guides define per-model path variables and use the shared Python

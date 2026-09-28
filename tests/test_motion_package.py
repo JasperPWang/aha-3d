@@ -50,6 +50,9 @@ class MotionPackageTests(unittest.TestCase):
                 p = repo / rel
                 p.parent.mkdir(parents=True, exist_ok=True)
                 p.write_text('fixture')
+            sam3 = root / 'sam3'
+            (sam3 / 'sam3').mkdir(parents=True)
+            (sam3 / 'sam3/__init__.py').write_text('')
             # A source-bound scene prior is required by the public full-chain CLI.
             import hashlib
             prior = root / 'ground.json'
@@ -59,8 +62,9 @@ class MotionPackageTests(unittest.TestCase):
             full = root / 'full'
             self.command(ROOT / 'tools/gvhmr/world_pipeline.py', 'prepare',
                          '--video', fixture, '--pi3x-bundle', bundle,
-                         '--lifecycle-review', fixture, '--samurai', root,
-                         '--samurai-checkpoint', fixture, '--gvhmr-repo', repo,
+                         '--lifecycle-review', fixture, '--sam3', sam3,
+                         '--sam3-python', sys.executable, '--sam3-checkpoint', fixture,
+                         '--gvhmr-repo', repo,
                          '--pi3', root, '--pi3-checkpoint', fixture,
                          '--smplx-model', fixture, '--python', sys.executable,
                          '--pmpose-root', root, '--pmpose-checkpoint', fixture,

@@ -1,4 +1,4 @@
-# Common versions used by Kimodo, Pi3X and the SAM 3D Body adapter.
+# Common versions used by Kimodo and Pi3X; compatible with the optional SAM 3D Body adapter.
 torch==2.7.1
 torchvision==0.22.1
 transformers==5.1.0

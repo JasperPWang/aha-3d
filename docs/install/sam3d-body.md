@@ -31,13 +31,15 @@ for the recipient, not results already established on their machine.
 
 ## Use the shared core environment
 
-Install [the shared core](core.md) once. SAM, Pi3X and Kimodo use the same Python
-and compatible Torch stack; model/checkpoint directories do not create extra
-Python environments.
+Install [the Robotics level](core.md) with `--with-sam3d`. SAM, Pi3X and Kimodo use
+the same Python and compatible Torch stack; model/checkpoint directories do not
+create extra Python environments. If the core is already installed, rerun its
+installer with that flag to add the optional adapter.
 
 ```bash
 export BUNDLE_ROOT="$PWD"
-export KIMODO_ENV="${KIMODO_ENV:-$BUNDLE_ROOT/.venv}"
+export KIMODO_ENV="$BUNDLE_ROOT/.runtime/pi3x-inference/venv"
+bash tools/setup.sh --level robotics --with-sam3d
 source kimodo_blender/env.sh
 export SAM_ROOT="$BUNDLE_ROOT/.runtime/sam3d-body"
 export SAM_PY="$KIMODO_ENV/bin/python"
@@ -48,10 +50,10 @@ export MOMENTUM_ENABLED=0
 mkdir -p "$SAM_ROOT"
 ```
 
-The core installer provides the pinned SAM/DINO checkouts and the dependency
-subset used by this adapter's manually supplied person boxes, Pi3X intrinsics
-and image overlays. Upstream's full demo has a broader dependency list and
-Detectron2 installation; MoGe and SAM3 are additional optional paths. Follow the
+The `--with-sam3d` flag provides the pinned SAM/DINO checkouts and the adapter's
+extra packages used with manually supplied person boxes, Pi3X intrinsics and
+image overlays. Upstream's full demo has a broader dependency list and Detectron2
+installation; MoGe and SAM3 are additional optional paths. Follow the
 [official installation guide](https://github.com/facebookresearch/sam-3d-body/blob/main/INSTALL.md)
 only if choosing those extra demo features, and resolve conflicts without replacing
 the shared Torch/Transformers constraints.

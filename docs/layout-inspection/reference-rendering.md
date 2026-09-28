@@ -17,14 +17,15 @@ behind it, or a reflection. Confidence and depth-edge filtering express another
 kind of uncertainty. Missing or mismatched masks must not become safe background.
 Absent geometry is unknown, never an inferred empty room region.
 
-Configure your runtime following [setup](../SETUP.md). The semantic stage uses the
-optional [SAM3 segmentation bootstrap](../../tools/object_pilot/segmentation/bootstrap.sh),
-which creates `.runtime/sam3-segmentation/venv`, `checkpoints/sam3.pt` and
-`runtime.json`; authorized checkpoint access is required. SAM3 segmentation is
-separate from SAM 3D Body and is not installed by the shared core installer.
+Configure a first-video build with the
+[reference installer](../PI3X_GEOMETRY_REFERENCE.md#runtime). It installs the
+SAM3 Python runtime; acquire the authorized checkpoint separately to create
+`checkpoints/sam3.pt` and `runtime.json`. SAM3 segmentation is separate from
+SAM 3D Body and is not installed by the shared core installer.
+For a complete source-matched `--semantic-cache`, no SAM3 inference runs.
 The `--runtime` option accepts another directory with the same checkpoint and
 provenance layout; run with the Python environment containing SAM3. Preparation
-uses the optional Open3D runtime described in the
+uses the Open3D runtime described in the
 [geometry guide](../PI3X_GEOMETRY_REFERENCE.md#runtime); rendering uses your configured Blender.
 
 On the workstation GPU (validated on one 96 GB RTX PRO 6000), source
@@ -156,4 +157,3 @@ retained source measurement triangles. Orthographic crop cuts do not fill newly 
 renderer evaluates the authored model at `model_frame` (default 1); source-camera
 comparisons concern the static layout, not animation validation. Inspect masks and
 actual rendered results before treating an automated pass as useful evidence.
-

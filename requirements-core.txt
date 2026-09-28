@@ -7,22 +7,12 @@ opencv-python-headless
 plyfile
 huggingface_hub
 safetensors
-pytorch-lightning
-timm
 einops
-yacs==0.1.8
-roma==1.6.1
-pyrootutils==1.0.4
-dill
-loguru
 hydra-core
-webdataset==1.0.2
-braceexpand==0.1.7
-termcolor==3.1.0
-rich
-pandas
-scikit-image
 cmake
 ninja
 pybind11
 PyYAML
+# Native G1 rigid-link mesh processing in the Robotics level.
+trimesh
+fast-simplification

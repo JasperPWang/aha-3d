@@ -199,9 +199,9 @@ def _stages(request):
         review['checks'].append('Compare representative source/whitebox views and correct obvious defects; detailed X-ray is optional')
     components = ['room_review']
     if request['people'] == 'approximate':
-        add('people_plan', [basis], 'people', 'sam3d-motion-reference' if video else 'kimodo-body-motion',
+        add('people_plan', [basis], 'people', 'kimodo-body-motion',
             'people/plan/', ['Stable actor IDs and approximate actions; establish routes and required contacts',
-            'For source-video people, review root and useful hand/foot evidence with explicit omissions',
+            'For source-video people, review the root route; use sparse SAM 3D Body hand/foot guidance only when explicitly requested',
             'Resolve contact-sensitive replacement assets before final motion generation; do not change a contacted chair blindly'])
         add('people', ['people_plan', 'room_review'], 'people', 'kimodo-body-motion', 'people/<actor-id>/',
             ['Separate caches per actor; resample rotations before skinning',

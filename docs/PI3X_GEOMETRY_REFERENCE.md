@@ -6,28 +6,48 @@ monocular geometry reference, not a finished room or measured ground truth.
 Deliver top/front/side views together with **3-5 native source-camera overlays**,
 using five by default. Geometry uses every cached inference frame.
 
+This command uses Pi3X, SAM3 and Open3D. It is the reference part of the
+[Static installation level](INSTALLATION.md#installation-levels). Blender is
+also required to turn the reference into an editable static scene. Human
+reconstruction and robotics motion have separate installation levels.
+
 ## Runtime
 
-Configure the shared core and Pi3X checkout/checkpoint with the
-[Pi3X installation guide](install/pi3x.md). New inference uses that core Python.
-The full reference also needs the separate optional
-[SAM3 segmentation runtime](LAYOUT_INSPECTION.md#inputs-and-review), whose
-bootstrap creates `.runtime/sam3-segmentation/venv`, `checkpoints/sam3.pt` and
-`runtime.json`. SAM3 segmentation is distinct from SAM 3D Body.
-
-For CPU meshing and overlays, create a separate Python 3.11 environment. This keeps Open3D's NumPy requirements out of the
-shared inference environment:
+For a first new-video static reference, install Pi3X, SAM3 and Open3D:
 
 ```bash
-python3.11 -m venv .runtime/pi3x-mesh/venv
-.runtime/pi3x-mesh/venv/bin/python -m pip install -e '.[reference]'
+bash tools/setup.sh --level static --plan
+bash tools/setup.sh --level static
+export PI3X_PY="$PWD/.runtime/pi3x-inference/venv/bin/python"
 export PI3X_MESH_PY="$PWD/.runtime/pi3x-mesh/venv/bin/python"
+export PI3X_UPSTREAM="$PWD/external/Pi3"
 ```
 
-The `reference` extra pins Open3D 0.18.0 and NumPy 1.26.4. Reuse an existing
-compatible runtime by setting `PI3X_MESH_PY`; helpers never install packages.
-The deployed Open3D runtime was used for validation; this installation recipe
-does not imply that a new clean environment has been tested on every platform.
+Omit `--level static` to have the installer ask which level to use. The selected
+Static route prepares separate Pi3X inference, SAM3 segmentation and Open3D
+mesh/overlay environments. Install Blender separately for the editable static
+scene. The Human level adds PMPose, GVHMR and source-person skinning; the
+Robotics level adds Kimodo.
+The `reference` extra pins Open3D 0.18.0 and NumPy 1.26.4.
+Helpers never install packages. Existing compatible runtimes can be selected
+with `--pi3x-python`, `--semantic-runtime` and `--mesh-python`.
+
+The code install does not supply model weights. Follow the
+[Pi3X checkpoint guide](install/pi3x.md#download-authorized-weights). With
+authorized access to [facebook/sam3](https://huggingface.co/facebook/sam3),
+download and register its checkpoint using:
+
+```bash
+.runtime/sam3-segmentation/venv/bin/python \
+  tools/object_pilot/segmentation/prepare_runtime.py \
+  --runtime .runtime/sam3-segmentation
+export PI3X_CHECKPOINT="$PWD/.runtime/pi3x/checkpoint/model.safetensors"
+```
+
+The SAM3 setup creates `checkpoints/sam3.pt` and `runtime.json` in its runtime.
+SAM3 segmentation is distinct from SAM 3D Body. The deployed Open3D runtime
+was used for validation; this clean installation recipe has not been rerun on
+every platform.
 
 | Runtime input | Default | Override |
 | --- | --- | --- |

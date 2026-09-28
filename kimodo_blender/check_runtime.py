@@ -1,15 +1,21 @@
 """Check actual CUDA execution, Kimodo imports and model access; never print tokens."""
+import argparse
 import importlib
 import json
 import os
 import platform
 from pathlib import Path
 
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--model', choices=('smplx', 'g1', 'both'), default='smplx',
+                    help='Kimodo checkpoint family to check; default preserves the human-model check')
+args = parser.parse_args()
+
 import torch
-from huggingface_hub import HfApi, hf_hub_download
+from huggingface_hub import hf_hub_download
 
 root = Path(os.environ['KIMODO_ROOT'])
-report = {'host': platform.node(), 'run_id': os.getenv('INDOOR_RUN_ID'),
+report = {'host': platform.node(), 'run_id': os.getenv('INDOOR_RUN_ID'), 'model': args.model,
           'cuda_visible_devices': os.getenv('CUDA_VISIBLE_DEVICES'),
           'python': platform.python_version(), 'torch': torch.__version__,
           'cuda': torch.version.cuda, 'cuda_available': torch.cuda.is_available()}
@@ -27,7 +33,12 @@ for name in ['kimodo', 'motion_correction', 'transformers', 'peft', 'safetensors
     module = importlib.import_module(name)
     report['imports'][name] = getattr(module, '__version__', 'imported')
 report['model_access'] = {}
-for repo in ['nvidia/Kimodo-SMPLX-RP-v1', 'meta-llama/Meta-Llama-3-8B-Instruct']:
+model_repos = {
+    'smplx': 'nvidia/Kimodo-SMPLX-RP-v1',
+    'g1': 'nvidia/Kimodo-G1-RP-v1',
+}
+selected = ('smplx', 'g1') if args.model == 'both' else (args.model,)
+for repo in [*(model_repos[name] for name in selected), 'meta-llama/Meta-Llama-3-8B-Instruct']:
     try:
         hf_hub_download(repo, 'config.yaml' if 'Kimodo' in repo else 'config.json')
         report['model_access'][repo] = 'authorized config download passed'

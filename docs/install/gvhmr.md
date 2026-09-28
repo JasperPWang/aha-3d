@@ -1,11 +1,16 @@
 # Install GVHMR BEDLAM2
 
+For a new Level 2 installation, first run `bash tools/setup.sh` and choose
+Human (or pass `--level human` in a script). Then follow these GVHMR steps and
+the [full Human guide](human-motion.md).
+
 Use [the GVHMR skill](../../.agents/skills/gvhmr-body-reconstruction/SKILL.md) for
 source-video human reconstruction. Room authoring still uses [Blender](blender.md)
 with [Pi3X](pi3x.md) references. Kimodo is for new/changed actions or fallback.
 
-For SAMURAI tracking, the default PMPose detector, dense Pi3X and packaged v2
-helpers, continue with [full human-motion installation](human-motion.md).
+For default SAM3 tracking, PMPose, dense Pi3X and packaged v2 helpers, continue
+with [full human-motion installation](human-motion.md). SAMURAI is an explicit
+alternative tracker.
 
 ## Runtime boundary
 

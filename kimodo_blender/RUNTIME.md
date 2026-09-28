@@ -14,16 +14,17 @@ These are provenance, not a newly validated install in this bundle.
 
 Run `source kimodo_blender/env.sh` in each shell. It loads ignored
 `kimodo_blender/env.local.sh` first and respects `KIMODO_ENV`, `KIMODO_UPSTREAM`,
-`KIMODO_CHECKPOINT`, `HF_HUB_CACHE` and other cache overrides. Use one shared core
-environment for Kimodo, Pi3X and SAM 3D Body.
+`KIMODO_CHECKPOINT`, `HF_HUB_CACHE` and other cache overrides. Level 3 adds
+Kimodo to Level 1 Static's Pi3X environment. SAM 3D Body is an optional sparse
+pose adapter.
 
 `python tools/configure_runtime.py` writes the ignored `configs/runtimes/local.json`
 (template: [local.example.json](../configs/runtimes/local.example.json)); recipes
 select `"runtime": "local"`. Unresolved `${...}` templates are rejected.
 
 ```bash
-python kimodo_blender/download_models.py   # Kimodo snapshot and text encoders
-python kimodo_blender/check_runtime.py     # CUDA, imports, model access; no tokens printed
+python kimodo_blender/download_models.py --model g1   # G1 snapshot and text encoders
+python kimodo_blender/check_runtime.py --model g1     # CUDA, imports, model access
 ```
 
 ## Run and diagnose
