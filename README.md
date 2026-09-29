@@ -106,7 +106,8 @@ Run `bash tools/indoor --help` for all options, and see [pipeline](docs/PIPELINE
 | `tools/task_claim.py` | Coordinate several agents or people working in one checkout |
 
 The project also ships agent skills in `.agents/skills/` for AI coding agents;
-see [tools and skills](TOOLS_AND_SKILLS.md).
+see [tools and skills](TOOLS_AND_SKILLS.md). Opus 5.5 can also drive this repository
+based on initial experiments, but it has not been fully tested.
 
 ## Project layout
 

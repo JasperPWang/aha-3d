@@ -20,6 +20,9 @@ def parser():
     p.add_argument('--checkpoint', type=Path)
     p.add_argument('--pi3x-python', type=Path, default=Path(os.environ.get('PI3X_PY', sys.executable)))
     p.add_argument('--semantic-runtime', type=Path, default=ROOT/'.runtime/sam3-segmentation')
+    p.add_argument('--semantic-python', type=Path,
+                   default=Path(os.environ['SAM3_PYTHON']) if os.environ.get('SAM3_PYTHON') else None,
+                   help='SAM3 interpreter; default SAM3_PYTHON, else SEMANTIC_RUNTIME/venv/bin/python')
     p.add_argument('--semantic-cache', type=Path, help='Reuse a source-matched cache covering every inference frame')
     p.add_argument('--mesh-python', type=Path, default=Path(os.environ.get('PI3X_MESH_PY', str(ROOT/'.runtime/pi3x-mesh/venv/bin/python'))), help='Python runtime with Open3D for default TSDF meshing')
     p.add_argument('--cameras', type=Path, help='Reviewed cameras matching the reused bundle; default bundle cameras.json')
@@ -55,7 +58,11 @@ def run(a, runner=subprocess.run):
     out = a.out.resolve()
     bundle = a.bundle.resolve() if a.bundle else out/'pi3x'
     def call(command):
-        runner([str(x) for x in command], cwd=ROOT, check=True)
+        try:
+            runner([str(x) for x in command], cwd=ROOT, check=True)
+        except FileNotFoundError as exc:
+            raise FileNotFoundError(f'Runtime interpreter not found: {command[0]}; select it with '
+                                    '--pi3x-python, --semantic-python (or SAM3_PYTHON) or --mesh-python') from exc
     out.mkdir(parents=True, exist_ok=False)
     if a.video:
         call([a.pi3x_python, ROOT/'.agents/skills/pi3x-scene-reference/scripts/reconstruct.py',
@@ -70,9 +77,10 @@ def run(a, runner=subprocess.run):
         raise ValueError('Bundle must match the selected 32/64 tier and cover both source endpoints')
     cameras = a.cameras.resolve() if a.cameras else bundle/'cameras.json'
     runtime = a.semantic_runtime.resolve()
+    semantic_python = a.semantic_python or runtime/'venv/bin/python'
     masks = a.semantic_cache.resolve() if a.semantic_cache else out/'masks'
     if not a.semantic_cache:
-        call([runtime/'venv/bin/python', '-m', 'tools.layout_inspection.semantic',
+        call([semantic_python, '-m', 'tools.layout_inspection.semantic',
               '--bundle', bundle, '--out', masks, '--runtime', runtime] +
              (['--structure'] if structural else []))
     mesh_python = a.mesh_python if a.mesh_method == 'tsdf-context' else a.pi3x_python

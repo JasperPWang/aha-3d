@@ -28,9 +28,11 @@ Static route prepares separate Pi3X inference, SAM3 segmentation and Open3D
 mesh/overlay environments. Install Blender separately for the editable static
 scene. The Human level adds PMPose, GVHMR and source-person skinning; the
 Robotics level adds Kimodo.
-The `reference` extra pins Open3D 0.18.0 and NumPy 1.26.4.
+The `reference` extra pins Open3D 0.18.0, NumPy 1.26.4 and OpenCV (headless) 4.11.0.86;
+the object outline and source-fit review steps need OpenCV in this same environment.
 Helpers never install packages. Existing compatible runtimes can be selected
-with `--pi3x-python`, `--semantic-runtime` and `--mesh-python`.
+with `--pi3x-python`, `--semantic-runtime`, `--semantic-python` (default
+`SAM3_PYTHON`, else the runtime's `venv/bin/python`) and `--mesh-python`.
 
 The code install does not supply model weights. Follow the
 [Pi3X checkpoint guide](install/pi3x.md#download-authorized-weights). With

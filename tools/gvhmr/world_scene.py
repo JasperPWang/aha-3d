@@ -48,6 +48,14 @@ def room_mesh(points, transform):
     return np.asarray(points) @ transform[:3, :3].T + transform[:3, 3]
 
 
+def cache_joint_names(count, official):
+    """Official SMPL-X names for the exported joints; the pipeline cache importer requires them."""
+    names = [str(name) for name in official]
+    if count not in (127, 144) or len(names) < count:
+        raise ValueError('Expected the SMPL-X 127 or 144 joint set with official joint names')
+    return np.asarray(names[:count]), np.asarray(names[:22])
+
+
 def horizontal_placement(joints, times, active, observations, bindings):
     """Translate one whole clip in XY from reviewed training depth; keep floor Z."""
     for key, value in bindings.items():
@@ -76,6 +84,7 @@ def export(a):
     import joblib
     import torch
     import smplx
+    from smplx.joint_names import JOINT_NAMES
     results = joblib.load(a.results)
     meta = json.loads(a.meta.read_text())
     inputs = {name: fingerprint(getattr(a, name)) for name in
@@ -119,6 +128,7 @@ def export(a):
         values = np.concatenate(values)
         return np.concatenate([values, np.repeat(values[-1:], n-len(values), axis=0)]).astype(np.float32)
     vertices, joints = pad(meshes), pad(joints)
+    joint_names, body_joint_names = cache_joint_names(joints.shape[1], JOINT_NAMES)
     placement = None
     if getattr(a, 'placement_observations', None):
         inputs['placement_observations'] = fingerprint(a.placement_observations)
@@ -132,6 +142,7 @@ def export(a):
     a.out.mkdir(parents=True, exist_ok=False)
     np.savez_compressed(a.out/'body_room.npz', schema_version=1, vertices=vertices, joints=joints,
                         faces=model.faces.astype(np.int32), vertex_ids=np.arange(vertices.shape[1]),
+                        joint_names=joint_names, body_joint_names=body_joint_names,
                         fps=fps, time_seconds=times, source_frame_indices=np.arange(n), track_active=np.arange(n)<len(ids),
                         body_scale=1., surface_model_type='smplx', source_video_sha256=meta['source_video_sha256'],
                         source_actor_id=meta['actor_id'], room_basis_sha256=inputs['room_cameras']['sha256'],

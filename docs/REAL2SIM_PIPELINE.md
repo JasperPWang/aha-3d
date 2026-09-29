@@ -190,7 +190,10 @@ leaving its native-motion/model-input exports stale after replacing a pose cache
 Extract fresh image features and feed reviewed crops, PMPose keypoints, camera
 rotation evidence and features to GVHMR. The mask-injection route forbids default YOLO
 tracking and uses Pi3X camera evidence instead of DPVO. Upstream intrinsic-camera
-estimation remains approximate. Fresh-run guards reject existing pose, feature or
+estimation remains approximate: `estimate_K` assumes a diagonal-length focal, which
+for a wide lens inflates in-camera depth (g0027: fx 1469 vs Pi3X 538 px, ~3x depth).
+`world_pipeline.py prepare --intrinsics pi3x` substitutes the reviewed same-shot Pi3X
+intrinsics (`camera_tracks.npz` `K_fullimg_pi3x`); the default remains `upstream`. Fresh-run guards reject existing pose, feature or
 HMR caches; expected calls are PMPose=1, ViTPose=0, image features=1.
 
 Save camera-frame and native global SMPL parameters, actual model inputs, body

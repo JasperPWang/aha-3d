@@ -2,10 +2,19 @@
 import unittest
 import numpy as np
 from scipy.spatial.transform import Rotation
-from tools.gvhmr.world_scene import camera_basis, room_mesh, horizontal_placement
+from tools.gvhmr.world_scene import camera_basis, room_mesh, horizontal_placement, cache_joint_names
 
 
 class WorldSceneTests(unittest.TestCase):
+    def test_export_names_the_actual_smplx_joint_set(self):
+        official = [f'joint_{i}' for i in range(144)]
+        names, body = cache_joint_names(127, official)
+        self.assertEqual(len(names), 127); self.assertEqual(names[126], 'joint_126')
+        self.assertEqual(body.tolist(), official[:22])
+        for count in (55, 200):
+            with self.assertRaisesRegex(ValueError, 'SMPL-X'):
+                cache_joint_names(count, official)
+
     def test_stationary_camera_orientation_defines_basis(self):
         # Translation-only registration cannot resolve this stationary-camera case.
         source = np.repeat(np.eye(4)[None], 4, axis=0)

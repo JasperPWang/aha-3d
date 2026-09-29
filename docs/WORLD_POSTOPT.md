@@ -51,7 +51,10 @@ bash tools/human_experiments/run.sh execute \
 ```
 
 Both frontends run on the local GPU; `--gpu` is optional (default: an inherited
-single-device `CUDA_VISIBLE_DEVICES`, else device 0). Supply any separately
+single-device `CUDA_VISIBLE_DEVICES`, else device 0). GVHMR's default intrinsics
+(`estimate_K`) use the image diagonal as focal length, a fixed 53° diagonal field of
+view; add `--intrinsics pi3x` to use the reviewed same-shot Pi3X intrinsics for
+wider or narrower lenses. The default remains `upstream`. Supply any separately
 installed SAMURAI dependencies with `--samurai-deps /path/to/dependencies`.
 Normally install `iopath`, `portalocker` and `loguru` in the GVHMR environment;
 the packaged tracker does not search old run folders.
@@ -128,7 +131,8 @@ For this shorter command, preparation snapshots the required upstream files and 
 the runner hashes source, body model, predictions, boxes, keypoints, native motion,
 provenance, dense camera and camera report. Existing inference is reused, not
 reported as newly run SAMURAI/GVHMR/Pi3X. The adapter requires matching actor IDs,
-SAMURAI/Pi3X provenance, full dense timestamps and unchanged active-frame indices.
+SAM3 or SAMURAI tracking and Pi3X camera provenance, full dense timestamps and
+unchanged active-frame indices.
 Use trusted model/result files: upstream Torch/joblib caches are executable pickle.
 
 The dense camera NPZ must include `c2w`, `time_seconds`, `camera_source`,

@@ -109,6 +109,31 @@ def interpolate_c2w(poses, observed_times, target_times):
     return result
 
 
+def fullimg_intrinsics(observation_K, observation_times, target_times, processed_size, image_size):
+    """Pi3X processed-grid K -> full-image K at target times (linear, no extrapolation).
+
+    Integer-index pixel centres are converted to boundary centres before the
+    whole-image resize, matching aha3d.workflow.camera and GVHMR's estimate_K
+    convention (principal point W/2, H/2 for a centred camera).
+    """
+    K = np.asarray(observation_K, dtype=float)
+    observed = np.asarray(observation_times, dtype=float)
+    target = np.asarray(target_times, dtype=float)
+    if target.ndim != 1 or not len(target) or not np.isfinite(target).all() or np.any(np.diff(target) <= 0):
+        raise ValueError('Target timestamps must be finite and strictly increasing')
+    if K.shape != (len(observed), 3, 3) or len(observed) < 2 or np.any(np.diff(observed) <= 0):
+        raise ValueError('Need increasing timestamped Pi3X intrinsics observations')
+    if target[0] < observed[0] - 1e-8 or target[-1] > observed[-1] + 1e-8:
+        raise ValueError('Intrinsics interpolation forbids extrapolation')
+    out = np.stack([np.interp(target, observed, K[:, i, j]) for i in range(3) for j in range(3)], -1).reshape(-1, 3, 3)
+    sx, sy = raster(image_size, 'Full image raster') / raster(processed_size, 'Pi3X processed raster')
+    out[:, 0, 2] += .5; out[:, 1, 2] += .5
+    out[:, 0, :] *= sx; out[:, 1, :] *= sy
+    if not np.isfinite(out).all() or (out[:, [0, 1], [0, 1]] <= 0).any():
+        raise ValueError('Invalid converted intrinsics')
+    return out
+
+
 def c2w_to_slam(poses):
     from scipy.spatial.transform import Rotation
     poses = rigid(poses)
@@ -160,7 +185,9 @@ def prepare_pi3x(bundle, times, image_size, source_sha256):
     poses = interpolate_c2w(arrays['observation_c2w'], arrays['observation_time_seconds'], arrays['time_seconds'])
     track = c2w_to_slam(poses)
     relative = gvhmr_relative_rotations(slam_to_c2w(track))
-    arrays.update(c2w=poses, slam=track, relative_rotation=relative, cam_angvel_6d=gvhmr_sixd(relative))
+    arrays.update(c2w=poses, slam=track, relative_rotation=relative, cam_angvel_6d=gvhmr_sixd(relative),
+                  K_fullimg_pi3x=fullimg_intrinsics(arrays['observation_K'], arrays['observation_time_seconds'],
+                                                    arrays['time_seconds'], arrays['processed_size_wh'], arrays['image_size']))
     report = dict(schema_version=1, estimator='pi3x', source_sha256=source_sha256,
         frames=len(times), observation_frames=len(arrays['observation_frame_indices']),
         bundle=str(bundle), bundle_sha256={name:file_sha256(path) for name, path in paths.items()},
@@ -168,7 +195,8 @@ def prepare_pi3x(bundle, times, image_size, source_sha256):
         input_review=review, interpolation='rotation SLERP; translation linear; exact source PTS; no extrapolation',
         world_alignment='one original Pi3X rigid world transform retained; no additional axis conversion',
         translation_use='preserved for provenance; ignored by GVHMR load_data_dict',
-        intrinsics_use='unchanged upstream estimate_K on normalized source raster; Pi3X K is retained but unused',
+        intrinsics_use=('Pi3X K is stored as full-image K_fullimg_pi3x but unused by default (upstream estimate_K); '
+                        'samurai_reconstruct --intrinsics pi3x explicitly substitutes it'),
         units=cameras.get('units'), camera_accuracy_validated=False, physical_accuracy_validated=False,
         implementation_sha256=file_sha256(__file__),
         versions={name:importlib.metadata.version(name) for name in ['numpy', 'scipy']},

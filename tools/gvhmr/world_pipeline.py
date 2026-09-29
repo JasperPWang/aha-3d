@@ -74,7 +74,7 @@ def prepare(a):
                   samurai_checkpoint=str(a.samurai_checkpoint.resolve()) if a.samurai_checkpoint else None,
                   samurai_deps=[str(p.resolve()) for p in a.samurai_deps],
                   gvhmr_repo=str(a.gvhmr_repo.resolve()), pi3=str(a.pi3.resolve()),
-                  gpu=gpu, pose_detector=a.pose_detector,
+                  gpu=gpu, pose_detector=a.pose_detector, intrinsics=getattr(a, 'intrinsics', 'upstream'),
                   pmpose_python=str(a.pmpose_python.absolute()), pmpose_root=str(a.pmpose_root.absolute()),
                   pmpose_checkpoint=str(a.pmpose_checkpoint.absolute()), pmpose_variant=a.pmpose_variant,
                   pmpose_ld_preload=a.pmpose_ld_preload)
@@ -251,7 +251,7 @@ def stage(a):
                '--actor-id', p['actor_id'], '--person-masks', ins['masks'], '--track-lifecycle', ins['lifecycle'],
                '--pi3x-bundle', p['pi3x_bundle'], '--repo', p['gvhmr_repo'],
                '--gpu', str(p['gpu']), '--output', str(a.out / 'gvhmr')]
-        cmd += ['--pose-detector', p.get('pose_detector', 'vitpose')]
+        cmd += ['--pose-detector', p.get('pose_detector', 'vitpose'), '--intrinsics', p.get('intrinsics', 'upstream')]
         if 'scene_ground' in ins:
             cmd += ['--scene-ground', ins['scene_ground']]
         if p.get('pose_detector') == 'pmpose':
@@ -394,6 +394,8 @@ def main():
     p.add_argument('--gpu', type=int, help='Physical GPU index; default: inherited CUDA_VISIBLE_DEVICES, else device 0')
     p.add_argument('--scene-ground', type=Path, required=True,
                    help='Source-bound accepted floor/upright exported by tools.gvhmr.scene_ground')
+    p.add_argument('--intrinsics', choices=('upstream', 'pi3x'), default='upstream',
+                   help='GVHMR K_fullimg source: upstream estimate_K (default) or reviewed same-shot Pi3X intrinsics')
     p.add_argument('--kimodo-completion', action='store_true',
                    help='Opt in to experimental Kimodo occlusion completion (default: skipped)')
     p.add_argument('--completion-prompt', help='Observed action; required only with --kimodo-completion')

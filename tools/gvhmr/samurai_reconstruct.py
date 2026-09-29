@@ -19,6 +19,7 @@ def parser():
     p.add_argument('--track-lifecycle',type=Path,help='Source-bound reviewed terminal-exit JSON; missing masks alone never stop tracking')
     p.add_argument('--repo',type=Path,default=ROOT/'.runtime/gvhmr-bedlam2')
     p.add_argument('--scene-ground',type=Path,help='Accepted scene floor/upright in the Pi3X camera world')
+    p.add_argument('--intrinsics',choices=('upstream','pi3x'),default='upstream',help='GVHMR K_fullimg: upstream estimate_K (default) or the reviewed same-shot Pi3X intrinsics')
     from tools.gvhmr.pmpose import add_arguments
     add_arguments(p)
     return p
@@ -63,7 +64,7 @@ def main():
         with np.load(a.samurai_masks,allow_pickle=False) as archive:mode=tracker_name(archive).lower()
     report=dict(schema_version=1,status='running',tracker=mode,actor_id=a.actor_id,seed=a.seed,
         source_video_sha256=source_hash,normalized_input_sha256=source_hash,frames=timeline['frames'],source=str(video),camera_estimator='pi3x',
-        intrinsics_estimator='unchanged upstream estimate_K',upstream=upstream,execution=execution,
+        intrinsics_estimator='unchanged upstream estimate_K' if a.intrinsics=='upstream' else 'reviewed Pi3X intrinsics (camera_adapter/camera_tracks.npz K_fullimg_pi3x)',upstream=upstream,execution=execution,
         implementation_sha256=file_sha256(__file__),preexisting_pose_feature_hmr_caches=False,
         source_actor_changed=True,body_scale=1,trajectory_scale_applied=1,postprocessing=True,upstream_postprocessing=True,timings_seconds={})
     report.update(lifecycle=lifecycle,active_inference_frames=end,source_frame_indices=list(range(len(active))),
@@ -105,6 +106,10 @@ def main():
     expected={'vitpose_extract':int(a.pose_detector=='vitpose'),'image_feature_extract':1,'pmpose_extract':int(a.pose_detector=='pmpose')}
     if calls!=expected:raise RuntimeError('Fresh extraction did not execute exactly once')
     data=demo.load_data_dict(cfg);report['fresh_extraction_calls']=calls
+    if a.intrinsics=='pi3x':
+        K=np.load(output/'camera_adapter/camera_tracks.npz',allow_pickle=False)['K_fullimg_pi3x'][:end]
+        report['intrinsics']=dict(source='pi3x',upstream_estimate_K=data['K_fullimg'][0].tolist(),fx_range=[float(K[:,0,0].min()),float(K[:,0,0].max())],principal_point_first=K[0,:2,2].tolist())
+        data['K_fullimg']=torch.as_tensor(K,dtype=data['K_fullimg'].dtype)
     if not torch.equal(data['kp2d'].cpu(),torch.load(paths.vitpose,map_location='cpu',weights_only=True)):
         raise RuntimeError('GVHMR did not consume the selected detector keypoints')
     if int(data['length'])!=end or any(len(data[k])!=end for k in ('bbx_xys','kp2d','K_fullimg','cam_angvel','f_imgseq')):raise RuntimeError('Model inputs cross terminal lifecycle boundary')

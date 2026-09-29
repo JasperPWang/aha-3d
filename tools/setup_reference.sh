@@ -48,7 +48,7 @@ fi
 "$MESH_ENV/bin/python" -c 'import sys; assert sys.version_info[:2] == (3, 11), "The reference mesh environment requires Python 3.11"'
 "$MESH_ENV/bin/python" -m pip install -e "$REFERENCE_ROOT[reference]"
 "$MESH_ENV/bin/python" -m pip check
-"$MESH_ENV/bin/python" -c 'import open3d, numpy, scipy; from tools.layout_inspection import reference_views; print("REFERENCE_MESH_IMPORT_OK")'
+"$MESH_ENV/bin/python" -c 'import open3d, numpy, scipy, cv2; from tools.layout_inspection import reference_views, object_outline, source_fit, agent_review; print("REFERENCE_MESH_IMPORT_OK")'
 printf 'Static reference code installed. Set PI3X_PY=%s and PI3X_MESH_PY=%s.\n' \
   "$PI3X_ENV/bin/python" "$MESH_ENV/bin/python"
 printf 'Acquire the Pi3X checkpoint and authorized SAM3 checkpoint before a new-video build_reference run; see docs/PI3X_GEOMETRY_REFERENCE.md.\n'
