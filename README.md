@@ -1,5 +1,7 @@
 # AHa-3D: Agentic Tool Use for Real2Sim with GPT-6 Astra
 
+[简体中文](README_zh-CN.md)
+
 **[Project page](https://kevinxu02.github.io/real2sim-indoor-site/)**
 
 AHa-3D turns an ordinary indoor video into an editable 3D scene in Blender. It
