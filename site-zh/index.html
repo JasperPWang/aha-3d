@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AHa-3D 中文导读：从视频到可交互三维场景</title>
+<meta name="description" content="AHa-3D 项目中文导读：参考几何、场景建模、验证、人物运动和交互演示。">
+<style>
+:root{color-scheme:light;--ink:#253229;--muted:#687368;--line:#dae2d7;--accent:#315d40}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fafbf7;color:var(--ink);font:17px/1.85 system-ui,-apple-system,"Noto Sans SC","Microsoft YaHei",sans-serif}
+a{color:var(--accent);text-underline-offset:4px}header,main,footer{max-width:1100px;margin:auto;padding:32px}header{padding-top:70px}h1{font-size:clamp(30px,5vw,52px);line-height:1.3;margin:18px 0}h2{font-size:28px;margin:0 0 18px}h3{font-size:21px}p{margin:14px 0}.eyebrow{color:var(--accent);letter-spacing:.1em}small,.note{color:var(--muted)}nav{display:flex;flex-wrap:wrap;gap:10px 24px;padding:18px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+section{padding:38px 0;border-bottom:1px solid var(--line);scroll-margin-top:20px}.lead{font-size:21px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}.card{background:#eef3ea;padding:20px;border-radius:14px}.card h3{margin-top:0}.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}.steps div{padding:18px;background:#e9efe3;border-radius:10px}.steps b{display:block}
+iframe{width:100%;height:650px;border:1px solid var(--line);border-radius:12px;background:#fff}details{margin:20px 0}summary{cursor:pointer;color:var(--accent);font-weight:600}pre{overflow:auto;background:#eef3ea;padding:20px;font-size:13px;line-height:1.6}footer{font-size:14px}button{font:inherit;padding:8px 18px;border:1px solid var(--line);border-radius:8px;background:white;color:var(--accent);cursor:pointer}@media(max-width:600px){header,main,footer{padding:22px}header{padding-top:36px}iframe{height:500px}}
+</style>
+</head>
+<body id="top">
+<header>
+<p class="eyebrow">智能体系统 · 数字孪生 · 中文导读</p>
+<h1>AHa-3D：从室内视频<br>到可交互三维场景</h1>
+<p class="lead">将几何测量、Blender 建模与反复验证组织成工具工作流，让 GPT-6 Astra 从真实视频构建可编辑的仿真环境。</p>
+<p>作者：Congrong Xu、Siyuan Bian、Jun Gao（前两位共同贡献）</p>
+<p><a href="https://kevinxu02.github.io/real2sim-indoor-site/">英文原站</a> · <a href="https://github.com/KevinXu02/aha-3d">原始代码</a> · <a href="https://github.com/JasperPWang/aha-3d/blob/chinese-docs/README_zh-CN.md">中文项目说明</a></p>
+<p class="note">这是根据原站整理的中文导读，涵盖主要方法与演示入口，并非逐段全文翻译。演示由原站提供，内部控件仍使用英文，加载时需要联网。</p>
+<nav aria-label="页面目录"><a href="#results">结果演示</a><a href="#motivation">研究动机</a><a href="#workflow">工作流程</a><a href="#tools">工具</a><a href="#motion">人物与机器人运动</a><a href="#related">相关研究</a><a href="#limitations">局限</a><a href="#sources">来源与引用</a></nav>
+</header>
+<main>
+<section id="results"><h2>结果演示</h2>
+<p>原站展示源视频、模拟场景、Blender 渲染与 MiniMax 视频之间的对比。下面的演示直接载入原站资源。</p>
+<iframe loading="lazy" title="源视频、模拟场景与渲染对比（英文控件）" src="https://kevinxu02.github.io/real2sim-indoor-site/comparison-preview/index.html?embed=1"></iframe>
+<h3>探索可交互的房间</h3>
+<p>你可以在浏览器中查看房间、移动家具、控制柜门，并体验物体与场景的交互。</p>
+<details><summary>加载交互式房间</summary><iframe data-src="https://kevinxu02.github.io/real2sim-indoor-site/demos/open-concept/demo-fast.html?embed=1" title="可交互三维房间（英文控件）" allow="fullscreen" allowfullscreen></iframe></details>
+<p><a href="https://kevinxu02.github.io/real2sim-indoor-site/demos/open-concept/demo-fast.html" target="_blank" rel="noopener">在独立窗口打开完整演示 ↗</a></p>
+</section>
+<section id="motivation"><h2>为什么需要这套工具工作流？</h2>
+<p>从视频直接编写 Blender 场景时，智能体可能遗漏物体，或误判形状、尺寸和位置。仅比较渲染图，很难定位这些误差；反复猜测相机也会增加重建成本。</p>
+<p>AHa-3D 将相机估计、几何测量和逐物体检查交给专门工具，再让智能体根据检查结果修改场景。原站作者报告：在展示的对比中，这样能以相近的时间与成本获得更好的重建结果。</p>
+<p><a href="https://kevinxu02.github.io/real2sim-indoor-site/#agent">查看原站的有无工具工作流对比与实验说明</a></p>
+</section>
+<section id="workflow"><h2>五个阶段与反馈循环</h2>
+<div class="steps"><div><b>① 观察</b>恢复视频相机与房间参考几何。</div><div><b>② 构建</b>通过 Blender 脚本创建与编辑物体。</div><div><b>③ 验证</b>检查图像对齐、碰撞和支撑，发现问题后返回构建阶段。</div><div><b>④ 交互</b>增加柜门控制、人物或机器人运动。</div><div><b>⑤ 交付</b>导出场景、浏览器演示和视频。</div></div>
+<p>“验证 → 修改 → 再验证”是核心循环。场景编辑既要回应测量和物理检查，也要重新与源视频进行对照。</p>
+</section>
+<section id="tools"><h2>智能体调用哪些工具？</h2>
+<div class="grid">
+<article class="card"><h3>Pi3X、SAM3 与 TSDF</h3><p>Pi3X 提供相机轨迹和三维点云；SAM3 标记人物、地板与墙面，帮助排除动态区域；TSDF 融合与平面拟合建立更密集的表面和共享坐标系。参考几何随后用于建模与校验。</p><a href="https://kevinxu02.github.io/real2sim-indoor-site/#reference">原站说明</a></article>
+<article class="card"><h3>尺寸测量</h3><p>智能体选择源画面中的测量点，再利用对应三维点计算距离。测量结果用于确定房间结构和家具尺寸，或调整检索到的资产。被遮挡的部分仍需要结合已有证据推断。</p><a href="https://kevinxu02.github.io/real2sim-indoor-site/#measurement">原站说明</a></article>
+<article class="card"><h3>RoomKit 场景编辑</h3><p>可复用的 Blender 脚本支持参数化家具、资产检索、材质替换和物体变换。柜体可配置门、抽屉与搁板，并保留独立控制；脚本也支持相机导出和检查视图渲染。</p><a href="https://kevinxu02.github.io/real2sim-indoor-site/#roomkit">原站说明</a></article>
+<article class="card"><h3>X-Ray 轮廓叠加</h3><p>将重建物体的轮廓通过估计相机投影到源画面。逐物体比较边界后，结合尺寸和其他视角判断该修改形状、比例、位置还是朝向；编辑后继续检查相同视角。</p><a href="https://kevinxu02.github.io/real2sim-indoor-site/#xray">原站说明</a></article>
+<article class="card"><h3>碰撞与支撑</h3><p>用 Blender 的 Bullet 物理检查发现漂浮、倾倒、漂移和穿插。智能体再决定移动物体、调整几何、增加支撑或设为固定，并重新核对物理结果和源画面。</p><a href="https://kevinxu02.github.io/real2sim-indoor-site/#physics">原站说明</a></article>
+<article class="card"><h3>渲染与 MiniMax</h3><p>先在 Blender 中渲染几何、动作和相机参考序列，再由 MiniMax H3 根据参考序列及外观提示生成更细致的视频。生成视频与可编辑三维场景是不同的交付结果。</p><a href="https://kevinxu02.github.io/real2sim-indoor-site/#render">原站说明</a></article>
+</div>
+<h3>交互式工具演示</h3><p>展开一项以加载演示；可操作的三维内容由英文原站提供。</p>
+<details><summary>Pi3X：相机和点云</summary><iframe data-src="https://kevinxu02.github.io/real2sim-indoor-site/tool-preview/pi3x.html" title="Pi3X：相机和点云（英文控件）" allow="fullscreen" allowfullscreen></iframe></details>
+<details><summary>SAM3：语义分割</summary><iframe data-src="https://kevinxu02.github.io/real2sim-indoor-site/tool-preview/sam.html" title="SAM3：语义分割（英文控件）" allow="fullscreen" allowfullscreen></iframe></details>
+<details><summary>TSDF：融合几何</summary><iframe data-src="https://kevinxu02.github.io/real2sim-indoor-site/tool-preview/fusion.html" title="TSDF：融合几何（英文控件）" allow="fullscreen" allowfullscreen></iframe></details>
+<details><summary>RoomKit：柜体与材质</summary><iframe data-src="https://kevinxu02.github.io/real2sim-indoor-site/tool-preview/roomkit.html" title="RoomKit：柜体与材质（英文控件）" allow="fullscreen" allowfullscreen></iframe></details>
+<details><summary>X-Ray：对齐检查</summary><iframe data-src="https://kevinxu02.github.io/real2sim-indoor-site/tool-preview/xray.html" title="X-Ray：对齐检查（英文控件）" allow="fullscreen" allowfullscreen></iframe></details>
+<details><summary>物理：重力、碰撞和支撑</summary><iframe data-src="https://kevinxu02.github.io/real2sim-indoor-site/tool-preview/physics.html" title="物理：重力、碰撞和支撑（英文控件）" allow="fullscreen" allowfullscreen></iframe></details>
+<details><summary>MiniMax：视频对比</summary><iframe data-src="https://kevinxu02.github.io/real2sim-indoor-site/tool-preview/minimax.html" title="MiniMax：视频对比（英文控件）" allow="fullscreen" allowfullscreen></iframe></details>
+</section>
+<section id="motion"><h2>把人物与机器人运动放入场景</h2>
+<p>视频人物重建需要将估计的动作与房间位置和接触关系结合。原站使用 GVHMR 作为运动工具，并由智能体提供场景中的位置和接触信息。</p>
+<p>新动作生成则结合 Astra 与 Kimodo：智能体规划路径、接触部位和时刻，Kimodo 根据这些约束生成运动。物体运动时，接触目标也要随之变化；结果不合适时，再调整规划或优化轨迹。</p>
+<p>展示动作包括 G1 机器人打开床头灯、移动床边桌。原站还提供未进行接触优化的对比，以说明仅有动作估计或生成模型仍可能出现接触偏差。</p>
+<details><summary>G1：打开床头灯</summary><iframe data-src="https://kevinxu02.github.io/real2sim-indoor-site/demos/motion/g1-lamp-on/demo-fast.html?embed=1&amp;view=contact-v1" title="G1 打开床头灯（英文控件）" allow="fullscreen" allowfullscreen></iframe></details>
+<details><summary>G1：移动床边桌</summary><iframe data-src="https://kevinxu02.github.io/real2sim-indoor-site/demos/motion/g1-table-move/demo-fast.html?embed=1&amp;view=contact-v1" title="G1 移动床边桌（英文控件）" allow="fullscreen" allowfullscreen></iframe></details>
+<p><a href="https://kevinxu02.github.io/real2sim-indoor-site/#motion">查看人物重建与动作消融实验</a></p>
+</section>
+<section id="related"><h2>相关研究的位置</h2>
+<p>原站从五条研究线讨论这项工作：真实到仿真的场景构建、语言模型驱动的三维编辑、三维视觉、场景中的人体运动，以及智能体工具调用。</p>
+<p>其方法将视觉模型的几何结果变成建模和检查工具，以视频中的相机与测量约束指导可编辑场景构建，并进一步连接人物运动和物体交互。</p>
+<p><a href="https://kevinxu02.github.io/real2sim-indoor-site/#related-work">阅读完整相关工作</a> · <a href="https://kevinxu02.github.io/real2sim-indoor-site/#references">查看完整参考文献</a></p>
+</section>
+<section id="limitations"><h2>当前局限</h2>
+<ul><li>小物体和复杂结构的重建仍然困难，细节可能被遗漏或简化。</li><li>方法依赖 GPT-6 Astra，使用成本较高；原站尚未充分验证其他模型上的表现。</li><li>场景检查与接触优化能够改善运动，但不能保证人与物的交互完全符合物理规律。</li></ul>
+</section>
+<section id="sources"><h2>来源、署名与引用</h2>
+<p>本页根据 <a href="https://kevinxu02.github.io/real2sim-indoor-site/">AHa-3D 英文项目网站</a>整理。演示、媒体和研究结论属于原作者；本页未重新分发媒体文件。</p>
+<p>源视频来自 SpatialVID-HQ。数据集及其衍生媒体的署名与许可见原站 <a href="https://kevinxu02.github.io/real2sim-indoor-site/ATTRIBUTION.md">ATTRIBUTION.md</a>，其中说明 CC BY-NC-SA 4.0 的适用范围。</p>
+<p><a href="https://kevinxu02.github.io/real2sim-indoor-site/#citation">复制原作者提供的 BibTeX 引用</a> · <a href="https://kevinxu02.github.io/real2sim-indoor-site/#references">参考文献</a> · <a href="https://github.com/JasperPWang/aha-3d/tree/chinese-docs">中文化仓库</a></p>
+</section>
+</main>
+<footer>中文导读 · <a href="https://kevinxu02.github.io/real2sim-indoor-site/">英文原站</a> · <a href="#top">回到顶部 ↑</a></footer>
+<script>
+for(const detail of document.querySelectorAll("details"))detail.addEventListener("toggle",()=>{if(detail.open){const frame=detail.querySelector("iframe[data-src]");if(frame){frame.src=frame.dataset.src;frame.removeAttribute("data-src");}}});
+</script>
+</body>
+</html>
